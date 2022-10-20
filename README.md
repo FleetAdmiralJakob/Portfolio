@@ -1,6 +1,6 @@
 <h2 align="center">
   Portfolio Website - v2.0<br/>
-  <a href="http://roessner.tech/" target="_blank">roessner.tech</a>
+  <a href="http://www.roessner.tech/" target="_blank">roessner.tech</a>
 </h2>
 <div align="center">
   <img alt="Demo" src="Images/img.png" />
@@ -29,7 +29,7 @@ You can fork this repo to modify and make changes of your own. Please give me pr
 
 ## Built With
 
-My personal portfolio <a href="http://soumya-jit.tech/" target="_blank">roessner.tech</a> which features some of my GitHub projects as well as my resume and technical skills.<br/>
+My personal portfolio <a href="http://www.roessner.tech/" target="_blank">roessner.tech</a> which features some of my GitHub projects as well as my resume and technical skills.<br/>
 
 This project was built using these technologies.
 
