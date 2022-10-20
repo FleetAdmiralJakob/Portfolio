@@ -12,10 +12,15 @@ html {
   );
 
   --imp-text-color: #c770f0;
+  --imp-text-color2: #d28cea;
 }
 
 .purple {
   color: var(--imp-text-color) !important;
+}
+
+.purple:hover {
+  color: var(--imp-text-color2) !important;
 }
 
 button:focus {
@@ -214,6 +219,25 @@ button:focus {
   animation-iteration-count: infinite; /* Never stop waving :) */
   transform-origin: 70% 70%; /* Pivot around the bottom-left palm */
   display: inline-block;
+}
+.point {
+  animation-name: pointer;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  transform-origin: 70% 70%;
+  display: inline-block;
+}
+
+@keyframes pointer {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
 }
 
 @keyframes wave-animation {

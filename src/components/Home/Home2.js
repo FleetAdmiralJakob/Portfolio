@@ -31,7 +31,7 @@ function Home2() {
                 <b className="purple">Web Technologies and Products </b> and
                 also in areas related to{" "}
                 <b className="purple">
-                  Deep Learning and Natural Launguage Processing &nbsp;
+                  Deep Learning and Natural Language Processing &nbsp;
                 </b>
                 or <b className="purple"> Game Development. </b>
               </i>
@@ -66,6 +66,11 @@ function Home2() {
             <p>
               Feel free to <span className="purple">connect </span>with me
             </p>
+            <h2>
+              <span className="point" role="img" aria-labelledby="wave">
+                  👇
+                </span>
+            </h2>
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
