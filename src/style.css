@@ -27,6 +27,16 @@ button:focus {
   box-shadow: none !important;
 }
 
+.normal-button {
+    background-color: var(--imp-text-color) !important;
+    color: white !important;
+}
+
+.normal-button:hover {
+    background-color: var(--imp-text-color2) !important;
+    color: white !important;
+}
+
 /* --------- */
 /*  Preloader */
 /* --------- */
@@ -398,6 +408,18 @@ button:focus {
   transition: 0.5s;
   transform: scale(0.9);
   z-index: -1;
+}
+
+.home-contact-section {
+  position: relative;
+  padding-bottom: 70px !important;
+  padding-top: 70px !important;
+}
+
+.home-contact-header {
+  text-align: center !important;
+  padding-top: 25px;
+  color: white !important;
 }
 
 .home-social-icons:hover::before {
