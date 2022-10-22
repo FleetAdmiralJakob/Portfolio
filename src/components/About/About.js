@@ -46,6 +46,15 @@ function About () {
         <Toolstack />
 
         <Github />
+        <h1>
+            <strong className='purple'>Stats</strong> From GitHub
+        </h1>
+        <br />
+        <img src='https://github-readme-stats.vercel.app/api?username=fleetadmiraljakob&theme=omni' alt='about' className='img-fluid' /> <br />
+        <br />
+        <img src='https://github-readme-stats.vercel.app/api/top-langs/?username=fleetadmiraljakob&theme=omni' alt='about' className='img-fluid' /> <br />
+        <br />
+        <img src='https://github-readme-streak-stats.herokuapp.com/?user=fleetadmiraljakob&theme=omni' alt='about' className='img-fluid' /> <br />
       </Container>
     </Container>
   )
