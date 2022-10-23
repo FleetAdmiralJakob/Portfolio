@@ -3,6 +3,8 @@ import Card from 'react-bootstrap/Card'
 import { ImPointRight } from 'react-icons/im'
 
 function AboutCard () {
+  const date = new Date()
+  const year = date.getFullYear()
   return (
     <Card className='quote-card-view'>
       <Card.Body>
@@ -10,7 +12,7 @@ function AboutCard () {
           <p style={{ textAlign: 'justify' }}>
             Hi Everyone, I am <span className='purple'>Jakob Felix Eugen Rössner </span>
             from <span className='purple'> Berlin, Germany.</span>
-            <br />I am a student at the <span className='purple'>Friedrich-Schiller-Gymnasium.</span>
+            <br />I am a student, <span className='purple'>{year - 2009} years old,</span> and multi talent at the <span className='purple'>Friedrich-Schiller-Gymnasium.</span>
             <br />
             <br />
             Apart from coding, these are some other activities that I love to do!
