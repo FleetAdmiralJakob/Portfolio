@@ -4,6 +4,7 @@ import ProjectCard from './ProjectCards'
 import Particle from '../Particle'
 import steampunk from '../../Assets/Projects/steampunk.png'
 import biggernumber from '../../Assets/Projects/biggernumber.png'
+import tippy from '../../Assets/Projects/tippy.png'
 
 function Projects () {
   return (
@@ -36,7 +37,16 @@ function Projects () {
                 description='A simple Android app to demonstrate the use of Kotlin in Android development. The user is presented 2 numbers on buttons- depending on if the larger number was clicked, the background color will change.'
                 ghLink='https://github.com/FleetAdmiralJakob/Bigger-Number-Game'
             />
-          </Col>
+            </Col>
+            <Col md={4} className='project-card'>
+            <ProjectCard
+                imgPath={tippy}
+                isBlog={false}
+                title='Tippy'
+                description='A tip calculator (for Android)!'
+                ghLink='https://github.com/FleetAdmiralJakob/Tippy'
+                />
+            </Col>
         </Row>
       </Container>
     </Container>
