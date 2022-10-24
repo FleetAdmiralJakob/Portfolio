@@ -10,12 +10,12 @@ function AboutCard () {
       <Card.Body>
         <blockquote className='blockquote mb-0'>
           <p style={{ textAlign: 'justify' }}>
-            Hi Everyone, I am <span className='purple'>Jakob Felix Eugen Rössner </span>
+            Hi Observer, I am <span className='purple'>Jakob Felix Eugen Rössner </span>
             from <span className='purple'> Berlin, Germany.</span>
-            <br />I am a student, <span className='purple'>{year - 2009} years old,</span> and multi talent at the <span className='purple'>Friedrich-Schiller-Gymnasium.</span>
+            <br />I am a student at the <span className='purple'>Friedrich-Schiller-Gymnasium.</span>
             <br />
             <br />
-            Apart from coding, these are some other activities that I love to do!
+            I am <span className='purple'>{year - 2009} years old,</span> and multi-talented, which you can see from all these other activities that I love to do, apart from coding!
           </p>
           <ul>
             <li className='about-activity'>
@@ -38,7 +38,7 @@ function AboutCard () {
           <p style={{ color: 'rgb(155 126 172)' }}>
             "Strive to build things that make a difference!"{' '}
           </p>
-          <footer className='blockquote-footer'>Jakob</footer>
+          <footer className='blockquote-footer'>My motto</footer>
         </blockquote>
       </Card.Body>
     </Card>

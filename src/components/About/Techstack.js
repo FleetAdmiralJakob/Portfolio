@@ -3,7 +3,7 @@ import { Col, Row } from 'react-bootstrap'
 import {
   DiJavascript1,
   DiReact,
-  DiNodejs,
+  DiNpm,
   DiGit,
   DiJava,
   DiGithub,
@@ -23,7 +23,7 @@ function Techstack () {
         <DiJavascript1 />
       </Col>
       <Col xs={4} md={2} className='tech-icons'>
-        <DiNodejs />
+        <DiNpm />
       </Col>
       <Col xs={4} md={2} className='tech-icons'>
         <DiReact />
