@@ -50,9 +50,9 @@ function About () {
             <strong className='purple'>Stats</strong> From GitHub
         </h1>
         <br />
-        <img src='https://github-readme-stats.vercel.app/api?username=fleetadmiraljakob&theme=omni' alt='about' className='img-fluid' /> <br />
+        <img src='https://github-readme-stats.vercel.app/api?username=fleetadmiraljakob&title_color=c770f0&icon_color=5d417a&text_color=ebebeb&bg_color=0a0e12&show_icons=true' alt='about' className='img-fluid' /> <br />
         <br />
-        <img src='https://github-readme-stats.vercel.app/api/top-langs/?username=fleetadmiraljakob&theme=omni' alt='about' className='img-fluid' /> <br />
+        <img src='https://github-readme-stats.vercel.app/api/top-langs/?username=fleetadmiraljakob&title_color=c770f0&icon_color=5d417a&text_color=ebebeb&bg_color=0a0e12&show_icons=true' alt='about' className='img-fluid' /> <br />
         <br />
         <img src='https://github-readme-streak-stats.herokuapp.com/?user=fleetadmiraljakob&theme=omni' alt='about' className='img-fluid' /> <br />
       </Container>
