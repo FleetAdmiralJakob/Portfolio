@@ -15,7 +15,7 @@ function AboutCard() {
                         <br/>I am a student at the <span className='purple'>Friedrich-Schiller-Gymnasium.</span>
                         <br/>
                         <br/>
-                        I am <span className='purple'>{year - 2009} years old,</span> and multi-talented, which you can
+                        I am <span className='purple'>{year - 2009} years old,</span> and multi-talented, what you can
                         see from all these other activities that I love to do, apart from coding!
                     </p>
                     <ul>
