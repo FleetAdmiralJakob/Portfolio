@@ -12,6 +12,7 @@ import {
   AiOutlineFundProjectionScreen,
   AiOutlineUser
 } from 'react-icons/ai'
+import { SiGithub } from 'react-icons/si'
 
 function NavBar () {
   const [expand, updateExpanded] = useState(false)
@@ -86,7 +87,8 @@ function NavBar () {
                 className='fork-btn-inner'
               >
                 <CgGitFork style={{ fontSize: '1.2em' }} />{' '}
-                <AiFillStar style={{ fontSize: '1.1em' }} />
+                <AiFillStar style={{ fontSize: '1.1em' }} /> &nbsp; {' '}
+                <SiGithub style={{ fontSize: '1.2em' }} />
               </Button>
             </Nav.Item>
           </Nav>

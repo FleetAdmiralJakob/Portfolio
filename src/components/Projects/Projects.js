@@ -5,6 +5,7 @@ import Particle from '../Particle'
 import steampunk from '../../Assets/Projects/steampunk.png'
 import biggernumber from '../../Assets/Projects/biggernumber.png'
 import tippy from '../../Assets/Projects/tippy.png'
+import curseforge from '../../Assets/Projects/curseforge.png'
 
 function Projects () {
   return (
@@ -47,6 +48,22 @@ function Projects () {
                 ghLink='https://github.com/FleetAdmiralJakob/Tippy'
                 />
             </Col>
+        </Row>
+        <h1 className='project-heading'>
+          Other <strong className='purple'>Projects </strong>
+        </h1>
+        <p style={{ color: 'white' }}>
+          Here are some other projects.
+        </p>
+        <Row style={{ justifyContent: 'center', paddingBottom: '10px' }}>
+        <Col md={4} className='project-card'>
+          <ProjectCard
+              imgPath={curseforge}
+              isBlog={false}
+              title='Minecraft mods by mine!'
+              description='On the website curseforge.com you can find some of my first projects. 2 years ago I build some Minecraft Mods in Java! Sometimes I update them to maintain my skills.'
+          />
+        </Col>
         </Row>
       </Container>
     </Container>

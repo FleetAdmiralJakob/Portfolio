@@ -786,3 +786,6 @@ button:focus {
 .fork-btn-inner::after {
   display: none !important;
 }
+.fork-btn-text {
+    font-size: 0.9em !important;
+}
