@@ -7,7 +7,7 @@ name: Mark stale issues and pull requests
 
 on:
   schedule:
-  - cron: '21 21 * * *'
+    - cron: '21 21 * * *'
 
 jobs:
   stale:
@@ -18,10 +18,10 @@ jobs:
       pull-requests: write
 
     steps:
-    - uses: actions/stale@v5
-      with:
-        repo-token: ${{ secrets.GITHUB_TOKEN }}
-        stale-issue-message: 'Long time nobody showed activity here. We will add the "Stale Label" to your issue.'
-        stale-pr-message: 'Long time nobody showed activity here. We will add the "Stale Label" to your PR.'
-        stale-issue-label: 'stale-issue'
-        stale-pr-label: 'stale-pr'
+      - uses: actions/stale@v5
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          stale-issue-message: 'Long time nobody showed activity here. We will add the "Stale Label" to your issue.'
+          stale-pr-message: 'Long time nobody showed activity here. We will add the "Stale Label" to your PR.'
+          stale-issue-label: 'stale-issue'
+          stale-pr-label: 'stale-pr'
