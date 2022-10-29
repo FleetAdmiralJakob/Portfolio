@@ -4,7 +4,7 @@ import ProjectCard from './ProjectCards'
 import Particle from '../Particle'
 import steampunk from '../../Assets/Projects/steampunk.png'
 import biggernumber from '../../Assets/Projects/biggernumber.png'
-import tippy from '../../Assets/Projects/tippy.png'
+import tippy from '../../Assets/Projects/tippy2.png'
 import curseforge from '../../Assets/Projects/curseforge.png'
 
 function Projects() {
