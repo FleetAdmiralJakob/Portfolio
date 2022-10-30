@@ -61,7 +61,7 @@ function Projects() {
                             imgPath={curseforge}
                             isBlog={false}
                             title='Minecraft mods by mine!'
-                            description='On the website curseforge.com you can find some of my first projects. 2 years ago I build some Minecraft Mods in Java! Sometimes I update them to maintain my skills.'
+                            description='On the site curseforge.com you can find some of my first projects. 2 years ago I build some Minecraft Mods in Java! Sometimes I update them to maintain my skills.'
                         />
                     </Col>
                 </Row>

@@ -175,6 +175,17 @@ button:focus {
     width: 2.5em !important;
 }
 
+.link {
+    color: var(--imp-text-color) !important;
+    font-weight: 800 !important;
+}
+
+.link:hover {
+    color: var(--imp-text-color2) !important;
+    font-weight: 800 !important;
+    text-decoration: underline;
+}
+
 .navbar-nav .nav-link {
     color: white !important;
     padding-right: 1rem !important;
@@ -351,8 +362,31 @@ button:focus {
     padding-top: 9em !important;
 }
 
+.previewAbout {
+    justify-content: center !important;
+    padding-top: 9em !important;
+}
+
+.previewAbout {
+    justify-content: center !important;
+    padding-top: 9em !important;
+}
+
+.previewProjects {
+    justify-content: center !important;
+    padding-top: 9em !important;
+}
+
 @media (max-width: 767px) {
     .myAvtar {
+        padding-top: 2em !important;
+        padding-bottom: 2em !important;
+    }
+    .previewAbout {
+        padding-top: 2em !important;
+        padding-bottom: 2em !important;
+    }
+    .previewProjects {
         padding-top: 2em !important;
         padding-bottom: 2em !important;
     }
@@ -364,6 +398,20 @@ button:focus {
     padding-top: 70px !important;
 }
 
+.home-about-summary-section {
+    position: relative;
+    padding-bottom: 70px !important;
+    padding-top: 70px !important;
+    color: white !important;
+}
+
+.home-projects-summary-section {
+    position: relative;
+    padding-bottom: 70px !important;
+    padding-top: 70px !important;
+    color: white !important;
+}
+
 .home-about-description {
     color: white !important;
     padding-top: 100px !important;
@@ -371,7 +419,27 @@ button:focus {
     text-align: center;
 }
 
+.home-about-summary-description {
+    color: white !important;
+    padding-top: 100px !important;
+    padding-bottom: 20px !important;
+    text-align: center;
+}
+
+.home-projects-summary-description {
+    color: white !important;
+    padding-top: 100px !important;
+    padding-bottom: 20px !important;
+    text-align: center;
+}
+
 .home-about-body {
+    padding-top: 50px;
+    font-size: 1.2em !important;
+    text-align: left;
+}
+
+.home-about-summary-body {
     padding-top: 50px;
     font-size: 1.2em !important;
     text-align: left;

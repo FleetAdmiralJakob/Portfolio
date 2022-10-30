@@ -3,6 +3,8 @@ import {Col, Container, Row} from 'react-bootstrap'
 import homeLogo from '../../Assets/home-main.svg'
 import Particle from '../Particle'
 import Home2 from './Home2'
+import AboutSummary from './AboutSummary'
+import ProjectsSummary from './ProjectsSummary'
 import ContactMe from './ContactMe'
 import Type from './Type'
 
@@ -43,6 +45,8 @@ function Home() {
                 </Container>
             </Container>
             <Home2/>
+            <AboutSummary/>
+            <ProjectsSummary/>
             <ContactMe/>
         </section>
     )
