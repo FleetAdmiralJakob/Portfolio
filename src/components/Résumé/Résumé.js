@@ -1,47 +1,49 @@
-import React, { useState, useEffect } from "react";
-import { Container, Row } from "react-bootstrap";
-import Button from "react-bootstrap/Button";
-import Particle from "../Particle";
-import pdf from "../../Assets/../Assets/Résumé.pdf";
-import { AiOutlineDownload } from "react-icons/ai";
-import { Document, Page, pdfjs } from "react-pdf";
-import "react-pdf/dist/esm/Page/AnnotationLayer.css";
+import React, { useState, useEffect } from 'react'
+import { Container, Row } from 'react-bootstrap'
+import Button from 'react-bootstrap/Button'
+import Particle from '../Particle'
+import pdf from '../../Assets/../Assets/Résumé.pdf'
+import { AiOutlineDownload } from 'react-icons/ai'
+import { Document, Page, pdfjs } from 'react-pdf'
+import 'react-pdf/dist/esm/Page/AnnotationLayer.css'
+
+pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const resumeLink =
-    "https://github.com/FleetAdmiralJakob/Portfolio/raw/main/src/Assets/R%C3%A9sum%C3%A9.pdf";
+    'https://raw.githubusercontent.com/FleetAdmiralJakob/Portfolio/5d04f870a01dd671c9417299d18e8a743c070643/src/Assets/R%C3%A9sum%C3%A9.pdf'
 
-function ResumeNew() {
-    const [width, setWidth] = useState(1200);
+function ResumeNew () {
+  const [width, setWidth] = useState(1200)
 
-    useEffect(() => {
-        setWidth(window.innerWidth);
-    }, []);
+  useEffect(() => {
+    setWidth(window.innerWidth)
+  }, [])
 
-    return (
-        <div>
-            <Container fluid className="resume-section">
-                <Particle />
+  return (
+    <div>
+      <Container fluid className='resume-section'>
+        <Particle />
 
-                <Row className="resume">
-                    <Document file={resumeLink} className="d-flex justify-content-center">
-                        <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
-                    </Document>
-                </Row>
+        <Row className='resume'>
+          <Document file={resumeLink} className='d-flex justify-content-center'>
+            <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
+          </Document>
+        </Row>
 
-                <Row style={{ justifyContent: "center", position: "relative" }}>
-                    <Button
-                        variant="primary"
-                        href={pdf}
-                        target="_blank"
-                        style={{ maxWidth: "250px" }}
-                    >
-                        <AiOutlineDownload />
+        <Row style={{ justifyContent: 'center', position: 'relative' }}>
+          <Button
+            variant='primary'
+            href={pdf}
+            target='_blank'
+            style={{ maxWidth: '250px' }}
+          >
+            <AiOutlineDownload />
                         &nbsp;Download PDF
-                    </Button>
-                </Row>
-            </Container>
-        </div>
-    );
+          </Button>
+        </Row>
+      </Container>
+    </div>
+  )
 }
 
-export default ResumeNew;
+export default ResumeNew
