@@ -6,10 +6,9 @@ import pdf from "../../Assets/../Assets/Résumé.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
-pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const resumeLink =
-    "";
+    "https://github.com/FleetAdmiralJakob/Portfolio/raw/main/src/Assets/R%C3%A9sum%C3%A9.pdf";
 
 function ResumeNew() {
     const [width, setWidth] = useState(1200);
@@ -22,15 +21,6 @@ function ResumeNew() {
         <div>
             <Container fluid className="resume-section">
                 <Particle />
-                <Row style={{ justifyContent: "center", position: "relative" }}>
-                    <Button
-                        variant="primary"
-                        href={pdf}
-                        target="_blank"
-                        style={{ maxWidth: "250px" }}
-                    >
-                    </Button>
-                </Row>
 
                 <Row className="resume">
                     <Document file={resumeLink} className="d-flex justify-content-center">
@@ -46,7 +36,7 @@ function ResumeNew() {
                         style={{ maxWidth: "250px" }}
                     >
                         <AiOutlineDownload />
-                        &nbsp;Download CV
+                        &nbsp;Download PDF
                     </Button>
                 </Row>
             </Container>
