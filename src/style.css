@@ -13,6 +13,7 @@ html {
 
     --imp-text-color: #c770f0;
     --imp-text-color2: #d28cea;
+    --imp-text-color3: #5c0f7f;
 }
 
 .purple {
@@ -184,6 +185,9 @@ button:focus {
     color: var(--imp-text-color2) !important;
     font-weight: 800 !important;
     text-decoration: underline;
+    text-decoration-thickness: 5px;
+    text-decoration-color: var(--imp-text-color3);
+    transition: 300ms ease-in-out;
 }
 
 .navbar-nav .nav-link {

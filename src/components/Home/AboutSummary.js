@@ -8,6 +8,8 @@ import {AiOutlineUser} from "react-icons/ai";
 
 function AboutSummary() {
 
+    const [navColour] = useState(false)
+
     return (
 
     <Container fluid className='home-about-summary-section' id='about-summary'>
