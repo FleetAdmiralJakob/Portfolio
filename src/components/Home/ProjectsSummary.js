@@ -20,10 +20,13 @@ function AboutSummary () {
             <p className='home-about-summary-body'>
               Here you can find some of my <span className='purple'> recent projects </span> and some old ones. I'm always looking for <span className='purple'> new challenges </span> and new projects to work on. <br />
               <br />
+              
               Some of them are: <br /> <br />
+              <ul>
               <ImPointRight /> A Steampunk Game <br />
               <ImPointRight /> A Tip Calculator <br />
               <ImPointRight /> A few Minecraft Mods <br /> <br />
+              </ul>
 
               In the case of the Minecraft Mods, they were my <span className='purple'> first projects </span> in relationship to programming after some small stuff I tried out with Scratch.
             </p>

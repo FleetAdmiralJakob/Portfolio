@@ -361,8 +361,10 @@ button:focus {
     }
 }
 
-.myAvtar {
+.myAvatar {
     justify-content: center !important;
+    horiz-align: center !important;
+    vertical-align: middle !important;
     padding-top: 9em !important;
 }
 
@@ -382,7 +384,7 @@ button:focus {
 }
 
 @media (max-width: 767px) {
-    .myAvtar {
+    .myAvatar {
         padding-top: 2em !important;
         padding-bottom: 2em !important;
     }

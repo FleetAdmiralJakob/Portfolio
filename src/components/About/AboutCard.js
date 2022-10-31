@@ -10,31 +10,61 @@ function AboutCard () {
       <Card.Body>
         <blockquote className='blockquote mb-0'>
           <p style={{ textAlign: 'justify' }}>
-            Hi Observer, I am <span className='purple'>Jakob Felix Eugen Rössner </span>
+            Dear visitors of my <span className='purple'> personal website.</span> I am <span className='purple'>Jakob Felix Eugen Rössner </span>
             from <span className='purple'> Berlin, Germany.</span>
             <br />I am a student at the <span className='purple'>Friedrich-Schiller-Gymnasium.</span>
             <br />
             <br />
-            I am <span className='purple'>{year - 2009} years old,</span> and multi-talented, what you can
+            I am <span className='purple'>{year - 2009} years old.</span> I have a high range of interests, what you can
             see from all these other activities that I love to do, apart from coding!
           </p>
           <ul>
             <li className='about-activity'>
-              <ImPointRight /> Playing Games
-            </li>
-            <li className='about-activity'>
-              <ImPointRight /> Playing Hockey with country selection and my club
-            </li>
-            <li className='about-activity'>
-              <ImPointRight /> Traveling
-            </li>
-            <li className='about-activity'>
-              <ImPointRight /> Reading Books
+              <ImPointRight /> Playing Hockey
             </li>
             <li className='about-activity'>
               <ImPointRight /> Playing Piano and Organ
             </li>
+            <li className='about-activity'>
+              <ImPointRight /> Visiting museums or reading books on topics related to social science
+            </li>
           </ul>
+
+          <p style={{ textAlign: 'justify' }}>
+              I fell in love with programming and I have at least learnt
+              something, I think… 🤷‍♂️
+              <br />
+              <br />I am fluent in classics like
+              <i>
+                <b className='purple'> Java, Javascript, Kotlin, C#. </b>
+              </i>
+              <br />
+              <br />
+              My field of Interest's are building new &nbsp;
+              <i>
+                <b className='purple'>Web Technologies and Products </b> and
+                also in areas related to{' '}
+                <b className='purple'> Game Development. </b>
+                But I am also interested in Mobile Development with languages like <b className='purple'> Kotlin or Java.</b>
+              </i>
+              <br />
+              <br />
+              Whenever possible, I also apply my passion for developing products
+              with <b className='purple'>Node.js</b> and
+              <i>
+                <b className='purple'>
+                  {' '}
+                  Modern Javascript Library and Frameworks
+                </b>
+              </i>
+                            &nbsp; like
+              <i>
+                <b className='purple'> React.js.</b>
+              </i>
+              <br />
+              <br />
+              Still I'm learning new things in Game Development with <b className='purple'> C#. </b>
+            </p>
 
           <p style={{ color: 'rgb(155 126 172)' }}>
             "Strive to build things that make a difference!"{' '}
