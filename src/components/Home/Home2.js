@@ -1,6 +1,7 @@
 import React from 'react'
 import {Col, Container, Row} from 'react-bootstrap'
 import myImg from '../../Assets/avatar2.png'
+import field_of_interests from '../../Assets/field_of_interests.png'
 import Tilt from 'react-parallax-tilt'
 import {AiFillGithub} from 'react-icons/ai'
 import {FaLinkedinIn} from 'react-icons/fa'
@@ -28,10 +29,8 @@ function Home2() {
                             <i>
                                 <b className='purple'>Web Technologies and Products </b> and
                                 also in areas related to{' '}
-                                <b className='purple'>
-                                    Deep Learning and Natural Language Processing &nbsp;
-                                </b>
-                                or <b className='purple'> Game Development. </b>
+                                <b className='purple'> Game Development. </b>
+                                But I am also interested in Mobile Development with languages like <b className='purple'> Kotlin or Java.</b>
                             </i>
                             <br/>
                             <br/>
@@ -45,12 +44,11 @@ function Home2() {
                             </i>
                             &nbsp; like
                             <i>
-                                <b className='purple'> React.js and Next.js.</b>
+                                <b className='purple'> React.js.</b>
                             </i>
                             <br/>
                             <br/>
-                            Still I'm learning new things in Mobile Development with <b className='purple'> Java and
-                            Kotlin. </b>
+                            Still I'm learning new things in Game Development with <b className='purple'> C#. </b>
                         </p>
                     </Col>
                     <Col md={4} className='myAvtar'>
@@ -59,6 +57,13 @@ function Home2() {
                         </Tilt>
                     </Col>
                 </Row>
+                <Row>
+                    <Col>
+                        <img src={field_of_interests} className='img-fluid field-of-interests-picture' alt='field of interests'/>
+                    </Col>
+                </Row>
+                <br/>
+                <br/>
                 <Row>
                     <Col md={12} className='home-about-social'>
                         <h1>FIND ME ON</h1>

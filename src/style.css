@@ -881,3 +881,9 @@ button:focus {
 .fork-btn-text {
     font-size: 0.9em !important;
 }
+
+.field-of-interests-picture {
+    width: 30% !important;
+    height: 100% !important;
+    vertical-align: center !important;
+}

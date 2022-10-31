@@ -24,7 +24,9 @@ function AboutSummary() {
                         Some of them are: <br/> <br/>
                         <ImPointRight/> A Steampunk Game <br/>
                         <ImPointRight/> A Tip Calculator <br/>
-                        <ImPointRight/> A few Minecraft Mods
+                        <ImPointRight/> A few Minecraft Mods <br/> <br/>
+
+                        In the case of the Minecraft Mods, they were my <span className='purple'> first projects </span> in relationship to programming after some small stuff I tried out with Scratch.
                     </p>
                     <Nav.Link as={Link} to='/project' className='link'>
                         <AiOutlineFundProjectionScreen style={{marginBottom: '2px'}}/> See my projects
