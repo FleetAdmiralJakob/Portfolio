@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
-import previewAbout from '../../Assets/previewAbout.png'
+import previewAbout from '../../Assets/previewAbout2.png'
 import Tilt from 'react-parallax-tilt'
 import Nav from 'react-bootstrap/Nav'
 import { Link } from 'react-router-dom'
