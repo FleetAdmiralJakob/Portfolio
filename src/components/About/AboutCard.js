@@ -15,7 +15,7 @@ function AboutCard () {
             <br />I am a student at the <span className='purple'>Friedrich-Schiller-Gymnasium.</span>
             <br />
             <br />
-            I am <span className='purple'>{year - 2009} years old.</span> I have a high range of interests, what you can
+            I am <span className='purple'>{year - 2009} years old.</span> I have a wide range of interests, what you can
             see from all these other activities that I love to do, apart from coding!
           </p>
           <ul>
@@ -34,18 +34,19 @@ function AboutCard () {
               I fell in love with programming and I have at least learnt
               something, I think… 🤷‍♂️
               <br />
-              <br />I am fluent in classics like
+              <br />My preferences are by classics like
               <i>
                 <b className='purple'> Java, Javascript, Kotlin, C#. </b>
               </i>
+              <br/> But I'm always open to make new experiences.
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              My field of interests are building new &nbsp;
               <i>
                 <b className='purple'>Web Technologies and Products </b> and
                 also in areas related to{' '}
                 <b className='purple'> Game Development. </b>
-                But I am also interested in Mobile Development with languages like <b className='purple'> Kotlin or Java.</b>
+                But I am also interested in <b className='purple'> Mobile Development </b> with languages like <b className='purple'> Kotlin or Java.</b>
               </i>
               <br />
               <br />
