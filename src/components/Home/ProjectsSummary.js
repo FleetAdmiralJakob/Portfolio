@@ -18,7 +18,7 @@ function AboutSummary () {
               MY <span className='purple'> PROJECTS </span>
             </h1>
             <p className='home-about-summary-body'>
-              Here you can find some of my <span className='purple'> recent projects </span> and some old ones. I'm always looking for <span className='purple'> new challenges </span> and new projects to work on. <br />
+              Here you can find some of my <span className='purple'> recent projects </span> included my first contact with programming. I'm always looking for <span className='purple'> new challenges </span> and new projects to work on. <br />
               <br />
               
               Some of them are: <br /> <br />
