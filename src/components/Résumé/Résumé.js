@@ -11,9 +11,9 @@ import 'react-pdf/dist/esm/Page/AnnotationLayer.css'
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const resumeLink_de =
-    'https://raw.githubusercontent.com/FleetAdmiralJakob/Portfolio/85d231d60b5ae306c3cffab2314eabed2f4eaac4/src/Assets/R%C3%A9sum%C3%A9_de.pdf'
+    'https://raw.githubusercontent.com/FleetAdmiralJakob/Portfolio/2fef73bdf00930f3d6f394a8519278477eb76810/src/Assets/R%C3%A9sum%C3%A9_de_Jakob_R%C3%B6ssner.pdf'
 const resumeLink_en =
-    'https://raw.githubusercontent.com/FleetAdmiralJakob/Portfolio/85d231d60b5ae306c3cffab2314eabed2f4eaac4/src/Assets/R%C3%A9sum%C3%A9_en.pdf'
+    'https://raw.githubusercontent.com/FleetAdmiralJakob/Portfolio/2fef73bdf00930f3d6f394a8519278477eb76810/src/Assets/R%C3%A9sum%C3%A9_en_Jakob_R%C3%B6ssner.pdf'
 
 function ResumeNew () {
   const [width, setWidth] = useState(1200)
