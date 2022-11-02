@@ -3,9 +3,11 @@ import { Col, Container, Row } from 'react-bootstrap'
 import Particle from '../Particle'
 import Github from './Github'
 import Techstack from './Techstack'
+import OtherSkills from './OtherSkills'
 import AboutCard from './AboutCard'
 import laptopImg from '../../Assets/about.png'
 import Toolstack from './Toolstack'
+import {AiFillGithub} from "react-icons/ai";
 
 function About () {
   return (
@@ -45,6 +47,11 @@ function About () {
         </h1>
         <Toolstack />
 
+        <h1 className='project-heading'>
+          <strong className='purple'>Other</strong> Skills
+        </h1>
+        <OtherSkills />
+
         <Github />
         <h1>
           <strong className='purple'>Stats</strong> From GitHub
@@ -63,7 +70,22 @@ function About () {
         <img
           src='https://github-readme-streak-stats.herokuapp.com/?user=fleetadmiraljakob&theme=modern-lilac2'
           alt='about' className='img-fluid'
-        /> <br />
+        /> <br /> <br />
+        <h4>
+          See me <strong className='purple'>on GitHub</strong>
+        </h4>
+        <ul className='home-about-social-links'>
+          <li className='social-icons'>
+            <a
+                href='https://github.com/FleetAdmiralJakob'
+                target='_blank'
+                rel='noreferrer'
+                className='icon-colour  home-social-icons'
+            >
+              <AiFillGithub />
+            </a>
+          </li>
+        </ul>
       </Container>
     </Container>
   )
