@@ -35,7 +35,7 @@ function Projects () {
               imgPath={biggernumber}
               isBlog={false}
               title='Bigger Number Game'
-              description='A simple Android app to demonstrate the use of Kotlin in Android development. The user is presented 2 numbers on buttons- depending on if the larger number was clicked, the background color will change.'
+              description='A simple Android app to demonstrate the use of Kotlin in Android app development. The user are presented 2 numbers on buttons- depending on if the larger number was clicked, the background color will change.'
               ghLink='https://github.com/FleetAdmiralJakob/Bigger-Number-Game'
               downloadLink='https://github.com/FleetAdmiralJakob/Bigger-Number-Game/releases'
             />
@@ -63,7 +63,7 @@ function Projects () {
               imgPath={curseforge}
               isBlog={false}
               title='Minecraft mods by mine!'
-              description='On the site curseforge.com you can find some of my first projects. 2 years ago I build some Minecraft Mods in Java! Sometimes I update them to maintain my skills.'
+              description='On the site curseforge.com you can find some of my first projects. 2 years ago I built some Minecraft Mods in Java! Sometimes I update them to maintain my skills.'
             />
           </Col>
         </Row>
