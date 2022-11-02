@@ -16,7 +16,7 @@ function AboutCard () {
             <br />
             <br />
             I am <span className='purple'>{year - 2009} years old.</span> I have a wide range of interests, what you can
-            see from all these other activities that I love to do, apart from coding!
+            see from the other activities that I love to do, apart from coding!
           </p>
           <ul>
             <li className='about-activity'>
@@ -26,7 +26,7 @@ function AboutCard () {
               <ImPointRight /> Playing Piano and Organ
             </li>
             <li className='about-activity'>
-              <ImPointRight /> Visiting museums or reading books on topics related to social science
+              <ImPointRight /> Visiting museums and reading books on topics related to social science
             </li>
           </ul>
 
@@ -46,7 +46,7 @@ function AboutCard () {
                 <b className='purple'>Web Technologies and Products </b> and
                 also in areas related to{' '}
                 <b className='purple'> Game Development. </b>
-                But I am also interested in <b className='purple'> Mobile Development </b> with languages like <b className='purple'> Kotlin or Java.</b>
+                But I am also interested in <b className='purple'> Mobile Development </b> with languages like <b className='purple'> Kotlin and Java.</b>
               </i>
               <br />
               <br />
@@ -64,7 +64,7 @@ function AboutCard () {
               </i>
               <br />
               <br />
-              Still I'm learning new things in Game Development with <b className='purple'> C#. </b>
+              Also I'm learning things in Game Development with <b className='purple'> C#. </b>
             </p>
 
           <p style={{ color: 'rgb(155 126 172)' }}>
