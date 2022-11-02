@@ -37,6 +37,7 @@ function Projects () {
               title='Bigger Number Game'
               description='A simple Android app to demonstrate the use of Kotlin in Android development. The user is presented 2 numbers on buttons- depending on if the larger number was clicked, the background color will change.'
               ghLink='https://github.com/FleetAdmiralJakob/Bigger-Number-Game'
+              downloadLink='https://github.com/FleetAdmiralJakob/Bigger-Number-Game/releases'
             />
           </Col>
           <Col md={4} className='project-card'>
@@ -46,6 +47,7 @@ function Projects () {
               title='Tippy'
               description='A tip calculator (for Android)!'
               ghLink='https://github.com/FleetAdmiralJakob/Tippy'
+              downloadLink='https://github.com/FleetAdmiralJakob/Tippy/releases'
             />
           </Col>
         </Row>

@@ -1,8 +1,8 @@
 import React from 'react'
 import Card from 'react-bootstrap/Card'
 import Button from 'react-bootstrap/Button'
-import { CgWebsite } from 'react-icons/cg'
-import { BsGithub } from 'react-icons/bs'
+import {CgWebsite} from 'react-icons/cg'
+import {BsFillCloudDownloadFill, BsGithub} from 'react-icons/bs'
 
 function ProjectCards (props) {
   return (
@@ -35,6 +35,18 @@ function ProjectCards (props) {
             Demo
           </Button>
         )}
+
+          {props.downloadLink && (
+              <Button
+                  variant='primary'
+                  href={props.downloadLink}
+                  target='_blank'
+                  style={{ marginLeft: '10px'}}
+              >
+                  <BsFillCloudDownloadFill /> &nbsp;
+                  Download
+              </Button>
+          )}
       </Card.Body>
     </Card>
   )
