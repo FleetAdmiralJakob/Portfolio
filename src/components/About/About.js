@@ -7,7 +7,7 @@ import OtherSkills from './OtherSkills'
 import AboutCard from './AboutCard'
 import laptopImg from '../../Assets/about.png'
 import Toolstack from './Toolstack'
-import {AiFillGithub} from "react-icons/ai";
+import { AiFillGithub } from 'react-icons/ai'
 
 function About () {
   return (
@@ -77,10 +77,10 @@ function About () {
         <ul className='home-about-social-links'>
           <li className='social-icons'>
             <a
-                href='https://github.com/FleetAdmiralJakob'
-                target='_blank'
-                rel='noreferrer'
-                className='icon-colour  home-social-icons'
+              href='https://github.com/FleetAdmiralJakob'
+              target='_blank'
+              rel='noreferrer'
+              className='icon-colour  home-social-icons'
             >
               <AiFillGithub />
             </a>

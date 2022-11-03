@@ -8,7 +8,7 @@ import { AiOutlineDownload } from 'react-icons/ai'
 import { Document, Page, pdfjs } from 'react-pdf'
 import 'react-pdf/dist/esm/Page/AnnotationLayer.css'
 
-pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
+pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`
 
 const resumeLink_de =
     'https://raw.githubusercontent.com/FleetAdmiralJakob/Portfolio/e0299f2368df3da62cdc8707c7fb63713083cc34/src/Assets/R%C3%A9sum%C3%A9_de_Jakob_R%C3%B6ssner.pdf'
@@ -47,7 +47,6 @@ function ResumeNew () {
                         &nbsp;Download PDF
           </Button>
         </Row>
-
 
         <Row className='resume'>
           <h1 style={{ fontSize: '2.1em', paddingBottom: '20px' }}>
