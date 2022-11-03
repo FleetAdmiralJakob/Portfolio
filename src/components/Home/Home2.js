@@ -13,7 +13,7 @@ function Home2 () {
         <Row>
           <Col md={12} className='home-about-social'>
             <Tilt className='myAvatar'>
-              <img src={myImg} className='img-fluid' alt='avatar' />
+              <img src={myImg} className='img-fluid' alt='avatar' width='600' height='600' />
             </Tilt>
             <br />
             <br />

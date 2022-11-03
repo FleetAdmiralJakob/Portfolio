@@ -366,6 +366,7 @@ button:focus {
     horiz-align: center !important;
     vertical-align: middle !important;
     padding-top: 9em !important;
+    height: 75% !important;
 }
 
 .previewAbout {
