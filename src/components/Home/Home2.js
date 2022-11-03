@@ -1,6 +1,6 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
-import myImg from '../../Assets/avatar2.png'
+import myImg from '../../Assets/avatar3.png'
 import field_of_interests from '../../Assets/field_of_interests.png'
 import Tilt from 'react-parallax-tilt'
 import { AiFillGithub } from 'react-icons/ai'
