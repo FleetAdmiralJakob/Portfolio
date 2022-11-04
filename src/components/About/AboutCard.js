@@ -12,7 +12,7 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Dear visitors of my{" "}
             <span className="purple"> personal website.</span> I am{" "}
-            <span className="purple">Jakob Felix Eugen Rössner</span>
+            <span className="purple">Jakob Felix Eugen Rössner </span>
             from <span className="purple"> Berlin, Germany.</span>
             <br />I am a student at the{" "}
             <span className="purple">Friedrich-Schiller-Gymnasium.</span>
