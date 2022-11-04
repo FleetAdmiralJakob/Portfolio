@@ -19,7 +19,11 @@ function AboutSummary () {
               MORE <span className='purple'> ABOUT </span> ME
             </h1>
             <p className='home-about-summary-body'>
-              In this section I will give you a brief summary of <span className='purple'> my skills</span> and the <span className='purple'> tools</span> I'm familiar with.
+              In this section I will give you a brief summary of <span
+                className='purple'
+                                                                 > my skills
+                                                                 </span> and the <span className='purple'> tools</span> I'm
+              familiar with.
             </p>
             <Nav.Link as={Link} to='/about' className='link'>
               <AiOutlineUser style={{ marginBottom: '2px' }} /> Learn more about me
@@ -35,4 +39,5 @@ function AboutSummary () {
     </Container>
   )
 }
+
 export default AboutSummary

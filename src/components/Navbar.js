@@ -5,7 +5,7 @@ import Container from 'react-bootstrap/Container'
 import logo from '../Assets/logo.png'
 import Button from 'react-bootstrap/Button'
 import { Link } from 'react-router-dom'
-import { CgGitFork, CgFileDocument } from 'react-icons/cg'
+import { CgFileDocument, CgGitFork } from 'react-icons/cg'
 import { AiFillStar, AiOutlineFundProjectionScreen, AiOutlineHome, AiOutlineUser } from 'react-icons/ai'
 import { SiGithub } from 'react-icons/si'
 

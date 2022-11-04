@@ -10,12 +10,16 @@ function AboutCard () {
       <Card.Body>
         <blockquote className='blockquote mb-0'>
           <p style={{ textAlign: 'justify' }}>
-            Dear visitors of my <span className='purple'> personal website.</span> I am <span className='purple'>Jakob Felix Eugen Rössner </span>
+            Dear visitors of my <span className='purple'> personal website.</span> I am <span
+              className='purple'
+                                                                                        >Jakob Felix Eugen Rössner
+            </span>
             from <span className='purple'> Berlin, Germany.</span>
             <br />I am a student at the <span className='purple'>Friedrich-Schiller-Gymnasium.</span>
             <br />
             <br />
-            I am <span className='purple'>{year - 2009} years old.</span> I have a wide range of interests, what you can
+            I am <span className='purple'>{year - 2009} years old.</span> I have a wide range of interests,
+            what you can
             see from the other activities that I love to do, apart from coding!
           </p>
           <ul>
@@ -46,7 +50,8 @@ function AboutCard () {
               <b className='purple'>Web Technologies and Products </b> and
               also in areas related to{' '}
               <b className='purple'> Game Development. </b>
-              But I am also interested in <b className='purple'> Mobile Development </b> with languages like <b className='purple'> Kotlin and Java.</b>
+              But I am also interested in <b className='purple'> Mobile Development </b> with languages
+              like <b className='purple'> Kotlin and Java.</b>
             </i>
             <br />
             <br />
@@ -58,7 +63,7 @@ function AboutCard () {
                 Modern Javascript Library and Frameworks
               </b>
             </i>
-                            &nbsp; like
+                        &nbsp; like
             <i>
               <b className='purple'> React.js.</b>
             </i>

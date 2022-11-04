@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 import previewProjects from '../../Assets/previewProjects.png'
 import Tilt from 'react-parallax-tilt'
@@ -18,7 +18,9 @@ function AboutSummary () {
               MY <span className='purple'> PROJECTS </span>
             </h1>
             <p className='home-about-summary-body'>
-              Here you can find some of my <span className='purple'> recent projects </span> included my first contact with programming. I'm always looking for <span className='purple'> new challenges </span> and new projects to work on. <br />
+              Here you can find some of my <span className='purple'> recent projects </span> included my
+              first contact with programming. I'm always looking for <span className='purple'> new challenges </span> and
+              new projects to work on. <br />
               <br />
 
               Some of them are: <br /> <br />
@@ -28,7 +30,11 @@ function AboutSummary () {
                 <ImPointRight /> A few Minecraft Mods <br /> <br />
               </ul>
 
-              In the case of the Minecraft Mods, they were my <span className='purple'> first projects </span> in relationship to programming after some small stuff I tried out with Scratch.
+              In the case of the Minecraft Mods, they were my <span
+                className='purple'
+                                                              > first projects
+                                                              </span> in relationship to programming after some small
+              stuff I tried out with Scratch.
             </p>
             <Nav.Link as={Link} to='/project' className='link'>
               <AiOutlineFundProjectionScreen style={{ marginBottom: '2px' }} /> See my projects
@@ -44,4 +50,5 @@ function AboutSummary () {
     </Container>
   )
 }
+
 export default AboutSummary
