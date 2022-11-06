@@ -23,7 +23,8 @@ function AboutSummary() {
               <span className="purple"> tools</span> I'm familiar with.
             </p>
             <Nav.Link as={Link} to="/about" className="link">
-              <AiOutlineUser style={{ marginBottom: "2px" }} /> Learn more about me
+              <AiOutlineUser style={{ marginBottom: "2px" }} /> Learn more about
+              me
             </Nav.Link>
           </Col>
           <Col md={4} className="previewAbout">

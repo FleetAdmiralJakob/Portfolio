@@ -3,7 +3,7 @@ import { Col, Container, Row } from "react-bootstrap";
 import myImg from "../../Assets/avatar3.png";
 import Tilt from "react-parallax-tilt";
 import { AiFillGithub } from "react-icons/ai";
-import {FaLinkedinIn, FaMailBulk, FaVoicemail} from "react-icons/fa";
+import { FaLinkedinIn, FaMailBulk, FaVoicemail } from "react-icons/fa";
 
 function Home2() {
   return (
@@ -54,8 +54,8 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                    href="mailto:jakob.roessner@outlook.de"
-                    className="icon-colour  home-social-icons"
+                  href="mailto:jakob.roessner@outlook.de"
+                  className="icon-colour  home-social-icons"
                 >
                   <FaMailBulk />
                 </a>

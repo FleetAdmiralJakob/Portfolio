@@ -92,9 +92,9 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                  as={Link}
-                  to="/contactme"
-                  onClick={() => updateExpanded(false)}
+                as={Link}
+                to="/contactme"
+                onClick={() => updateExpanded(false)}
               >
                 <CgMail style={{ marginBottom: "2px" }} /> Contact Me
               </Nav.Link>
