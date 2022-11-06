@@ -1,7 +1,7 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import { AiFillGithub } from "react-icons/ai";
-import {FaLinkedinIn, FaMailBulk} from "react-icons/fa";
+import { FaLinkedinIn, FaMailBulk } from "react-icons/fa";
 
 function Footer() {
   const date = new Date();
@@ -43,8 +43,8 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                  href="mailto:jakob.roessner@outlook.de"
-                  className="footer-icon"
+                href="mailto:jakob.roessner@outlook.de"
+                className="footer-icon"
               >
                 <FaMailBulk />
               </a>
