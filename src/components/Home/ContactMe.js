@@ -27,6 +27,9 @@ function ContactMe() {
           </a> <br />
         </p>
         <p>
+            <h3>
+                Get in touch with me on:
+            </h3>
           <ul className="contact-links">
               <li className="social-icons">
                   <a
