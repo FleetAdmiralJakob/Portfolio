@@ -1,9 +1,9 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import { ImPointRight } from "react-icons/im";
-import {AiFillGithub, AiFillMail, AiFillPhone} from "react-icons/ai";
+import { AiFillGithub, AiFillMail, AiFillPhone } from "react-icons/ai";
 import Particle from "../Particle";
-import {FaLinkedinIn, FaMailBulk} from "react-icons/fa";
+import { FaLinkedinIn, FaMailBulk } from "react-icons/fa";
 
 function ContactMe() {
   return (
@@ -24,33 +24,32 @@ function ContactMe() {
           <a href="mailto:jakob.roessner@outlook.de">
             {" "}
             jakob.roessner@outlook.de{" "}
-          </a> <br />
+          </a>{" "}
+          <br />
         </p>
         <p>
-            <h3>
-                Get in touch with me on:
-            </h3>
+          <h3>Get in touch with me on:</h3>
           <ul className="contact-links">
-              <li className="social-icons">
-                  <a
-                      href="https://github.com/FleetAdmiralJakob"
-                      target="_blank"
-                      rel="noreferrer"
-                      className="icon-colour  home-social-icons"
-                  >
-                      <AiFillGithub />
-                  </a>
-              </li>
-              <li className="social-icons">
-                  <a
-                      href="https://www.linkedin.com/in/jakob-r%C3%B6ssner-532b93214/"
-                      target="_blank"
-                      rel="noreferrer"
-                      className="icon-colour  home-social-icons"
-                  >
-                      <FaLinkedinIn />
-                  </a>
-              </li>
+            <li className="social-icons">
+              <a
+                href="https://github.com/FleetAdmiralJakob"
+                target="_blank"
+                rel="noreferrer"
+                className="icon-colour  home-social-icons"
+              >
+                <AiFillGithub />
+              </a>
+            </li>
+            <li className="social-icons">
+              <a
+                href="https://www.linkedin.com/in/jakob-r%C3%B6ssner-532b93214/"
+                target="_blank"
+                rel="noreferrer"
+                className="icon-colour  home-social-icons"
+              >
+                <FaLinkedinIn />
+              </a>
+            </li>
           </ul>
         </p>
       </Container>
