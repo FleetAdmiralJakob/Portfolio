@@ -16,6 +16,7 @@ import ScrollToTop from "./components/ScrollToTop";
 import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import ContactMe from "./components/Home/ContactMe";
 
 function App() {
   const [load, updateLoad] = useState(true);
@@ -39,6 +40,7 @@ function App() {
           <Route path="/project" element={<Projects />} />
           <Route path="/about" element={<About />} />
           <Route path="/resume" element={<Résumé />} />
+          <Route path="/contactme" element={<ContactMe />} />
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
         <Footer />

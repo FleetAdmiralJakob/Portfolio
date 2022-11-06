@@ -5,7 +5,7 @@ import Container from "react-bootstrap/Container";
 import logo from "../Assets/logo.png";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
-import { CgFileDocument, CgGitFork } from "react-icons/cg";
+import { CgFileDocument, CgGitFork, CgMail } from "react-icons/cg";
 import {
   AiFillStar,
   AiOutlineFundProjectionScreen,
@@ -87,6 +87,16 @@ function NavBar() {
                 onClick={() => updateExpanded(false)}
               >
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link
+                  as={Link}
+                  to="/contactme"
+                  onClick={() => updateExpanded(false)}
+              >
+                <CgMail style={{ marginBottom: "2px" }} /> Contact Me
               </Nav.Link>
             </Nav.Item>
 
