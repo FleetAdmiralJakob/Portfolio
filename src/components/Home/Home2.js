@@ -1,6 +1,6 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import myImg from "../../Assets/avatar4.png";
+import myImg from "../../Assets/avatar4.webp";
 import Tilt from "react-parallax-tilt";
 import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn, FaMailBulk } from "react-icons/fa";
