@@ -7,10 +7,10 @@ import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 import { CgFileDocument, CgGitFork, CgMail } from "react-icons/cg";
 import {
-  AiFillStar,
-  AiOutlineFundProjectionScreen,
-  AiOutlineHome,
-  AiOutlineUser,
+    AiFillStar,
+    AiOutlineFundProjectionScreen,
+    AiOutlineHome,
+    AiOutlineUser,
 } from "react-icons/ai";
 import { SiGithub } from "react-icons/si";
 
