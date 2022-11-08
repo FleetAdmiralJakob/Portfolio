@@ -7,9 +7,9 @@ import AboutCard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
 import { AiFillGithub } from "react-icons/ai";
-import loadable from '@loadable/component'
+import loadable from "@loadable/component";
 
-const Particle = loadable(() => import('../Particle'))
+const Particle = loadable(() => import("../Particle"));
 
 function About() {
   return (

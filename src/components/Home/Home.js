@@ -1,14 +1,14 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import homeLogo from "../../Assets/home-main.svg";
-import loadable from '@loadable/component'
+import loadable from "@loadable/component";
 
-const Particle = loadable(() => import('../Particle'))
-const Home2 = loadable(() => import('./Home2'))
-const AboutSummary = loadable(() => import('./AboutSummary'))
-const ProjectsSummary = loadable(() => import('./ProjectsSummary'))
-const ContactMe = loadable(() => import('./ContactMe'))
-const Type = loadable(() => import('./Type'))
+const Particle = loadable(() => import("../Particle"));
+const Home2 = loadable(() => import("./Home2"));
+const AboutSummary = loadable(() => import("./AboutSummary"));
+const ProjectsSummary = loadable(() => import("./ProjectsSummary"));
+const ContactMe = loadable(() => import("./ContactMe"));
+const Type = loadable(() => import("./Type"));
 
 function Home() {
   return (
