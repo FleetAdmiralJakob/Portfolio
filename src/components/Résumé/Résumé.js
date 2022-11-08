@@ -1,12 +1,14 @@
 import React, { useEffect, useState } from 'react'
 import { Container, Row } from 'react-bootstrap'
 import Button from 'react-bootstrap/Button'
-import Particle from '../Particle'
 import pdf_de from '../../Assets/../Assets/Résumé_de_Jakob_Rössner.pdf'
 import pdf_en from '../../Assets/../Assets/Résumé_en_Jakob_Rössner.pdf'
 import { AiOutlineDownload } from 'react-icons/ai'
 import { Document, Page, pdfjs } from 'react-pdf'
 import 'react-pdf/dist/esm/Page/AnnotationLayer.css'
+import loadable from '@loadable/component'
+
+const Particle = loadable(() => import('../Particle'))
 
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`
 

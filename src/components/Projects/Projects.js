@@ -1,11 +1,13 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
-import Particle from "../Particle";
 import steampunk from "../../Assets/Projects/steampunk.png";
 import biggernumber from "../../Assets/Projects/biggernumber.png";
 import tippy from "../../Assets/Projects/tippy2.png";
 import curseforge from "../../Assets/Projects/curseforge.png";
+import loadable from '@loadable/component'
+
+const Particle = loadable(() => import('../Particle'))
 
 function Projects() {
   return (

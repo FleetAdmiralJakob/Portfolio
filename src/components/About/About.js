@@ -1,6 +1,5 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import Particle from "../Particle";
 import Github from "./Github";
 import Techstack from "./Techstack";
 import OtherSkills from "./OtherSkills";
@@ -8,6 +7,9 @@ import AboutCard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
 import { AiFillGithub } from "react-icons/ai";
+import loadable from '@loadable/component'
+
+const Particle = loadable(() => import('../Particle'))
 
 function About() {
   return (

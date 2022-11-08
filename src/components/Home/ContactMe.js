@@ -1,9 +1,10 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
-import { ImPointRight } from 'react-icons/im'
 import { AiFillGithub, AiFillMail, AiFillPhone } from 'react-icons/ai'
-import Particle from '../Particle'
-import { FaLinkedinIn, FaMailBulk } from 'react-icons/fa'
+import { FaLinkedinIn } from 'react-icons/fa'
+import loadable from '@loadable/component'
+
+const Particle = loadable(() => import('../Particle'))
 
 function ContactMe () {
   return (
