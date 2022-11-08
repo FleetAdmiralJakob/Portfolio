@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import loadable from '@loadable/component'
+import loadable from "@loadable/component";
 import logo from "../Assets/logo.png";
 import { CgFileDocument, CgGitFork, CgMail } from "react-icons/cg";
 import {
@@ -10,11 +10,11 @@ import {
 } from "react-icons/ai";
 import { SiGithub } from "react-icons/si";
 
-const Navbar = loadable(() => import('react-bootstrap/Navbar'))
-const Nav = loadable(() => import('react-bootstrap/Nav'))
-const Container = loadable(() => import('react-bootstrap/Container'))
-const Button = loadable(() => import('react-bootstrap/Button'))
-const Link = loadable(() => import('react-router-dom'))
+const Navbar = loadable(() => import("react-bootstrap/Navbar"));
+const Nav = loadable(() => import("react-bootstrap/Nav"));
+const Container = loadable(() => import("react-bootstrap/Container"));
+const Button = loadable(() => import("react-bootstrap/Button"));
+const Link = loadable(() => import("react-router-dom"));
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
