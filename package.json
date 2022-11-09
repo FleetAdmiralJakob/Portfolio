@@ -1,7 +1,26 @@
 {
   "name": "portfolio",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
+  "description": "Quiz application built with React",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FleetAdmiralJakob/Portfolio.git"
+  },
+  "keywords": [
+    "React",
+    "Portfolio",
+    "NodeJS",
+    "CSS",
+    "HTML",
+    "Javascript"
+  ],
+  "author": "FleetAdmiralJakob",
+  "bugs": {
+    "url": "https://github.com/FleetAdmiralJakob/Portfolio/issues"
+  },
+  "homepage": "https://github.com/FleetAdmiralJakob/Portfolio#readme",
   "dependencies": {
     "@loadable/component": "^5.15.2",
     "@react-pdf/renderer": "^2.2.0",
@@ -19,7 +38,7 @@
     "react-parallax-tilt": "^1.7.42",
     "react-pdf": "^5.7.1",
     "react-router-dom": "^6.2.2",
-    "react-scripts": "5.0.0",
+    "react-scripts": "5.0.1",
     "react-tsparticles": "^1.42.2",
     "typewriter-effect": "^2.18.2",
     "web-vitals": "^2.1.4"
