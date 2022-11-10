@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "1.0.0",
   "private": true,
-  "description": "Quiz application built with React",
+  "description": "My self-coded personal website builds with React.js",
   "main": "server.js",
   "repository": {
     "type": "git",
