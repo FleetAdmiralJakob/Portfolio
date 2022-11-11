@@ -4,6 +4,7 @@ import Github from "./Github";
 import Techstack from "./Techstack";
 import OtherSkills from "./OtherSkills";
 import AboutCard from "./AboutCard";
+// @ts-ignore
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
 import { AiFillGithub } from "react-icons/ai";

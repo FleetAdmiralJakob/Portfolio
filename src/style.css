@@ -490,6 +490,17 @@ button:focus {
   color: white !important;
 }
 
+.projects-social {
+  text-align: center !important;
+  padding-top: 25px;
+  color: white !important;
+}
+
+.text-project-curseforge {
+  padding-top: 25px;
+  color: white !important;
+}
+
 .home-about-social-links {
   justify-content: center !important;
   padding-top: 15px !important;
@@ -687,6 +698,21 @@ button:focus {
   transform: scale(1.02) !important;
   overflow: hidden !important;
   box-shadow: 0 4px 4px 5px rgba(129, 72, 144, 0.561) !important;
+}
+
+.image-card-view {
+  box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459) !important;
+  color: white !important;
+  background-color: transparent !important;
+  opacity: 0.9 !important;
+  transition: all 0.5s ease 0s !important;
+  height: 20% !important;
+}
+
+.image-card-view:hover {
+  transform: scale(1.02) !important;
+  overflow: hidden !important;
+  box-shadow: 0 2px 2px 2px rgba(129, 72, 144, 0.561) !important;
 }
 
 .blog-card {

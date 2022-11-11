@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "private": true,
   "description": "My self-coded personal website builds with React.js",
-  "main": "server.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/FleetAdmiralJakob/Portfolio.git"

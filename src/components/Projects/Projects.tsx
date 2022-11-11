@@ -1,11 +1,23 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
+// @ts-ignore
 import steampunk from "../../Assets/Projects/steampunk.png";
+// @ts-ignore
 import biggernumber from "../../Assets/Projects/biggernumber.png";
+// @ts-ignore
 import tippy from "../../Assets/Projects/tippy2.png";
+// @ts-ignore
 import curseforge from "../../Assets/Projects/curseforge.png";
+// @ts-ignore
+import uncraftables from "../../Assets/Projects/uncraftables.png";
+// @ts-ignore
+import myt from "../../Assets/Projects/myt.png";
+// @ts-ignore
+import foods from "../../Assets/Projects/foods.png";
 import loadable from "@loadable/component";
+import {SiCurseforge} from "react-icons/si";
+import {ImPointRight} from "react-icons/im";
 
 const Particle = loadable(() => import("../Particle"));
 
@@ -65,6 +77,36 @@ function Projects() {
               description="On the site curseforge.com you can find some of my first projects. 2 years ago I built some Minecraft Mods in Java! Sometimes I update them to maintain my skills."
             />
           </Col>
+          <div className="projects-social">
+            <h4>MY CURSEFORGE ACCOUNT</h4>
+            <p>
+              Here you can see my <span className="purple">Minecraft projects </span>...
+            </p>
+          </div>
+          <h5>
+              <span className="point" role="img" aria-labelledby="wave">
+                👇
+              </span>
+          </h5>
+          <li className="social-icons">
+            <a
+                href="https://www.curseforge.com/members/fleetadmiraljakob/projects"
+                target="_blank"
+                rel="noreferrer"
+                className="icon-colour  home-social-icons"
+            >
+              <SiCurseforge />
+            </a>
+          </li>
+          <p className="text-project-curseforge">
+            ... These are:<br/> <br/> <br/>
+            <ImPointRight /> <a href="https://www.curseforge.com/minecraft/mc-mods/uncraftables-new"> Uncraftables [NEW]</a>: Over 30,000 downloads <br />
+            <img src={uncraftables} alt="Uncraftables [New]" className="image-card-view"/> <br/> <br/>
+            <ImPointRight /> <a href="https://www.curseforge.com/minecraft/mc-mods/myt"> Myt</a>: Over 350 downloads <br />
+            <img src={myt} alt="Myt" className="image-card-view"/> <br/> <br/>
+            <ImPointRight /> <a href="https://www.curseforge.com/minecraft/mc-mods/vanilla-foods-enhanced-new"> Foods Enhanced</a>: Over 500 downloads <br />
+            <img src={foods} alt="Foods Enhanced" className="image-card-view"/> <br/> <br/>
+          </p>
         </Row>
       </Container>
     </Container>

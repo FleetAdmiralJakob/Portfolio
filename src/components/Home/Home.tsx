@@ -1,5 +1,6 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
+// @ts-ignore
 import homeLogo from "../../Assets/home-main.svg";
 import loadable from "@loadable/component";
 

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Col, Container, Row } from "react-bootstrap";
+// @ts-ignore
 import previewAbout from "../../Assets/previewAbout2.png";
 import Tilt from "react-parallax-tilt";
 import Nav from "react-bootstrap/Nav";

@@ -1,5 +1,6 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
+// @ts-ignore
 import myImg from "../../Assets/avatar4.webp";
 import Tilt from "react-parallax-tilt";
 import { AiFillGithub } from "react-icons/ai";

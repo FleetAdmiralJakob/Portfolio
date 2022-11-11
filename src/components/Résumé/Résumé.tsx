@@ -1,7 +1,9 @@
 import React, { useEffect, useState } from 'react'
 import { Container, Row } from 'react-bootstrap'
 import Button from 'react-bootstrap/Button'
+// @ts-ignore
 import pdf_de from '../../Assets/../Assets/Résumé_de_Jakob_Rössner.pdf'
+// @ts-ignore
 import pdf_en from '../../Assets/../Assets/Résumé_en_Jakob_Rössner.pdf'
 import { AiOutlineDownload } from 'react-icons/ai'
 import { Document, Page, pdfjs } from 'react-pdf'
