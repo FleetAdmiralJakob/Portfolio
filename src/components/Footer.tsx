@@ -52,6 +52,13 @@ function Footer() {
           </ul>
         </Col>
       </Row>
+      <Row>
+        <Col md="4" className="footer-body">
+        </Col>
+        <Col md="4" className="footer-body">
+          <h3>Thank you for visiting my website!</h3>
+        </Col>
+      </Row>
     </Container>
   );
 }

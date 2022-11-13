@@ -17,6 +17,7 @@ import "./style.scss";
 import "./App.scss";
 import "bootstrap/dist/css/bootstrap.min.css";
 import ContactMe from "./components/Home/ContactMe";
+import Imprint from "./components/Legal/Imprint";
 
 function App() {
   const [load, updateLoad] = useState(true);
@@ -41,6 +42,8 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/resume" element={<Résumé />} />
           <Route path="/contactme" element={<ContactMe />} />
+          //Legal
+          <Route path="/imprint" element={<Imprint />} />
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
         <Footer />
