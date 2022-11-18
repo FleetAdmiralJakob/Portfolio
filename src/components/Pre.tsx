@@ -1,7 +1,11 @@
 import React from "react";
 
 function Pre(props) {
-  return <div id={props.load ? "preloader" : "preloader-none"} />;
+  // This code loads a preloader when the page is loading
+  // The preloader is defined in the .css file
+  const { load } = props;
+  const id = load ? "preloader" : "preloader-none";
+  return <div id={id} />;
 }
 
 export default Pre;
