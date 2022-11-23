@@ -1,14 +1,14 @@
 html {
   --section-background-color: linear-gradient(
-                  to bottom left,
-                  rgba(17, 16, 16, 0.582),
-                  rgba(12, 8, 24, 0.904)
+    to bottom left,
+    rgba(17, 16, 16, 0.582),
+    rgba(12, 8, 24, 0.904)
   );
 
   --image-gradient: linear-gradient(
-                  to bottom left,
-                  rgba(17, 16, 16, 0.678),
-                  rgba(12, 10, 22, 0.863)
+    to bottom left,
+    rgba(17, 16, 16, 0.678),
+    rgba(12, 10, 22, 0.863)
   );
 
   --imp-text-color: #c770f0;
@@ -21,7 +21,10 @@ html {
 }
 
 .purple:hover {
-  background: -webkit-linear-gradient(var(--imp-text-color) 0%, var(--imp-text-color3) 100%);
+  background: -webkit-linear-gradient(
+    var(--imp-text-color) 0%,
+    var(--imp-text-color3) 100%
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -868,7 +871,7 @@ button:focus {
 
 .tech-icons-node:hover {
   @include tech-icons-hover;
-  color: rgb(102, 159, 100)
+  color: rgb(102, 159, 100);
 }
 
 .tech-icons-react {
@@ -877,7 +880,7 @@ button:focus {
 
 .tech-icons-react:hover {
   @include tech-icons-hover;
-  color: rgb(90, 218, 253)
+  color: rgb(90, 218, 253);
 }
 
 .tech-icons-wordpress {
@@ -886,7 +889,7 @@ button:focus {
 
 .tech-icons-wordpress:hover {
   @include tech-icons-hover;
-  color: rgb(76, 169, 201)
+  color: rgb(76, 169, 201);
 }
 
 .tech-icons-csharp {
@@ -895,7 +898,7 @@ button:focus {
 
 .tech-icons-csharp:hover {
   @include tech-icons-hover;
-  color: rgb(102, 32, 121)
+  color: rgb(102, 32, 121);
 }
 
 .tech-icons-git {
@@ -904,7 +907,7 @@ button:focus {
 
 .tech-icons-git:hover {
   @include tech-icons-hover;
-  color: rgb(233, 79, 50)
+  color: rgb(233, 79, 50);
 }
 
 .tech-icons-vscode {
@@ -913,7 +916,7 @@ button:focus {
 
 .tech-icons-vscode:hover {
   @include tech-icons-hover;
-  color: rgb(69, 173, 244)
+  color: rgb(69, 173, 244);
 }
 
 .tech-icons-windows {
@@ -922,7 +925,7 @@ button:focus {
 
 .tech-icons-windows:hover {
   @include tech-icons-hover;
-  color: rgb(20, 122, 214)
+  color: rgb(20, 122, 214);
 }
 
 .tech-icons-office {
@@ -931,7 +934,7 @@ button:focus {
 
 .tech-icons-office:hover {
   @include tech-icons-hover;
-  color: rgb(233, 60, 1)
+  color: rgb(233, 60, 1);
 }
 
 .tech-icons-adobe {
@@ -940,7 +943,7 @@ button:focus {
 
 .tech-icons-adobe:hover {
   @include tech-icons-hover;
-  color: rgb(255, 13, 27)
+  color: rgb(255, 13, 27);
 }
 
 .tech-description {
