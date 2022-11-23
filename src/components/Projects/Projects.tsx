@@ -4,7 +4,7 @@ import ProjectCard from "./ProjectCards";
 // @ts-ignore
 import steampunk from "../../Assets/Projects/steampunk.png";
 // @ts-ignore
-import biggernumber from "../../Assets/Projects/biggernumber.png";
+import biggernumber from "../../Assets/Projects/biggernumber2.png";
 // @ts-ignore
 import tippy from "../../Assets/Projects/tippy2.png";
 // @ts-ignore

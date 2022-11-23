@@ -943,6 +943,23 @@ button:focus {
   color: rgb(255, 13, 27)
 }
 
+.tech-description {
+  font-size: 0.4em !important;
+  font-weight: 500 !important;
+  padding-top: 3px !important;
+  /* Make it transparent */
+    color: rgba(255, 255, 255, 0.0) !important;
+  transition: all 0.4s ease 0s !important;
+}
+
+.tech-description:hover {
+  font-size: 0.4em !important;
+  font-weight: 500 !important;
+  padding-top: 3px !important;
+    /* Make it opaque */
+        color: rgba(255, 255, 255, 1.0) !important;
+}
+
 .tech-icon-images {
   padding: 20px !important;
   line-height: 1.6 !important;

@@ -103,6 +103,11 @@ function About() {
             alt="about"
             className="img-fluid"
         />{" "}
+        <br />
+        <br />
+        <p>
+            <strong className="purple">Note:</strong> Please note that by far not all of my activity is considered by Wakatime.
+        </p>
       </Container>
     </Container>
   );
