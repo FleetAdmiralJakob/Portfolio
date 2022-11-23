@@ -1,14 +1,14 @@
 html {
   --section-background-color: linear-gradient(
-    to bottom left,
-    rgba(17, 16, 16, 0.582),
-    rgba(12, 8, 24, 0.904)
+                  to bottom left,
+                  rgba(17, 16, 16, 0.582),
+                  rgba(12, 8, 24, 0.904)
   );
 
   --image-gradient: linear-gradient(
-    to bottom left,
-    rgba(17, 16, 16, 0.678),
-    rgba(12, 10, 22, 0.863)
+                  to bottom left,
+                  rgba(17, 16, 16, 0.678),
+                  rgba(12, 10, 22, 0.863)
   );
 
   --imp-text-color: #c770f0;
@@ -21,7 +21,9 @@ html {
 }
 
 .purple:hover {
-  color: var(--imp-text-color2) !important;
+  background: -webkit-linear-gradient(var(--imp-text-color) 0%, var(--imp-text-color3) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 button:focus {
@@ -798,7 +800,7 @@ button:focus {
   color: white !important;
 }
 
-.tech-icons {
+@mixin tech-icons {
   font-size: 4.5em !important;
   margin: 15px !important;
   padding: 10px !important;
@@ -813,16 +815,132 @@ button:focus {
   transition: all 0.4s ease 0s !important;
 }
 
+@mixin tech-icons-hover {
+  transform: scale(1.05) !important;
+  overflow: hidden !important;
+  border: 2px solid rgba(197, 115, 230, 0.883) !important;
+}
+
+.tech-icons {
+  @include tech-icons;
+}
+
 @media (max-width: 767px) {
   .tech-icons {
+    margin: 10px !important;
+  }
+  .tech-icons-node {
+    margin: 10px !important;
+  }
+  .tech-icons-react {
+    margin: 10px !important;
+  }
+  .tech-icons-wordpress {
+    margin: 10px !important;
+  }
+  .tech-icons-csharp {
+    margin: 10px !important;
+  }
+  .tech-icons-git {
+    margin: 10px !important;
+  }
+  .tech-icons-vscode {
+    margin: 10px !important;
+  }
+  .tech-icons-windows {
+    margin: 10px !important;
+  }
+  .tech-icons-office {
+    margin: 10px !important;
+  }
+  .tech-icons-adobe {
     margin: 10px !important;
   }
 }
 
 .tech-icons:hover {
-  transform: scale(1.05) !important;
-  overflow: hidden !important;
-  border: 2px solid rgba(197, 115, 230, 0.883) !important;
+  @include tech-icons-hover;
+}
+
+.tech-icons-node {
+  @include tech-icons;
+}
+
+.tech-icons-node:hover {
+  @include tech-icons-hover;
+  color: rgb(102, 159, 100)
+}
+
+.tech-icons-react {
+  @include tech-icons;
+}
+
+.tech-icons-react:hover {
+  @include tech-icons-hover;
+  color: rgb(90, 218, 253)
+}
+
+.tech-icons-wordpress {
+  @include tech-icons;
+}
+
+.tech-icons-wordpress:hover {
+  @include tech-icons-hover;
+  color: rgb(76, 169, 201)
+}
+
+.tech-icons-csharp {
+  @include tech-icons;
+}
+
+.tech-icons-csharp:hover {
+  @include tech-icons-hover;
+  color: rgb(102, 32, 121)
+}
+
+.tech-icons-git {
+  @include tech-icons;
+}
+
+.tech-icons-git:hover {
+  @include tech-icons-hover;
+  color: rgb(233, 79, 50)
+}
+
+.tech-icons-vscode {
+  @include tech-icons;
+}
+
+.tech-icons-vscode:hover {
+  @include tech-icons-hover;
+  color: rgb(69, 173, 244)
+}
+
+.tech-icons-windows {
+  @include tech-icons;
+}
+
+.tech-icons-windows:hover {
+  @include tech-icons-hover;
+  color: rgb(20, 122, 214)
+}
+
+.tech-icons-office {
+  @include tech-icons;
+}
+
+.tech-icons-office:hover {
+  @include tech-icons-hover;
+  color: rgb(233, 60, 1)
+}
+
+.tech-icons-adobe {
+  @include tech-icons;
+}
+
+.tech-icons-adobe:hover {
+  @include tech-icons-hover;
+  color: rgb(255, 13, 27)
 }
 
 .tech-icon-images {

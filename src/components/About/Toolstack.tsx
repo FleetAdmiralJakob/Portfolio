@@ -15,13 +15,13 @@ function Toolstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiLinux />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xs={4} md={2} className="tech-icons-vscode">
         <SiVisualstudiocode />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiJetbrains />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xs={4} md={2} className="tech-icons-windows">
         <SiWindows />
       </Col>
       <Col xs={4} md={2} className="tech-icons">

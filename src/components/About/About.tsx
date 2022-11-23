@@ -64,7 +64,7 @@ function About() {
         <br />
         <br />
         <img
-          src="https://github-readme-stats.vercel.app/api/top-langs/?username=fleetadmiraljakob&title_color=c770f0&icon_color=5d417a&text_color=ebebeb&bg_color=0a0e12&show_icons=true&count_private=true"
+          src="https://github-readme-stats.vercel.app/api/top-langs/?username=fleetadmiraljakob&title_color=c770f0&icon_color=5d417a&text_color=ebebeb&bg_color=0a0e12&show_icons=true&count_private=true&langs_count=6"
           alt="about"
           className="img-fluid"
         />{" "}
@@ -91,6 +91,18 @@ function About() {
             </a>
           </li>
         </ul>
+        <br />
+        <br />
+        <br />
+        <h1>
+          Other <strong className="purple">Stats</strong>
+        </h1>
+        <br />
+        <img
+            src="https://github-readme-stats.vercel.app/api/wakatime?username=FleetAdmiralJakob&title_color=c770f0&icon_color=5d417a&text_color=ebebeb&bg_color=0a0e12&layout=compact&hide=other&langs_count=20&all_time&custom_title=Wakatime%20Stats%20(Top%2020%20Langs)"
+            alt="about"
+            className="img-fluid"
+        />{" "}
       </Container>
     </Container>
   );
