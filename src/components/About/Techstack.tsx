@@ -12,7 +12,7 @@ function Techstack() {
             </Col>
             <Col xs={4} md={2} className="tech-icons-react">
                 <DiReact/>
-                <div className="tech-description">React.js</div>
+                <div className="tech-description">ReactJS</div>
             </Col>
             <Col xs={4} md={2} className="tech-icons-wordpress">
                 <DiWordpress/>
