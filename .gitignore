@@ -29,3 +29,6 @@ yarn-error.log*
 
 backend/node_modules
 Server/config.js
+
+/cypress
+cypress.config.ts
