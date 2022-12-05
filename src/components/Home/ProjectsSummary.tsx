@@ -1,7 +1,7 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 // @ts-ignore
-import previewProjects from "../../Assets/previewProjects.png";
+import previewProjects from "../../Assets/previewProjects.webp";
 import Tilt from "react-parallax-tilt";
 import Nav from "react-bootstrap/Nav";
 import { Link } from "react-router-dom";
@@ -30,9 +30,9 @@ function AboutSummary() {
               <br />
               Some of them are: <br /> <br />
               <ul>
-                <ImPointRight /> A Steampunk Game <br />
-                <ImPointRight /> A Tip Calculator <br />
-                <ImPointRight /> A few Minecraft Mods <br /> <br />
+                <li className="basic-list"><ImPointRight /> A Steampunk Game</li> <br />
+                <li className="basic-list"><ImPointRight /> A Tip Calculator</li> <br />
+                <li className="basic-list"><ImPointRight /> A few Minecraft Mods</li> <br /> <br />
               </ul>
               In the case of the Minecraft Mods, they were my{" "}
               <span className="purple"> first projects</span> in relationship to
@@ -49,6 +49,7 @@ function AboutSummary() {
                 src={previewProjects}
                 className="img-fluid"
                 alt="previewProjects"
+                style={{ borderRadius: "20px" }}
               />
             </Tilt>
           </Col>

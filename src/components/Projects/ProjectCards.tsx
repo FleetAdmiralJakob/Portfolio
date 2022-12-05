@@ -13,16 +13,29 @@ function ProjectCards(props) {
         <Card.Text style={{ textAlign: "justify" }}>
           {props.description}
         </Card.Text>
-        {props.ghLink && (
+
+          {props.labelsfirstclass && props.labelssecondclass && (
+              <div className="project-card-footer">
+                  {props.labelsfirstclass.map((label) => {
+                          return <span className="project-card-footer-label-first">{label}</span>
+                      }
+                  )}
+                  {props.labelssecondclass.map((label) => {
+                          return <span className="project-card-footer-label-second">{label}</span>
+                      }
+                  )}
+              </div>
+          )}
+
+          {props.ghLink && (
           <Button variant="primary" href={props.ghLink} target="_blank">
             <BsGithub /> &nbsp;
             {props.isBlog ? "Blog" : "GitHub"}
           </Button>
         )}
-        {"\n"}
-        {"\n"}
 
-        {/* If the component contains Demo link and if it's not a Blog then, it will render the below component  */}
+        {"\n"}
+        {"\n"}
 
         {!props.isBlog && props.demoLink && (
           <Button

@@ -8,7 +8,7 @@ const Particle = loadable(() => import("../Particle"));
 const Home2 = loadable(() => import("./Home2"));
 const AboutSummary = loadable(() => import("./AboutSummary"));
 const ProjectsSummary = loadable(() => import("./ProjectsSummary"));
-const ContactMe = loadable(() => import("./ContactMe"));
+const ContactMe = loadable(() => import("../ContactMe"));
 const Type = loadable(() => import("./Type"));
 
 function Home() {

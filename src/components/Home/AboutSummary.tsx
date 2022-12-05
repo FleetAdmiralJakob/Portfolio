@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 // @ts-ignore
-import previewAbout from "../../Assets/previewAbout2.png";
+import previewAbout from "../../Assets/previewAbout2.webp";
 import Tilt from "react-parallax-tilt";
 import Nav from "react-bootstrap/Nav";
 import { Link } from "react-router-dom";
@@ -34,6 +34,7 @@ function AboutSummary() {
                 src={previewAbout}
                 className="img-fluid"
                 alt="previewAbout"
+                style={{ borderRadius: "20px" }}
               />
             </Tilt>
           </Col>

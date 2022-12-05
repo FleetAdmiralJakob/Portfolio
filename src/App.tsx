@@ -16,7 +16,7 @@ import ScrollToTop from "./components/ScrollToTop";
 import "./style.scss";
 import "./App.scss";
 import "bootstrap/dist/css/bootstrap.min.css";
-import ContactMe from "./components/Home/ContactMe";
+import ContactMe from "./components/ContactMe";
 import Imprint from "./components/Legal/Imprint";
 
 function App() {

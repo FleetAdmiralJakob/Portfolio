@@ -27,6 +27,7 @@ function Footer() {
                 className="footer-icon"
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="GitHub"
               >
                 <AiFillGithub />
               </a>
@@ -37,6 +38,7 @@ function Footer() {
                 className="footer-icon"
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="LinkedIn"
               >
                 <FaLinkedinIn />
               </a>
@@ -45,6 +47,7 @@ function Footer() {
               <a
                 href="mailto:jakob.roessner@outlook.de"
                 className="footer-icon"
+                aria-label="Mail Me"
               >
                 <FaMailBulk />
               </a>

@@ -4,7 +4,7 @@ import {AiFillGithub, AiFillHome, AiFillMail, AiFillPhone} from "react-icons/ai"
 import {FaLinkedinIn} from "react-icons/fa";
 import loadable from "@loadable/component";
 
-const Particle = loadable(() => import("../Particle"));
+const Particle = loadable(() => import("./Particle"));
 
 function ContactMe() {
     return (
@@ -28,10 +28,10 @@ function ContactMe() {
                             jakob.roessner@outlook.de{" "}
                         </a>{" "}
                         <br/>
-                        <AiFillHome/> <b>Adress:</b> 15755, Teupitz ST Tornow, Germany <br/>
+                        <AiFillHome/> <b>Address:</b> 15755, Teupitz ST Tornow, Germany <br/>
                     </p>
                     <p>
-                        <h3>Get in touch with me on:</h3>
+                        <h2>Get in touch with me on:</h2>
                         <ul className="contact-links">
                             <li className="social-icons">
                                 <a
@@ -39,6 +39,7 @@ function ContactMe() {
                                     target="_blank"
                                     rel="noreferrer"
                                     className="icon-colour  home-social-icons"
+                                    aria-label="GitHub"
                                 >
                                     <AiFillGithub/>
                                 </a>
@@ -49,6 +50,7 @@ function ContactMe() {
                                     target="_blank"
                                     rel="noreferrer"
                                     className="icon-colour  home-social-icons"
+                                    aria-label="LinkedIn"
                                 >
                                     <FaLinkedinIn/>
                                 </a>

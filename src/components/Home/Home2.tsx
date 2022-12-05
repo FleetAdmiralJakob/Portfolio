@@ -39,6 +39,7 @@ function Home2() {
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
+                  aria-label="GitHub"
                 >
                   <AiFillGithub />
                 </a>
@@ -49,6 +50,7 @@ function Home2() {
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
+                  aria-label="LinkedIn"
                 >
                   <FaLinkedinIn />
                 </a>
@@ -57,6 +59,7 @@ function Home2() {
                 <a
                   href="mailto:jakob.roessner@outlook.de"
                   className="icon-colour  home-social-icons"
+                  aria-label="Mail me"
                 >
                   <FaMailBulk />
                 </a>

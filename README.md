@@ -36,7 +36,7 @@ GitHub projects as well as my resume and technical skills.<br/>
 
 This project was built using these technologies.
 
-- React.js
+- ReactJS
 - Node.js
 - Express.js
 - CSS3

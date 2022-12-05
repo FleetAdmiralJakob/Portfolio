@@ -326,7 +326,7 @@ button:focus {
 .home-section {
   position: relative;
   z-index: -1;
-  background-image: var(--image-gradient), url(Assets/home-bg.jpg);
+  background-image: var(--image-gradient), url(Assets/home-bg.webp);
   background-position: top center;
   background-repeat: no-repeat;
   padding-bottom: 30px !important;
@@ -791,6 +791,47 @@ button:focus {
   padding-top: 10px !important;
 }
 
+.project-card-footer {
+  padding: 20px !important;
+  text-align: left !important;
+}
+
+@mixin project-card-footer-label {
+    font-size: 1.2em !important;
+    font-weight: 500 !important;
+    white-space: nowrap;
+    color: white !important;
+    background-color: white !important;
+    border-radius: 5px !important;
+    margin: 10px 7px 7px 10px !important;
+    padding: 3px 10px !important;
+    line-height: 2 !important;
+}
+
+@mixin project-card-footer-label-hover {
+  background-color: #6d20c5d7 !important;
+  transition: ease 0.5s !important;
+}
+
+.project-card-footer-label-first {
+  @include project-card-footer-label;
+  background-color: rgb(233, 79, 50) !important;
+}
+
+.project-card-footer-label-first:hover {
+  @include project-card-footer-label-hover;
+}
+
+.project-card-footer-label-second {
+    @include project-card-footer-label;
+    background-color: rgb(102, 159, 100) !important;
+}
+
+.project-card-footer-label-second:hover {
+  @include project-card-footer-label-hover;
+  background-color: rgba(133, 62, 215, 0.84) !important;
+}
+
 /* --------- */
 /* About */
 /* --------- */
@@ -1141,4 +1182,8 @@ button:focus {
   width: 30% !important;
   height: 100% !important;
   vertical-align: center !important;
+}
+
+.basic-list {
+  list-style: none !important;
 }
