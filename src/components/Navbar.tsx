@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
+// @ts-ignore
 import logo from "../Assets/logo.png";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
@@ -13,6 +14,7 @@ import {
   AiOutlineUser,
 } from "react-icons/ai";
 import { SiGithub } from "react-icons/si";
+import { Picture } from 'react-optimized-images';
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -37,11 +39,12 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="/" className="d-flex">
-          <img src={logo} className="logo" alt="brand" />
+          <Picture src={logo} className="logo" alt="brand" />
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
           onClick={() => {
+            // @ts-ignore
             updateExpanded(expand ? false : "expanded");
           }}
         >

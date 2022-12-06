@@ -6,6 +6,7 @@ import Tilt from "react-parallax-tilt";
 import Nav from "react-bootstrap/Nav";
 import { Link } from "react-router-dom";
 import { AiOutlineUser } from "react-icons/ai";
+import { Picture } from 'react-optimized-images';
 
 function AboutSummary() {
   const [navColour] = useState(false);
@@ -30,7 +31,7 @@ function AboutSummary() {
           </Col>
           <Col md={4} className="previewAbout">
             <Tilt>
-              <img
+              <Picture
                 src={previewAbout}
                 className="img-fluid"
                 alt="previewAbout"

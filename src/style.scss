@@ -811,6 +811,7 @@ button:focus {
 @mixin project-card-footer-label-hover {
   background-color: #6d20c5d7 !important;
   transition: ease 0.5s !important;
+  cursor: pointer !important;
 }
 
 .project-card-footer-label-first {

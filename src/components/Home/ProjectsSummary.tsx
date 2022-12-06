@@ -7,6 +7,7 @@ import Nav from "react-bootstrap/Nav";
 import { Link } from "react-router-dom";
 import { AiOutlineFundProjectionScreen } from "react-icons/ai";
 import { ImPointRight } from "react-icons/im";
+import { Picture } from 'react-optimized-images';
 
 function AboutSummary() {
   return (
@@ -45,7 +46,7 @@ function AboutSummary() {
           </Col>
           <Col md={4} className="previewProjects">
             <Tilt>
-              <img
+              <Picture
                 src={previewProjects}
                 className="img-fluid"
                 alt="previewProjects"
