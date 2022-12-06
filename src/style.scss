@@ -797,15 +797,15 @@ button:focus {
 }
 
 @mixin project-card-footer-label {
-    font-size: 1.2em !important;
-    font-weight: 500 !important;
-    white-space: nowrap;
-    color: white !important;
-    background-color: white !important;
-    border-radius: 5px !important;
-    margin: 10px 7px 7px 10px !important;
-    padding: 3px 10px !important;
-    line-height: 2 !important;
+  font-size: 1.2em !important;
+  font-weight: 500 !important;
+  white-space: nowrap;
+  color: white !important;
+  background-color: white !important;
+  border-radius: 5px !important;
+  margin: 10px 7px 7px 10px !important;
+  padding: 3px 10px !important;
+  line-height: 2 !important;
 }
 
 @mixin project-card-footer-label-hover {
@@ -824,8 +824,8 @@ button:focus {
 }
 
 .project-card-footer-label-second {
-    @include project-card-footer-label;
-    background-color: rgb(102, 159, 100) !important;
+  @include project-card-footer-label;
+  background-color: rgb(102, 159, 100) !important;
 }
 
 .project-card-footer-label-second:hover {
