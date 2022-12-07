@@ -27,6 +27,7 @@ html {
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  cursor: default;
 }
 
 button:focus {
@@ -197,7 +198,7 @@ button:focus {
   text-decoration: underline;
   text-decoration-thickness: 5px;
   text-decoration-color: var(--imp-text-color3);
-  transition: 300ms ease-in-out;
+  transition: 600ms ease;
 }
 
 .link2:hover {
@@ -864,6 +865,7 @@ button:focus {
   transform: scale(1.05) !important;
   overflow: hidden !important;
   border: 2px solid rgba(197, 115, 230, 0.883) !important;
+  box-shadow: 6px 7px 6px 5px rgba(89, 4, 168, 0.183) !important;
 }
 
 .tech-icons {

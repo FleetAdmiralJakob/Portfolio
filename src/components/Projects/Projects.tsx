@@ -37,7 +37,7 @@ function Projects() {
             <ProjectCard
               imgPath={steampunk}
               isBlog={false}
-              labelsfirstclass={["Web"]}
+              labelsfirstclass={["Web 🌐"]}
               labelssecondclass={["Javascript", "CSS3", "HTML5"]}
               title="A Steampunk Game"
               description="A small game created by me with Javascript, CSS and HTML."
@@ -49,7 +49,7 @@ function Projects() {
             <ProjectCard
               imgPath={biggernumber}
               isBlog={false}
-              labelsfirstclass={["Android", "Mobile"]}
+              labelsfirstclass={["Mobile 📱", "Android"]}
               labelssecondclass={["Java", "Kotlin"]}
               title="Bigger Number Game"
               description="A simple Android app to demonstrate the use of Kotlin in Android app development. The user are presented 2 numbers on buttons- depending on if the larger number was clicked, the background color will change."
@@ -61,7 +61,7 @@ function Projects() {
             <ProjectCard
               imgPath={tippy}
               isBlog={false}
-              labelsfirstclass={["Android", "Mobile"]}
+              labelsfirstclass={["Mobile 📱", "Android"]}
               labelssecondclass={["Java", "Kotlin"]}
               title="Tippy"
               description="A tip calculator (for Android)!"
