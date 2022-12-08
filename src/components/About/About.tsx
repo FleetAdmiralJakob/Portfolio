@@ -42,11 +42,11 @@ function About() {
         <h1 className="project-heading">
           My <strong className="purple">Skillset </strong>
         </h1>
-        <Techstack />
+        <Techstack /> <br /> <br /> <br />
         <h1 className="project-heading">
           <strong className="purple">Tools</strong> I use
         </h1>
-        <Toolstack />
+        <Toolstack /> <br />
         <h1 className="project-heading">
           <strong className="purple">Other</strong> Skills
         </h1>
