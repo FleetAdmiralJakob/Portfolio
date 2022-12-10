@@ -552,7 +552,7 @@ button:focus {
 }
 
 .home-social-icons::before {
-    @include social-icons-before;
+  @include social-icons-before;
 }
 
 .contact-social-icons {
@@ -569,7 +569,7 @@ button:focus {
 }
 
 .contact-social-icons::before {
-    @include social-icons-before;
+  @include social-icons-before;
 }
 
 .footer-icon {
@@ -925,7 +925,7 @@ button:focus {
 
 .tech-icons-javascript:hover {
   @include tech-icons-hover;
-  color: rgb(240,219,79);
+  color: rgb(240, 219, 79);
 }
 
 .tech-icons-typescript {
@@ -934,7 +934,7 @@ button:focus {
 
 .tech-icons-typescript:hover {
   @include tech-icons-hover;
-  color: rgb(0,122,205);
+  color: rgb(0, 122, 205);
 }
 
 .tech-icons-react {
@@ -952,7 +952,7 @@ button:focus {
 
 .tech-icons-wordpress:hover {
   @include tech-icons-hover;
-  color: rgb(1,117,168)
+  color: rgb(1, 117, 168);
 }
 
 .tech-icons-csharp {
@@ -1068,9 +1068,9 @@ button:focus {
 }
 
 .resume-document {
-    padding: 2px !important;
-    border-radius: 5px !important;
-    box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
+  padding: 2px !important;
+  border-radius: 5px !important;
+  box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
 }
 
 .resume-left {
