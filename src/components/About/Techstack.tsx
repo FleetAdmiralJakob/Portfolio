@@ -1,5 +1,5 @@
 import React from "react";
-import {Col, Row, Container} from "react-bootstrap";
+import {Col, Container, Row} from "react-bootstrap";
 import {DiGit, DiGithubBadge, DiJava, DiNodejsSmall, DiReact, DiWordpress,} from "react-icons/di";
 import {SiCsharp, SiJavascript, SiJson, SiKotlin, SiMarkdown, SiTypescript} from "react-icons/si";
 
