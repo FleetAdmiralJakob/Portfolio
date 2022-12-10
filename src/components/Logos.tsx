@@ -1,6 +1,6 @@
 import React from 'react';
 import StandardLogo from './StandardLogo';
-import { AiFillStar } from 'react-icons/ai';
+import {AiFillStar} from 'react-icons/ai';
 
 class Logos extends React.Component {
     state: { currentLogo: number, stars: any } = {

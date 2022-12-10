@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, {useEffect, useState} from "react";
 import Preloader from "./components/Pre";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home/Home";
@@ -6,12 +6,7 @@ import About from "./components/About/About";
 import Résumé from "./components/Résumé/Résumé";
 import Projects from "./components/Projects/Projects";
 import Footer from "./components/Footer";
-import {
-  BrowserRouter as Router,
-  Navigate,
-  Route,
-  Routes,
-} from "react-router-dom";
+import {BrowserRouter as Router, Navigate, Route, Routes,} from "react-router-dom";
 import ScrollToTop from "./components/ScrollToTop";
 import "./style.scss";
 import "./App.scss";

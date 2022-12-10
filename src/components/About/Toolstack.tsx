@@ -1,13 +1,6 @@
 import React from "react";
 import {Col, Container, Row} from "react-bootstrap";
-import {
-  SiAndroidstudio,
-  SiFigma,
-  SiJetbrains,
-  SiLinux,
-  SiVisualstudiocode,
-  SiWindows,
-} from "react-icons/si";
+import {SiAndroidstudio, SiFigma, SiJetbrains, SiLinux, SiVisualstudiocode, SiWindows,} from "react-icons/si";
 
 function Toolstack() {
   return (
