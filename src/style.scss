@@ -537,7 +537,7 @@ button:focus {
   transition: 0.5s !important;
 }
 
-.home-social-icons::before {
+@mixin social-icons-before {
   content: "";
   position: absolute;
   top: 0;
@@ -549,6 +549,10 @@ button:focus {
   transition: 0.5s;
   transform: scale(0.9);
   z-index: -1;
+}
+
+.home-social-icons::before {
+    @include social-icons-before;
 }
 
 .contact-social-icons {
@@ -565,17 +569,7 @@ button:focus {
 }
 
 .contact-social-icons::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border-radius: 50%;
-  background: #68187a;
-  transition: 0.5s;
-  transform: scale(0.9);
-  z-index: -1;
+    @include social-icons-before;
 }
 
 .footer-icon {
@@ -714,18 +708,19 @@ button:focus {
 }
 
 .image-card-view {
-  box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459) !important;
+  box-shadow: 0 2px 2px 2px rgba(129, 72, 144, 0.561) !important;
   color: white !important;
   background-color: transparent !important;
   opacity: 0.9 !important;
   transition: all 0.5s ease 0s !important;
   height: 20% !important;
+  border-radius: 3px !important;
 }
 
 .image-card-view:hover {
   transform: scale(1.02) !important;
   overflow: hidden !important;
-  box-shadow: 0 2px 2px 2px rgba(129, 72, 144, 0.561) !important;
+  box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459) !important;
 }
 
 .blog-card {
@@ -876,6 +871,12 @@ button:focus {
   .tech-icons {
     margin: 10px !important;
   }
+  .tech-icons-javascript {
+    margin: 0 !important;
+  }
+  .tech-icons-typescript {
+    margin: 0 !important;
+  }
   .tech-icons-node {
     margin: 10px !important;
   }
@@ -918,6 +919,24 @@ button:focus {
   color: rgb(102, 159, 100);
 }
 
+.tech-icons-javascript {
+  @include tech-icons;
+}
+
+.tech-icons-javascript:hover {
+  @include tech-icons-hover;
+  color: rgb(240,219,79);
+}
+
+.tech-icons-typescript {
+  @include tech-icons;
+}
+
+.tech-icons-typescript:hover {
+  @include tech-icons-hover;
+  color: rgb(0,122,205);
+}
+
 .tech-icons-react {
   @include tech-icons;
 }
@@ -933,7 +952,7 @@ button:focus {
 
 .tech-icons-wordpress:hover {
   @include tech-icons-hover;
-  color: rgb(76, 169, 201);
+  color: rgb(1,117,168)
 }
 
 .tech-icons-csharp {
@@ -1046,6 +1065,12 @@ button:focus {
   padding-top: 50px;
   padding-bottom: 50px;
   justify-content: center;
+}
+
+.resume-document {
+    padding: 2px !important;
+    border-radius: 5px !important;
+    box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
 }
 
 .resume-left {

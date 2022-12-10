@@ -36,7 +36,7 @@ function ResumeNew () {
             German <strong className='purple'>Résumé</strong>
           </h1>
           <Document file={resumeLink_de} className='d-flex justify-content-center'>
-            <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
+            <Page className="resume-document" pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
           </Document>
         </Row>
 
@@ -57,7 +57,7 @@ function ResumeNew () {
             English <strong className='purple'>Résumé</strong>
           </h1>
           <Document file={resumeLink_en} className='d-flex justify-content-center'>
-            <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
+            <Page className="resume-document" pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
           </Document>
         </Row>
 

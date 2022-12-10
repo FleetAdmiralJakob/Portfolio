@@ -6,15 +6,14 @@ import Container from "react-bootstrap/Container";
 import logo from "../Assets/logo.png";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
-import { CgFileDocument, CgGitFork, CgMail } from "react-icons/cg";
+import { CgFileDocument, CgMail } from "react-icons/cg";
 import {
-  AiFillStar,
   AiOutlineFundProjectionScreen,
   AiOutlineHome,
   AiOutlineUser,
 } from "react-icons/ai";
-import { SiGithub } from "react-icons/si";
 import { Picture } from 'react-optimized-images';
+import Logos from "./Logos";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -109,9 +108,7 @@ function NavBar() {
                 target="_blank"
                 className="fork-btn-inner"
               >
-                <CgGitFork style={{ fontSize: "1.2em" }} />{" "}
-                <AiFillStar style={{ fontSize: "1.1em" }} /> &nbsp;{" "}
-                <SiGithub style={{ fontSize: "1.2em" }} />
+                <Logos />
               </Button>
             </Nav.Item>
           </Nav>

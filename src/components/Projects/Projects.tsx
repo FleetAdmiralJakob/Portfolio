@@ -37,7 +37,7 @@ function Projects() {
             <ProjectCard
               imgPath={steampunk}
               isBlog={false}
-              labelsfirstclass={["Web 🌐"]}
+              labelsfirstclass={["Web 🌐", "Game 🎮"]}
               labelssecondclass={["Javascript", "CSS3", "HTML5"]}
               title="A Steampunk Game"
               description="A small game created by me with Javascript, CSS and HTML."
@@ -49,8 +49,8 @@ function Projects() {
             <ProjectCard
               imgPath={biggernumber}
               isBlog={false}
-              labelsfirstclass={["Mobile 📱", "Android"]}
-              labelssecondclass={["Java", "Kotlin"]}
+              labelsfirstclass={["Mobile 📱", "Android", "Game 🎮"]}
+              labelssecondclass={["Java ☕", "Kotlin"]}
               title="Bigger Number Game"
               description="A simple Android app to demonstrate the use of Kotlin in Android app development. The user are presented 2 numbers on buttons- depending on if the larger number was clicked, the background color will change."
               ghLink="https://github.com/FleetAdmiralJakob/Bigger-Number-Game"
@@ -62,7 +62,7 @@ function Projects() {
               imgPath={tippy}
               isBlog={false}
               labelsfirstclass={["Mobile 📱", "Android"]}
-              labelssecondclass={["Java", "Kotlin"]}
+              labelssecondclass={["Java ☕", "Kotlin"]}
               title="Tippy"
               description="A tip calculator (for Android)!"
               ghLink="https://github.com/FleetAdmiralJakob/Tippy"
@@ -81,6 +81,8 @@ function Projects() {
               isBlog={false}
               title="Minecraft mods by mine!"
               description="On the site curseforge.com you can find some of my first projects. 2 years ago I built some Minecraft Mods in Java! Sometimes I update them to maintain my skills."
+              labelsfirstclass={["Modification(s)", "Game 🎮"]}
+              labelssecondclass={["Java ☕"]}
             />
           </Col>
           <div className="projects-social">
@@ -107,11 +109,11 @@ function Projects() {
           <p className="text-project-curseforge">
             ... These are:<br/> <br/> <br/>
             <ImPointRight /> <a href="https://www.curseforge.com/minecraft/mc-mods/uncraftables-new"> Uncraftables [NEW]</a>: Over 30,000 downloads <br />
-            <img src={uncraftables} alt="Uncraftables [New]" className="image-card-view"/> <br/> <br/>
+            <a href="https://www.curseforge.com/minecraft/mc-mods/uncraftables-new"><img src={uncraftables} alt="Uncraftables [New]" className="image-card-view"/></a> <br/> <br/>
             <ImPointRight /> <a href="https://www.curseforge.com/minecraft/mc-mods/myt"> Myt</a>: Over 350 downloads <br />
-            <img src={myt} alt="Myt" className="image-card-view"/> <br/> <br/>
+            <a href="https://www.curseforge.com/minecraft/mc-mods/myt"><img src={myt} alt="Myt" className="image-card-view"/></a> <br/> <br/>
             <ImPointRight /> <a href="https://www.curseforge.com/minecraft/mc-mods/vanilla-foods-enhanced-new"> Foods Enhanced</a>: Over 500 downloads <br />
-            <img src={foods} alt="Foods Enhanced" className="image-card-view"/> <br/> <br/>
+            <a href="https://www.curseforge.com/minecraft/mc-mods/vanilla-foods-enhanced-new"><img src={foods} alt="Foods Enhanced" className="image-card-view"/></a> <br/> <br/>
           </p>
         </Row>
       </Container>

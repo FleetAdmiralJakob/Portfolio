@@ -1,13 +1,21 @@
 import React from "react";
 import {Col, Row, Container} from "react-bootstrap";
 import {DiGit, DiGithubBadge, DiJava, DiNodejsSmall, DiReact, DiWordpress,} from "react-icons/di";
-import {SiCsharp, SiJson, SiKotlin, SiMarkdown} from "react-icons/si";
+import {SiCsharp, SiJavascript, SiJson, SiKotlin, SiMarkdown, SiTypescript} from "react-icons/si";
 
 function Techstack() {
     return (
         <Container>
             <h2>(Programming) <span className="purple">Languages</span></h2>
             <Row style={{justifyContent: "center", paddingBottom: "50px"}}>
+                <Col xs={4} md={2} className="tech-icons-javascript">
+                    <SiJavascript/>
+                    <div className="tech-description">JavaScript</div>
+                </Col>
+                <Col xs={4} md={2} className="tech-icons-typescript">
+                    <SiTypescript/>
+                    <div className="tech-description">Typescript</div>
+                </Col>
                 <Col xs={4} md={2} className="tech-icons">
                     <DiJava/>
                     <div className="tech-description">Java</div>
