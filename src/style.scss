@@ -871,11 +871,26 @@ button:focus {
   .tech-icons {
     margin: 10px !important;
   }
+  .tech-icons-html {
+    margin: 10px !important;
+  }
+  .tech-icons-css {
+    margin: 10px !important;
+  }
+  .tech-icons-sass {
+    margin: 10px !important;
+  }
+  .tech-icons-postcss {
+    margin: 10px !important;
+  }
+  .tech-icons-tailwind {
+    margin: 10px !important;
+  }
   .tech-icons-javascript {
-    margin: 0 !important;
+    margin: 10px !important;
   }
   .tech-icons-typescript {
-    margin: 0 !important;
+    margin: 10px !important;
   }
   .tech-icons-node {
     margin: 10px !important;
@@ -908,6 +923,51 @@ button:focus {
 
 .tech-icons:hover {
   @include tech-icons-hover;
+}
+
+.tech-icons-html {
+  @include tech-icons;
+}
+
+.tech-icons-html:hover {
+  @include tech-icons-hover;
+  color: #e34f32 !important;
+}
+
+.tech-icons-css {
+  @include tech-icons;
+}
+
+.tech-icons-css:hover {
+    @include tech-icons-hover;
+    color: #264de4 !important;
+}
+
+.tech-icons-sass {
+  @include tech-icons;
+}
+
+.tech-icons-sass:hover {
+    @include tech-icons-hover;
+    color: #cc6699 !important;
+}
+
+.tech-icons-postcss {
+  @include tech-icons;
+}
+
+.tech-icons-postcss:hover {
+    @include tech-icons-hover;
+    color: #dd3a0a !important;
+}
+
+.tech-icons-tailwind {
+  @include tech-icons;
+}
+
+.tech-icons-tailwind:hover {
+    @include tech-icons-hover;
+    color: #38b2ac !important;
 }
 
 .tech-icons-node {

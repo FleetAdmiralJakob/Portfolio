@@ -1,13 +1,31 @@
 import React from "react";
 import {Col, Container, Row} from "react-bootstrap";
-import {DiGit, DiGithubBadge, DiJava, DiNodejsSmall, DiReact, DiWordpress,} from "react-icons/di";
-import {SiCsharp, SiJavascript, SiJson, SiKotlin, SiMarkdown, SiTypescript} from "react-icons/si";
+import {DiGit, DiGithubBadge, DiJava, DiNodejsSmall, DiReact, DiSass, DiWordpress,} from "react-icons/di";
+import {
+    SiCsharp,
+    SiCss3,
+    SiHtml5,
+    SiJavascript,
+    SiJson,
+    SiKotlin,
+    SiMarkdown, SiNextdotjs,
+    SiPostcss, SiTailwindcss,
+    SiTypescript
+} from "react-icons/si";
 
 function Techstack() {
     return (
         <Container>
             <h2>(Programming) <span className="purple">Languages</span></h2>
             <Row style={{justifyContent: "center", paddingBottom: "50px"}}>
+                <Col xs={4} md={2} className="tech-icons-html">
+                    <SiHtml5/>
+                    <div className="tech-description">HTML</div>
+                </Col>
+                <Col xs={4} md={2} className="tech-icons-css">
+                    <SiCss3/>
+                    <div className="tech-description">CSS</div>
+                </Col>
                 <Col xs={4} md={2} className="tech-icons-javascript">
                     <SiJavascript/>
                     <div className="tech-description">JavaScript</div>
@@ -38,7 +56,7 @@ function Techstack() {
                 </Col>
             </Row>
             <h2>Other <span className="purple">Skills</span> (Frameworks etc.)</h2>
-            <Row>
+            <Row style={{justifyContent: "center", paddingBottom: "50px"}}>
                 <Col xs={4} md={2} className="tech-icons-node">
                     <DiNodejsSmall/>
                     <div className="tech-description">Node.js</div>
@@ -46,6 +64,10 @@ function Techstack() {
                 <Col xs={4} md={2} className="tech-icons-react">
                     <DiReact/>
                     <div className="tech-description">ReactJS</div>
+                </Col>
+                <Col xs={4} md={2} className="tech-icons">
+                    <SiNextdotjs/>
+                    <div className="tech-description">NextJS</div>
                 </Col>
                 <Col xs={4} md={2} className="tech-icons-wordpress">
                     <DiWordpress/>
@@ -58,6 +80,18 @@ function Techstack() {
                 <Col xs={4} md={2} className="tech-icons">
                     <DiGithubBadge/>
                     <div className="tech-description">GitHub</div>
+                </Col>
+                <Col xs={4} md={2} className="tech-icons-sass">
+                    <DiSass/>
+                    <div className="tech-description">Sass</div>
+                </Col>
+                <Col xs={4} md={2} className="tech-icons-postcss">
+                    <SiPostcss/>
+                    <div className="tech-description">PostCSS</div>
+                </Col>
+                <Col xs={4} md={2} className="tech-icons-tailwind">
+                    <SiTailwindcss/>
+                    <div className="tech-description">Tailwind</div>
                 </Col>
             </Row>
         </Container>
