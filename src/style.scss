@@ -939,8 +939,8 @@ button:focus {
 }
 
 .tech-icons-css:hover {
-    @include tech-icons-hover;
-    color: #264de4 !important;
+  @include tech-icons-hover;
+  color: #264de4 !important;
 }
 
 .tech-icons-sass {
@@ -948,8 +948,8 @@ button:focus {
 }
 
 .tech-icons-sass:hover {
-    @include tech-icons-hover;
-    color: #cc6699 !important;
+  @include tech-icons-hover;
+  color: #cc6699 !important;
 }
 
 .tech-icons-postcss {
@@ -957,8 +957,8 @@ button:focus {
 }
 
 .tech-icons-postcss:hover {
-    @include tech-icons-hover;
-    color: #dd3a0a !important;
+  @include tech-icons-hover;
+  color: #dd3a0a !important;
 }
 
 .tech-icons-tailwind {
@@ -966,8 +966,8 @@ button:focus {
 }
 
 .tech-icons-tailwind:hover {
-    @include tech-icons-hover;
-    color: #38b2ac !important;
+  @include tech-icons-hover;
+  color: #38b2ac !important;
 }
 
 .tech-icons-node {
