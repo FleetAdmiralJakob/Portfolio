@@ -9,10 +9,11 @@ import {AiOutlineDownload} from 'react-icons/ai'
 import {Document, Page, pdfjs} from 'react-pdf'
 import 'react-pdf/dist/esm/Page/AnnotationLayer.css'
 import loadable from '@loadable/component'
+import 'react-pdf/dist/esm/Page/TextLayer.css';
 
 const Particle = loadable(() => import('../Particle'))
 
-pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`
+pdfjs.GlobalWorkerOptions.workerSrc = `//unpkg.com/pdfjs-dist@${pdfjs.version}/build/pdf.worker.min.js`;
 
 const resumeLink_de =
     'https://raw.githubusercontent.com/FleetAdmiralJakob/Portfolio/e0299f2368df3da62cdc8707c7fb63713083cc34/src/Assets/R%C3%A9sum%C3%A9_de_Jakob_R%C3%B6ssner.pdf'
