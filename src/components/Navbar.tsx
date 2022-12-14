@@ -7,7 +7,7 @@ import logo from "../Assets/logo.png";
 import Button from "react-bootstrap/Button";
 import {Link} from "react-router-dom";
 import {CgFileDocument, CgMail} from "react-icons/cg";
-import {AiOutlineFundProjectionScreen, AiOutlineHome, AiOutlineUser,} from "react-icons/ai";
+import {AiOutlineFundProjectionScreen, AiOutlineHome, AiOutlineUser} from "react-icons/ai";
 import {Picture} from 'react-optimized-images';
 import Logos from "./Logos";
 
