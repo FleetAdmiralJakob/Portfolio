@@ -85,6 +85,8 @@ function Projects() {
               labelssecondclass={["Java ☕"]}
             />
           </Col>
+          </Row>
+          <Row>
           <div className="projects-social">
             <h4>MY CURSEFORGE ACCOUNT</h4>
             <p>
@@ -108,13 +110,22 @@ function Projects() {
           </li>
           <p className="text-project-curseforge">
             ... These are:<br/> <br/> <br/>
-            <ImPointRight /> <a href="https://www.curseforge.com/minecraft/mc-mods/uncraftables-new"> Uncraftables [NEW]</a>: Over 30,000 downloads <br />
-            <a href="https://www.curseforge.com/minecraft/mc-mods/uncraftables-new"><img src={uncraftables} alt="Uncraftables [New]" className="image-card-view"/></a> <br/> <br/>
+            <Col md={12}>
+              <ImPointRight /> <a href="https://www.curseforge.com/minecraft/mc-mods/uncraftables-new"> Uncraftables [NEW]</a>: Over 30,000 downloads <br />
+              <a href="https://www.curseforge.com/minecraft/mc-mods/uncraftables-new"><img src={uncraftables} alt="Uncraftables [New]" className="image-card-view"/></a> <br />
+              <div className="mod-description">A lot of Vanilla Minecraft items are <span className="purple">uncraftable</span> and some of them can only be obtained via grinding or <span className="purple">luck or once</span>. I want to change this, but I'm a big fan of balancing, so these items are still relatively hard to obtain in my opinion, even with this mod. If not make it hard, we may just play in Creative mode, right?</div> <br/> <br/>
+            </Col>
+            <Col md={12}>
             <ImPointRight /> <a href="https://www.curseforge.com/minecraft/mc-mods/myt"> Myt</a>: Over 400 downloads <br />
-            <a href="https://www.curseforge.com/minecraft/mc-mods/myt"><img src={myt} alt="Myt" className="image-card-view"/></a> <br/> <br/>
+            <a href="https://www.curseforge.com/minecraft/mc-mods/myt"><img src={myt} alt="Myt" className="image-card-view"/></a> <br />
+            <div className="mod-description">A mod with nice additions that improve your Minecraft experience with <span className="purple">new ores, new flowers, new tools, new music, new world generation,</span> and other cool stuff.</div> <br/> <br/>
+            </Col>
+            <Col md={12}>
             <ImPointRight /> <a href="https://www.curseforge.com/minecraft/mc-mods/vanilla-foods-enhanced-new"> Foods Enhanced</a>: Over 750 downloads <br />
-            <a href="https://www.curseforge.com/minecraft/mc-mods/vanilla-foods-enhanced-new"><img src={foods} alt="Foods Enhanced" className="image-card-view"/></a> <br/> <br/>
-          </p>
+            <a href="https://www.curseforge.com/minecraft/mc-mods/vanilla-foods-enhanced-new"><img src={foods} alt="Foods Enhanced" className="image-card-view"/></a> <br />
+            <div className="mod-description">This simple <span className="purple">Minecraft mod</span>, which requires the <span className="purple">Fabric modloader</span> relying on the <span className="purple">Fabric API</span>, focuses on enhancing the default <span className="purple">foods</span> of minecraft by adding new ones which should have been in the game!</div> <br/> <br/>
+            </Col>
+            </p>
         </Row>
       </Container>
     </Container>
