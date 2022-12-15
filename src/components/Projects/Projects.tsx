@@ -110,9 +110,9 @@ function Projects() {
             ... These are:<br/> <br/> <br/>
             <ImPointRight /> <a href="https://www.curseforge.com/minecraft/mc-mods/uncraftables-new"> Uncraftables [NEW]</a>: Over 30,000 downloads <br />
             <a href="https://www.curseforge.com/minecraft/mc-mods/uncraftables-new"><img src={uncraftables} alt="Uncraftables [New]" className="image-card-view"/></a> <br/> <br/>
-            <ImPointRight /> <a href="https://www.curseforge.com/minecraft/mc-mods/myt"> Myt</a>: Over 350 downloads <br />
+            <ImPointRight /> <a href="https://www.curseforge.com/minecraft/mc-mods/myt"> Myt</a>: Over 400 downloads <br />
             <a href="https://www.curseforge.com/minecraft/mc-mods/myt"><img src={myt} alt="Myt" className="image-card-view"/></a> <br/> <br/>
-            <ImPointRight /> <a href="https://www.curseforge.com/minecraft/mc-mods/vanilla-foods-enhanced-new"> Foods Enhanced</a>: Over 500 downloads <br />
+            <ImPointRight /> <a href="https://www.curseforge.com/minecraft/mc-mods/vanilla-foods-enhanced-new"> Foods Enhanced</a>: Over 750 downloads <br />
             <a href="https://www.curseforge.com/minecraft/mc-mods/vanilla-foods-enhanced-new"><img src={foods} alt="Foods Enhanced" className="image-card-view"/></a> <br/> <br/>
           </p>
         </Row>

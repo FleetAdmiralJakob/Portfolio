@@ -31,7 +31,7 @@
     "gh-pages": "^4.0.0",
     "node-sass": "^8.0.0",
     "react": "npm:@preact/compat",
-    "react-bootstrap": "^2.2.1",
+    "react-bootstrap": "^2.7.0",
     "react-dom": "npm:@preact/compat",
     "react-github-calendar": "^3.4.0",
     "react-icons": "^4.7.1",
