@@ -16,7 +16,7 @@ function Toolstack() {
               </Col>
               <Col xs={4} md={2} className="tech-icons">
                   <SiJetbrains/>
-                  <div className="tech-description">Jetbrains IDEs and Tools</div>
+                  <div className="tech-description">Jetbrains's IDEs and Tools</div>
               </Col>
               <Col xs={4} md={2} className="tech-icons-windows">
                   <SiWindows/>
