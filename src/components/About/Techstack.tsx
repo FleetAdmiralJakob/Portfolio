@@ -1,6 +1,6 @@
 import React from "react";
 import {Col, Container, Row} from "react-bootstrap";
-import {DiGit, DiGithubBadge, DiJava, DiNodejsSmall, DiReact, DiSass, DiWordpress,} from "react-icons/di";
+import {DiGit, DiGithubBadge, DiJava, DiNodejs, DiReact, DiSass, DiWordpress,} from "react-icons/di";
 import {
     SiCsharp,
     SiCss3,
@@ -58,7 +58,7 @@ function Techstack() {
             <h2>Other <span className="purple">Skills</span> (Frameworks etc.)</h2>
             <Row style={{justifyContent: "center", paddingBottom: "50px"}}>
                 <Col xs={4} md={2} className="tech-icons-node">
-                    <DiNodejsSmall/>
+                    <DiNodejs/>
                     <div className="tech-description">Node.js</div>
                 </Col>
                 <Col xs={4} md={2} className="tech-icons-react">
