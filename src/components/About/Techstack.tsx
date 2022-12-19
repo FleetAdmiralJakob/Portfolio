@@ -67,7 +67,7 @@ function Techstack() {
                 </Col>
                 <Col xs={4} md={2} className="tech-icons">
                     <SiNextdotjs/>
-                    <div className="tech-description">NextJS</div>
+                    <div className="tech-description">Next.js</div>
                 </Col>
                 <Col xs={4} md={2} className="tech-icons-wordpress">
                     <DiWordpress/>

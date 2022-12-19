@@ -4,7 +4,7 @@ import {AiFillStar} from 'react-icons/ai';
 
 class Logos extends React.Component {
     state: { currentLogo: number, stars: any } = {
-        stars: "0",
+        stars: "",
         currentLogo: 0
     };
 
@@ -18,6 +18,7 @@ class Logos extends React.Component {
 
         fetch(`https://api.github.com/repos/FleetAdmiralJakob/Portfolio`)
             .then(response => response.json())
+            .catch(error => console.log("Error: " + error))
             .then(data => {
                 const stars = data.stargazers_count;
                 this.setState({ stars: stars.toString() });
@@ -51,13 +52,23 @@ class Logos extends React.Component {
         const currentLogo = this.state.currentLogo % logos.length;
 
         if (currentLogo === 1) {
-            return (
-                <div>
+            if (this.state.stars === "") {
+                return (
                     <div>
-                        { logos[currentLogo] } { this.state.stars }
+                        <div>
+                            Check out {logos[currentLogo]} on GitHub!
+                        </div>
                     </div>
-                </div>
-            )
+                )
+            } else {
+                return (
+                    <div>
+                        <div>
+                            {logos[currentLogo]} {this.state.stars}
+                        </div>
+                    </div>
+                )
+            }
         }
         else {
             return (
