@@ -16,7 +16,7 @@ function Home2() {
               <img
                 src={myImg}
                 className="img-fluid"
-                alt="avatar"
+                alt="Avatar of Jakob Rössner"
                 width="600"
                 height="600"
               />
