@@ -1301,13 +1301,15 @@ button:focus {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  background-color: var(--imp-text-color);
+  background-color: #5A327A;
   color: #fff;
   padding: 10px 20px;
   border-radius: 5px;
   z-index: 99999999;
+  border: none;
 }
 
 .scroll-to-top-button:hover {
   background-color: var(--imp-text-color3);
+  transition: linear 0.3s;
 }
