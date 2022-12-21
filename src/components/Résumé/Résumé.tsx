@@ -11,8 +11,6 @@ import 'react-pdf/dist/esm/Page/AnnotationLayer.css'
 import loadable from '@loadable/component'
 import 'react-pdf/dist/esm/Page/TextLayer.css';
 
-const Particle = loadable(() => import('../Particle'))
-
 pdfjs.GlobalWorkerOptions.workerSrc = `//unpkg.com/pdfjs-dist@${pdfjs.version}/build/pdf.worker.min.js`;
 
 const resumeLink_de =
@@ -30,8 +28,6 @@ function ResumeNew () {
   return (
     <div>
       <Container fluid className='resume-section'>
-        <Particle />
-
         <Row className='resume'>
           <h1 style={{ fontSize: '2.1em', paddingBottom: '20px' }}>
             German <strong className='purple'>Résumé</strong>

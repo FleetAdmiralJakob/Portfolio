@@ -10,12 +10,9 @@ import Toolstack from "./Toolstack";
 import {AiFillGithub} from "react-icons/ai";
 import loadable from "@loadable/component";
 
-const Particle = loadable(() => import("../Particle"));
-
 function About() {
   return (
     <Container fluid className="about-section">
-      <Particle />
       <Container>
         <Row style={{ justifyContent: "center", padding: "10px" }}>
           <Col
