@@ -15,16 +15,12 @@ import uncraftables from "../../Assets/Projects/uncraftables.png";
 import myt from "../../Assets/Projects/myt.png";
 // @ts-ignore
 import foods from "../../Assets/Projects/foods.png";
-import loadable from "@loadable/component";
 import {SiCurseforge} from "react-icons/si";
 import {ImPointRight} from "react-icons/im";
-
-const Particle = loadable(() => import("../Particle"));
 
 function Projects() {
   return (
     <Container fluid className="project-section">
-      <Particle />
       <Container>
         <h1 className="project-heading">
           My Recent <strong className="purple">Works </strong>

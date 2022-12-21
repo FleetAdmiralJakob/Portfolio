@@ -32,7 +32,7 @@ function Techstack() {
                 </Col>
                 <Col xs={4} md={2} className="tech-icons-typescript">
                     <SiTypescript/>
-                    <div className="tech-description">Typescript</div>
+                    <div className="tech-description">TypeScript</div>
                 </Col>
                 <Col xs={4} md={2} className="tech-icons">
                     <DiJava/>

@@ -36,8 +36,6 @@ TODOs
 
 - Go through the DeepSource Issues
 
-- Add a "Back to Top" button
-
 - Update react-tsparticles
 
 - Compare to other portfolios
@@ -49,3 +47,5 @@ TODOs
 - Make the Navbar on the Contact Me site styled better
 
 - Support more Progressive Web App features
+
+- Check if the user is a bot and only then show the email address
