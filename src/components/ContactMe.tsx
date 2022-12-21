@@ -2,9 +2,6 @@ import React from "react";
 import {Col, Container, Row} from "react-bootstrap";
 import {AiFillGithub, AiFillHome, AiFillMail, AiFillPhone} from "react-icons/ai";
 import {FaLinkedinIn} from "react-icons/fa";
-import loadable from "@loadable/component";
-
-const Particle = loadable(() => import("./Particle"));
 
 function ContactMe() {
     return (
@@ -12,7 +9,6 @@ function ContactMe() {
             <Container fluid className="contact-section" id="about">
                 <Container>
                     <Row>
-                        <Particle/>
                         <Col md={12} className="about">
                             <h1 style={{fontSize: "2.6em"}}>
                                 CONTACT <span className="purple"> ME </span>

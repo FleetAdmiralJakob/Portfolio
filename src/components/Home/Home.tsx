@@ -4,7 +4,6 @@ import {Col, Container, Row} from "react-bootstrap";
 import homeLogo from "../../Assets/home-main.svg";
 import loadable from "@loadable/component";
 
-const Particle = loadable(() => import("../Particle"));
 const Home2 = loadable(() => import("./Home2"));
 const AboutSummary = loadable(() => import("./AboutSummary"));
 const ProjectsSummary = loadable(() => import("./ProjectsSummary"));
@@ -15,7 +14,6 @@ function Home() {
   return (
     <section>
       <Container fluid className="home-section" id="home">
-        <Particle />
         <Container className="home-content">
           <Row>
             <Col md={7} className="home-header">

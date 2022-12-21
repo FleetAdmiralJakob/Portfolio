@@ -318,6 +318,7 @@ button:focus {
   background-size: cover !important;
   width: 100%;
   height: 100%;
+  z-index: -1;
 }
 
 .home-header {
@@ -326,7 +327,7 @@ button:focus {
 
 .home-section {
   position: relative;
-  z-index: -1;
+  z-index: -2;
   background-image: var(--image-gradient), url(Assets/home-bg.webp);
   background-position: top center;
   background-repeat: no-repeat;
@@ -1278,4 +1279,35 @@ button:focus {
 
 .mod-description {
   margin: 0.3rem !important;
+}
+
+/*
+.scroll-to-top-button {
+  position: fixed !important;
+  bottom: 20px !important;
+  right: 20px !important;
+  background-color: var(--imp-text-color) !important;
+  color: #fff !important;
+  padding: 10px 20px !important;
+  border-radius: 5px !important;
+}
+
+.scroll-to-top-button:hover {
+  background-color: var(--imp-text-color3) !important;
+  cursor: pointer !important;
+}*/
+
+.scroll-to-top-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: var(--imp-text-color);
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  z-index: 99999999;
+}
+
+.scroll-to-top-button:hover {
+  background-color: var(--imp-text-color3);
 }
