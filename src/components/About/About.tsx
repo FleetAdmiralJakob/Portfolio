@@ -8,7 +8,6 @@ import AboutCard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
 import {AiFillGithub} from "react-icons/ai";
-import loadable from "@loadable/component";
 
 function About() {
   return (
