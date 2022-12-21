@@ -8,7 +8,6 @@ import pdf_en from '../../Assets/../Assets/Résumé_en_Jakob_Rössner.pdf'
 import {AiOutlineDownload} from 'react-icons/ai'
 import {Document, Page, pdfjs} from 'react-pdf'
 import 'react-pdf/dist/esm/Page/AnnotationLayer.css'
-import loadable from '@loadable/component'
 import 'react-pdf/dist/esm/Page/TextLayer.css';
 
 pdfjs.GlobalWorkerOptions.workerSrc = `//unpkg.com/pdfjs-dist@${pdfjs.version}/build/pdf.worker.min.js`;
