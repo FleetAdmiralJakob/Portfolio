@@ -117,7 +117,7 @@ function Projects() {
             <div className="mod-description">A mod with nice additions that improve your Minecraft experience with <span className="purple">new ores, new flowers, new tools, new music, new world generation,</span> and other cool stuff.</div> <br/> <br/>
             </Col>
             <Col md={12}>
-            <ImPointRight /> <a href="https://www.curseforge.com/minecraft/mc-mods/vanilla-foods-enhanced-new"> Foods Enhanced</a>: Over 750 downloads <br />
+            <ImPointRight /> <a href="https://www.curseforge.com/minecraft/mc-mods/vanilla-foods-enhanced-new"> Foods Enhanced</a>: Over 800 downloads <br />
             <a href="https://www.curseforge.com/minecraft/mc-mods/vanilla-foods-enhanced-new"><img src={foods} alt="Foods Enhanced" className="image-card-view"/></a> <br />
             <div className="mod-description">This simple <span className="purple">Minecraft mod</span>, which requires the <span className="purple">Fabric modloader</span> relying on the <span className="purple">Fabric API</span>, focuses on enhancing the default <span className="purple">foods</span> of minecraft by adding new ones which should have been in the game!</div> <br/> <br/>
             </Col>
