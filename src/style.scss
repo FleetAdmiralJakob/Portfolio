@@ -872,52 +872,76 @@ button:focus {
   .tech-icons {
     margin: 10px !important;
   }
+  .tech-icons-mongo {
+    font-size: 0.3rem !important;
+    margin: 10px !important;
+  }
   .tech-icons-html {
+    font-size: 0.3rem !important;
     margin: 10px !important;
   }
   .tech-icons-css {
+    font-size: 0.3rem !important;
     margin: 10px !important;
   }
   .tech-icons-sass {
+    font-size: 0.3rem !important;
     margin: 10px !important;
   }
   .tech-icons-postcss {
+    font-size: 0.3rem !important;
     margin: 10px !important;
   }
   .tech-icons-tailwind {
+    font-size: 0.3rem !important;
+    margin: 10px !important;
+  }
+  .tech-icons-material {
+    font-size: 0.3rem !important;
     margin: 10px !important;
   }
   .tech-icons-javascript {
+    font-size: 0.3rem !important;
     margin: 10px !important;
   }
   .tech-icons-typescript {
+    font-size: 0.3rem !important;
     margin: 10px !important;
   }
   .tech-icons-node {
+    font-size: 0.3rem !important;
     margin: 10px !important;
   }
   .tech-icons-react {
+    font-size: 0.3rem !important;
     margin: 10px !important;
   }
   .tech-icons-wordpress {
+    font-size: 0.3rem !important;
     margin: 10px !important;
   }
   .tech-icons-csharp {
+    font-size: 0.3rem !important;
     margin: 10px !important;
   }
   .tech-icons-git {
+    font-size: 0.3rem !important;
     margin: 10px !important;
   }
   .tech-icons-vscode {
+    font-size: 0.3rem !important;
     margin: 10px !important;
   }
   .tech-icons-windows {
+    font-size: 0.3rem !important;
     margin: 10px !important;
   }
   .tech-icons-office {
+    font-size: 0.3rem !important;
     margin: 10px !important;
   }
   .tech-icons-adobe {
+    font-size: 0.3rem !important;
     margin: 10px !important;
   }
 }
@@ -971,6 +995,15 @@ button:focus {
   color: #38b2ac !important;
 }
 
+.tech-icons-material {
+  @include tech-icons;
+}
+
+.tech-icons-material:hover {
+  @include tech-icons-hover;
+  color: #0081cb !important;
+}
+
 .tech-icons-node {
   @include tech-icons;
 }
@@ -1005,6 +1038,15 @@ button:focus {
 .tech-icons-react:hover {
   @include tech-icons-hover;
   color: rgb(90, 218, 253);
+}
+
+.tech-icons-mongo {
+  @include tech-icons;
+}
+
+.tech-icons-mongo:hover {
+  @include tech-icons-hover;
+  color: rgb(69,155,69);
 }
 
 .tech-icons-wordpress {
@@ -1071,7 +1113,7 @@ button:focus {
 }
 
 .tech-description {
-  font-size: 0.4em !important;
+  font-size: 0.4rem !important;
   font-weight: 500 !important;
   padding-top: 3px !important;
   /* Make it transparent */

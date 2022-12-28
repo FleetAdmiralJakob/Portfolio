@@ -8,7 +8,7 @@ import {
     SiJavascript,
     SiJson,
     SiKotlin,
-    SiMarkdown, SiNextdotjs,
+    SiMarkdown, SiMaterialui, SiMongodb, SiNextdotjs,
     SiPostcss, SiTailwindcss,
     SiTypescript
 } from "react-icons/si";
@@ -25,6 +25,10 @@ function Techstack() {
                 <Col xs={4} md={2} className="tech-icons-css">
                     <SiCss3/>
                     <div className="tech-description">CSS</div>
+                </Col>
+                <Col xs={4} md={2} className="tech-icons-sass">
+                    <DiSass/>
+                    <div className="tech-description">Sass</div>
                 </Col>
                 <Col xs={4} md={2} className="tech-icons-javascript">
                     <SiJavascript/>
@@ -69,6 +73,10 @@ function Techstack() {
                     <SiNextdotjs/>
                     <div className="tech-description">Next.js</div>
                 </Col>
+                <Col xs={4} md={2} className="tech-icons-mongo">
+                    <SiMongodb/>
+                    <div className="tech-description">MongoDB</div>
+                </Col>
                 <Col xs={4} md={2} className="tech-icons-wordpress">
                     <DiWordpress/>
                     <div className="tech-description">Wordpress</div>
@@ -81,10 +89,6 @@ function Techstack() {
                     <DiGithubBadge/>
                     <div className="tech-description">GitHub</div>
                 </Col>
-                <Col xs={4} md={2} className="tech-icons-sass">
-                    <DiSass/>
-                    <div className="tech-description">Sass</div>
-                </Col>
                 <Col xs={4} md={2} className="tech-icons-postcss">
                     <SiPostcss/>
                     <div className="tech-description">PostCSS</div>
@@ -92,6 +96,10 @@ function Techstack() {
                 <Col xs={4} md={2} className="tech-icons-tailwind">
                     <SiTailwindcss/>
                     <div className="tech-description">Tailwind</div>
+                </Col>
+                <Col xs={4} md={2} className="tech-icons-material">
+                    <SiMaterialui/>
+                    <div className="tech-description">Material UI</div>
                 </Col>
             </Row>
         </Container>
