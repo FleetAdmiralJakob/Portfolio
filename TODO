@@ -49,3 +49,7 @@ TODOs
 - Support more Progressive Web App features
 
 - Check if the user is a bot and only then show the email address
+
+- Add to the projects the stars on GitHub
+
+- Use an API from GitHub for the stars count that allows more requests
