@@ -777,7 +777,7 @@ button:focus {
 }
 
 .btn:focus {
-  outline: none !important;
+  outline-color: transparent !important;
   box-shadow: none !important;
 }
 
