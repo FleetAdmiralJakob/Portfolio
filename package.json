@@ -21,7 +21,7 @@
     "url": "https://github.com/FleetAdmiralJakob/Portfolio/issues"
   },
   "dependencies": {
-    "@loadable/component": "^5.15.2",
+    "@loadable/component": "^5.15.3",
     "@react-pdf/renderer": "^3.1.5",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^12.1.4",
