@@ -326,13 +326,14 @@ button:focus {
 }
 
 .home-section {
-  position: relative;
-  z-index: -2;
   background-image: var(--image-gradient), url(Assets/home-bg.webp);
   background-position: top center;
   background-repeat: no-repeat;
   padding-bottom: 30px !important;
   padding-top: 30px !important;
+  z-index: 0;
+  mask-image: linear-gradient(to top, transparent, rgba(0, 0, 0, 0.9), black);
+  -webkit-mask-image: linear-gradient(to top, transparent, rgba(0, 0, 0, 0.9), black);
 }
 
 .home-content {
@@ -353,6 +354,58 @@ button:focus {
 
 .main-name {
   color: #cd5ff8;
+
+  &:hover {
+    cursor: pointer;
+
+    .main-name-letter1 {
+      transform: translate(-80%, 60%) rotate(8deg);
+    }
+
+    .main-name-letter2 {
+      transform: translate(-40%, 20%) rotate(4deg);
+    }
+
+    .main-name-letter3 {
+      transform: translate(-10%, 60%) rotate(-6deg);
+    }
+
+    .main-name-letter4 {
+      transform: translate(0%, 8%) rotate(-8deg);
+    }
+
+    .main-name-letter5 {
+      transform: translate(0%, -20%) rotate(5deg);
+    }
+
+    .main-name-letter7 {
+      transform: translate(0%, 20%) rotate(-3deg);
+    }
+
+    .main-name-letter8 {
+      transform: translate(0%, -40%) rotate(-5deg);
+    }
+
+    .main-name-letter9 {
+      transform: translate(0%, 15%) rotate(10deg);
+    }
+
+    .main-name-letter10 {
+      transform: translate(0%, -50%) rotate(8deg);
+    }
+
+    .main-name-letter11 {
+      transform: translate(0%, 15%) rotate(-6deg);
+    }
+
+    .main-name-letter12 {
+      transform: translate(50%, -10%) rotate(-3deg);
+    }
+
+    .main-name-letter13 {
+      transform: translate(120%, -30%) rotate(-10deg);
+    }
+  }
 }
 
 .Typewriter__wrapper {
@@ -381,7 +434,6 @@ button:focus {
 .myAvatar {
   justify-content: center !important;
   horiz-align: center !important;
-  vertical-align: middle !important;
   padding-top: 9em !important;
   height: 75% !important;
 }
@@ -630,7 +682,6 @@ button:focus {
 /* --------- */
 .footer {
   background-color: rgb(10, 4, 22);
-  bottom: 0 !important;
   padding-top: 10px !important;
   padding-bottom: 8px !important;
 }
