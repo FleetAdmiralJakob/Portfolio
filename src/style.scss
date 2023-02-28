@@ -111,6 +111,15 @@ button:focus {
   font-size: 1.2rem !important;
 }
 
+.nav-item {
+  transition: opacity 0.2s ease-in-out;
+  opacity: 0.2;
+}
+
+.nav-item:hover {
+  opacity: 1;
+}
+
 .navbar-toggler {
   position: relative !important;
   background-color: transparent !important;
