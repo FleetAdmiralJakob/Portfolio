@@ -30,7 +30,7 @@ TODOs
 
 - Test mobile version
 
-- Make the logo complete
+- Make the logo complete ❗
 
 - An extra page for each project
 
@@ -50,6 +50,12 @@ TODOs
 
 - Check if the user is a bot and only then show the email address
 
-- Add to the projects the stars on GitHub
+- Add to the projects the stars on GitHub ❗
 
 - Use an API from GitHub for the stars count that allows more requests
+
+- Make a animated star ❗
+
+- Animate the name on the home page ❗
+
+- Add a transition for the purple text ❗
