@@ -59,3 +59,5 @@ TODOs
 - Animate the name on the home page ❗
 
 - Add a transition for the purple text ❗
+
+- Change Branch Protection Rules, so that the Github Action can upload a diagram
