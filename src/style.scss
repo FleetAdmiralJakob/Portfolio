@@ -1221,6 +1221,17 @@ button:focus {
   background-color: var(--imp-text-color2);
 }
 
+@media (max-width: 767px) {
+  .confidence-level-box {
+    width: 13px;
+    height: 13px;
+  }
+  .confidence-level-box-full {
+    width: 13px;
+    height: 13px;
+  }
+}
+
 .confidence-level-text {
   font-size: 1rem !important;
 }
