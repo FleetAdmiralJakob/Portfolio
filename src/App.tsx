@@ -2,14 +2,14 @@ import "./style.scss";
 import "./App.scss";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-import {Navigate, Route, BrowserRouter as Router, Routes,} from "react-router-dom";
+import {BrowserRouter as Router, Navigate, Route, Routes,} from "react-router-dom";
 import React, {useEffect, useState} from "react";
 
 import About from "./components/About/About";
 import ContactMe from "./components/ContactMe";
 import Footer from "./components/Footer";
 import Home from "./components/Home/Home";
-import Navbar from "./components/Navbar";
+import Navbar from "./components/Navbar/Navbar";
 import Preloader from "./components/Pre";
 import Projects from "./components/Projects/Projects";
 import Résumé from "./components/Résumé/Résumé";
