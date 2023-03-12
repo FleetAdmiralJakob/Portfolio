@@ -9,7 +9,7 @@ import {Link} from "react-router-dom";
 import {CgFileDocument, CgMail} from "react-icons/cg";
 import {AiOutlineFundProjectionScreen, AiOutlineHome, AiOutlineUser,} from "react-icons/ai";
 import {Picture} from "react-optimized-images";
-import Logos from "../Logos";
+import Logos from "./Logos";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
