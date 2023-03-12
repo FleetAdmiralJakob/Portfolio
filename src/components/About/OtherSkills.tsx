@@ -1,9 +1,15 @@
-import React, {lazy} from "react";
-import {Col, Row} from "react-bootstrap";
+import React, { lazy } from "react";
+import { Col, Row } from "react-bootstrap";
 import ConfidenceLevelBar from "./ConfidenceLevelBar";
 
-const SiAdobe = lazy(() => import('react-icons/si').then((module) => ({ default: module.SiAdobe })));
-const SiMicrosoftoffice = lazy(() => import('react-icons/si').then((module) => ({ default: module.SiMicrosoftoffice })));
+const SiAdobe = lazy(() =>
+  import("react-icons/si").then((module) => ({ default: module.SiAdobe }))
+);
+const SiMicrosoftoffice = lazy(() =>
+  import("react-icons/si").then((module) => ({
+    default: module.SiMicrosoftoffice,
+  }))
+);
 
 function OtherSkills() {
   return (

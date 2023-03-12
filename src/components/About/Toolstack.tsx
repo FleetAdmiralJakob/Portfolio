@@ -1,16 +1,38 @@
-import React, {lazy} from "react";
-import {Col, Container, Row} from "react-bootstrap";
+import React, { lazy } from "react";
+import { Col, Container, Row } from "react-bootstrap";
 import ConfidenceLevelBar from "./ConfidenceLevelBar";
 
-const SiAndroidstudio = lazy(() => import('react-icons/si').then((module) => ({ default: module.SiAndroidstudio })));
-const SiFigma = lazy(() => import('react-icons/si').then((module) => ({ default: module.SiFigma })));
-const SiJetbrains = lazy(() => import('react-icons/si').then((module) => ({ default: module.SiJetbrains })));
-const SiLinux = lazy(() => import('react-icons/si').then((module) => ({ default: module.SiLinux })));
-const SiMacos = lazy(() => import('react-icons/si').then((module) => ({ default: module.SiMacos })));
-const SiUnity = lazy(() => import('react-icons/si').then((module) => ({ default: module.SiUnity })));
-const SiVercel = lazy(() => import('react-icons/si').then((module) => ({ default: module.SiVercel })));
-const SiVisualstudiocode = lazy(() => import('react-icons/si').then((module) => ({ default: module.SiVisualstudiocode })));
-const SiWindows11 = lazy(() => import('react-icons/si').then((module) => ({ default: module.SiWindows11 })));
+const SiAndroidstudio = lazy(() =>
+  import("react-icons/si").then((module) => ({
+    default: module.SiAndroidstudio,
+  }))
+);
+const SiFigma = lazy(() =>
+  import("react-icons/si").then((module) => ({ default: module.SiFigma }))
+);
+const SiJetbrains = lazy(() =>
+  import("react-icons/si").then((module) => ({ default: module.SiJetbrains }))
+);
+const SiLinux = lazy(() =>
+  import("react-icons/si").then((module) => ({ default: module.SiLinux }))
+);
+const SiMacos = lazy(() =>
+  import("react-icons/si").then((module) => ({ default: module.SiMacos }))
+);
+const SiUnity = lazy(() =>
+  import("react-icons/si").then((module) => ({ default: module.SiUnity }))
+);
+const SiVercel = lazy(() =>
+  import("react-icons/si").then((module) => ({ default: module.SiVercel }))
+);
+const SiVisualstudiocode = lazy(() =>
+  import("react-icons/si").then((module) => ({
+    default: module.SiVisualstudiocode,
+  }))
+);
+const SiWindows11 = lazy(() =>
+  import("react-icons/si").then((module) => ({ default: module.SiWindows11 }))
+);
 
 function Toolstack() {
   return (
