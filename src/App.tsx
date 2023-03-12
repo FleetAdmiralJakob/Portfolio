@@ -3,7 +3,7 @@ import "./App.scss";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 import {BrowserRouter as Router, Navigate, Route, Routes,} from "react-router-dom";
-import React, {useEffect, useState} from "react";
+import React, {Suspense, useEffect, useState} from "react";
 
 import About from "./components/About/About";
 import ContactMe from "./components/ContactMe";
@@ -64,6 +64,7 @@ function App() {
   }, []);
 
   return (
+      <Suspense fallback={Preloader}>
           <Router>
               <Preloader load={load} />
               <div className="App" id={load ? "no-scroll" : "scroll"}>
@@ -82,6 +83,7 @@ function App() {
                   <Footer />
               </div>
           </Router>
+        </Suspense>
   );
 }
 

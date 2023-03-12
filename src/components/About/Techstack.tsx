@@ -1,21 +1,26 @@
-import React from "react";
+import React, {lazy} from "react";
 import {Col, Container, Row} from "react-bootstrap";
-import {DiGit, DiGithubBadge, DiJava, DiNodejsSmall, DiReact, DiSass, DiWordpress,} from "react-icons/di";
-import {
-  SiCsharp,
-  SiCss3,
-  SiHtml5,
-  SiJavascript,
-  SiJson,
-  SiKotlin,
-  SiMarkdown,
-  SiMongodb,
-  SiNextdotjs,
-  SiPostcss,
-  SiTailwindcss,
-  SiTypescript,
-} from "react-icons/si";
 import ConfidenceLevelBar from "./ConfidenceLevelBar";
+
+const DiGit = lazy(() => import('react-icons/di').then((module) => ({ default: module.DiGit })));
+const DiGithubBadge = lazy(() => import('react-icons/di').then((module) => ({ default: module.DiGithubBadge })));
+const DiJava = lazy(() => import('react-icons/di').then((module) => ({ default: module.DiJava })));
+const DiNodejsSmall = lazy(() => import('react-icons/di').then((module) => ({ default: module.DiNodejsSmall })));
+const DiReact = lazy(() => import('react-icons/di').then((module) => ({ default: module.DiReact })));
+const DiSass = lazy(() => import('react-icons/di').then((module) => ({ default: module.DiSass })));
+const DiWordpress = lazy(() => import('react-icons/di').then((module) => ({ default: module.DiWordpress })));
+const SiCsharp = lazy(() => import('react-icons/si').then((module) => ({ default: module.SiCsharp })));
+const SiCss3 = lazy(() => import('react-icons/si').then((module) => ({ default: module.SiCss3 })));
+const SiHtml5 = lazy(() => import('react-icons/si').then((module) => ({ default: module.SiHtml5 })));
+const SiJavascript = lazy(() => import('react-icons/si').then((module) => ({ default: module.SiJavascript })));
+const SiJson = lazy(() => import('react-icons/si').then((module) => ({ default: module.SiJson })));
+const SiKotlin = lazy(() => import('react-icons/si').then((module) => ({ default: module.SiKotlin })));
+const SiMarkdown = lazy(() => import('react-icons/si').then((module) => ({ default: module.SiMarkdown })));
+const SiMongodb = lazy(() => import('react-icons/si').then((module) => ({ default: module.SiMongodb })));
+const SiNextdotjs = lazy(() => import('react-icons/si').then((module) => ({ default: module.SiNextdotjs })));
+const SiPostcss = lazy(() => import('react-icons/si').then((module) => ({ default: module.SiPostcss })));
+const SiTailwindcss = lazy(() => import('react-icons/si').then((module) => ({ default: module.SiTailwindcss })));
+const SiTypescript = lazy(() => import('react-icons/si').then((module) => ({ default: module.SiTypescript })));
 
 function Techstack() {
   return (
