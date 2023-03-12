@@ -3,6 +3,7 @@ import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import {CgWebsite} from "react-icons/cg";
 import {BsFillCloudDownloadFill, BsGithub} from "react-icons/bs";
+import ProjectStars from "./ProjectStars";
 
 function ProjectCards(props) {
   return (
@@ -28,7 +29,7 @@ function ProjectCards(props) {
           )}
 
           {props.ghLink && (
-          <Button variant="primary" href={props.ghLink} target="_blank">
+          <Button variant="primary" href={`https://github.com/${props.ghLink}`} target="_blank">
             <BsGithub /> &nbsp;
             {props.isBlog ? "Blog" : "GitHub"}
           </Button>
@@ -58,6 +59,15 @@ function ProjectCards(props) {
             <BsFillCloudDownloadFill /> &nbsp; Download
           </Button>
         )}
+          {props.ghLink && (
+              <>
+                  <hr className="rounded-hr"/>
+                  <span className="left">GitHub Stats:</span>
+                  <ProjectStars
+                      url={props.ghLink}
+                  >
+                  </ProjectStars></>
+              )}
       </Card.Body>
     </Card>
   );

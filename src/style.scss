@@ -526,6 +526,21 @@ button:focus {
   text-align: center;
 }
 
+.project-stars {
+  font-size: 20px;
+}
+
+.rounded-hr {
+  border-top: 3px solid #bbb;
+  border-radius: 5px;
+}
+
+.left {
+  display: flex;
+  text-align: left;
+  text-decoration: underline;
+}
+
 .contact-section {
   color: white !important;
   padding-top: 100px !important;

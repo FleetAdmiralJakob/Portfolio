@@ -37,7 +37,7 @@ function Projects() {
               labelssecondclass={["Javascript", "CSS3", "HTML5"]}
               title="A Steampunk Game"
               description="A small game created by me with Javascript, CSS and HTML."
-              ghLink="https://github.com/FleetAdmiralJakob/Steampunk-Game"
+              ghLink="FleetAdmiralJakob/Steampunk-Game"
               demoLink="http://steampunk-game.me/Steampunk-Game/"
             />
           </Col>
@@ -49,7 +49,7 @@ function Projects() {
               labelssecondclass={["Java ☕", "Kotlin"]}
               title="Bigger Number Game"
               description="A simple Android app to demonstrate the use of Kotlin in Android app development. The user are presented 2 numbers on buttons- depending on if the larger number was clicked, the background color will change."
-              ghLink="https://github.com/FleetAdmiralJakob/Bigger-Number-Game"
+              ghLink="FleetAdmiralJakob/Bigger-Number-Game"
               downloadLink="https://github.com/FleetAdmiralJakob/Bigger-Number-Game/releases"
             />
           </Col>
@@ -61,7 +61,7 @@ function Projects() {
               labelssecondclass={["Java ☕", "Kotlin"]}
               title="Tippy"
               description="A tip calculator (for Android)!"
-              ghLink="https://github.com/FleetAdmiralJakob/Tippy"
+              ghLink="FleetAdmiralJakob/Tippy"
               downloadLink="https://github.com/FleetAdmiralJakob/Tippy/releases"
             />
           </Col>
