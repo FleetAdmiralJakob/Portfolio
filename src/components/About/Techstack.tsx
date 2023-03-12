@@ -1,6 +1,14 @@
 import React from "react";
-import {Col, Container, Row} from "react-bootstrap";
-import {DiGit, DiGithubBadge, DiJava, DiNodejsSmall, DiReact, DiSass, DiWordpress,} from "react-icons/di";
+import { Col, Container, Row } from "react-bootstrap";
+import {
+  DiGit,
+  DiGithubBadge,
+  DiJava,
+  DiNodejsSmall,
+  DiReact,
+  DiSass,
+  DiWordpress,
+} from "react-icons/di";
 import {
   SiCsharp,
   SiCss3,
@@ -183,7 +191,19 @@ function Techstack() {
           </div>
         </Col>
         <Col xs={4} md={2} className="tech-icons-material">
-          <svg stroke="currentColor" fill="currentColor" stroke-width="0" role="img" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><title></title><path d="M0 2.475v10.39l3 1.733V7.67l6 3.465 6-3.465v3.465l-6 3.463v3.464l6 3.463 9-5.195V9.402l-3 1.733v3.463l-6 3.464-3-1.732 6-3.465V2.475L9 7.67 0 2.475zm24 0l-3 1.73V7.67l3-1.732V2.474Z"></path></svg>
+          <svg
+            stroke="currentColor"
+            fill="currentColor"
+            stroke-width="0"
+            role="img"
+            viewBox="0 0 24 24"
+            height="1em"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <title></title>
+            <path d="M0 2.475v10.39l3 1.733V7.67l6 3.465 6-3.465v3.465l-6 3.463v3.464l6 3.463 9-5.195V9.402l-3 1.733v3.463l-6 3.464-3-1.732 6-3.465V2.475L9 7.67 0 2.475zm24 0l-3 1.73V7.67l3-1.732V2.474Z"></path>
+          </svg>
           <div className="tech-description">
             Material UI
             <br />
