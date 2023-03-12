@@ -1,5 +1,5 @@
 import React from "react";
-import { Col, Container, Row } from "react-bootstrap";
+import {Col, Container, Row} from "react-bootstrap";
 import {
   SiAndroidstudio,
   SiFigma,
@@ -8,7 +8,7 @@ import {
   SiUnity,
   SiVercel,
   SiVisualstudiocode,
-  SiWindows,
+  SiWindows11,
 } from "react-icons/si";
 import ConfidenceLevelBar from "./ConfidenceLevelBar";
 
@@ -16,14 +16,6 @@ function Toolstack() {
   return (
     <Container>
       <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-        <Col xs={4} md={2} className="tech-icons">
-          <SiLinux />
-          <div className="tech-description">
-            Linux
-            <br />
-            <ConfidenceLevelBar confidenceLevel={6} />
-          </div>
-        </Col>
         <Col xs={4} md={2} className="tech-icons-vscode">
           <SiVisualstudiocode />
           <div className="tech-description">
@@ -40,34 +32,10 @@ function Toolstack() {
             <ConfidenceLevelBar confidenceLevel={10} />
           </div>
         </Col>
-        <Col xs={4} md={2} className="tech-icons-windows">
-          <SiWindows />
-          <div className="tech-description">
-            Windows
-            <br />
-            <ConfidenceLevelBar confidenceLevel={10} />
-          </div>
-        </Col>
         <Col xs={4} md={2} className="tech-icons">
           <SiAndroidstudio />
           <div className="tech-description">
             Android Studio
-            <br />
-            <ConfidenceLevelBar confidenceLevel={10} />
-          </div>
-        </Col>
-        <Col xs={4} md={2} className="tech-icons">
-          <SiFigma />
-          <div className="tech-description">
-            Figma
-            <br />
-            <ConfidenceLevelBar confidenceLevel={8} />
-          </div>
-        </Col>
-        <Col xs={4} md={2} className="tech-icons">
-          <SiVercel />
-          <div className="tech-description">
-            Vercel
             <br />
             <ConfidenceLevelBar confidenceLevel={10} />
           </div>
@@ -78,6 +46,38 @@ function Toolstack() {
             Unity
             <br />
             <ConfidenceLevelBar confidenceLevel={7} />
+          </div>
+        </Col>
+        <Col xs={4} md={2} className="tech-icons">
+          <SiFigma />
+          <div className="tech-description">
+            Figma
+            <br />
+            <ConfidenceLevelBar confidenceLevel={8} />
+          </div>
+        </Col>
+        <Col xs={4} md={2} className="tech-icons-windows">
+          <SiWindows11 />
+          <div className="tech-description">
+            Windows
+            <br />
+            <ConfidenceLevelBar confidenceLevel={10} />
+          </div>
+        </Col>
+        <Col xs={4} md={2} className="tech-icons">
+          <SiLinux />
+          <div className="tech-description">
+            Linux
+            <br />
+            <ConfidenceLevelBar confidenceLevel={6} />
+          </div>
+        </Col>
+        <Col xs={4} md={2} className="tech-icons">
+          <SiVercel />
+          <div className="tech-description">
+            Vercel
+            <br />
+            <ConfidenceLevelBar confidenceLevel={10} />
           </div>
         </Col>
       </Row>
