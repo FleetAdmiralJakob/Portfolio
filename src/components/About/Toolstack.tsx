@@ -5,6 +5,7 @@ import {
   SiFigma,
   SiJetbrains,
   SiLinux,
+  SiMacos,
   SiUnity,
   SiVercel,
   SiVisualstudiocode,
@@ -70,6 +71,14 @@ function Toolstack() {
             Linux
             <br />
             <ConfidenceLevelBar confidenceLevel={6} />
+          </div>
+        </Col>
+        <Col xs={4} md={2} className="tech-icons">
+          <SiMacos />
+          <div className="tech-description">
+            MacOS
+            <br />
+            <ConfidenceLevelBar confidenceLevel={5} />
           </div>
         </Col>
         <Col xs={4} md={2} className="tech-icons">
