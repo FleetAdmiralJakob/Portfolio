@@ -1,8 +1,8 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
-import {CgWebsite} from "react-icons/cg";
-import {BsFillCloudDownloadFill, BsGithub} from "react-icons/bs";
+import { CgWebsite } from "react-icons/cg";
+import { BsFillCloudDownloadFill, BsGithub } from "react-icons/bs";
 import ProjectStars from "./ProjectStars";
 
 function ProjectCards(props) {
@@ -10,26 +10,36 @@ function ProjectCards(props) {
     <Card className="project-card-view">
       <Card.Img variant="top" src={props.imgPath} alt="card-img" />
       <Card.Body>
-        <Card.Title><strong>{props.title}</strong></Card.Title>
+        <Card.Title>
+          <strong>{props.title}</strong>
+        </Card.Title>
         <Card.Text style={{ textAlign: "justify" }}>
           {props.description}
         </Card.Text>
 
-          {props.labelsfirstclass && props.labelssecondclass && (
-              <div className="project-card-footer">
-                  {props.labelsfirstclass.map((label) => {
-                          return <span className="project-card-footer-label-first">{label}</span>
-                      }
-                  )}
-                  {props.labelssecondclass.map((label) => {
-                          return <span className="project-card-footer-label-second">{label}</span>
-                      }
-                  )}
-              </div>
-          )}
+        {props.labelsfirstclass && props.labelssecondclass && (
+          <div className="project-card-footer">
+            {props.labelsfirstclass.map((label) => {
+              return (
+                <span className="project-card-footer-label-first">{label}</span>
+              );
+            })}
+            {props.labelssecondclass.map((label) => {
+              return (
+                <span className="project-card-footer-label-second">
+                  {label}
+                </span>
+              );
+            })}
+          </div>
+        )}
 
-          {props.ghLink && (
-          <Button variant="primary" href={`https://github.com/${props.ghLink}`} target="_blank">
+        {props.ghLink && (
+          <Button
+            variant="primary"
+            href={`https://github.com/${props.ghLink}`}
+            target="_blank"
+          >
             <BsGithub /> &nbsp;
             {props.isBlog ? "Blog" : "GitHub"}
           </Button>
@@ -59,15 +69,13 @@ function ProjectCards(props) {
             <BsFillCloudDownloadFill /> &nbsp; Download
           </Button>
         )}
-          {props.ghLink && (
-              <>
-                  <hr className="rounded-hr"/>
-                  <span className="left">GitHub Stats:</span>
-                  <ProjectStars
-                      url={props.ghLink}
-                  >
-                  </ProjectStars></>
-              )}
+        {props.ghLink && (
+          <>
+            <hr className="rounded-hr" />
+            <span className="left">GitHub Stats:</span>
+            <ProjectStars url={props.ghLink}></ProjectStars>
+          </>
+        )}
       </Card.Body>
     </Card>
   );

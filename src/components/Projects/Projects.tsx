@@ -1,5 +1,5 @@
 import React from "react";
-import {Col, Container, Row} from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 // @ts-ignore
 import steampunk from "../../Assets/Projects/steampunk.png";
@@ -15,8 +15,8 @@ import uncraftables from "../../Assets/Projects/uncraftables.png";
 import myt from "../../Assets/Projects/myt.png";
 // @ts-ignore
 import foods from "../../Assets/Projects/foods.png";
-import {SiCurseforge} from "react-icons/si";
-import {ImPointRight} from "react-icons/im";
+import { SiCurseforge } from "react-icons/si";
+import { ImPointRight } from "react-icons/im";
 
 function Projects() {
   return (
@@ -81,47 +81,107 @@ function Projects() {
               labelssecondclass={["Java ☕"]}
             />
           </Col>
-          </Row>
-          <Row>
+        </Row>
+        <Row>
           <div className="projects-social">
             <h4>MY CURSEFORGE ACCOUNT</h4>
             <p>
-              Here you can see my <span className="purple">Minecraft projects </span>...
+              Here you can see my{" "}
+              <span className="purple">Minecraft projects </span>...
             </p>
           </div>
           <h5>
-              <span className="point" role="img" aria-labelledby="wave">
-                👇
-              </span>
+            <span className="point" role="img" aria-labelledby="wave">
+              👇
+            </span>
           </h5>
           <li className="social-icons">
             <a
-                href="https://www.curseforge.com/members/fleetadmiraljakob/projects"
-                target="_blank"
-                rel="noreferrer"
-                className="icon-colour  home-social-icons"
+              href="https://www.curseforge.com/members/fleetadmiraljakob/projects"
+              target="_blank"
+              rel="noreferrer"
+              className="icon-colour  home-social-icons"
             >
               <SiCurseforge />
             </a>
           </li>
           <p className="text-project-curseforge">
-            ... These are:<br/> <br/> <br/>
+            ... These are:
+            <br /> <br /> <br />
             <Col md={12}>
-              <ImPointRight /> <a href="https://www.curseforge.com/minecraft/mc-mods/uncraftables-new"> Uncraftables [NEW]</a>: Over 30,000 downloads <br />
-              <a href="https://www.curseforge.com/minecraft/mc-mods/uncraftables-new"><img src={uncraftables} alt="Uncraftables [New]" className="image-card-view"/></a> <br />
-              <div className="mod-description">A lot of Vanilla Minecraft items are <span className="purple">uncraftable</span> and some of them can only be obtained via grinding or <span className="purple">luck or once</span>. I want to change this, but I'm a big fan of balancing, so these items are still relatively hard to obtain in my opinion, even with this mod. If not make it hard, we may just play in Creative mode, right?</div> <br/> <br/>
+              <ImPointRight />{" "}
+              <a href="https://www.curseforge.com/minecraft/mc-mods/uncraftables-new">
+                {" "}
+                Uncraftables [NEW]
+              </a>
+              : Over 30,000 downloads <br />
+              <a href="https://www.curseforge.com/minecraft/mc-mods/uncraftables-new">
+                <img
+                  src={uncraftables}
+                  alt="Uncraftables [New]"
+                  className="image-card-view"
+                />
+              </a>{" "}
+              <br />
+              <div className="mod-description">
+                A lot of Vanilla Minecraft items are{" "}
+                <span className="purple">uncraftable</span> and some of them can
+                only be obtained via grinding or{" "}
+                <span className="purple">luck or once</span>. I want to change
+                this, but I'm a big fan of balancing, so these items are still
+                relatively hard to obtain in my opinion, even with this mod. If
+                not make it hard, we may just play in Creative mode, right?
+              </div>{" "}
+              <br /> <br />
             </Col>
             <Col md={12}>
-            <ImPointRight /> <a href="https://www.curseforge.com/minecraft/mc-mods/myt"> Myt</a>: Over 400 downloads <br />
-            <a href="https://www.curseforge.com/minecraft/mc-mods/myt"><img src={myt} alt="Myt" className="image-card-view"/></a> <br />
-            <div className="mod-description">A mod with nice additions that improve your Minecraft experience with <span className="purple">new ores, new flowers, new tools, new music, new world generation,</span> and other cool stuff.</div> <br/> <br/>
+              <ImPointRight />{" "}
+              <a href="https://www.curseforge.com/minecraft/mc-mods/myt">
+                {" "}
+                Myt
+              </a>
+              : Over 400 downloads <br />
+              <a href="https://www.curseforge.com/minecraft/mc-mods/myt">
+                <img src={myt} alt="Myt" className="image-card-view" />
+              </a>{" "}
+              <br />
+              <div className="mod-description">
+                A mod with nice additions that improve your Minecraft experience
+                with{" "}
+                <span className="purple">
+                  new ores, new flowers, new tools, new music, new world
+                  generation,
+                </span>{" "}
+                and other cool stuff.
+              </div>{" "}
+              <br /> <br />
             </Col>
             <Col md={12}>
-            <ImPointRight /> <a href="https://www.curseforge.com/minecraft/mc-mods/vanilla-foods-enhanced-new"> Foods Enhanced</a>: Over 1,000 downloads <br />
-            <a href="https://www.curseforge.com/minecraft/mc-mods/vanilla-foods-enhanced-new"><img src={foods} alt="Foods Enhanced" className="image-card-view"/></a> <br />
-            <div className="mod-description">This simple <span className="purple">Minecraft mod</span>, which requires the <span className="purple">Fabric modloader</span> relying on the <span className="purple">Fabric API</span>, focuses on enhancing the default <span className="purple">foods</span> of minecraft by adding new ones which should have been in the game!</div> <br/> <br/>
+              <ImPointRight />{" "}
+              <a href="https://www.curseforge.com/minecraft/mc-mods/vanilla-foods-enhanced-new">
+                {" "}
+                Foods Enhanced
+              </a>
+              : Over 1,000 downloads <br />
+              <a href="https://www.curseforge.com/minecraft/mc-mods/vanilla-foods-enhanced-new">
+                <img
+                  src={foods}
+                  alt="Foods Enhanced"
+                  className="image-card-view"
+                />
+              </a>{" "}
+              <br />
+              <div className="mod-description">
+                This simple <span className="purple">Minecraft mod</span>, which
+                requires the <span className="purple">Fabric modloader</span>{" "}
+                relying on the <span className="purple">Fabric API</span>,
+                focuses on enhancing the default{" "}
+                <span className="purple">foods</span> of minecraft by adding new
+                ones which should have been in the game!
+              </div>{" "}
+              <br /> <br />
             </Col>
-            </p>
+          </p>
         </Row>
       </Container>
     </Container>
