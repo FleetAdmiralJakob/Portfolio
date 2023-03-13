@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import {Col, Container, Row} from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 // @ts-ignore
@@ -17,8 +17,16 @@ import myt from "../../Assets/Projects/myt.png";
 import foods from "../../Assets/Projects/foods.png";
 import {SiCurseforge} from "react-icons/si";
 import {ImPointRight} from "react-icons/im";
+import {AiOutlineArrowDown, AiOutlineArrowUp} from "react-icons/ai";
 
 function Projects() {
+
+  const [readmore, setReadMore] = useState(false);
+
+  const changeReadMore = () => {
+    setReadMore(!readmore);
+  }
+
   return (
     <Container fluid className="project-section">
       <Container>
@@ -109,7 +117,11 @@ function Projects() {
             <Col md={12}>
               <ImPointRight /> <a href="https://www.curseforge.com/minecraft/mc-mods/uncraftables-new"> Uncraftables [NEW]</a>: Over 30,000 downloads <br />
               <a href="https://www.curseforge.com/minecraft/mc-mods/uncraftables-new"><img src={uncraftables} alt="Uncraftables [New]" className="image-card-view"/></a> <br />
-              <div className="mod-description">A lot of Vanilla Minecraft items are <span className="purple">uncraftable</span> and some of them can only be obtained via grinding or <span className="purple">luck or once</span>. I want to change this, but I'm a big fan of balancing, so these items are still relatively hard to obtain in my opinion, even with this mod. If not make it hard, we may just play in Creative mode, right?</div> <br/> <br/>
+              <div className="mod-description">A lot of Vanilla Minecraft items are <span className="purple">uncraftable</span> and some of them can only be obtained via grinding or <span className="purple">luck or once</span>. I want to change this, but I'm a big fan of balancing, so these items are still relatively hard to obtain in my opinion, even with this mod. If not make it hard, we may just play in Creative mode, right?
+              <br/> <span className="read-more" onClick={ changeReadMore }>Read more {!readmore ? <AiOutlineArrowUp/> : <AiOutlineArrowDown/>}</span>
+                {readmore && <div>In case collecting wither skeleton skulls or fighting the wither is too much work, there is a possibility to craft a nether star, but this is designed as end game content, so the ingredients are a bit extraordinary. You will need... <em>checks notes</em> ah, yes, several things! Take a ghast tear, put it into a phantom membrane and then fill that with dragon breath. This is the core of our star. Now add a block of diamonds and a block of emeralds for shinyness, blue ice for transparency, a prismarine shard for form, a netherite ingot for sturdyness and a block of honey or slime to keep it all together. Tadaa, new nether star! For convenience's sake (and because I didn't want to add a new item) you can complete both steps at once. For inconvenience's sake the crafting is not shapeless because I want the dragon breath to be in the middle.</div>}
+              </div>
+              <br/> <br/>
             </Col>
             <Col md={12}>
             <ImPointRight /> <a href="https://www.curseforge.com/minecraft/mc-mods/myt"> Myt</a>: Over 400 downloads <br />

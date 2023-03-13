@@ -30,6 +30,12 @@ html {
   cursor: default;
 }
 
+.read-more {
+  color: var(--imp-text-color) !important;
+  // Focus the mouse on the button
+  cursor: pointer;
+}
+
 button:focus {
   box-shadow: none !important;
 }
