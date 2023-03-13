@@ -3,7 +3,7 @@
   <a href="http://www.roessner.tech/" target="_blank">roessner.tech</a>
 </h2>
 <div align="center">
-  <img alt="Demo" src="Images/img2.png" />
+  <img alt="Demo" src="Images/img3.png" />
 </div>
 
 <br/>
