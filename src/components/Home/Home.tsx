@@ -8,6 +8,7 @@ import ProjectsSummary from "./ProjectsSummary";
 import ContactMe from "../ContactMe";
 import Type from "./Type";
 
+// The Home section of the website
 function Home() {
   return (
     <section>
