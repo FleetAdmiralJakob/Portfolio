@@ -1,5 +1,5 @@
 import React from "react";
-import {Col, Container, Row} from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
 import Github from "./Github";
 import Techstack from "./Techstack";
 import OtherSkills from "./OtherSkills";
@@ -7,7 +7,7 @@ import AboutCard from "./AboutCard";
 // @ts-ignore
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
-import {AiFillGithub} from "react-icons/ai";
+import { AiFillGithub } from "react-icons/ai";
 
 function About() {
   return (
@@ -95,14 +95,16 @@ function About() {
         </h1>
         <br />
         <img
-            src="https://github-readme-stats.vercel.app/api/wakatime?username=FleetAdmiralJakob&title_color=c770f0&icon_color=5d417a&text_color=ebebeb&bg_color=0a0e12&layout=compact&hide=other&langs_count=20&all_time&custom_title=Wakatime%20Stats%20(Top%2020%20Langs)"
-            alt="about"
-            className="img-fluid"
+          src="https://github-readme-stats.vercel.app/api/wakatime?username=FleetAdmiralJakob&title_color=c770f0&icon_color=5d417a&text_color=ebebeb&bg_color=0a0e12&layout=compact&hide=other&langs_count=20&all_time&custom_title=Wakatime%20Stats%20(Top%2020%20Langs)"
+          alt="about"
+          className="img-fluid"
         />{" "}
         <br />
         <br />
         <p>
-            <strong className="purple">Note:</strong> Please note that these are my stats from my free time, and by far not all of my activity is considered by Wakatime.
+          <strong className="purple">Note:</strong> Please note that these are
+          my stats from my free time, and by far not all of my activity is
+          considered by Wakatime.
         </p>
       </Container>
     </Container>
