@@ -32,8 +32,8 @@ html {
 
 .read-more {
   color: var(--imp-text-color) !important;
-  // Focus the mouse on the button
   cursor: pointer;
+  text-decoration: underline;
 }
 
 button:focus {
