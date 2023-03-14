@@ -1256,12 +1256,14 @@ button:focus {
 
 @media (max-width: 767px) {
   .confidence-level-box {
-    width: 13px;
-    height: 13px;
+    width: 8px;
+    height: 8px;
+    border-radius: 3px;
   }
   .confidence-level-box-full {
-    width: 13px;
-    height: 13px;
+    width: 8px;
+    height: 8px;
+    border-radius: 3px;
   }
 }
 
