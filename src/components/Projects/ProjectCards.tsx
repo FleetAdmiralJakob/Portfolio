@@ -18,11 +18,11 @@ function ProjectCards(props) {
           {props.labelsfirstclass && props.labelssecondclass && (
               <div className="project-card-footer">
                   {props.labelsfirstclass.map((label) => {
-                          return <span className="project-card-footer-label-first">{label}</span>
+                          return <span key={label} className="project-card-footer-label-first">{label}</span>
                       }
                   )}
                   {props.labelssecondclass.map((label) => {
-                          return <span className="project-card-footer-label-second">{label}</span>
+                          return <span key={label} className="project-card-footer-label-second">{label}</span>
                       }
                   )}
               </div>
@@ -44,6 +44,7 @@ function ProjectCards(props) {
             href={props.demoLink}
             target="_blank"
             style={{ marginLeft: "10px" }}
+            className="demo-button"
           >
             <CgWebsite /> &nbsp; Demo
           </Button>
@@ -55,6 +56,7 @@ function ProjectCards(props) {
             href={props.downloadLink}
             target="_blank"
             style={{ marginLeft: "10px" }}
+            className="download-button"
           >
             <BsFillCloudDownloadFill /> &nbsp; Download
           </Button>

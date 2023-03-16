@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import {Col, Container, Row} from "react-bootstrap";
 import Github from "./Github";
 import Techstack from "./Techstack";
@@ -10,6 +10,14 @@ import Toolstack from "./Toolstack";
 import {AiFillGithub} from "react-icons/ai";
 
 function About() {
+  const [followersCount, setFollowersCount] = useState(0);
+
+  fetch('https://api.github.com/users/FleetAdmiralJakob')
+      .then(response => response.json())
+      .then(data => {
+        setFollowersCount(data.followers);
+      })
+
   return (
     <Container fluid className="about-section">
       <Container>
@@ -87,6 +95,8 @@ function About() {
             </a>
           </li>
         </ul>
+        <br />
+        {followersCount} Followers
         <br />
         <br />
         <br />
