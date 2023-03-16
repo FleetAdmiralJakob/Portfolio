@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import {ImPointRight} from "react-icons/im";
+import { ImPointRight } from "react-icons/im";
 
 const convert = require("number-to-words");
 
@@ -39,11 +39,16 @@ function AboutCard() {
           </ul>
 
           <p style={{ textAlign: "justify" }}>
-            Since I got my first computer for my enrollment in elementary school, I've been fascinated by figuring out what's behind the applications I use.
-            That's why I started programming {convert.toWords(year - 2019)} years ago and have been increasingly passionate about it ever since and I have at least learnt
-            something, I think… 🤷‍♂️
+            Since I got my first computer for my enrollment in elementary
+            school, I've been fascinated by figuring out what's behind the
+            applications I use. That's why I started programming{" "}
+            {convert.toWords(year - 2019)} years ago and have been increasingly
+            passionate about it ever since and I have at least learnt something,
+            I think… 🤷‍♂️
             <br />
-            As a Zoomer, I am very interested in software engineering, as I belong to a generation that grows up with these technologies and engages with them every day.
+            As a Zoomer, I am very interested in software engineering, as I
+            belong to a generation that grows up with these technologies and
+            engages with them every day.
             <br />
             <br />
             My preferences are by classics like
