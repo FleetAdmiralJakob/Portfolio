@@ -58,9 +58,9 @@ function AboutCard() {
             <br /> But I'm always open to make new experiences.
             <br />
             <br />
-            My field of interests are building new &nbsp;
+            My field of interests are building new
             <i>
-              <b className="purple">Web Technologies and Products </b> and also
+              <b className="purple"> Web Technologies and Products </b> and also
               in areas related to <b className="purple"> Game Development. </b>
               But I am also interested in{" "}
               <b className="purple"> Mobile Development </b> with languages like{" "}
