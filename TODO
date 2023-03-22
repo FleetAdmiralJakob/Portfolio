@@ -50,8 +50,6 @@ TODOs
 
 - Check if the user is a bot and only then show the email address
 
-- Add to the projects the stars on GitHub ❗
-
 - Use an API from GitHub for the stars count that allows more requests
 
 - Make a animated star ❗
@@ -61,3 +59,7 @@ TODOs
 - Add a transition for the purple text ❗
 
 - Change Branch Protection Rules, so that the Github Action can upload a diagram
+
+- Animate "read more" button in projects
+
+- Add more personal LinkedIn stats like the followers

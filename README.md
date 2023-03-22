@@ -2,8 +2,8 @@
   Portfolio Website - v2.0<br/>
   <a href="http://www.roessner.tech/" target="_blank">roessner.tech</a>
 </h2>
-<div align="center">
-  <img alt="Demo" src="Images/img2.png" />
+<div>
+  <img alt="Demo" src="Images/img3.png" />
 </div>
 
 <br/>
@@ -77,7 +77,7 @@ You will find all the components used, and you can edit your information accordi
 
 ## License
 
-    Copyright 2022 Jakob Felix Eugen Rössner
+    Copyright 2023 Jakob Felix Eugen Rössner
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
