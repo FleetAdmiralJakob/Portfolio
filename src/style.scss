@@ -32,8 +32,8 @@ html {
 
 .read-more {
   color: var(--imp-text-color) !important;
-  // Focus the mouse on the button
   cursor: pointer;
+  text-decoration: underline;
 }
 
 button:focus {
@@ -530,6 +530,15 @@ button:focus {
   padding-top: 100px !important;
   padding-bottom: 20px !important;
   text-align: center;
+}
+
+@media (max-width: 800px) and (min-width: 400px) {
+  .download-button {
+    margin-top: 10px;
+  }
+  .demo-button {
+    margin-top: 10px;
+  }
 }
 
 .project-stars {
