@@ -1,5 +1,5 @@
-import React from "react";
-import {Col, Container, Row} from "react-bootstrap";
+import React, { useState } from "react";
+import { Col, Container, Row } from "react-bootstrap";
 import Github from "./Github";
 import Techstack from "./Techstack";
 import OtherSkills from "./OtherSkills";
@@ -7,9 +7,17 @@ import AboutCard from "./AboutCard";
 // @ts-ignore
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
-import {AiFillGithub} from "react-icons/ai";
+import { AiFillGithub } from "react-icons/ai";
 
 function About() {
+  const [followersCount, setFollowersCount] = useState(0);
+
+  fetch("https://api.github.com/users/FleetAdmiralJakob")
+    .then((response) => response.json())
+    .then((data) => {
+      setFollowersCount(data.followers);
+    });
+
   return (
     <Container fluid className="about-section">
       <Container>
@@ -60,7 +68,7 @@ function About() {
         <br />
         <br />
         <img
-          src="https://github-readme-stats.vercel.app/api/top-langs/?username=fleetadmiraljakob&title_color=c770f0&icon_color=5d417a&text_color=ebebeb&bg_color=0a0e12&show_icons=true&count_private=true&langs_count=6"
+          src="https://github-readme-stats.vercel.app/api/top-langs/?username=fleetadmiraljakob&title_color=c770f0&icon_color=5d417a&text_color=ebebeb&bg_color=0a0e12&show_icons=true&count_private=true&langs_count=6&hide=shaderlab,hlsl"
           alt="about"
           className="img-fluid"
         />{" "}
@@ -88,6 +96,8 @@ function About() {
           </li>
         </ul>
         <br />
+        {followersCount} Followers
+        <br />
         <br />
         <br />
         <h1>
@@ -95,14 +105,16 @@ function About() {
         </h1>
         <br />
         <img
-            src="https://github-readme-stats.vercel.app/api/wakatime?username=FleetAdmiralJakob&title_color=c770f0&icon_color=5d417a&text_color=ebebeb&bg_color=0a0e12&layout=compact&hide=other&langs_count=20&all_time&custom_title=Wakatime%20Stats%20(Top%2020%20Langs)"
-            alt="about"
-            className="img-fluid"
+          src="https://github-readme-stats.vercel.app/api/wakatime?username=FleetAdmiralJakob&title_color=c770f0&icon_color=5d417a&text_color=ebebeb&bg_color=0a0e12&layout=compact&hide=other&langs_count=20&all_time&custom_title=Wakatime%20Stats%20(Top%2020%20Langs)"
+          alt="about"
+          className="img-fluid"
         />{" "}
         <br />
         <br />
         <p>
-            <strong className="purple">Note:</strong> Please note that these are my stats from my free time, and by far not all of my activity is considered by Wakatime.
+          <strong className="purple">Note:</strong> Please note that these are
+          my stats from my free time, and by far not all of my activity is
+          considered by Wakatime.
         </p>
       </Container>
     </Container>
