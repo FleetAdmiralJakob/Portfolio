@@ -30,6 +30,12 @@ html {
   cursor: default;
 }
 
+.read-more {
+  color: var(--imp-text-color) !important;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
 button:focus {
   box-shadow: none !important;
 }
@@ -524,6 +530,15 @@ button:focus {
   padding-top: 100px !important;
   padding-bottom: 20px !important;
   text-align: center;
+}
+
+@media (max-width: 800px) and (min-width: 400px) {
+  .download-button {
+    margin-top: 10px;
+  }
+  .demo-button {
+    margin-top: 10px;
+  }
 }
 
 .project-stars {
@@ -1250,12 +1265,14 @@ button:focus {
 
 @media (max-width: 767px) {
   .confidence-level-box {
-    width: 13px;
-    height: 13px;
+    width: 8px;
+    height: 8px;
+    border-radius: 3px;
   }
   .confidence-level-box-full {
-    width: 13px;
-    height: 13px;
+    width: 8px;
+    height: 8px;
+    border-radius: 3px;
   }
 }
 

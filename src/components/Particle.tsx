@@ -1,7 +1,5 @@
 import React from "react";
-import loadable from '@loadable/component'
-
-const Particles = loadable(() => import('react-tsparticles'))
+import Particles from "react-tsparticles";
 
 function Particle() {
     return (
