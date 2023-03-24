@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { Col, Container, Row } from "react-bootstrap";
+import React, {useState} from "react";
+import {Col, Container, Row} from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 // @ts-ignore
 import steampunk from "../../Assets/Projects/steampunk.png";
@@ -14,10 +14,12 @@ import uncraftables from "../../Assets/Projects/uncraftables.png";
 // @ts-ignore
 import myt from "../../Assets/Projects/myt.png";
 // @ts-ignore
+import passwordgen from "../../Assets/Projects/passwordgen.png";
+// @ts-ignore
 import foods from "../../Assets/Projects/foods.png";
-import { SiCurseforge } from "react-icons/si";
-import { ImPointRight } from "react-icons/im";
-import { AiOutlineArrowDown, AiOutlineArrowUp } from "react-icons/ai";
+import {SiCurseforge} from "react-icons/si";
+import {ImPointRight} from "react-icons/im";
+import {AiOutlineArrowDown, AiOutlineArrowUp} from "react-icons/ai";
 
 function Projects() {
   const [readmore, setReadMore] = useState(false);
@@ -41,11 +43,36 @@ function Projects() {
               imgPath={steampunk}
               isBlog={false}
               labelsfirstclass={["Web 🌐", "Game 🎮"]}
-              labelssecondclass={["Javascript", "CSS3", "HTML5"]}
+              labelssecondclass={["Javascript", "CSS", "HTML"]}
               title="A Steampunk Game"
               description="A small game created by me with Javascript, CSS and HTML."
               ghLink="FleetAdmiralJakob/Steampunk-Game"
               demoLink="http://steampunk-game.me/Steampunk-Game/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+                imgPath={tippy}
+                isBlog={false}
+                labelsfirstclass={["Mobile 📱", "Android"]}
+                labelssecondclass={["Java ☕", "Kotlin"]}
+                title="Tippy"
+                description="A tip calculator (for Android)!"
+                ghLink="FleetAdmiralJakob/Tippy"
+                downloadLink="https://github.com/FleetAdmiralJakob/Tippy/releases"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+                imgPath={passwordgen}
+                isBlog={false}
+                labelsfirstclass={["Web 🌐"]}
+                labelssecondclass={["Angular", "Typescript", "CSS", "Tailwind"]}
+                title="Password Generator"
+                description="A simple password generator with a nice UI for the Web!"
+                ghLink="FleetAdmiralJakob/Password-Generator"
+                demoLink="https://passwort-generator.vercel.app/"
+                downloadLink="https://github.com/FleetAdmiralJakob/Tippy/releases"
             />
           </Col>
           <Col md={4} className="project-card">
@@ -58,18 +85,6 @@ function Projects() {
               description="A simple Android app to demonstrate the use of Kotlin in Android app development. The user are presented 2 numbers on buttons- depending on if the larger number was clicked, the background color will change."
               ghLink="FleetAdmiralJakob/Bigger-Number-Game"
               downloadLink="https://github.com/FleetAdmiralJakob/Bigger-Number-Game/releases"
-            />
-          </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={tippy}
-              isBlog={false}
-              labelsfirstclass={["Mobile 📱", "Android"]}
-              labelssecondclass={["Java ☕", "Kotlin"]}
-              title="Tippy"
-              description="A tip calculator (for Android)!"
-              ghLink="FleetAdmiralJakob/Tippy"
-              downloadLink="https://github.com/FleetAdmiralJakob/Tippy/releases"
             />
           </Col>
         </Row>
@@ -205,8 +220,8 @@ function Projects() {
               <br />
               <div className="mod-description">
                 This simple <span className="purple">Minecraft mod</span>, which
-                requires the <span className="purple">Fabric modloader</span>{" "}
-                relying on the <span className="purple">Fabric API</span>,
+                requires the <a href="https://fabricmc.net/" className="purple">Fabric modloader</a>{" "}
+                relying on the <a href="https://www.curseforge.com/minecraft/mc-mods/fabric-api" className="purple">Fabric API</a>,
                 focuses on enhancing the default{" "}
                 <span className="purple">foods</span> of minecraft by adding new
                 ones which should have been in the game!
