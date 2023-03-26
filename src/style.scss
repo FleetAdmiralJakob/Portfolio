@@ -26,6 +26,10 @@ html {
   text-decoration: inherit;
 }
 
+.a {
+  cursor: pointer;
+}
+
 .purple {
   color: var(--imp-text-color) !important;
 }
@@ -37,7 +41,6 @@ html {
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  cursor: default;
 }
 
 .read-more {

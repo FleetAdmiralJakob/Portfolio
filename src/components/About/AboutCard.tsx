@@ -17,7 +17,7 @@ function AboutCard() {
             <span className="purple">Jakob Felix Eugen Rössner </span>
             from <span className="purple"> Berlin, Germany.</span>
             <br />I am a student at the{" "}
-            <a href="https://fsg-kw.de/" className="purple">Friedrich-Schiller-Gymnasium.</a>
+            <a href="https://fsg-kw.de/" className="purple a">Friedrich-Schiller-Gymnasium.</a>
             <br />
             <br />I am <span className="purple">
               {year - 2009} years old.

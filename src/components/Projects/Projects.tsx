@@ -220,8 +220,8 @@ function Projects() {
               <br />
               <div className="mod-description">
                 This simple <span className="purple">Minecraft mod</span>, which
-                requires the <a href="https://fabricmc.net/" className="purple">Fabric modloader</a>{" "}
-                relying on the <a href="https://www.curseforge.com/minecraft/mc-mods/fabric-api" className="purple">Fabric API</a>,
+                requires the <a href="https://fabricmc.net/" className="purple a">Fabric modloader</a>{" "}
+                relying on the <a href="https://www.curseforge.com/minecraft/mc-mods/fabric-api" className="purple a">Fabric API</a>,
                 focuses on enhancing the default{" "}
                 <span className="purple">foods</span> of minecraft by adding new
                 ones which should have been in the game!
