@@ -1,7 +1,7 @@
 import React from "react";
-import {Col, Container, Row} from "react-bootstrap";
-import {AiFillGithub} from "react-icons/ai";
-import {FaLinkedinIn, FaMailBulk} from "react-icons/fa";
+import { Col, Container, Row } from "react-bootstrap";
+import { AiFillGithub } from "react-icons/ai";
+import { FaLinkedinIn, FaMailBulk } from "react-icons/fa";
 import linkData from "./linkData";
 
 function Footer() {
@@ -57,8 +57,7 @@ function Footer() {
         </Col>
       </Row>
       <Row>
-        <Col md="4" className="footer-body">
-        </Col>
+        <Col md="4" className="footer-body"></Col>
         <Col md="4" className="footer-body">
           <h3>Thank you for visiting my website!</h3>
         </Col>
