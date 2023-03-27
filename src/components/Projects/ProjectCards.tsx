@@ -1,8 +1,8 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
-import { CgWebsite } from "react-icons/cg";
-import { BsFillCloudDownloadFill, BsGithub } from "react-icons/bs";
+import {CgWebsite} from "react-icons/cg";
+import {BsFillCloudDownloadFill, BsGithub} from "react-icons/bs";
 import ProjectStars from "./ProjectStars";
 
 function ProjectCards(props) {
@@ -68,7 +68,7 @@ function ProjectCards(props) {
             href={props.downloadLink}
             target="_blank"
             style={{ marginLeft: "10px" }}
-            className="download-button"
+            className={props.ghLink && props.demoLink ? "download-button-special" : "download-button"}
           >
             <BsFillCloudDownloadFill /> &nbsp; Download
           </Button>

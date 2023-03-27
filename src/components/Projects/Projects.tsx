@@ -14,6 +14,8 @@ import uncraftables from "../../Assets/Projects/uncraftables.png";
 // @ts-ignore
 import myt from "../../Assets/Projects/myt.png";
 // @ts-ignore
+import passwordgen from "../../Assets/Projects/passwordgen.png";
+// @ts-ignore
 import foods from "../../Assets/Projects/foods.png";
 import { SiCurseforge } from "react-icons/si";
 import { ImPointRight } from "react-icons/im";
@@ -41,23 +43,11 @@ function Projects() {
               imgPath={steampunk}
               isBlog={false}
               labelsfirstclass={["Web 🌐", "Game 🎮"]}
-              labelssecondclass={["Javascript", "CSS3", "HTML5"]}
+              labelssecondclass={["Javascript", "CSS", "HTML"]}
               title="A Steampunk Game"
               description="A small game created by me with Javascript, CSS and HTML."
               ghLink="FleetAdmiralJakob/Steampunk-Game"
               demoLink="http://steampunk-game.me/Steampunk-Game/"
-            />
-          </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={biggernumber}
-              isBlog={false}
-              labelsfirstclass={["Mobile 📱", "Android", "Game 🎮"]}
-              labelssecondclass={["Java ☕", "Kotlin"]}
-              title="Bigger Number Game"
-              description="A simple Android app to demonstrate the use of Kotlin in Android app development. The user are presented 2 numbers on buttons- depending on if the larger number was clicked, the background color will change."
-              ghLink="FleetAdmiralJakob/Bigger-Number-Game"
-              downloadLink="https://github.com/FleetAdmiralJakob/Bigger-Number-Game/releases"
             />
           </Col>
           <Col md={4} className="project-card">
@@ -72,11 +62,36 @@ function Projects() {
               downloadLink="https://github.com/FleetAdmiralJakob/Tippy/releases"
             />
           </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={passwordgen}
+              isBlog={false}
+              labelsfirstclass={["Web 🌐"]}
+              labelssecondclass={["Angular", "Typescript", "CSS", "Tailwind"]}
+              title="Password Generator"
+              description="A simple password generator with a nice UI for the Web!"
+              ghLink="FleetAdmiralJakob/Password-Generator"
+              demoLink="https://passwort-generator.vercel.app/"
+              downloadLink="https://github.com/FleetAdmiralJakob/Tippy/releases"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={biggernumber}
+              isBlog={false}
+              labelsfirstclass={["Mobile 📱", "Android", "Game 🎮"]}
+              labelssecondclass={["Java ☕", "Kotlin"]}
+              title="Bigger Number Game"
+              description="A simple Android app to demonstrate the use of Kotlin in Android app development. The user are presented 2 numbers on buttons- depending on if the larger number was clicked, the background color will change."
+              ghLink="FleetAdmiralJakob/Bigger-Number-Game"
+              downloadLink="https://github.com/FleetAdmiralJakob/Bigger-Number-Game/releases"
+            />
+          </Col>
         </Row>
         <h1 className="project-heading">
           Other <strong className="purple">Projects </strong>
         </h1>
-        <p style={{ color: "white" }}>Here are some other projects.</p>
+        <p style={{ color: "white" }}>Here you can find some other projects.</p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
@@ -151,16 +166,16 @@ function Projects() {
                     nether star, but this is designed as end game content, so
                     the ingredients are a bit extraordinary. You will need...{" "}
                     <em>checks notes</em> ah, yes, several things! Take a ghast
-                    tear, put it into a phantom membrane and then fill that with
-                    dragon breath. This is the core of our star. Now add a block
-                    of diamonds and a block of emeralds for shinyness, blue ice
-                    for transparency, a prismarine shard for form, a netherite
-                    ingot for sturdyness and a block of honey or slime to keep
-                    it all together. Tadaa, new nether star! For convenience's
-                    sake (and because I didn't want to add a new item) you can
-                    complete both steps at once. For inconvenience's sake the
-                    crafting is not shapeless because I want the dragon breath
-                    to be in the middle.
+                    tear, put it into a phantom membrane, and then fill that
+                    with dragon breath. This is the core of our star. Now add a
+                    block of diamonds and a block of emeralds for shininess,
+                    blue ice for transparency, a prismarine shard for form, a
+                    netherite ingot for sturdiness, and a block of honey or
+                    slime to keep it all together. Tadaa, new nether star! For
+                    convenience's sake (and because I didn't want to add a new
+                    item) you can complete both steps at once. For
+                    inconvenience's sake, the crafting is not shapeless because
+                    I want the dragon breath to be in the middle.
                   </div>
                 )}
               </div>
@@ -205,9 +220,18 @@ function Projects() {
               <br />
               <div className="mod-description">
                 This simple <span className="purple">Minecraft mod</span>, which
-                requires the <span className="purple">Fabric modloader</span>{" "}
-                relying on the <span className="purple">Fabric API</span>,
-                focuses on enhancing the default{" "}
+                requires the{" "}
+                <a href="https://fabricmc.net/" className="purple a">
+                  Fabric modloader
+                </a>{" "}
+                relying on the{" "}
+                <a
+                  href="https://www.curseforge.com/minecraft/mc-mods/fabric-api"
+                  className="purple a"
+                >
+                  Fabric API
+                </a>
+                , focuses on enhancing the default{" "}
                 <span className="purple">foods</span> of minecraft by adding new
                 ones which should have been in the game!
               </div>{" "}
