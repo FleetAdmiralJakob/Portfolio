@@ -979,9 +979,13 @@ button:focus {
   @include tech-icons;
 }
 
+.tech-icons:hover {
+  @include tech-icons-hover;
+}
+
 @media (max-width: 767px) {
   .tech-icons {
-    @include tech-icons-media;
+    margin: 10px !important;
   }
   .tech-icons-angular {
     @include tech-icons-media;
@@ -1040,10 +1044,6 @@ button:focus {
   .tech-icons-adobe {
     @include tech-icons-media;
   }
-}
-
-.tech-icons:hover {
-  @include tech-icons-hover;
 }
 
 .tech-icons-html {
