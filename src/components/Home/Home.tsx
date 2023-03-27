@@ -1,15 +1,14 @@
 import React from "react";
-import { Col, Container, Row } from "react-bootstrap";
+import {Col, Container, Row} from "react-bootstrap";
 // @ts-ignore
 import homeLogo from "../../Assets/home-main.svg";
-import loadable from "@loadable/component";
+import Home2 from "./Home2";
+import AboutSummary from "./AboutSummary";
+import ProjectsSummary from "./ProjectsSummary";
+import ContactMe from "../ContactMe";
+import Type from "./Type";
 
-const Home2 = loadable(() => import("./Home2"));
-const AboutSummary = loadable(() => import("./AboutSummary"));
-const ProjectsSummary = loadable(() => import("./ProjectsSummary"));
-const ContactMe = loadable(() => import("../ContactMe"));
-const Type = loadable(() => import("./Type"));
-
+// The Home section of the website
 function Home() {
   return (
     <section>

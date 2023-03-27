@@ -16,6 +16,20 @@ html {
   --imp-text-color3: #5c0f7f;
 }
 
+.link-without-styling {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.link-without-styling:hover {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.a {
+  cursor: pointer;
+}
+
 .purple {
   color: var(--imp-text-color) !important;
 }
@@ -27,7 +41,12 @@ html {
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  cursor: default;
+}
+
+.read-more {
+  color: var(--imp-text-color) !important;
+  cursor: pointer;
+  text-decoration: underline;
 }
 
 button:focus {
@@ -342,12 +361,6 @@ button:focus {
   padding-top: 30px !important;
   z-index: 0;
   mask-image: linear-gradient(to top, transparent, rgba(0, 0, 0, 0.9), black);
-  -webkit-mask-image: linear-gradient(
-    to top,
-    transparent,
-    rgba(0, 0, 0, 0.9),
-    black
-  );
 }
 
 .home-content {
@@ -530,6 +543,34 @@ button:focus {
   padding-top: 100px !important;
   padding-bottom: 20px !important;
   text-align: center;
+}
+
+.download-button-special {
+  margin-top: 10px;
+}
+
+@media (max-width: 800px) and (min-width: 400px) {
+  .download-button {
+    margin-top: 10px;
+  }
+  .demo-button {
+    margin-top: 10px;
+  }
+}
+
+.project-stars {
+  font-size: 20px;
+}
+
+.rounded-hr {
+  border-top: 3px solid #bbb;
+  border-radius: 5px;
+}
+
+.left {
+  display: flex;
+  text-align: left;
+  text-decoration: underline;
 }
 
 .contact-section {
@@ -929,85 +970,75 @@ button:focus {
   box-shadow: 6px 7px 6px 5px rgba(89, 4, 168, 0.183) !important;
 }
 
+@mixin tech-icons-media {
+  font-size: 0.3rem !important;
+  margin: 10px !important;
+}
+
 .tech-icons {
   @include tech-icons;
 }
 
 @media (max-width: 767px) {
   .tech-icons {
-    margin: 10px !important;
+    @include tech-icons-media;
+  }
+  .tech-icons-angular {
+    @include tech-icons-media;
   }
   .tech-icons-mongo {
-    font-size: 0.3rem !important;
-    margin: 10px !important;
+    @include tech-icons-media;
   }
   .tech-icons-html {
-    font-size: 0.3rem !important;
-    margin: 10px !important;
+    @include tech-icons-media;
   }
   .tech-icons-css {
-    font-size: 0.3rem !important;
-    margin: 10px !important;
+    @include tech-icons-media;
   }
   .tech-icons-sass {
-    font-size: 0.3rem !important;
-    margin: 10px !important;
+    @include tech-icons-media;
   }
   .tech-icons-postcss {
-    font-size: 0.3rem !important;
-    margin: 10px !important;
+    @include tech-icons-media;
   }
   .tech-icons-tailwind {
-    font-size: 0.3rem !important;
-    margin: 10px !important;
+    @include tech-icons-media;
   }
   .tech-icons-material {
-    font-size: 0.3rem !important;
-    margin: 10px !important;
+    @include tech-icons-media;
   }
   .tech-icons-javascript {
-    font-size: 0.3rem !important;
-    margin: 10px !important;
+    @include tech-icons-media;
   }
   .tech-icons-typescript {
-    font-size: 0.3rem !important;
-    margin: 10px !important;
+    @include tech-icons-media;
   }
   .tech-icons-node {
-    font-size: 0.3rem !important;
-    margin: 10px !important;
+    @include tech-icons-media;
   }
   .tech-icons-react {
-    font-size: 0.3rem !important;
-    margin: 10px !important;
+    @include tech-icons-media;
   }
   .tech-icons-wordpress {
-    font-size: 0.3rem !important;
-    margin: 10px !important;
+    @include tech-icons-media;
   }
   .tech-icons-csharp {
-    font-size: 0.3rem !important;
-    margin: 10px !important;
+    @include tech-icons-media;
   }
   .tech-icons-git {
-    font-size: 0.3rem !important;
-    margin: 10px !important;
+    @include tech-icons-media;
   }
   .tech-icons-vscode {
-    font-size: 0.3rem !important;
-    margin: 10px !important;
+    @include tech-icons-media;
   }
   .tech-icons-windows {
-    font-size: 0.3rem !important;
-    margin: 10px !important;
+    @include tech-icons-media;
   }
   .tech-icons-office {
-    font-size: 0.3rem !important;
-    margin: 10px !important;
+    @include tech-icons-media;
   }
   .tech-icons-adobe {
-    font-size: 0.3rem !important;
-    margin: 10px !important;
+    @include tech-icons-media;
   }
 }
 
@@ -1022,6 +1053,7 @@ button:focus {
 .tech-icons-html:hover {
   @include tech-icons-hover;
   color: #e34f32 !important;
+  border: 2px solid #e34f32 !important;
 }
 
 .tech-icons-css {
@@ -1031,6 +1063,17 @@ button:focus {
 .tech-icons-css:hover {
   @include tech-icons-hover;
   color: #264de4 !important;
+  border: 2px solid #264de4 !important;
+}
+
+.tech-icons-angular {
+  @include tech-icons;
+}
+
+.tech-icons-angular:hover {
+  @include tech-icons-hover;
+  color: #c3002f !important;
+  border: 2px solid #c3002f !important;
 }
 
 .tech-icons-sass {
@@ -1040,6 +1083,7 @@ button:focus {
 .tech-icons-sass:hover {
   @include tech-icons-hover;
   color: #cc6699 !important;
+  border: 2px solid #cc6699 !important;
 }
 
 .tech-icons-postcss {
@@ -1049,6 +1093,7 @@ button:focus {
 .tech-icons-postcss:hover {
   @include tech-icons-hover;
   color: #dd3a0a !important;
+  border: 2px solid #dd3a0a !important;
 }
 
 .tech-icons-tailwind {
@@ -1058,6 +1103,7 @@ button:focus {
 .tech-icons-tailwind:hover {
   @include tech-icons-hover;
   color: #38b2ac !important;
+  border: 2px solid #38b2ac !important;
 }
 
 .tech-icons-material {
@@ -1067,6 +1113,7 @@ button:focus {
 .tech-icons-material:hover {
   @include tech-icons-hover;
   color: #0081cb !important;
+  border: 2px solid #0081cb !important;
 }
 
 .tech-icons-node {
@@ -1076,6 +1123,7 @@ button:focus {
 .tech-icons-node:hover {
   @include tech-icons-hover;
   color: rgb(102, 159, 100);
+  border: 2px solid rgb(102, 159, 100) !important;
 }
 
 .tech-icons-javascript {
@@ -1085,6 +1133,7 @@ button:focus {
 .tech-icons-javascript:hover {
   @include tech-icons-hover;
   color: rgb(240, 219, 79);
+  border: 2px solid rgb(240, 219, 79) !important;
 }
 
 .tech-icons-typescript {
@@ -1094,6 +1143,7 @@ button:focus {
 .tech-icons-typescript:hover {
   @include tech-icons-hover;
   color: rgb(0, 122, 205);
+  border: 2px solid rgb(0, 122, 205) !important;
 }
 
 .tech-icons-react {
@@ -1103,6 +1153,7 @@ button:focus {
 .tech-icons-react:hover {
   @include tech-icons-hover;
   color: rgb(90, 218, 253);
+  border: 2px solid rgb(90, 218, 253) !important;
 }
 
 .tech-icons-mongo {
@@ -1112,6 +1163,7 @@ button:focus {
 .tech-icons-mongo:hover {
   @include tech-icons-hover;
   color: rgb(69, 155, 69);
+  border: 2px solid rgb(69, 155, 69) !important;
 }
 
 .tech-icons-wordpress {
@@ -1121,6 +1173,7 @@ button:focus {
 .tech-icons-wordpress:hover {
   @include tech-icons-hover;
   color: rgb(1, 117, 168);
+  border: 2px solid rgb(1, 117, 168) !important;
 }
 
 .tech-icons-csharp {
@@ -1130,6 +1183,7 @@ button:focus {
 .tech-icons-csharp:hover {
   @include tech-icons-hover;
   color: rgb(102, 32, 121);
+  border: 2px solid rgb(102, 32, 121) !important;
 }
 
 .tech-icons-git {
@@ -1139,6 +1193,7 @@ button:focus {
 .tech-icons-git:hover {
   @include tech-icons-hover;
   color: rgb(233, 79, 50);
+  border: 2px solid rgb(233, 79, 50) !important;
 }
 
 .tech-icons-vscode {
@@ -1148,6 +1203,7 @@ button:focus {
 .tech-icons-vscode:hover {
   @include tech-icons-hover;
   color: rgb(69, 173, 244);
+  border: 2px solid rgb(69, 173, 244) !important;
 }
 
 .tech-icons-windows {
@@ -1157,6 +1213,7 @@ button:focus {
 .tech-icons-windows:hover {
   @include tech-icons-hover;
   color: rgb(20, 122, 214);
+  border: 2px solid rgb(20, 122, 214) !important;
 }
 
 .tech-icons-office {
@@ -1166,6 +1223,7 @@ button:focus {
 .tech-icons-office:hover {
   @include tech-icons-hover;
   color: rgb(233, 60, 1);
+  border: 2px solid rgb(233, 60, 1) !important;
 }
 
 .tech-icons-adobe {
@@ -1175,6 +1233,7 @@ button:focus {
 .tech-icons-adobe:hover {
   @include tech-icons-hover;
   color: rgb(255, 13, 27);
+  border: 2px solid rgb(255, 13, 27) !important;
 }
 
 .tech-description {
@@ -1219,6 +1278,19 @@ button:focus {
   margin-top: 10px;
   margin-bottom: 10px;
   background-color: var(--imp-text-color2);
+}
+
+@media (max-width: 767px) {
+  .confidence-level-box {
+    width: 8px;
+    height: 8px;
+    border-radius: 3px;
+  }
+  .confidence-level-box-full {
+    width: 8px;
+    height: 8px;
+    border-radius: 3px;
+  }
 }
 
 .confidence-level-text {
