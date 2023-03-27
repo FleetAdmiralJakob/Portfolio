@@ -16,6 +16,20 @@ html {
   --imp-text-color3: #5c0f7f;
 }
 
+.link-without-styling {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.link-without-styling:hover {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.a {
+  cursor: pointer;
+}
+
 .purple {
   color: var(--imp-text-color) !important;
 }
@@ -27,7 +41,6 @@ html {
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  cursor: default;
 }
 
 .read-more {
@@ -532,6 +545,10 @@ button:focus {
   text-align: center;
 }
 
+.download-button-special {
+  margin-top: 10px;
+}
+
 @media (max-width: 800px) and (min-width: 400px) {
   .download-button {
     margin-top: 10px;
@@ -953,85 +970,75 @@ button:focus {
   box-shadow: 6px 7px 6px 5px rgba(89, 4, 168, 0.183) !important;
 }
 
+@mixin tech-icons-media {
+  font-size: 0.3rem !important;
+  margin: 10px !important;
+}
+
 .tech-icons {
   @include tech-icons;
 }
 
 @media (max-width: 767px) {
   .tech-icons {
-    margin: 10px !important;
+    @include tech-icons-media;
+  }
+  .tech-icons-angular {
+    @include tech-icons-media;
   }
   .tech-icons-mongo {
-    font-size: 0.3rem !important;
-    margin: 10px !important;
+    @include tech-icons-media;
   }
   .tech-icons-html {
-    font-size: 0.3rem !important;
-    margin: 10px !important;
+    @include tech-icons-media;
   }
   .tech-icons-css {
-    font-size: 0.3rem !important;
-    margin: 10px !important;
+    @include tech-icons-media;
   }
   .tech-icons-sass {
-    font-size: 0.3rem !important;
-    margin: 10px !important;
+    @include tech-icons-media;
   }
   .tech-icons-postcss {
-    font-size: 0.3rem !important;
-    margin: 10px !important;
+    @include tech-icons-media;
   }
   .tech-icons-tailwind {
-    font-size: 0.3rem !important;
-    margin: 10px !important;
+    @include tech-icons-media;
   }
   .tech-icons-material {
-    font-size: 0.3rem !important;
-    margin: 10px !important;
+    @include tech-icons-media;
   }
   .tech-icons-javascript {
-    font-size: 0.3rem !important;
-    margin: 10px !important;
+    @include tech-icons-media;
   }
   .tech-icons-typescript {
-    font-size: 0.3rem !important;
-    margin: 10px !important;
+    @include tech-icons-media;
   }
   .tech-icons-node {
-    font-size: 0.3rem !important;
-    margin: 10px !important;
+    @include tech-icons-media;
   }
   .tech-icons-react {
-    font-size: 0.3rem !important;
-    margin: 10px !important;
+    @include tech-icons-media;
   }
   .tech-icons-wordpress {
-    font-size: 0.3rem !important;
-    margin: 10px !important;
+    @include tech-icons-media;
   }
   .tech-icons-csharp {
-    font-size: 0.3rem !important;
-    margin: 10px !important;
+    @include tech-icons-media;
   }
   .tech-icons-git {
-    font-size: 0.3rem !important;
-    margin: 10px !important;
+    @include tech-icons-media;
   }
   .tech-icons-vscode {
-    font-size: 0.3rem !important;
-    margin: 10px !important;
+    @include tech-icons-media;
   }
   .tech-icons-windows {
-    font-size: 0.3rem !important;
-    margin: 10px !important;
+    @include tech-icons-media;
   }
   .tech-icons-office {
-    font-size: 0.3rem !important;
-    margin: 10px !important;
+    @include tech-icons-media;
   }
   .tech-icons-adobe {
-    font-size: 0.3rem !important;
-    margin: 10px !important;
+    @include tech-icons-media;
   }
 }
 
@@ -1057,6 +1064,16 @@ button:focus {
   @include tech-icons-hover;
   color: #264de4 !important;
   border: 2px solid #264de4 !important;
+}
+
+.tech-icons-angular {
+  @include tech-icons;
+}
+
+.tech-icons-angular:hover {
+  @include tech-icons-hover;
+  color: #C3002F !important;
+  border: 2px solid #C3002F !important;
 }
 
 .tech-icons-sass {
