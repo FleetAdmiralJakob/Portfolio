@@ -91,7 +91,7 @@ function Projects() {
         <h1 className="project-heading">
           Other <strong className="purple">Projects </strong>
         </h1>
-        <p style={{ color: "white" }}>Here are some other projects.</p>
+        <p style={{ color: "white" }}>Here you can find some other projects.</p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
@@ -166,16 +166,16 @@ function Projects() {
                     nether star, but this is designed as end game content, so
                     the ingredients are a bit extraordinary. You will need...{" "}
                     <em>checks notes</em> ah, yes, several things! Take a ghast
-                    tear, put it into a phantom membrane and then fill that with
-                    dragon breath. This is the core of our star. Now add a block
-                    of diamonds and a block of emeralds for shinyness, blue ice
-                    for transparency, a prismarine shard for form, a netherite
-                    ingot for sturdyness and a block of honey or slime to keep
-                    it all together. Tadaa, new nether star! For convenience's
-                    sake (and because I didn't want to add a new item) you can
-                    complete both steps at once. For inconvenience's sake the
-                    crafting is not shapeless because I want the dragon breath
-                    to be in the middle.
+                    tear, put it into a phantom membrane, and then fill that
+                    with dragon breath. This is the core of our star. Now add a
+                    block of diamonds and a block of emeralds for shininess,
+                    blue ice for transparency, a prismarine shard for form, a
+                    netherite ingot for sturdiness, and a block of honey or
+                    slime to keep it all together. Tadaa, new nether star! For
+                    convenience's sake (and because I didn't want to add a new
+                    item) you can complete both steps at once. For
+                    inconvenience's sake, the crafting is not shapeless because
+                    I want the dragon breath to be in the middle.
                   </div>
                 )}
               </div>
