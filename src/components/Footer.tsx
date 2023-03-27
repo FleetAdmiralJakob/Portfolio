@@ -2,6 +2,7 @@ import React from "react";
 import {Col, Container, Row} from "react-bootstrap";
 import {AiFillGithub} from "react-icons/ai";
 import {FaLinkedinIn, FaMailBulk} from "react-icons/fa";
+import linkData from "./linkData";
 
 function Footer() {
   const date = new Date();
@@ -23,7 +24,7 @@ function Footer() {
           <ul className="footer-icons">
             <li className="social-icons">
               <a
-                href="https://github.com/FleetAdmiralJakob"
+                href={linkData.links[0].github}
                 className="footer-icon"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -34,7 +35,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://www.linkedin.com/in/jakob-r%C3%B6ssner-532b93214/"
+                href={linkData.links[0].linkedIn}
                 className="footer-icon"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -45,7 +46,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="mailto:jakob.roessner@outlook.de"
+                href={linkData.links[0].mail}
                 className="footer-icon"
                 aria-label="Mail Me"
               >

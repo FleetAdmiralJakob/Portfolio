@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { Col, Container, Row } from "react-bootstrap";
+import React, {useState} from "react";
+import {Col, Container, Row} from "react-bootstrap";
 import Github from "./Github";
 import Techstack from "./Techstack";
 import OtherSkills from "./OtherSkills";
@@ -7,16 +7,18 @@ import AboutCard from "./AboutCard";
 // @ts-ignore
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
-import { AiFillGithub } from "react-icons/ai";
+import linkData from "../linkData";
+import {AiFillGithub} from "react-icons/ai";
+import {SiLeetcode} from "react-icons/si";
 
 function About() {
   const [followersCount, setFollowersCount] = useState(0);
 
   fetch("https://api.github.com/users/FleetAdmiralJakob")
-    .then((response) => response.json())
-    .then((data) => {
-      setFollowersCount(data.followers);
-    });
+      .then((response) => response.json())
+      .then((data) => {
+        setFollowersCount(data.followers);
+      });
 
   return (
     <Container fluid className="about-section">
@@ -41,6 +43,36 @@ function About() {
             className="about-img"
           >
             <img src={laptopImg} alt="about" className="img-fluid" />
+            <br/> <br/> <br/>
+            <h4>
+              See me <strong className="purple">on GitHub</strong> and <strong className="purple">LeetCode!</strong>
+            </h4>
+            <ul className="home-about-social-links">
+              <li className="social-icons">
+                <a
+                    href={linkData.links[0].github}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="icon-colour  home-social-icons"
+                >
+                  <AiFillGithub />
+                </a>
+              </li>
+            </ul>
+            <ul className="home-about-social-links">
+              <li className="social-icons">
+                <a
+                    href={linkData.links[0].leetcode}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="icon-colour  home-social-icons"
+                >
+                  <SiLeetcode />
+                </a>
+              </li>
+            </ul>
+            <br />
+            {followersCount} Followers
           </Col>
         </Row>
         <h1 className="project-heading">
@@ -80,26 +112,6 @@ function About() {
           className="img-fluid"
         />{" "}
         <br /> <br />
-        <h4>
-          See me <strong className="purple">on GitHub</strong>
-        </h4>
-        <ul className="home-about-social-links">
-          <li className="social-icons">
-            <a
-              href="https://github.com/FleetAdmiralJakob"
-              target="_blank"
-              rel="noreferrer"
-              className="icon-colour  home-social-icons"
-            >
-              <AiFillGithub />
-            </a>
-          </li>
-        </ul>
-        <br />
-        {followersCount} Followers
-        <br />
-        <br />
-        <br />
         <h1>
           Other <strong className="purple">Stats</strong>
         </h1>

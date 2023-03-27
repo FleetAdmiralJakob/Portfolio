@@ -5,6 +5,7 @@ import myImg from "../../Assets/avatar4.webp";
 import Tilt from "react-parallax-tilt";
 import {AiFillGithub} from "react-icons/ai";
 import {FaLinkedinIn, FaMailBulk} from "react-icons/fa";
+import linkData from "../linkData";
 
 function Home2() {
   return (
@@ -35,7 +36,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/FleetAdmiralJakob"
+                  href={linkData.links[0].github}
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -46,7 +47,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/jakob-r%C3%B6ssner-532b93214/"
+                  href={linkData.links[0].linkedIn}
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -57,7 +58,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="mailto:jakob.roessner@outlook.de"
+                  href={linkData.links[0].mail}
                   className="icon-colour  home-social-icons"
                   aria-label="Mail me"
                 >

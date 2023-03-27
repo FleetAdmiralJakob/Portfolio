@@ -2,6 +2,7 @@ import React from "react";
 import {Col, Container, Row} from "react-bootstrap";
 import {AiFillGithub, AiFillHome, AiFillMail, AiFillPhone} from "react-icons/ai";
 import {FaLinkedinIn} from "react-icons/fa";
+import linkData from "./linkData";
 
 function ContactMe() {
     return (
@@ -19,7 +20,7 @@ function ContactMe() {
                         <b> Jakob Rössner </b> <br/> <br/>
                         <AiFillPhone/> <b>Phone:</b> +49 1512 5404979 <br/>
                         <AiFillMail/> <b>E-Mail:</b>{" "}
-                        <a href="mailto:jakob.roessner@outlook.de">
+                        <a href={linkData.links[0].mail}>
                             {" "}
                             jakob.roessner@outlook.de{" "}
                         </a>{" "}
@@ -31,7 +32,7 @@ function ContactMe() {
                         <ul className="contact-links">
                             <li className="social-icons">
                                 <a
-                                    href="https://github.com/FleetAdmiralJakob"
+                                    href={linkData.links[0].github}
                                     target="_blank"
                                     rel="noreferrer"
                                     className="icon-colour  home-social-icons"
@@ -42,7 +43,7 @@ function ContactMe() {
                             </li>
                             <li className="social-icons">
                                 <a
-                                    href="https://www.linkedin.com/in/jakob-r%C3%B6ssner-532b93214/"
+                                    href={linkData.links[0].linkedIn}
                                     target="_blank"
                                     rel="noreferrer"
                                     className="icon-colour  home-social-icons"

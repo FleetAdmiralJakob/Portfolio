@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React from "react";
 import {Col, Container, Row} from "react-bootstrap";
 // @ts-ignore
 import previewAbout from "../../Assets/previewAbout2.webp";
@@ -8,9 +8,7 @@ import {Link} from "react-router-dom";
 import {AiOutlineUser} from "react-icons/ai";
 import {Picture} from 'react-optimized-images';
 
-function AboutSummary() {
-  const [navColour] = useState(false);
-
+function aboutSummary() {
   return (
     <Container fluid className="home-about-summary-section" id="about-summary">
       <Container>
@@ -45,4 +43,4 @@ function AboutSummary() {
   );
 }
 
-export default AboutSummary;
+export default aboutSummary;
