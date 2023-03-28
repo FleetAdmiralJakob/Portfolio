@@ -1,13 +1,13 @@
 import React from "react";
-import {Col, Container, Row} from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
 // @ts-ignore
 import previewProjects from "../../Assets/previewProjects.webp";
 import Tilt from "react-parallax-tilt";
 import Nav from "react-bootstrap/Nav";
-import {Link} from "react-router-dom";
-import {AiOutlineFundProjectionScreen} from "react-icons/ai";
-import {ImPointRight} from "react-icons/im";
-import {Picture} from 'react-optimized-images';
+import { Link } from "react-router-dom";
+import { AiOutlineFundProjectionScreen } from "react-icons/ai";
+import { ImPointRight } from "react-icons/im";
+import { Picture } from "react-optimized-images";
 
 function AboutSummary() {
   return (
@@ -34,9 +34,18 @@ function AboutSummary() {
               <br />
               Some of them are: <br /> <br />
               <ul>
-                <li className="basic-list"><ImPointRight /> A Steampunk Game</li> <br />
-                <li className="basic-list"><ImPointRight /> A Tip Calculator</li> <br />
-                <li className="basic-list"><ImPointRight /> A few Minecraft Mods</li> <br /> <br />
+                <li className="basic-list">
+                  <ImPointRight /> A Steampunk Game
+                </li>{" "}
+                <br />
+                <li className="basic-list">
+                  <ImPointRight /> A Tip Calculator
+                </li>{" "}
+                <br />
+                <li className="basic-list">
+                  <ImPointRight /> A few Minecraft Mods
+                </li>{" "}
+                <br /> <br />
               </ul>
               In the case of the Minecraft Mods, they were my{" "}
               <span className="purple"> first projects</span> in relationship to
