@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { Col, Container, Row } from "react-bootstrap";
+import React, {useState} from "react";
+import {Col, Container, Row} from "react-bootstrap";
 import Github from "./Github";
 import Techstack from "./Techstack";
 import OtherSkills from "./OtherSkills";
@@ -8,8 +8,8 @@ import AboutCard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
 import linkData from "../linkData";
-import { AiFillGithub } from "react-icons/ai";
-import { SiLeetcode } from "react-icons/si";
+import {AiFillGithub} from "react-icons/ai";
+import {SiLeetcode} from "react-icons/si";
 
 function About() {
   const [followersCount, setFollowersCount] = useState(0);
@@ -41,6 +41,7 @@ function About() {
             md={5}
             style={{ paddingTop: "120px", paddingBottom: "50px" }}
             className="about-img"
+            data-aos="flip-right"
           >
             <img src={laptopImg} alt="about" className="img-fluid" />
             <br /> <br /> <br />

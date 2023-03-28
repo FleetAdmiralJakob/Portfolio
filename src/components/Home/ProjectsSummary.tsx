@@ -15,6 +15,9 @@ function AboutSummary() {
       fluid
       className="home-projects-summary-section"
       id="projects-summary"
+      data-aos="fade-left"
+      data-aos-offset="150"
+      data-aos-duration="1200"
     >
       <Container>
         <Row>
