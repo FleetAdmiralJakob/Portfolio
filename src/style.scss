@@ -972,7 +972,6 @@ button:focus {
 
 @mixin tech-icons-media {
   font-size: 0.3rem !important;
-  margin: 10px !important;
 }
 
 .tech-icons {
@@ -984,9 +983,6 @@ button:focus {
 }
 
 @media (max-width: 767px) {
-  .tech-icons {
-    margin: 10px !important;
-  }
   .tech-icons-angular {
     @include tech-icons-media;
   }
