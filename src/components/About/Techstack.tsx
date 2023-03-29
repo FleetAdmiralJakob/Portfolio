@@ -1,6 +1,7 @@
 import React, {lazy} from "react";
 import {Col, Container, Row} from "react-bootstrap";
 import ConfidenceLevelBar from "./ConfidenceLevelBar";
+import {SiPlanetscale} from "react-icons/si";
 
 const SiAngular = lazy(() =>
     import("react-icons/si").then((module) => ({ default: module.SiAngular }))
@@ -241,13 +242,23 @@ function Techstack() {
             </div>
           </a>
         </Col>
+        <Col xs={4} md={2} className="tech-icons">
+          <a href="https://planetscale.com/" className="link-without-styling">
+            <SiPlanetscale />
+            <div className="tech-description">
+              PlanetScale
+              <br />
+              <ConfidenceLevelBar confidenceLevel={7} />
+            </div>
+          </a>
+        </Col>
         <Col xs={4} md={2} className="tech-icons-mongo">
             <a href="https://www.mongodb.com/" className="link-without-styling">
           <SiMongodb />
           <div className="tech-description">
             MongoDB
             <br />
-            <ConfidenceLevelBar confidenceLevel={4} />
+            <ConfidenceLevelBar confidenceLevel={3} />
           </div>
             </a>
         </Col>
