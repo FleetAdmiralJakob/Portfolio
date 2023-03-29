@@ -1,7 +1,12 @@
 import React from "react";
-import {Col, Container, Row} from "react-bootstrap";
-import {AiFillGithub, AiFillHome, AiFillMail, AiFillPhone,} from "react-icons/ai";
-import {FaLinkedinIn} from "react-icons/fa";
+import { Col, Container, Row } from "react-bootstrap";
+import {
+  AiFillGithub,
+  AiFillHome,
+  AiFillMail,
+  AiFillPhone,
+} from "react-icons/ai";
+import { FaLinkedinIn } from "react-icons/fa";
 import linkData from "./linkData";
 
 function ContactMe() {
@@ -20,8 +25,7 @@ function ContactMe() {
             <b> Jakob Rössner </b> <br /> <br />
             <AiFillPhone /> <b>Phone:</b> +49 1512 5404979 <br />
             <AiFillMail /> <b>E-Mail:</b>{" "}
-            <a href={linkData.mail}> jakob.roessner@outlook.de </a>{" "}
-            <br />
+            <a href={linkData.mail}> jakob.roessner@outlook.de </a> <br />
             <AiFillHome /> <b>Address:</b> 15755, Teupitz ST Tornow, Germany{" "}
             <br />
           </p>
