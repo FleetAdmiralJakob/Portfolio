@@ -1,5 +1,5 @@
-import React, {useState} from "react";
-import {Col, Container, Row} from "react-bootstrap";
+import React, { useState } from "react";
+import { Col, Container, Row } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 // @ts-ignore
 import steampunk from "../../Assets/Projects/steampunk.png";
@@ -17,9 +17,9 @@ import myt from "../../Assets/Projects/myt.png";
 import passwordgen from "../../Assets/Projects/passwordgen.png";
 // @ts-ignore
 import foods from "../../Assets/Projects/foods.png";
-import {SiCurseforge} from "react-icons/si";
-import {ImPointRight} from "react-icons/im";
-import {AiOutlineArrowDown, AiOutlineArrowUp} from "react-icons/ai";
+import { SiCurseforge } from "react-icons/si";
+import { ImPointRight } from "react-icons/im";
+import { AiOutlineArrowDown, AiOutlineArrowUp } from "react-icons/ai";
 
 function Projects() {
   const [readmore, setReadMore] = useState(false);
@@ -106,13 +106,13 @@ function Projects() {
         </Row>
         <Row>
           <h5>
-          <div className="projects-social">
-            <h4>MY CURSEFORGE ACCOUNT</h4>
-            <p>
-              Here you can see my{" "}
-              <span className="purple">Minecraft projects </span>...
-            </p>
-          </div>
+            <div className="projects-social">
+              <h4>MY CURSEFORGE ACCOUNT</h4>
+              <p>
+                Here you can see my{" "}
+                <span className="purple">Minecraft projects </span>...
+              </p>
+            </div>
             <span className="point" role="img" aria-labelledby="wave">
               👇
             </span>
@@ -130,7 +130,12 @@ function Projects() {
           <p className="text-project-curseforge">
             ... which are:
             <br /> <br /> <br />
-            <Col md={12} data-aos="fade-up" data-aos-offset="300" data-aos-duration="3000">
+            <Col
+              md={12}
+              data-aos="fade-up"
+              data-aos-offset="300"
+              data-aos-duration="3000"
+            >
               <ImPointRight />{" "}
               <a href="https://www.curseforge.com/minecraft/mc-mods/uncraftables-new">
                 {" "}
@@ -181,7 +186,12 @@ function Projects() {
               </div>
               <br /> <br />
             </Col>
-            <Col md={12} data-aos="fade-up" data-aos-offset="300" data-aos-duration="3000">
+            <Col
+              md={12}
+              data-aos="fade-up"
+              data-aos-offset="300"
+              data-aos-duration="3000"
+            >
               <ImPointRight />{" "}
               <a href="https://www.curseforge.com/minecraft/mc-mods/myt">
                 {" "}
@@ -203,7 +213,12 @@ function Projects() {
               </div>{" "}
               <br /> <br />
             </Col>
-            <Col md={12} data-aos="fade-up" data-aos-offset="300" data-aos-duration="3000">
+            <Col
+              md={12}
+              data-aos="fade-up"
+              data-aos-offset="300"
+              data-aos-duration="3000"
+            >
               <ImPointRight />{" "}
               <a href="https://www.curseforge.com/minecraft/mc-mods/vanilla-foods-enhanced-new">
                 {" "}
