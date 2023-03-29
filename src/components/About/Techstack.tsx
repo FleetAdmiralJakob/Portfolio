@@ -1,16 +1,16 @@
-import React, {lazy} from "react";
-import {Col, Container, Row} from "react-bootstrap";
+import React, { lazy } from "react";
+import { Col, Container, Row } from "react-bootstrap";
 import ConfidenceLevelBar from "./ConfidenceLevelBar";
-import {SiPlanetscale} from "react-icons/si";
+import { SiPlanetscale } from "react-icons/si";
 
 const SiAngular = lazy(() =>
-    import("react-icons/si").then((module) => ({ default: module.SiAngular }))
+  import("react-icons/si").then((module) => ({ default: module.SiAngular }))
 );
 const SiPrisma = lazy(() =>
-    import("react-icons/si").then((module) => ({ default: module.SiPrisma }))
+  import("react-icons/si").then((module) => ({ default: module.SiPrisma }))
 );
 const SiTrpc = lazy(() =>
-    import("react-icons/si").then((module) => ({ default: module.SiTrpc }))
+  import("react-icons/si").then((module) => ({ default: module.SiTrpc }))
 );
 const DiGit = lazy(() =>
   import("react-icons/di").then((module) => ({ default: module.DiGit }))
@@ -78,24 +78,30 @@ function Techstack() {
       </h2>
       <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
         <Col xs={4} md={2} className="tech-icons-html">
-          <a href="https://www.w3schools.com/html/" className="link-without-styling">
-          <SiHtml5 />
-          <div className="tech-description">
-            HTML
-            <br />
-            <ConfidenceLevelBar confidenceLevel={10} />
-          </div>
-            </a>
+          <a
+            href="https://www.w3schools.com/html/"
+            className="link-without-styling"
+          >
+            <SiHtml5 />
+            <div className="tech-description">
+              HTML
+              <br />
+              <ConfidenceLevelBar confidenceLevel={10} />
+            </div>
+          </a>
         </Col>
         <Col xs={4} md={2} className="tech-icons-css">
-            <a href="https://www.w3schools.com/css/" className="link-without-styling">
-          <SiCss3 />
-          <div className="tech-description">
-            CSS
-            <br />
-            <ConfidenceLevelBar confidenceLevel={7} />
-          </div>
-            </a>
+          <a
+            href="https://www.w3schools.com/css/"
+            className="link-without-styling"
+          >
+            <SiCss3 />
+            <div className="tech-description">
+              CSS
+              <br />
+              <ConfidenceLevelBar confidenceLevel={7} />
+            </div>
+          </a>
         </Col>
         <Col xs={4} md={2} className="tech-icons-sass">
           <a href="https://sass-lang.com/" className="link-without-styling">
@@ -108,47 +114,56 @@ function Techstack() {
           </a>
         </Col>
         <Col xs={4} md={2} className="tech-icons-javascript">
-            <a href="https://www.w3schools.com/js/" className="link-without-styling">
-          <SiJavascript />
-          <div className="tech-description">
-            JavaScript
-            <br />
-            <ConfidenceLevelBar confidenceLevel={7} />
-          </div>
-            </a>
+          <a
+            href="https://www.w3schools.com/js/"
+            className="link-without-styling"
+          >
+            <SiJavascript />
+            <div className="tech-description">
+              JavaScript
+              <br />
+              <ConfidenceLevelBar confidenceLevel={7} />
+            </div>
+          </a>
         </Col>
         <Col xs={4} md={2} className="tech-icons-typescript">
-            <a href="https://www.typescriptlang.org/" className="link-without-styling">
-          <SiTypescript />
-          <div className="tech-description">
-            TypeScript
-            <br />
-            <ConfidenceLevelBar confidenceLevel={7} />
-          </div>
-            </a>
+          <a
+            href="https://www.typescriptlang.org/"
+            className="link-without-styling"
+          >
+            <SiTypescript />
+            <div className="tech-description">
+              TypeScript
+              <br />
+              <ConfidenceLevelBar confidenceLevel={7} />
+            </div>
+          </a>
         </Col>
         <Col xs={4} md={2} className="tech-icons">
-            <a href="https://www.java.com/en/" className="link-without-styling">
-          <DiJava />
-          <div className="tech-description">
-            Java
-            <br />
-            <ConfidenceLevelBar confidenceLevel={3} />
-          </div>
-            </a>
+          <a href="https://www.java.com/en/" className="link-without-styling">
+            <DiJava />
+            <div className="tech-description">
+              Java
+              <br />
+              <ConfidenceLevelBar confidenceLevel={3} />
+            </div>
+          </a>
         </Col>
         <Col xs={4} md={2} className="tech-icons">
-            <a href="https://kotlinlang.org/" className="link-without-styling">
-          <SiKotlin />
-          <div className="tech-description">
-            Kotlin
-            <br />
-            <ConfidenceLevelBar confidenceLevel={9} />
-          </div>
-            </a>
+          <a href="https://kotlinlang.org/" className="link-without-styling">
+            <SiKotlin />
+            <div className="tech-description">
+              Kotlin
+              <br />
+              <ConfidenceLevelBar confidenceLevel={9} />
+            </div>
+          </a>
         </Col>
         <Col xs={4} md={2} className="tech-icons-csharp">
-          <a href="https://dotnet.microsoft.com/en-us/languages/csharp" className="link-without-styling">
+          <a
+            href="https://dotnet.microsoft.com/en-us/languages/csharp"
+            className="link-without-styling"
+          >
             <SiCsharp />
             <div className="tech-description">
               C#
@@ -158,7 +173,10 @@ function Techstack() {
           </a>
         </Col>
         <Col xs={4} md={2} className="tech-icons">
-          <a href="https://www.json.org/json-en.html" className="link-without-styling">
+          <a
+            href="https://www.json.org/json-en.html"
+            className="link-without-styling"
+          >
             <SiJson />
             <div className="tech-description">
               JSON
@@ -168,14 +186,17 @@ function Techstack() {
           </a>
         </Col>
         <Col xs={4} md={2} className="tech-icons">
-            <a href="https://www.markdownguide.org/" className="link-without-styling">
-          <SiMarkdown />
-          <div className="tech-description">
-            Markdown
-            <br />
-            <ConfidenceLevelBar confidenceLevel={10} />
-          </div>
-            </a>
+          <a
+            href="https://www.markdownguide.org/"
+            className="link-without-styling"
+          >
+            <SiMarkdown />
+            <div className="tech-description">
+              Markdown
+              <br />
+              <ConfidenceLevelBar confidenceLevel={10} />
+            </div>
+          </a>
         </Col>
       </Row>
       <h2>
@@ -193,24 +214,24 @@ function Techstack() {
           </a>
         </Col>
         <Col xs={4} md={2} className="tech-icons-react">
-            <a href="https://reactjs.org/" className="link-without-styling">
-          <DiReact />
-          <div className="tech-description">
-            ReactJS
-            <br />
-            <ConfidenceLevelBar confidenceLevel={10} />
-          </div>
-            </a>
+          <a href="https://reactjs.org/" className="link-without-styling">
+            <DiReact />
+            <div className="tech-description">
+              ReactJS
+              <br />
+              <ConfidenceLevelBar confidenceLevel={10} />
+            </div>
+          </a>
         </Col>
         <Col xs={4} md={2} className="tech-icons">
-            <a href="https://nextjs.org/" className="link-without-styling">
-          <SiNextdotjs />
-          <div className="tech-description">
-            Next.js
-            <br />
-            <ConfidenceLevelBar confidenceLevel={10} />
-          </div>
-            </a>
+          <a href="https://nextjs.org/" className="link-without-styling">
+            <SiNextdotjs />
+            <div className="tech-description">
+              Next.js
+              <br />
+              <ConfidenceLevelBar confidenceLevel={10} />
+            </div>
+          </a>
         </Col>
         <Col xs={4} md={2} className="tech-icons-angular">
           <a href="https://angular.io/" className="link-without-styling">
@@ -253,86 +274,86 @@ function Techstack() {
           </a>
         </Col>
         <Col xs={4} md={2} className="tech-icons-mongo">
-            <a href="https://www.mongodb.com/" className="link-without-styling">
-          <SiMongodb />
-          <div className="tech-description">
-            MongoDB
-            <br />
-            <ConfidenceLevelBar confidenceLevel={3} />
-          </div>
-            </a>
+          <a href="https://www.mongodb.com/" className="link-without-styling">
+            <SiMongodb />
+            <div className="tech-description">
+              MongoDB
+              <br />
+              <ConfidenceLevelBar confidenceLevel={3} />
+            </div>
+          </a>
         </Col>
         <Col xs={4} md={2} className="tech-icons-wordpress">
           <a href="https://wordpress.com/" className="link-without-styling">
-          <DiWordpress />
-          <div className="tech-description">
-            Wordpress
-            <br />
-            <ConfidenceLevelBar confidenceLevel={10} />
-          </div>
-            </a>
+            <DiWordpress />
+            <div className="tech-description">
+              Wordpress
+              <br />
+              <ConfidenceLevelBar confidenceLevel={10} />
+            </div>
+          </a>
         </Col>
         <Col xs={4} md={2} className="tech-icons-git">
           <a href="https://git-scm.com/" className="link-without-styling">
-          <DiGit />
-          <div className="tech-description">
-            Git
-            <br />
-            <ConfidenceLevelBar confidenceLevel={10} />
-          </div>
-            </a>
+            <DiGit />
+            <div className="tech-description">
+              Git
+              <br />
+              <ConfidenceLevelBar confidenceLevel={10} />
+            </div>
+          </a>
         </Col>
         <Col xs={4} md={2} className="tech-icons">
-            <a href="https://github.com/" className="link-without-styling">
-          <DiGithubBadge />
-          <div className="tech-description">
-            GitHub
-            <br />
-            <ConfidenceLevelBar confidenceLevel={10} />
-          </div>
-            </a>
+          <a href="https://github.com/" className="link-without-styling">
+            <DiGithubBadge />
+            <div className="tech-description">
+              GitHub
+              <br />
+              <ConfidenceLevelBar confidenceLevel={10} />
+            </div>
+          </a>
         </Col>
         <Col xs={4} md={2} className="tech-icons-postcss">
-            <a href="https://postcss.org/" className="link-without-styling">
-          <SiPostcss />
-          <div className="tech-description">
-            PostCSS
-            <br />
-            <ConfidenceLevelBar confidenceLevel={10} />
-          </div>
-            </a>
+          <a href="https://postcss.org/" className="link-without-styling">
+            <SiPostcss />
+            <div className="tech-description">
+              PostCSS
+              <br />
+              <ConfidenceLevelBar confidenceLevel={10} />
+            </div>
+          </a>
         </Col>
         <Col xs={4} md={2} className="tech-icons-tailwind">
-            <a href="https://tailwindcss.com/" className="link-without-styling">
-          <SiTailwindcss />
-          <div className="tech-description">
-            Tailwind
-            <br />
-            <ConfidenceLevelBar confidenceLevel={10} />
-          </div>
-            </a>
+          <a href="https://tailwindcss.com/" className="link-without-styling">
+            <SiTailwindcss />
+            <div className="tech-description">
+              Tailwind
+              <br />
+              <ConfidenceLevelBar confidenceLevel={10} />
+            </div>
+          </a>
         </Col>
         <Col xs={4} md={2} className="tech-icons-material">
-            <a href="https://material-ui.com/" className="link-without-styling">
-          <svg
-            stroke="currentColor"
-            fill="currentColor"
-            strokeWidth="0"
-            role="img"
-            viewBox="0 0 24 24"
-            height="1em"
-            width="1em"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <title></title>
-            <path d="M0 2.475v10.39l3 1.733V7.67l6 3.465 6-3.465v3.465l-6 3.463v3.464l6 3.463 9-5.195V9.402l-3 1.733v3.463l-6 3.464-3-1.732 6-3.465V2.475L9 7.67 0 2.475zm24 0l-3 1.73V7.67l3-1.732V2.474Z"></path>
-          </svg>
-          <div className="tech-description">
-            Material UI
-            <br />
-            <ConfidenceLevelBar confidenceLevel={6} />
-          </div>
-            </a>
+          <a href="https://material-ui.com/" className="link-without-styling">
+            <svg
+              stroke="currentColor"
+              fill="currentColor"
+              strokeWidth="0"
+              role="img"
+              viewBox="0 0 24 24"
+              height="1em"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <title></title>
+              <path d="M0 2.475v10.39l3 1.733V7.67l6 3.465 6-3.465v3.465l-6 3.463v3.464l6 3.463 9-5.195V9.402l-3 1.733v3.463l-6 3.464-3-1.732 6-3.465V2.475L9 7.67 0 2.475zm24 0l-3 1.73V7.67l3-1.732V2.474Z"></path>
+            </svg>
+            <div className="tech-description">
+              Material UI
+              <br />
+              <ConfidenceLevelBar confidenceLevel={6} />
+            </div>
+          </a>
         </Col>
       </Row>
     </Container>
