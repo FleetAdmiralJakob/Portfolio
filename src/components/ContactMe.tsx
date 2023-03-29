@@ -1,12 +1,7 @@
 import React from "react";
-import { Col, Container, Row } from "react-bootstrap";
-import {
-  AiFillGithub,
-  AiFillHome,
-  AiFillMail,
-  AiFillPhone,
-} from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+import {Col, Container, Row} from "react-bootstrap";
+import {AiFillGithub, AiFillHome, AiFillMail, AiFillPhone,} from "react-icons/ai";
+import {FaLinkedinIn} from "react-icons/fa";
 import linkData from "./linkData";
 
 function ContactMe() {
@@ -25,7 +20,7 @@ function ContactMe() {
             <b> Jakob Rössner </b> <br /> <br />
             <AiFillPhone /> <b>Phone:</b> +49 1512 5404979 <br />
             <AiFillMail /> <b>E-Mail:</b>{" "}
-            <a href={linkData.links[0].mail}> jakob.roessner@outlook.de </a>{" "}
+            <a href={linkData.mail}> jakob.roessner@outlook.de </a>{" "}
             <br />
             <AiFillHome /> <b>Address:</b> 15755, Teupitz ST Tornow, Germany{" "}
             <br />
@@ -35,7 +30,7 @@ function ContactMe() {
             <ul className="contact-links">
               <li className="social-icons">
                 <a
-                  href={linkData.links[0].github}
+                  href={linkData.github}
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -46,7 +41,7 @@ function ContactMe() {
               </li>
               <li className="social-icons">
                 <a
-                  href={linkData.links[0].linkedIn}
+                  href={linkData.linkedIn}
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"

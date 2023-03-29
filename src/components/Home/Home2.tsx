@@ -1,10 +1,10 @@
 import React from "react";
-import { Col, Container, Row } from "react-bootstrap";
+import {Col, Container, Row} from "react-bootstrap";
 // @ts-ignore
 import myImg from "../../Assets/avatar4.webp";
 import Tilt from "react-parallax-tilt";
-import { AiFillGithub } from "react-icons/ai";
-import { FaLinkedinIn, FaMailBulk } from "react-icons/fa";
+import {AiFillGithub} from "react-icons/ai";
+import {FaLinkedinIn, FaMailBulk} from "react-icons/fa";
 import linkData from "../linkData";
 
 function Home2() {
@@ -36,7 +36,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href={linkData.links[0].github}
+                  href={linkData.github}
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -47,7 +47,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href={linkData.links[0].linkedIn}
+                  href={linkData.linkedIn}
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -58,7 +58,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href={linkData.links[0].mail}
+                  href={linkData.mail}
                   className="icon-colour  home-social-icons"
                   aria-label="Mail me"
                 >
