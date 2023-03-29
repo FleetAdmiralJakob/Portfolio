@@ -13,8 +13,10 @@ function ProjectCards(props) {
         <Card.Title>
           <strong>{props.title}</strong>
         </Card.Title>
+          <br/>
         <Card.Text style={{ textAlign: "justify" }}>
-          {props.description}
+            <strong>{props.summary}</strong> <br/> <br/>
+            {props.description}
         </Card.Text>
 
         {props.labelsfirstclass && props.labelssecondclass && (
