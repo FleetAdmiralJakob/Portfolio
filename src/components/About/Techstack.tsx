@@ -1,8 +1,13 @@
 import React, {lazy} from "react";
 import {Col, Container, Row} from "react-bootstrap";
 import ConfidenceLevelBar from "./ConfidenceLevelBar";
-import {SiPlanetscale} from "react-icons/si";
 
+const SiPlanetscale = lazy(() =>
+    import("react-icons/si").then((module) => ({ default: module.SiPlanetscale }))
+);
+const SiWebflow = lazy(() =>
+    import("react-icons/si").then((module) => ({ default: module.SiWebflow }))
+);
 const SiAngular = lazy(() =>
     import("react-icons/si").then((module) => ({ default: module.SiAngular }))
 );
@@ -261,6 +266,16 @@ function Techstack() {
             <ConfidenceLevelBar confidenceLevel={3} />
           </div>
             </a>
+        </Col>
+        <Col xs={4} md={2} className="tech-icons">
+          <a href="https://webflow.com/" className="link-without-styling">
+            <SiWebflow />
+            <div className="tech-description">
+              Webflow
+              <br />
+              <ConfidenceLevelBar confidenceLevel={10} />
+            </div>
+          </a>
         </Col>
         <Col xs={4} md={2} className="tech-icons-wordpress">
           <a href="https://wordpress.com/" className="link-without-styling">
