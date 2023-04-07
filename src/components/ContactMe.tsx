@@ -4,7 +4,7 @@ import {AiFillGithub, AiFillHome, AiFillMail, AiFillPhone,} from "react-icons/ai
 import {FaDiscord, FaLinkedinIn} from "react-icons/fa";
 import linkData from "./linkData";
 // @ts-ignore
-import popup_png from "../Assets/discord-popup.png";
+import popup_discord_png from "../Assets/discord-popup.png";
 import Button from "react-bootstrap/Button";
 
 function ContactMe() {
@@ -31,7 +31,7 @@ function ContactMe() {
     <>
       {showDiscordPopup && (
         <div className="discord-popup">
-          <img src={popup_png} alt="Discord Info" style={{borderRadius: "5px"}}/>
+          <img src={popup_discord_png} alt="Discord Info" className="popup-discord-png" />
           <Button variant="primary" onClick={() => {
             setShowDiscordPopup(false);
           }}>
