@@ -1,18 +1,46 @@
 import React from "react";
-import { Col, Container, Row } from "react-bootstrap";
-import {
-  AiFillGithub,
-  AiFillHome,
-  AiFillMail,
-  AiFillPhone,
-} from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+import {Col, Container, Row} from "react-bootstrap";
+import {AiFillGithub, AiFillHome, AiFillMail, AiFillPhone,} from "react-icons/ai";
+import {FaDiscord, FaLinkedinIn} from "react-icons/fa";
 import linkData from "./linkData";
+// @ts-ignore
+import popup_png from "../Assets/discord-popup.png";
+import Button from "react-bootstrap/Button";
 
 function ContactMe() {
+
+  /* State show discord popup */
+  const [showDiscordPopup, setShowDiscordPopup] = React.useState(false);
+  React.useEffect(() => {
+    const contentElements = document.querySelectorAll('.content');
+
+    // Add or remove the 'blur' class to each content element based on the 'showDiscordPopup' state
+    contentElements.forEach(element => {
+      element.classList.toggle('blur', showDiscordPopup);
+    });
+
+    // Cleanup function to remove the 'blur' class from all content elements when the component unmounts
+    return () => {
+      contentElements.forEach(element => {
+        element.classList.remove('blur');
+      });
+    };
+  }, [showDiscordPopup]);
+
   return (
+    <>
+      {showDiscordPopup && (
+        <div className="discord-popup">
+          <img src={popup_png} alt="Discord Info" style={{borderRadius: "5px"}}/>
+          <Button variant="primary" onClick={() => {
+            setShowDiscordPopup(false);
+          }}>
+            Close
+          </Button>
+        </div>
+      )}
     <section id="contact">
-      <Container fluid className="contact-section" id="about">
+      <Container fluid className="contact-section content" id="about">
         <Container>
           <Row>
             <Col md={12} className="about">
@@ -54,11 +82,26 @@ function ContactMe() {
                   <FaLinkedinIn />
                 </a>
               </li>
+              <li className="social-icons">
+                <a
+                    target="_blank"
+                    rel="noreferrer"
+                    className="icon-colour  home-social-icons"
+                    aria-label="Discord"
+                    onClick={(event) => {
+                      event.preventDefault();
+                      setShowDiscordPopup(true);
+                    }}
+                >
+                  <FaDiscord />
+                </a>
+              </li>
             </ul>
           </p>
         </Container>
       </Container>
     </section>
+    </>
   );
 }
 

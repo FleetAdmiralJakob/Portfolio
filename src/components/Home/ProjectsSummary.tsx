@@ -1,19 +1,19 @@
 import React from "react";
-import { Col, Container, Row } from "react-bootstrap";
+import {Col, Container, Row} from "react-bootstrap";
 // @ts-ignore
-import previewProjects from "../../Assets/previewProjects.webp";
+import previewProjects from "../../Assets/previewProjects.avif";
 import Tilt from "react-parallax-tilt";
 import Nav from "react-bootstrap/Nav";
-import { Link } from "react-router-dom";
-import { AiOutlineFundProjectionScreen } from "react-icons/ai";
-import { ImPointRight } from "react-icons/im";
-import { Picture } from "react-optimized-images";
+import {Link} from "react-router-dom";
+import {AiOutlineFundProjectionScreen} from "react-icons/ai";
+import {ImPointRight} from "react-icons/im";
+import {Picture} from "react-optimized-images";
 
 function AboutSummary() {
   return (
     <Container
       fluid
-      className="home-projects-summary-section"
+      className="home-projects-summary-section content"
       id="projects-summary"
       data-aos="fade-left"
       data-aos-offset="150"
