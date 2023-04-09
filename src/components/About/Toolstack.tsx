@@ -51,7 +51,7 @@ function Toolstack() {
             </div>
           </a>
         </Col>
-        <Col xs={4} md={2} className="tech-icons">
+        <Col xs={4} md={2} className="tech-icons-highlight">
           <a href="https://www.jetbrains.com/" className="link-without-styling">
             <SiJetbrains />
             <div className="tech-description">
@@ -113,7 +113,7 @@ function Toolstack() {
             <div className="tech-description">
               Linux
               <br />
-              <ConfidenceLevelBar confidenceLevel={6} />
+              <ConfidenceLevelBar confidenceLevel={5} />
             </div>
           </a>
         </Col>
@@ -126,7 +126,7 @@ function Toolstack() {
             <div className="tech-description">
               MacOS
               <br />
-              <ConfidenceLevelBar confidenceLevel={5} />
+              <ConfidenceLevelBar confidenceLevel={6} />
             </div>
           </a>
         </Col>

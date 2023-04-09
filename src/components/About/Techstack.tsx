@@ -128,7 +128,7 @@ function Techstack() {
           <div className="tech-description">
             TypeScript
             <br />
-            <ConfidenceLevelBar confidenceLevel={7} />
+            <ConfidenceLevelBar confidenceLevel={8} />
           </div>
             </a>
         </Col>
@@ -148,7 +148,7 @@ function Techstack() {
           <div className="tech-description">
             Kotlin
             <br />
-            <ConfidenceLevelBar confidenceLevel={9} />
+            <ConfidenceLevelBar confidenceLevel={8} />
           </div>
             </a>
         </Col>
@@ -207,7 +207,7 @@ function Techstack() {
           </div>
             </a>
         </Col>
-        <Col xs={4} md={2} className="tech-icons">
+        <Col xs={4} md={2} className="tech-icons-highlight">
             <a href="https://nextjs.org/" className="link-without-styling">
           <SiNextdotjs />
           <div className="tech-description">
