@@ -23,7 +23,7 @@
   "dependencies": {
     "@react-pdf/renderer": "^3.1.9",
     "@testing-library/jest-dom": "^5.16.5",
-    "@testing-library/react": "^12.1.4",
+    "@testing-library/react": "^14.0.0",
     "@testing-library/user-event": "^14.4.3",
     "@vercel/analytics": "^0.1.11",
     "aos": "^2.3.4",
