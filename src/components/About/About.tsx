@@ -12,7 +12,7 @@ import { AiFillGithub } from "react-icons/ai";
 import { SiLeetcode } from "react-icons/si";
 
 function About() {
-  const [followersCount, setFollowersCount] = useState(0);
+  const [followersCount, setFollowersCount] = useState("");
 
   fetch("https://api.github.com/users/FleetAdmiralJakob")
     .then((response) => response.json())
@@ -74,7 +74,9 @@ function About() {
               </li>
             </ul>
             <br />
-            {followersCount} Followers
+            {!followersCount
+              ? "View followers on GitHub"
+              : followersCount + " Followers"}
           </Col>
         </Row>
         <h1 className="project-heading">
