@@ -114,6 +114,13 @@ function About() {
           className="img-fluid"
         />{" "}
         <br /> <br />
+        <img
+          src="https://github-profile-trophy.vercel.app/?username=fleetadmiraljakob&theme=darkhub&no-frame=true&no-bg=false&margin-w=4"
+          alt="about"
+          className="img-fluid"
+        />{" "}
+        <br />
+        <br />
         <h1>
           Other <strong className="purple">Stats</strong>
         </h1>
