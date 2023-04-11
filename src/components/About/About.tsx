@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { Col, Container, Row } from "react-bootstrap";
+import React, {useState} from "react";
+import {Col, Container, Row} from "react-bootstrap";
 import Github from "./Github";
 import Techstack from "./Techstack";
 import OtherSkills from "./OtherSkills";
@@ -8,8 +8,8 @@ import AboutCard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
 import linkData from "../linkData";
-import { AiFillGithub } from "react-icons/ai";
-import { SiLeetcode } from "react-icons/si";
+import {AiFillGithub} from "react-icons/ai";
+import {SiLeetcode} from "react-icons/si";
 
 function About() {
   const [followersCount, setFollowersCount] = useState(0);
@@ -114,6 +114,13 @@ function About() {
           className="img-fluid"
         />{" "}
         <br /> <br />
+        <img
+            src="https://github-profile-trophy.vercel.app/?username=fleetadmiraljakob&theme=darkhub&no-frame=true&no-bg=false&margin-w=4"
+            alt="about"
+            className="img-fluid"
+        />{" "}
+        <br />
+        <br />
         <h1>
           Other <strong className="purple">Stats</strong>
         </h1>

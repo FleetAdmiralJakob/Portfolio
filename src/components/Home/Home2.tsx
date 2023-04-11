@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import {Col, Container, Row} from "react-bootstrap";
 // @ts-ignore
 import myImg from "../../Assets/avatar4.webp";
@@ -14,7 +14,7 @@ function Home2() {
 
   /* State show discord popup */
   const [showDiscordPopup, setShowDiscordPopup] = React.useState(false);
-  React.useEffect(() => {
+  useEffect(() => {
     const contentElements = document.querySelectorAll('.content');
 
     // Add or remove the 'blur' class to each content element based on the 'showDiscordPopup' state
