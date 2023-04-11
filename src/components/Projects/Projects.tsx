@@ -82,15 +82,15 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-                imgPath={flowershop}
-                isBlog={false}
-                labelsfirstclass={["Web 🌐"]}
-                labelssecondclass={["Webflow"]}
-                title="The Flower Shop"
-                summary="A basic flower shop made with Webflow!"
-                description="Nice UI and the basic sides.
+              imgPath={flowershop}
+              isBlog={false}
+              labelsfirstclass={["Web 🌐"]}
+              labelssecondclass={["Webflow"]}
+              title="The Flower Shop"
+              summary="A basic flower shop made with Webflow!"
+              description="Nice UI and the basic sides.
                 All you need for a basic shop. The perfect site for small businesses!"
-                demoLink="https://the-flower-shop-3f91ab.webflow.io/"
+              demoLink="https://the-flower-shop-3f91ab.webflow.io/"
             />
           </Col>
           <Col md={4} className="project-card">
