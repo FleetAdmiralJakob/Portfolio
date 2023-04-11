@@ -13,7 +13,7 @@ function AboutSummary() {
   return (
     <Container
       fluid
-      className="home-projects-summary-section"
+      className="home-projects-summary-section content"
       id="projects-summary"
       data-aos="fade-left"
       data-aos-offset="150"

@@ -1,18 +1,18 @@
 import React from "react";
-import { Col, Container, Row } from "react-bootstrap";
+import {Col, Container, Row} from "react-bootstrap";
 // @ts-ignore
 import previewAbout from "../../Assets/previewAbout2.webp";
 import Tilt from "react-parallax-tilt";
 import Nav from "react-bootstrap/Nav";
-import { Link } from "react-router-dom";
-import { AiOutlineUser } from "react-icons/ai";
-import { Picture } from "react-optimized-images";
+import {Link} from "react-router-dom";
+import {AiOutlineUser} from "react-icons/ai";
+import {Picture} from "react-optimized-images";
 
 function aboutSummary() {
   return (
     <Container
       fluid
-      className="home-about-summary-section"
+      className="home-about-summary-section content"
       id="about-summary"
       data-aos="fade-right"
       data-aos-offset="150"

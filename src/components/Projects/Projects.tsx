@@ -16,6 +16,8 @@ import myt from "../../Assets/Projects/myt.png";
 // @ts-ignore
 import passwordgen from "../../Assets/Projects/passwordgen.png";
 // @ts-ignore
+import flowershop from "../../Assets/Projects/flowershop.png";
+// @ts-ignore
 import foods from "../../Assets/Projects/foods.png";
 import { SiCurseforge } from "react-icons/si";
 import { ImPointRight } from "react-icons/im";
@@ -76,6 +78,19 @@ function Projects() {
               ghLink="FleetAdmiralJakob/Password-Generator"
               demoLink="https://passwort-generator.vercel.app/"
               downloadLink="https://github.com/FleetAdmiralJakob/Tippy/releases"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+                imgPath={flowershop}
+                isBlog={false}
+                labelsfirstclass={["Web 🌐"]}
+                labelssecondclass={["Webflow"]}
+                title="The Flower Shop"
+                summary="A basic flower shop made with Webflow!"
+                description="Nice UI and the basic sides.
+                All you need for a basic shop. The perfect site for small businesses!"
+                demoLink="https://the-flower-shop-3f91ab.webflow.io/"
             />
           </Col>
           <Col md={4} className="project-card">

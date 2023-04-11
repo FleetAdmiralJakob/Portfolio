@@ -970,6 +970,28 @@ button:focus {
   box-shadow: 6px 7px 6px 5px rgba(89, 4, 168, 0.183) !important;
 }
 
+@mixin tech-icons-highlight {
+  font-size: 4.5em !important;
+  margin: 15px !important;
+  padding: 10px !important;
+  opacity: 0.93 !important;
+  border: 3px solid rgba(200, 137, 230, 0.637) !important;
+  vertical-align: middle !important;
+  text-align: center !important;
+  border-radius: 5px !important;
+  display: table !important;
+  box-shadow: 4px 5px 4px 3px rgba(101, 23, 169, 0.87) !important;
+  overflow: hidden !important;
+  transition: all 0.4s ease 0s !important;
+}
+
+@mixin tech-icons-highlight-hover {
+  transform: scale(1.05) !important;
+  overflow: hidden !important;
+  border: 3px solid rgba(197, 115, 230, 0.883) !important;
+  box-shadow: 6px 7px 6px 5px rgba(117, 14, 211, 0.86) !important;
+}
+
 @mixin tech-icons-media {
   font-size: 0.3rem !important;
 }
@@ -980,6 +1002,14 @@ button:focus {
 
 .tech-icons:hover {
   @include tech-icons-hover;
+}
+
+.tech-icons-highlight {
+  @include tech-icons-highlight;
+}
+
+.tech-icons-highlight:hover {
+  @include tech-icons-highlight-hover;
 }
 
 @media (max-width: 767px) {
@@ -1093,13 +1123,13 @@ button:focus {
 }
 
 .tech-icons-tailwind {
-  @include tech-icons;
+  @include tech-icons-highlight;
 }
 
 .tech-icons-tailwind:hover {
-  @include tech-icons-hover;
+  @include tech-icons-highlight-hover;
   color: #38b2ac !important;
-  border: 2px solid #38b2ac !important;
+  border: 3px solid #38b2ac !important;
 }
 
 .tech-icons-material {
@@ -1133,13 +1163,13 @@ button:focus {
 }
 
 .tech-icons-typescript {
-  @include tech-icons;
+  @include tech-icons-highlight;
 }
 
 .tech-icons-typescript:hover {
-  @include tech-icons-hover;
+  @include tech-icons-highlight-hover;
   color: rgb(0, 122, 205);
-  border: 2px solid rgb(0, 122, 205) !important;
+  border: 3px solid rgb(0, 122, 205) !important;
 }
 
 .tech-icons-react {
@@ -1518,4 +1548,30 @@ button:focus {
 .scroll-to-top-button:hover {
   background-color: var(--imp-text-color3);
   transition: linear 0.3s;
+}
+
+.discord-popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+.content.blur {
+  filter: blur(5px);
+  transition: all 0.5s;
+}
+
+.content {
+  transition: all 0.5s;
+}
+
+.popup-discord-png {
+  border-radius: 10px;
+  height: 300px;
 }
