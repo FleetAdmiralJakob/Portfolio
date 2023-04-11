@@ -1,5 +1,5 @@
-import React, {useState} from "react";
-import {Col, Container, Row} from "react-bootstrap";
+import React, { useState } from "react";
+import { Col, Container, Row } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 // @ts-ignore
 import steampunk from "../../Assets/Projects/steampunk.png";
@@ -19,9 +19,9 @@ import passwordgen from "../../Assets/Projects/passwordgen.png";
 import flowershop from "../../Assets/Projects/flowershop.png";
 // @ts-ignore
 import foods from "../../Assets/Projects/foods.png";
-import {SiCurseforge} from "react-icons/si";
-import {ImPointRight} from "react-icons/im";
-import {AiOutlineArrowDown, AiOutlineArrowUp} from "react-icons/ai";
+import { SiCurseforge } from "react-icons/si";
+import { ImPointRight } from "react-icons/im";
+import { AiOutlineArrowDown, AiOutlineArrowUp } from "react-icons/ai";
 
 function Projects() {
   const [readmore, setReadMore] = useState(false);
@@ -82,15 +82,15 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-                imgPath={flowershop}
-                isBlog={false}
-                labelsfirstclass={["Web 🌐"]}
-                labelssecondclass={["Webflow"]}
-                title="The Flower Shop"
-                summary="A basic flower shop made with Webflow!"
-                description="Nice UI and the basic sides.
+              imgPath={flowershop}
+              isBlog={false}
+              labelsfirstclass={["Web 🌐"]}
+              labelssecondclass={["Webflow"]}
+              title="The Flower Shop"
+              summary="A basic flower shop made with Webflow!"
+              description="Nice UI and the basic sides.
                 All you need for a basic shop. The perfect site for small businesses!"
-                demoLink="https://the-flower-shop-3f91ab.webflow.io/"
+              demoLink="https://the-flower-shop-3f91ab.webflow.io/"
             />
           </Col>
           <Col md={4} className="project-card">
