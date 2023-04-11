@@ -1009,7 +1009,7 @@ button:focus {
 }
 
 .tech-icons-highlight:hover {
-  @include tech-icons-highlight-hover;;
+  @include tech-icons-highlight-hover;
 }
 
 @media (max-width: 767px) {
