@@ -1,6 +1,6 @@
-import React, {useState} from "react";
-import {AiFillStar} from "react-icons/ai";
-import {githubData} from "../data";
+import React, { useState } from "react";
+import { AiFillStar } from "react-icons/ai";
+import { githubData } from "../data";
 
 const ProjectStars = (props) => {
   const [stars, setStars] = useState("");
