@@ -11,9 +11,7 @@ const linkData = {
 };
 
 export async function githubData(repoName?: string): Promise<GithubData> {
-  const requestUrl = `https://api.github.com/users/FleetAdmiralJakob${
-    repoName ? `/${repoName}` : ""
-  }`;
+  const requestUrl = `https://api.github.com/${repoName ? `repo}` : "users"}/FleetAdmiralJakob${repoName ? `/${repoName}` : ""}`;
   const response = await fetch(requestUrl);
   return await response.json();
 }
