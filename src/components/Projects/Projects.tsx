@@ -49,7 +49,7 @@ function Projects() {
               title="A Steampunk Game"
               summary="A small game created by me with Javascript, CSS and HTML."
               description="It's a small game where you must shoot as a seahorse as many enemies as you can."
-              ghLink="FleetAdmiralJakob/Steampunk-Game"
+              ghLink="Steampunk-Game"
               demoLink="http://steampunk-game.me/Steampunk-Game/"
             />
           </Col>
@@ -62,7 +62,7 @@ function Projects() {
               title="Tippy"
               summary="A tip calculator (for Android)!"
               description="Know back the days where you had to calculate the tip yourself? No more! With Tippy you can calculate your tips in a few seconds!"
-              ghLink="FleetAdmiralJakob/Tippy"
+              ghLink="Tippy"
               downloadLink="https://github.com/FleetAdmiralJakob/Tippy/releases"
             />
           </Col>
@@ -75,7 +75,7 @@ function Projects() {
               title="Password Generator"
               summary="A simple password generator with a nice UI for the Web!"
               description="You can choose the length of your password and if you want to include numbers and symbols."
-              ghLink="FleetAdmiralJakob/Password-Generator"
+              ghLink="Password-Generator"
               demoLink="https://passwort-generator.vercel.app/"
               downloadLink="https://github.com/FleetAdmiralJakob/Tippy/releases"
             />
@@ -102,7 +102,7 @@ function Projects() {
               title="Bigger Number Game"
               summary="A simple Android app to demonstrate the use of Kotlin in Android app development."
               description="The user are presented 2 numbers on buttons- depending on if the larger number was clicked, the background color will change."
-              ghLink="FleetAdmiralJakob/Bigger-Number-Game"
+              ghLink="Bigger-Number-Game"
               downloadLink="https://github.com/FleetAdmiralJakob/Bigger-Number-Game/releases"
             />
           </Col>

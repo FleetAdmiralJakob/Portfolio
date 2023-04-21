@@ -1,6 +1,7 @@
 import React from "react";
 import StandardLogo from "./StandardLogo";
 import { AiFillStar } from "react-icons/ai";
+import { githubData } from "../data";
 
 class Logos extends React.Component {
   state: { currentLogo: number; stars: string } = {
@@ -16,13 +17,10 @@ class Logos extends React.Component {
     // @ts-ignore
     this.interval = setInterval(() => this.renderAnotherClass(), 3000);
 
-    fetch(`https://api.github.com/repos/FleetAdmiralJakob/Portfolio`)
-      .then((response) => response.json())
-      .catch((error) => console.log("Error: " + error))
-      .then((data) => {
-        const stars = data.stargazers_count;
-        this.setState({ stars: stars.toString() });
-      });
+    githubData("Portfolio").then((data) => {
+      const stars = data.stargazers_count;
+      this.setState({ stars: stars });
+    });
   }
 
   componentWillUnmount() {
@@ -52,7 +50,12 @@ class Logos extends React.Component {
     const currentLogo = this.state.currentLogo % logos.length;
 
     if (currentLogo === 1) {
-      if (this.state.stars === "") {
+      if (
+        this.state.stars === "" ||
+        this.state.stars === null ||
+        this.state.stars === undefined ||
+        !this.state.stars
+      ) {
         return (
           <div>
             <div>Check out {logos[currentLogo]} on GitHub!</div>
