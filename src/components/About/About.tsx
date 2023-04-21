@@ -7,18 +7,19 @@ import AboutCard from "./AboutCard";
 // @ts-ignore
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
-import linkData from "../linkData";
+import linkData, {githubData} from "../data";
 import {AiFillGithub} from "react-icons/ai";
 import {SiLeetcode} from "react-icons/si";
 
 function About() {
   const [followersCount, setFollowersCount] = useState("");
 
-  fetch("https://api.github.com/users/FleetAdmiralJakob")
-    .then((response) => response.json())
-    .then((data) => {
-      setFollowersCount(data.followers);
-    });
+    githubData().then((data) => {
+        setFollowersCount(data.followers);
+    }, (error) => {
+        console.log(error);
+      },
+    );
 
   return (
     <Container fluid className="about-section">

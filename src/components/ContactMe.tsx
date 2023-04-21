@@ -2,7 +2,7 @@ import React from "react";
 import {Col, Container, Row} from "react-bootstrap";
 import {AiFillGithub, AiFillHome, AiFillMail, AiFillPhone,} from "react-icons/ai";
 import {FaDiscord, FaLinkedinIn} from "react-icons/fa";
-import linkData from "./linkData";
+import linkData from "./data";
 // @ts-ignore
 import popup_discord_png from "../Assets/discord-popup.png";
 import Button from "react-bootstrap/Button";

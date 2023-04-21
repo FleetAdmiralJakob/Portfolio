@@ -1,21 +1,14 @@
-import React, {useEffect, useState} from "react"
+import React, {useState} from "react"
 import {AiFillStar} from "react-icons/ai";
+import {githubData} from "../data";
 
 const ProjectStars = (props) => {
-    const [stars, setStars] = useState(null);
+    const [stars, setStars] = useState("");
 
-    useEffect(() => {
-        async function fetchStars() {
-            try {
-                const response = await fetch(`https://api.github.com/repos/${props.url}`);
-                const data = await response.json();
-                setStars(data.stargazers_count);
-            } catch (error) {
-                console.error(error);
-            }
-        }
-        fetchStars();
-    }, [props.url]);
+    githubData(props.url).then((data) => {
+        const stars = data.stargazers_count;
+        setStars(stars.toString());
+    });
 
     if (stars === null) {
         return(
@@ -29,6 +22,6 @@ const ProjectStars = (props) => {
             {stars} <AiFillStar style={{ color: "yellow" }}/>
         </div>
     )
-}
+};
 
 export default ProjectStars;
