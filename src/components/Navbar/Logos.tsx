@@ -1,7 +1,7 @@
 import React from "react";
 import StandardLogo from "./StandardLogo";
-import {AiFillStar} from "react-icons/ai";
-import {githubData} from "../data";
+import { AiFillStar } from "react-icons/ai";
+import { githubData } from "../data";
 
 class Logos extends React.Component {
   state: { currentLogo: number; stars: string } = {
@@ -50,7 +50,12 @@ class Logos extends React.Component {
     const currentLogo = this.state.currentLogo % logos.length;
 
     if (currentLogo === 1) {
-      if (this.state.stars === "" || this.state.stars === null || this.state.stars === undefined || !this.state.stars) {
+      if (
+        this.state.stars === "" ||
+        this.state.stars === null ||
+        this.state.stars === undefined ||
+        !this.state.stars
+      ) {
         return (
           <div>
             <div>Check out {logos[currentLogo]} on GitHub!</div>
