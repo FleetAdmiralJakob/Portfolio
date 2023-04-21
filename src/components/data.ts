@@ -1,6 +1,6 @@
 export interface GithubData {
   followers: string;
-  stargazers_count: number;
+  stargazers_count: string;
 }
 
 const linkData = {
