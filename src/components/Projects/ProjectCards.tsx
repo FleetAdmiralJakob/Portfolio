@@ -41,7 +41,7 @@ function ProjectCards(props) {
         {props.ghLink && (
           <Button
             variant="primary"
-            href={`https://github.com/${props.ghLink}`}
+            href={`https://github.com/FleetAdmiralJakob/${props.ghLink}`}
             target="_blank"
           >
             <BsGithub /> &nbsp;
