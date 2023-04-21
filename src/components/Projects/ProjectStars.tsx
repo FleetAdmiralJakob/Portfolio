@@ -1,6 +1,6 @@
-import React, { useState } from "react";
-import { AiFillStar } from "react-icons/ai";
-import { githubData } from "../data";
+import React, {useState} from "react";
+import {AiFillStar} from "react-icons/ai";
+import {githubData} from "../data";
 
 const ProjectStars = (props) => {
   const [stars, setStars] = useState("");
@@ -10,7 +10,7 @@ const ProjectStars = (props) => {
     setStars(stars);
   });
 
-  if (stars === null || stars === "") {
+  if (stars === null || stars === "" || stars === undefined || !stars) {
     return (
       <div>
         Check out <AiFillStar style={{ color: "yellow" }} /> on GitHub!
