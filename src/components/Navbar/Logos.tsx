@@ -1,7 +1,7 @@
 import React from "react";
 import StandardLogo from "./StandardLogo";
-import {AiFillStar} from "react-icons/ai";
-import {githubData} from "../data";
+import { AiFillStar } from "react-icons/ai";
+import { githubData } from "../data";
 
 class Logos extends React.Component {
   state: { currentLogo: number; stars: string } = {
@@ -18,9 +18,9 @@ class Logos extends React.Component {
     this.interval = setInterval(() => this.renderAnotherClass(), 3000);
 
     githubData("Portfolio").then((data) => {
-        const stars = data.stargazers_count;
-        this.setState({ stars: stars.toString() });
-      });
+      const stars = data.stargazers_count;
+      this.setState({ stars: stars.toString() });
+    });
   }
 
   componentWillUnmount() {

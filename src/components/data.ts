@@ -1,6 +1,6 @@
 export interface GithubData {
-  followers: string
-  stargazers_count: number
+  followers: string;
+  stargazers_count: number;
 }
 
 const linkData = {
@@ -11,10 +11,13 @@ const linkData = {
 };
 
 export async function githubData(repoName?: string): Promise<GithubData> {
-  const response = await fetch("https://api.github.com/users/FleetAdmiralJakob" + (repoName ? `/${repoName}` : ""));
+  const response = await fetch(
+    "https://api.github.com/users/FleetAdmiralJakob" +
+      (repoName ? `/${repoName}` : "")
+  );
   const data = await response.json();
 
-  return data
+  return data;
 }
 
 export default linkData;
