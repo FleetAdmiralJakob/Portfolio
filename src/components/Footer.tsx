@@ -1,14 +1,14 @@
 import React from "react";
-import { Col, Container, Row } from "react-bootstrap";
-import { AiFillGithub } from "react-icons/ai";
-import { FaLinkedinIn, FaMailBulk } from "react-icons/fa";
+import {Col, Container, Row} from "react-bootstrap";
+import {AiFillGithub} from "react-icons/ai";
+import {FaLinkedinIn, FaMailBulk} from "react-icons/fa";
 import linkData from "./data";
 
 function Footer() {
   const date = new Date();
   const year = date.getFullYear();
   return (
-    <Container fluid className="footer">
+    <Container fluid className="footer content">
       <Row>
         <Col md="4" className="footer-copyright">
           <h3>

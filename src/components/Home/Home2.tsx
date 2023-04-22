@@ -9,11 +9,11 @@ import SocialLinks from "../SocialLinks";
 function Home2() {
   return (
     <>
-      <Container fluid className="home-about-section content" id="about">
+      <Container fluid className="home-about-section" id="about">
         <Container>
           <Row>
             <Col md={12} className="home-about-social">
-              <Tilt className="myAvatar">
+              <Tilt className="myAvatar content">
                 <img
                   src={myImg}
                   className="img-fluid"
@@ -24,16 +24,16 @@ function Home2() {
               </Tilt>
               <br />
               <br />
-              <h1>FIND ME ON</h1>
-              <p>
+              <h1 className="content">FIND ME ON</h1>
+              <p className="content">
                 Feel free to <span className="purple">connect </span>with me
               </p>
-              <h2>
+              <h2 className="content">
                 <span className="point" role="img" aria-labelledby="wave">
                   👇
                 </span>
               </h2>
-              <SocialLinks github linkedIn discord mail/>
+              <SocialLinks github linkedIn discord mail />
             </Col>
           </Row>
         </Container>
