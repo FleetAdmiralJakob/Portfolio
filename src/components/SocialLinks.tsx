@@ -3,6 +3,8 @@ import linkData from "./data";
 import {AiFillGithub} from "react-icons/ai";
 import {SiCurseforge, SiLeetcode} from "react-icons/si";
 import {FaDiscord, FaLinkedinIn, FaMailBulk} from "react-icons/fa";
+import popup_discord_png from "../Assets/discord-popup.png";
+import Button from "react-bootstrap/Button";
 
 const SocialLinks = (props) => {
 
@@ -24,6 +26,24 @@ const SocialLinks = (props) => {
     }, [showDiscordPopup]);
 
     return (
+        <>
+        {showDiscordPopup && (
+            <div className="discord-popup">
+                <img
+                    src={popup_discord_png}
+                    alt="Discord Info"
+                    className="popup-discord-png"
+                />
+                <Button
+                    variant="primary"
+                    onClick={() => {
+                        setShowDiscordPopup(false);
+                    }}
+                >
+                    Close
+                </Button>
+            </div>
+        )}
         <div>
             <ul className="home-about-social-links">
 
@@ -113,6 +133,7 @@ const SocialLinks = (props) => {
 
             </ul>
         </div>
+        </>
     )
 };
 
