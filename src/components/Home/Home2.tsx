@@ -4,7 +4,6 @@ import {Col, Container, Row} from "react-bootstrap";
 import myImg from "../../Assets/avatar4.webp";
 import Tilt from "react-parallax-tilt";
 // @ts-ignore
-import popup_discord_png from "../../Assets/discord-popup.png";
 import SocialLinks from "../SocialLinks";
 
 function Home2() {

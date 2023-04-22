@@ -2,8 +2,6 @@ import React from "react";
 import {Col, Container, Row} from "react-bootstrap";
 import {AiFillHome, AiFillMail, AiFillPhone,} from "react-icons/ai";
 import linkData from "./data";
-// @ts-ignore
-import popup_discord_png from "../Assets/discord-popup.png";
 import SocialLinks from "./SocialLinks";
 
 function ContactMe() {
