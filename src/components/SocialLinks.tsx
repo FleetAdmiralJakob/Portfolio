@@ -4,7 +4,7 @@ import {AiFillGithub} from "react-icons/ai";
 import {SiCurseforge, SiLeetcode} from "react-icons/si";
 import {FaDiscord, FaLinkedinIn, FaMailBulk} from "react-icons/fa";
 
-const SocialLinks = (leetcode?, github?, linkedIn?, discord?, curseforge?) => {
+const SocialLinks = (props) => {
 
     const [showDiscordPopup, setShowDiscordPopup] = React.useState(false);
     useEffect(() => {
@@ -27,7 +27,7 @@ const SocialLinks = (leetcode?, github?, linkedIn?, discord?, curseforge?) => {
         <div>
             <ul className="home-about-social-links">
 
-                {leetcode === undefined && (
+                {props.leetcode && (
                     <li className="social-icons">
                         <a
                             href={linkData.leetcode}
@@ -41,7 +41,7 @@ const SocialLinks = (leetcode?, github?, linkedIn?, discord?, curseforge?) => {
                     </li>
                 )}
 
-                {github === undefined && (
+                {props.github && (
                     <li className="social-icons">
                         <a
                             href={linkData.github}
@@ -55,7 +55,7 @@ const SocialLinks = (leetcode?, github?, linkedIn?, discord?, curseforge?) => {
                     </li>
                 )}
 
-                {linkedIn === undefined && (
+                {props.linkedIn && (
                     <li className="social-icons">
                         <a
                             href={linkData.linkedIn}
@@ -69,7 +69,7 @@ const SocialLinks = (leetcode?, github?, linkedIn?, discord?, curseforge?) => {
                     </li>
                 )}
 
-                {discord === undefined && (
+                {props.discord && (
                     <li className="social-icons">
                         <a
                             target="_blank"
@@ -86,7 +86,7 @@ const SocialLinks = (leetcode?, github?, linkedIn?, discord?, curseforge?) => {
                     </li>
                 )}
 
-                {mail === undefined && (
+                {props.mail && (
                     <li className="social-icons">
                         <a
                             href={linkData.mail}
@@ -98,7 +98,7 @@ const SocialLinks = (leetcode?, github?, linkedIn?, discord?, curseforge?) => {
                     </li>
                 )}
 
-                {curseforge === undefined && (
+                {props.curseforge && (
                     <li className="social-icons">
                         <a
                             href="https://www.curseforge.com/members/fleetadmiraljakob/projects"
