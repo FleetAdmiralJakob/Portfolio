@@ -26,7 +26,7 @@ const SocialLinks = (leetcode?, github?, linkedIn?, discord?, mail?, curseforge?
     return (
         <div>
             <ul className="home-about-social-links">
-                {leetcode && (
+                {leetcode === undefined && (
                     <li className="social-icons">
                         <a
                             href={linkData.leetcode}
@@ -39,7 +39,7 @@ const SocialLinks = (leetcode?, github?, linkedIn?, discord?, mail?, curseforge?
                         </a>
                     </li>
                 )}
-                {github && (
+                {github === undefined && (
                     <li className="social-icons">
                         <a
                             href={linkData.github}
@@ -52,7 +52,7 @@ const SocialLinks = (leetcode?, github?, linkedIn?, discord?, mail?, curseforge?
                         </a>
                     </li>
                 )}
-                {linkedIn && (
+                {linkedIn === undefined && (
                     <li className="social-icons">
                         <a
                             href={linkData.linkedIn}
@@ -65,7 +65,7 @@ const SocialLinks = (leetcode?, github?, linkedIn?, discord?, mail?, curseforge?
                         </a>
                     </li>
                 )}
-                {discord && (
+                {discord === undefined && (
                     <li className="social-icons">
                         <a
                             target="_blank"
@@ -81,7 +81,7 @@ const SocialLinks = (leetcode?, github?, linkedIn?, discord?, mail?, curseforge?
                         </a>
                     </li>
                 )}
-                {mail && (
+                {mail === undefined && (
                     <li className="social-icons">
                         <a
                             href={linkData.mail}
@@ -92,7 +92,7 @@ const SocialLinks = (leetcode?, github?, linkedIn?, discord?, mail?, curseforge?
                         </a>
                     </li>
                 )}
-                {curseforge && (
+                {curseforge === undefined && (
                     <li className="social-icons">
                         <a
                             href="https://www.curseforge.com/members/fleetadmiraljakob/projects"
