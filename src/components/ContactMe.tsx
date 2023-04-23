@@ -1,8 +1,8 @@
 import React from "react";
-import {Col, Container, Row} from "react-bootstrap";
-import {AiFillHome, AiFillMail, AiFillPhone} from "react-icons/ai";
+import { Col, Container, Row } from "react-bootstrap";
+import { AiFillHome, AiFillMail, AiFillPhone } from "react-icons/ai";
 import linkData from "./data";
-import {DiscordPopup, SocialLinks} from "./SocialLinks";
+import { DiscordPopup, SocialLinks } from "./SocialLinks";
 
 function ContactMe() {
   return (
@@ -28,11 +28,7 @@ function ContactMe() {
             </p>
             <p>
               <h2>Get in touch with me on:</h2>
-              <SocialLinks
-                github
-                linkedIn
-                discord
-              />
+              <SocialLinks github linkedIn discord />
             </p>
           </Container>
         </Container>

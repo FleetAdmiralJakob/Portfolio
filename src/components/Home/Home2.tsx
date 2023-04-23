@@ -1,12 +1,11 @@
 import React from "react";
-import {Col, Container, Row} from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
 // @ts-ignore
 import myImg from "../../Assets/avatar4.webp";
 import Tilt from "react-parallax-tilt";
-import {DiscordPopup, SocialLinks} from "../SocialLinks";
+import { DiscordPopup, SocialLinks } from "../SocialLinks";
 
 function Home2() {
-
   return (
     <>
       <DiscordPopup />
@@ -34,12 +33,7 @@ function Home2() {
                   👇
                 </span>
               </h2>
-              <SocialLinks
-                github
-                linkedIn
-                discord
-                mail
-              />
+              <SocialLinks github linkedIn discord mail />
             </Col>
           </Row>
         </Container>

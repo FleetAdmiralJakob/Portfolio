@@ -3,8 +3,19 @@ import "./App.scss";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "aos/dist/aos.css";
 
-import {BrowserRouter as Router, Navigate, Route, Routes,} from "react-router-dom";
-import React, {createContext, lazy, Suspense, useEffect, useState} from "react";
+import {
+  BrowserRouter as Router,
+  Navigate,
+  Route,
+  Routes,
+} from "react-router-dom";
+import React, {
+  createContext,
+  lazy,
+  Suspense,
+  useEffect,
+  useState,
+} from "react";
 
 import About from "./components/About/About";
 import ContactMe from "./components/ContactMe";
@@ -74,25 +85,25 @@ function App() {
   return (
     <Suspense fallback={<div id="preloader"></div>}>
       <DiscordPopupContext.Provider value={showDiscordPopup}>
-      <Router>
-        <Preloader load={load} />
-        <div className="App" id={load ? "no-scroll" : "scroll"}>
-          <ScrollToTopButton />
-          <Particle />
-          <Navbar />
-          <ScrollToTop />
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/project" element={<Projects />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/resume" element={<Résumé />} />
-            <Route path="/contactme" element={<ContactMe />} />
-            <Route path="*" element={<Navigate to="/" />} />
-          </Routes>
-          <Footer />
-        </div>
-      </Router>
-        </DiscordPopupContext.Provider>
+        <Router>
+          <Preloader load={load} />
+          <div className="App" id={load ? "no-scroll" : "scroll"}>
+            <ScrollToTopButton />
+            <Particle />
+            <Navbar />
+            <ScrollToTop />
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/project" element={<Projects />} />
+              <Route path="/about" element={<About />} />
+              <Route path="/resume" element={<Résumé />} />
+              <Route path="/contactme" element={<ContactMe />} />
+              <Route path="*" element={<Navigate to="/" />} />
+            </Routes>
+            <Footer />
+          </div>
+        </Router>
+      </DiscordPopupContext.Provider>
     </Suspense>
   );
 }
