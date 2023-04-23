@@ -1,18 +1,13 @@
-import React, { useState } from "react";
-import { Col, Container, Row } from "react-bootstrap";
-import { AiFillHome, AiFillMail, AiFillPhone } from "react-icons/ai";
+import React from "react";
+import {Col, Container, Row} from "react-bootstrap";
+import {AiFillHome, AiFillMail, AiFillPhone} from "react-icons/ai";
 import linkData from "./data";
-import { DiscordPopup, SocialLinks } from "./SocialLinks";
+import {DiscordPopup, SocialLinks} from "./SocialLinks";
 
 function ContactMe() {
-  const [showDiscordPopup, setShowDiscordPopup] = useState(false);
-
   return (
     <>
-      <DiscordPopup
-        showDiscordPopup={showDiscordPopup}
-        setShowDiscordPopup={setShowDiscordPopup}
-      />
+      <DiscordPopup />
       <section id="contact">
         <Container fluid className="contact-section content" id="about">
           <Container>
@@ -37,7 +32,6 @@ function ContactMe() {
                 github
                 linkedIn
                 discord
-                setShowDiscordPopup={setShowDiscordPopup}
               />
             </p>
           </Container>

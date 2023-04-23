@@ -3,13 +3,8 @@ import "./App.scss";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "aos/dist/aos.css";
 
-import {
-  BrowserRouter as Router,
-  Navigate,
-  Route,
-  Routes,
-} from "react-router-dom";
-import React, { lazy, Suspense, useEffect, useState } from "react";
+import {BrowserRouter as Router, Navigate, Route, Routes,} from "react-router-dom";
+import React, {createContext, lazy, Suspense, useEffect, useState} from "react";
 
 import About from "./components/About/About";
 import ContactMe from "./components/ContactMe";
@@ -23,6 +18,7 @@ import Particle from "./components/Particle";
 import AOS from "aos";
 
 const Projects = lazy(() => import("./components/Projects/Projects"));
+export const DiscordPopupContext: React.Context<any> = createContext(false);
 
 function ScrollToTopButton() {
   useEffect(() => {
@@ -65,6 +61,7 @@ function ScrollToTopButton() {
 
 function App() {
   const [load, updateLoad] = useState(true);
+  const [showDiscordPopup, setShowDiscordPopup] = useState(false);
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -76,6 +73,7 @@ function App() {
 
   return (
     <Suspense fallback={<div id="preloader"></div>}>
+      <DiscordPopupContext.Provider value={showDiscordPopup}>
       <Router>
         <Preloader load={load} />
         <div className="App" id={load ? "no-scroll" : "scroll"}>
@@ -94,6 +92,7 @@ function App() {
           <Footer />
         </div>
       </Router>
+        </DiscordPopupContext.Provider>
     </Suspense>
   );
 }
