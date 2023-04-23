@@ -1,15 +1,16 @@
-import React, {useContext, useEffect} from "react";
+import React, { useContext, useEffect } from "react";
 import linkData from "./data";
-import {AiFillGithub} from "react-icons/ai";
-import {SiCurseforge, SiLeetcode} from "react-icons/si";
-import {FaDiscord, FaLinkedinIn, FaMailBulk} from "react-icons/fa";
+import { AiFillGithub } from "react-icons/ai";
+import { SiCurseforge, SiLeetcode } from "react-icons/si";
+import { FaDiscord, FaLinkedinIn, FaMailBulk } from "react-icons/fa";
 // @ts-ignore
 import popup_discord_png from "../Assets/discord-popup.png";
 import Button from "react-bootstrap/Button";
-import {DiscordPopupContext} from "../App";
+import { DiscordPopupContext } from "../App";
 
 const DiscordPopup = () => {
-    const [showDiscordPopup, setShowDiscordPopup] = useContext(DiscordPopupContext);
+  const [showDiscordPopup, setShowDiscordPopup] =
+    useContext(DiscordPopupContext);
 
   useEffect(() => {
     const contentElements = document.querySelectorAll(".content");
@@ -51,7 +52,8 @@ const DiscordPopup = () => {
 };
 
 const SocialLinks = (props) => {
-    const [showDiscordPopup, setShowDiscordPopup] = useContext(DiscordPopupContext);
+  const [showDiscordPopup, setShowDiscordPopup] =
+    useContext(DiscordPopupContext);
   return (
     <>
       <div>

@@ -3,8 +3,19 @@ import "./App.scss";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "aos/dist/aos.css";
 
-import {BrowserRouter as Router, Navigate, Route, Routes,} from "react-router-dom";
-import React, {createContext, lazy, Suspense, useEffect, useState} from "react";
+import {
+  BrowserRouter as Router,
+  Navigate,
+  Route,
+  Routes,
+} from "react-router-dom";
+import React, {
+  createContext,
+  lazy,
+  Suspense,
+  useEffect,
+  useState,
+} from "react";
 
 import About from "./components/About/About";
 import ContactMe from "./components/ContactMe";
