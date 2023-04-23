@@ -1,5 +1,5 @@
-import React, {useState} from "react";
-import {Col, Container, Row} from "react-bootstrap";
+import React, { useState } from "react";
+import { Col, Container, Row } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 // @ts-ignore
 import steampunk from "../../Assets/Projects/steampunk.png";
@@ -19,9 +19,9 @@ import passwordgen from "../../Assets/Projects/passwordgen.png";
 import flowershop from "../../Assets/Projects/flowershop.png";
 // @ts-ignore
 import foods from "../../Assets/Projects/foods.png";
-import {ImPointRight} from "react-icons/im";
-import {AiOutlineArrowDown, AiOutlineArrowUp} from "react-icons/ai";
-import {SocialLinks} from "../SocialLinks";
+import { ImPointRight } from "react-icons/im";
+import { AiOutlineArrowDown, AiOutlineArrowUp } from "react-icons/ai";
+import { SocialLinks } from "../SocialLinks";
 
 function Projects() {
   const [readmore, setReadMore] = useState(false);
@@ -136,7 +136,7 @@ function Projects() {
               👇
             </span>
           </h5>
-          <SocialLinks curseforge/>
+          <SocialLinks curseforge />
           <p className="text-project-curseforge">
             ... which are:
             <br /> <br /> <br />
