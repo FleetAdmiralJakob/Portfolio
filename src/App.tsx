@@ -73,7 +73,7 @@ function App() {
 
   return (
     <Suspense fallback={<div id="preloader"></div>}>
-      <DiscordPopupContext.Provider value={showDiscordPopup}>
+      <DiscordPopupContext.Provider value={{showDiscordPopup, setShowDiscordPopup}}>
       <Router>
         <Preloader load={load} />
         <div className="App" id={load ? "no-scroll" : "scroll"}>
