@@ -8,21 +8,21 @@ import popup_discord_png from "../Assets/discord-popup.png";
 import Button from "react-bootstrap/Button";
 
 const DiscordPopup = (showDiscordPopup, setShowDiscordPopup) => {
-    useEffect(() => {
-        const contentElements = document.querySelectorAll(".content");
+  useEffect(() => {
+    const contentElements = document.querySelectorAll(".content");
 
-      // Add or remove the 'blur' class to each content element based on the 'showDiscordPopup' state
+    // Add or remove the 'blur' class to each content element based on the 'showDiscordPopup' state
+    contentElements.forEach((element) => {
+      element.classList.toggle("blur", showDiscordPopup);
+    });
+
+    // Cleanup function to remove the 'blur' class from all content elements when the component unmounts
+    return () => {
       contentElements.forEach((element) => {
-        element.classList.toggle("blur", showDiscordPopup);
+        element.classList.remove("blur");
       });
-
-        // Cleanup function to remove the 'blur' class from all content elements when the component unmounts
-        return () => {
-            contentElements.forEach((element) => {
-                element.classList.remove("blur");
-            });
-        };
-    }, [showDiscordPopup]);
+    };
+  }, [showDiscordPopup]);
 
   return (
     <>
