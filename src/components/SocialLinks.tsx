@@ -9,6 +9,7 @@ import Button from "react-bootstrap/Button";
 
 const DiscordPopup = (showDiscordPopup, setShowDiscordPopup) => {
     useEffect(() => {
+        if (!showDiscordPopup) {
         const contentElements = document.querySelectorAll(".content");
 
         // Add or remove the 'blur' class to each content element based on the 'showDiscordPopup' state
@@ -22,6 +23,8 @@ const DiscordPopup = (showDiscordPopup, setShowDiscordPopup) => {
                 element.classList.remove("blur");
             });
         };
+        }
+        return () => {};
     }, [showDiscordPopup]);
 
     return (
