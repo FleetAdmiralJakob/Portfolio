@@ -1,8 +1,8 @@
-import React, {useEffect} from "react";
+import React, { useEffect } from "react";
 import linkData from "./data";
-import {AiFillGithub} from "react-icons/ai";
-import {SiCurseforge, SiLeetcode} from "react-icons/si";
-import {FaDiscord, FaLinkedinIn, FaMailBulk} from "react-icons/fa";
+import { AiFillGithub } from "react-icons/ai";
+import { SiCurseforge, SiLeetcode } from "react-icons/si";
+import { FaDiscord, FaLinkedinIn, FaMailBulk } from "react-icons/fa";
 // @ts-ignore
 import popup_discord_png from "../Assets/discord-popup.png";
 import Button from "react-bootstrap/Button";
@@ -11,10 +11,10 @@ const DiscordPopup = (showDiscordPopup, setShowDiscordPopup) => {
     useEffect(() => {
         const contentElements = document.querySelectorAll(".content");
 
-    // Add or remove the 'blur' class to each content element based on the 'showDiscordPopup' state
-    contentElements.forEach((element) => {
-      element.classList.toggle("blur", showDiscordPopup);
-    });
+      // Add or remove the 'blur' class to each content element based on the 'showDiscordPopup' state
+      contentElements.forEach((element) => {
+        element.classList.toggle("blur", showDiscordPopup);
+      });
 
         // Cleanup function to remove the 'blur' class from all content elements when the component unmounts
         return () => {
