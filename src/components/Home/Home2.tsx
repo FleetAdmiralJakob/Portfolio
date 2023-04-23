@@ -1,16 +1,19 @@
-import React, {useState} from "react";
-import {Col, Container, Row} from "react-bootstrap";
+import React, { useState } from "react";
+import { Col, Container, Row } from "react-bootstrap";
 // @ts-ignore
 import myImg from "../../Assets/avatar4.webp";
 import Tilt from "react-parallax-tilt";
-import {DiscordPopup, SocialLinks} from "../SocialLinks";
+import { DiscordPopup, SocialLinks } from "../SocialLinks";
 
 function Home2() {
   const [showDiscordPopup, setShowDiscordPopup] = useState(false);
 
   return (
     <>
-      <DiscordPopup showDiscordPopup={showDiscordPopup} setShowDiscordPopup={setShowDiscordPopup} />
+      <DiscordPopup
+        showDiscordPopup={showDiscordPopup}
+        setShowDiscordPopup={setShowDiscordPopup}
+      />
       <Container fluid className="home-about-section content" id="about">
         <Container>
           <Row>
@@ -35,7 +38,13 @@ function Home2() {
                   👇
                 </span>
               </h2>
-              <SocialLinks github linkedIn discord mail setShowDiscordPopup={setShowDiscordPopup} />
+              <SocialLinks
+                github
+                linkedIn
+                discord
+                mail
+                setShowDiscordPopup={setShowDiscordPopup}
+              />
             </Col>
           </Row>
         </Container>

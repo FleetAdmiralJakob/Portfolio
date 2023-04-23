@@ -1,5 +1,5 @@
-import React, {useState} from "react";
-import {Col, Container, Row} from "react-bootstrap";
+import React, { useState } from "react";
+import { Col, Container, Row } from "react-bootstrap";
 import Github from "./Github";
 import Techstack from "./Techstack";
 import OtherSkills from "./OtherSkills";
@@ -7,8 +7,8 @@ import AboutCard from "./AboutCard";
 // @ts-ignore
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
-import {githubData} from "../data";
-import {SocialLinks} from "../SocialLinks";
+import { githubData } from "../data";
+import { SocialLinks } from "../SocialLinks";
 
 function About() {
   const [followersCount, setFollowersCount] = useState("");
