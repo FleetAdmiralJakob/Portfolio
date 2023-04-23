@@ -7,9 +7,8 @@ import AboutCard from "./AboutCard";
 // @ts-ignore
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
-import linkData, {githubData} from "../data";
-import {AiFillGithub} from "react-icons/ai";
-import {SiLeetcode} from "react-icons/si";
+import {githubData} from "../data";
+import {SocialLinks} from "../SocialLinks";
 
 function About() {
   const [followersCount, setFollowersCount] = useState("");
@@ -52,32 +51,7 @@ function About() {
               See me <strong className="purple">on GitHub</strong> and{" "}
               <strong className="purple">LeetCode!</strong>
             </h4>
-            <ul className="home-about-social-links">
-              <li className="social-icons">
-                <a
-                  href={linkData.github}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour home-social-icons"
-                  aria-label="GitHub"
-                >
-                  <AiFillGithub />
-                </a>
-              </li>
-            </ul>
-            <ul className="home-about-social-links">
-              <li className="social-icons">
-                <a
-                  href={linkData.leetcode}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour home-social-icons"
-                  aria-label="LeetCode"
-                >
-                  <SiLeetcode />
-                </a>
-              </li>
-            </ul>
+            <SocialLinks github leetcode />
             <br />
             {followersCount
               ? followersCount + " Followers"

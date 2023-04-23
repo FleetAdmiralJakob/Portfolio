@@ -7,9 +7,7 @@ import {FaDiscord, FaLinkedinIn, FaMailBulk} from "react-icons/fa";
 import popup_discord_png from "../Assets/discord-popup.png";
 import Button from "react-bootstrap/Button";
 
-const SocialLinks = (props) => {
-
-    const [showDiscordPopup, setShowDiscordPopup] = React.useState(false);
+const DiscordPopup = (showDiscordPopup, setShowDiscordPopup) => {
     useEffect(() => {
         const contentElements = document.querySelectorAll(".content");
 
@@ -28,39 +26,32 @@ const SocialLinks = (props) => {
 
     return (
         <>
-        {showDiscordPopup && (
-            <div className="discord-popup">
-                <img
-                    src={popup_discord_png}
-                    alt="Discord Info"
-                    className="popup-discord-png"
-                />
-                <Button
-                    variant="primary"
-                    onClick={() => {
-                        setShowDiscordPopup(false);
-                    }}
-                >
-                    Close
-                </Button>
-            </div>
-        )}
+            {showDiscordPopup && (
+                <div className="discord-popup">
+                    <img
+                        src={popup_discord_png}
+                        alt="Discord Info"
+                        className="popup-discord-png"
+                    />
+                    <Button
+                        variant="primary"
+                        onClick={() => {
+                            setShowDiscordPopup(false);
+                        }}
+                    >
+                        Close
+                    </Button>
+                </div>
+            )}
+        </>
+    )
+};
+
+const SocialLinks = (props) => {
+    return (
+        <>
         <div>
             <ul className="home-about-social-links">
-
-                {props.leetcode && (
-                    <li className="social-icons">
-                        <a
-                            href={linkData.leetcode}
-                            target="_blank"
-                            rel="noreferrer"
-                            className="icon-colour home-social-icons"
-                            aria-label="LeetCode"
-                        >
-                            <SiLeetcode />
-                        </a>
-                    </li>
-                )}
 
                 {props.github && (
                     <li className="social-icons">
@@ -99,7 +90,7 @@ const SocialLinks = (props) => {
                             aria-label="Discord"
                             onClick={(event) => {
                                 event.preventDefault();
-                                setShowDiscordPopup(true);
+                                props.setShowDiscordPopup(true);
                             }}
                         >
                             <FaDiscord />
@@ -115,6 +106,20 @@ const SocialLinks = (props) => {
                             aria-label="Mail me"
                         >
                             <FaMailBulk />
+                        </a>
+                    </li>
+                )}
+
+                {props.leetcode && (
+                    <li className="social-icons">
+                        <a
+                            href={linkData.leetcode}
+                            target="_blank"
+                            rel="noreferrer"
+                            className="icon-colour home-social-icons"
+                            aria-label="LeetCode"
+                        >
+                            <SiLeetcode />
                         </a>
                     </li>
                 )}
@@ -138,4 +143,4 @@ const SocialLinks = (props) => {
     )
 };
 
-export default SocialLinks;
+export { DiscordPopup, SocialLinks };

@@ -21,7 +21,7 @@ import flowershop from "../../Assets/Projects/flowershop.png";
 import foods from "../../Assets/Projects/foods.png";
 import {ImPointRight} from "react-icons/im";
 import {AiOutlineArrowDown, AiOutlineArrowUp} from "react-icons/ai";
-import SocialLinks from "../SocialLinks";
+import {SocialLinks} from "../SocialLinks";
 
 function Projects() {
   const [readmore, setReadMore] = useState(false);
