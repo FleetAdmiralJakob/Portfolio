@@ -1,6 +1,6 @@
 import React from "react";
 import GitHubCalendar from "react-github-calendar";
-import {Row} from "react-bootstrap";
+import { Row } from "react-bootstrap";
 
 function Github() {
   return (
@@ -13,33 +13,25 @@ function Github() {
         blockSize={15}
         blockMargin={5}
         colorScheme="dark"
-          // Use the 5 colors: export type ColorScale = [
-          // 	level0: Color,
-          // 	level1: Color,
-          // 	level2: Color,
-          // 	level3: Color,
-          // 	level4: Color
-          // ];
-          // export type ThemeInput = {
-          // 	light: ColorScale | [
-          // 		from: Color,
-          // 		to: Color
-          // 	];
-          // 	dark?: ColorScale | [
-          // 		from: Color,
-          // 		to: Color
-          // 	];
-        theme={
-            {
-                dark: [
-                    "#ebebeb",
-                    "#b37be4",
-                    "#9667c1",
-                    "#7a549d",
-                    "#5e417a"
-                ],
-                }
-        }
+        // Use the 5 colors: export type ColorScale = [
+        // 	level0: Color,
+        // 	level1: Color,
+        // 	level2: Color,
+        // 	level3: Color,
+        // 	level4: Color
+        // ];
+        // export type ThemeInput = {
+        // 	light: ColorScale | [
+        // 		from: Color,
+        // 		to: Color
+        // 	];
+        // 	dark?: ColorScale | [
+        // 		from: Color,
+        // 		to: Color
+        // 	];
+        theme={{
+          dark: ["#ebebeb", "#b37be4", "#9667c1", "#7a549d", "#5e417a"],
+        }}
         fontSize={16}
       />
     </Row>
