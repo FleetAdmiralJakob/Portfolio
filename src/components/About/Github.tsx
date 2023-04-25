@@ -31,7 +31,7 @@ function Github() {
           // 	];
         theme={
             {
-                light: [
+                dark: [
                     "#ebebeb",
                     "#b37be4",
                     "#9667c1",
