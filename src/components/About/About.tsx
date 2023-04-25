@@ -1,5 +1,5 @@
-import React, {useState} from "react";
-import {Col, Container, Row} from "react-bootstrap";
+import React, { useState } from "react";
+import { Col, Container, Row } from "react-bootstrap";
 import Github from "./Github";
 import Techstack from "./Techstack";
 import OtherSkills from "./OtherSkills";
@@ -7,9 +7,9 @@ import AboutCard from "./AboutCard";
 // @ts-ignore
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
-import linkData, {githubData} from "../data";
-import {AiFillGithub} from "react-icons/ai";
-import {SiLeetcode} from "react-icons/si";
+import linkData, { githubData } from "../data";
+import { AiFillGithub } from "react-icons/ai";
+import { SiLeetcode } from "react-icons/si";
 
 function About() {
   const [followersCount, setFollowersCount] = useState("");
