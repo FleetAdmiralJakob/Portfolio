@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from "react";
+import React, {useState} from "react";
 import {Col, Container, Row} from "react-bootstrap";
 import Github from "./Github";
 import Techstack from "./Techstack";
@@ -13,16 +13,6 @@ import {SiLeetcode} from "react-icons/si";
 
 function About() {
   const [followersCount, setFollowersCount] = useState("");
-  const [isFirstVisit, setIsFirstVisit] = useState(true);
-
-  useEffect(() => {
-    const visitedBefore = localStorage.getItem('visitedBefore');
-    if (visitedBefore) {
-      setIsFirstVisit(false)
-    } else {
-      localStorage.setItem('visitedBefore', 'true')
-    }
-  }, []);
 
   githubData().then(
     (data) => {
@@ -55,7 +45,6 @@ function About() {
             style={{ paddingTop: "120px", paddingBottom: "50px" }}
             className="about-img"
             data-aos="flip-right"
-            data-aos-delay={isFirstVisit ? 1000 : 0}
           >
             <img src={laptopImg} alt="about" className="img-fluid" />
             <br /> <br /> <br />
