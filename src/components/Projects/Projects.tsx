@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { Col, Container, Row } from "react-bootstrap";
+import React, {useState} from "react";
+import {Col, Container, Row} from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 // @ts-ignore
 import steampunk from "../../Assets/Projects/steampunk.png";
@@ -19,9 +19,9 @@ import passwordgen from "../../Assets/Projects/passwordgen.png";
 import flowershop from "../../Assets/Projects/flowershop.png";
 // @ts-ignore
 import foods from "../../Assets/Projects/foods.png";
-import { SiCurseforge } from "react-icons/si";
-import { ImPointRight } from "react-icons/im";
-import { AiOutlineArrowDown, AiOutlineArrowUp } from "react-icons/ai";
+import {SiCurseforge} from "react-icons/si";
+import {ImPointRight} from "react-icons/im";
+import {AiOutlineArrowDown, AiOutlineArrowUp} from "react-icons/ai";
 
 function Projects() {
   const [readmore, setReadMore] = useState(false);
@@ -167,7 +167,7 @@ function Projects() {
                 {" "}
                 Uncraftables [NEW]
               </a>
-              : Over 30,000 downloads <br />
+              : Over 35,000 downloads <br />
               <a href="https://www.curseforge.com/minecraft/mc-mods/uncraftables-new">
                 <img
                   src={uncraftables}
@@ -223,7 +223,7 @@ function Projects() {
                 {" "}
                 Myt
               </a>
-              : Over 400 downloads <br />
+              : Over 500 downloads <br />
               <a href="https://www.curseforge.com/minecraft/mc-mods/myt">
                 <img src={myt} alt="Myt" className="image-card-view" />
               </a>{" "}
@@ -250,7 +250,7 @@ function Projects() {
                 {" "}
                 Foods Enhanced
               </a>
-              : Over 1,000 downloads <br />
+              : Over 2,000 downloads <br />
               <a href="https://www.curseforge.com/minecraft/mc-mods/vanilla-foods-enhanced-new">
                 <img
                   src={foods}
