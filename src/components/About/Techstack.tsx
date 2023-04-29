@@ -1,7 +1,7 @@
-import React, {lazy} from "react";
-import {Col, Container, Row} from "react-bootstrap";
+import React, { lazy } from "react";
+import { Col, Container, Row } from "react-bootstrap";
 import ConfidenceLevelBar from "./ConfidenceLevelBar";
-import {SiIonic} from "react-icons/si";
+import { SiIonic } from "react-icons/si";
 
 const SiPlanetscale = lazy(() =>
   import("react-icons/si").then((module) => ({ default: module.SiPlanetscale }))
@@ -340,7 +340,10 @@ function Techstack() {
           </a>
         </Col>
         <Col xs={4} md={2} className="tech-icons-ionic">
-          <a href="https://ionicframework.com/" className="link-without-styling">
+          <a
+            href="https://ionicframework.com/"
+            className="link-without-styling"
+          >
             <SiIonic />
             <div className="tech-description">
               Ionic
