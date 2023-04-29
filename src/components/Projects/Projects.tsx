@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { Col, Container, Row } from "react-bootstrap";
+import React, {useState} from "react";
+import {Col, Container, Row} from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 // @ts-ignore
 import steampunk from "../../Assets/Projects/steampunk.png";
@@ -19,9 +19,9 @@ import passwordgen from "../../Assets/Projects/passwordgen.png";
 import flowershop from "../../Assets/Projects/flowershop.png";
 // @ts-ignore
 import foods from "../../Assets/Projects/foods.png";
-import { SiCurseforge } from "react-icons/si";
-import { ImPointRight } from "react-icons/im";
-import { AiOutlineArrowDown, AiOutlineArrowUp } from "react-icons/ai";
+import {SiCurseforge} from "react-icons/si";
+import {ImPointRight} from "react-icons/im";
+import {AiOutlineArrowDown, AiOutlineArrowUp} from "react-icons/ai";
 
 function Projects() {
   const [readmore, setReadMore] = useState(false);
@@ -37,8 +37,13 @@ function Projects() {
           My Recent <strong className="purple">Works </strong>
         </h1>
         <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
+          Here are a few projects I've worked on recently. <br />
+          I am always on the lookout for challenging and exciting projects to work on.
         </p>
+        <p style={{ color: "rgb(155 126 172)" }}>
+          "Best way to learn is to build shit!"{" "}
+        </p>
+        <footer className="blockquote-footer"><a href="https://www.twitter.com/t3dotgg">TheoBr</a></footer>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
