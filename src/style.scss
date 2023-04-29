@@ -1016,9 +1016,6 @@ button:focus {
   .tech-icons-angular {
     @include tech-icons-media;
   }
-  .tech-icons-mongo {
-    @include tech-icons-media;
-  }
   .tech-icons-html {
     @include tech-icons-media;
   }
@@ -1070,6 +1067,9 @@ button:focus {
   .tech-icons-adobe {
     @include tech-icons-media;
   }
+  .tech-icons-ionic {
+    @include tech-icons-media;
+  }
 }
 
 .tech-icons-html {
@@ -1100,6 +1100,16 @@ button:focus {
   @include tech-icons-hover;
   color: #c3002f !important;
   border: 2px solid #c3002f !important;
+}
+
+.tech-icons-ionic {
+  @include tech-icons;
+}
+
+.tech-icons-ionic:hover {
+  @include tech-icons-hover;
+  color: #176bff !important;
+  border: 2px solid #176bff !important;
 }
 
 .tech-icons-sass {
@@ -1180,16 +1190,6 @@ button:focus {
   @include tech-icons-hover;
   color: rgb(90, 218, 253);
   border: 2px solid rgb(90, 218, 253) !important;
-}
-
-.tech-icons-mongo {
-  @include tech-icons;
-}
-
-.tech-icons-mongo:hover {
-  @include tech-icons-hover;
-  color: rgb(69, 155, 69);
-  border: 2px solid rgb(69, 155, 69) !important;
 }
 
 .tech-icons-wordpress {

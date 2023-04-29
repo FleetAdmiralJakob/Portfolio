@@ -1,6 +1,7 @@
-import React, { lazy } from "react";
-import { Col, Container, Row } from "react-bootstrap";
+import React, {lazy} from "react";
+import {Col, Container, Row} from "react-bootstrap";
 import ConfidenceLevelBar from "./ConfidenceLevelBar";
+import {SiIonic} from "react-icons/si";
 
 const SiPlanetscale = lazy(() =>
   import("react-icons/si").then((module) => ({ default: module.SiPlanetscale }))
@@ -278,16 +279,6 @@ function Techstack() {
             </div>
           </a>
         </Col>
-        <Col xs={4} md={2} className="tech-icons-mongo">
-          <a href="https://www.mongodb.com/" className="link-without-styling">
-            <SiMongodb />
-            <div className="tech-description">
-              MongoDB
-              <br />
-              <ConfidenceLevelBar confidenceLevel={3} />
-            </div>
-          </a>
-        </Col>
         <Col xs={4} md={2} className="tech-icons">
           <a href="https://webflow.com/" className="link-without-styling">
             <SiWebflow />
@@ -345,6 +336,16 @@ function Techstack() {
               Tailwind
               <br />
               <ConfidenceLevelBar confidenceLevel={10} />
+            </div>
+          </a>
+        </Col>
+        <Col xs={4} md={2} className="tech-icons-ionic">
+          <a href="https://ionicframework.com/" className="link-without-styling">
+            <SiIonic />
+            <div className="tech-description">
+              Ionic
+              <br />
+              <ConfidenceLevelBar confidenceLevel={9} />
             </div>
           </a>
         </Col>
