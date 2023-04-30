@@ -1,19 +1,16 @@
-import React, { useState } from "react";
+import React, {useState} from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 // @ts-ignore
 import logo from "../../Assets/logo.png";
 import Button from "react-bootstrap/Button";
-import { Link } from "react-router-dom";
-import { CgFileDocument, CgMail } from "react-icons/cg";
-import {
-  AiOutlineFundProjectionScreen,
-  AiOutlineHome,
-  AiOutlineUser,
-} from "react-icons/ai";
-import { Picture } from "react-optimized-images";
+import {Link} from "react-router-dom";
+import {CgFileDocument, CgMail} from "react-icons/cg";
+import {AiOutlineFundProjectionScreen, AiOutlineHome, AiOutlineUser,} from "react-icons/ai";
+import {Picture} from "react-optimized-images";
 import Logos from "./Logos";
+import linkData from "../data";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -153,7 +150,7 @@ function NavBar() {
 
             <Nav.Item className="fork-btn">
               <Button
-                href="https://github.com/FleetAdmiralJakob/Portfolio"
+                href={`${linkData.github}Portfolio`}
                 target="_blank"
                 className="fork-btn-inner"
               >
