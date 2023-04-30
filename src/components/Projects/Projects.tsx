@@ -37,8 +37,15 @@ function Projects() {
           My Recent <strong className="purple">Works </strong>
         </h1>
         <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
+          Here are a few projects I've worked on recently. <br />I am always on
+          the lookout for challenging and exciting projects to work on.
         </p>
+        <p style={{ color: "rgb(155 126 172)" }}>
+          "Best way to learn is to build shit!"{" "}
+        </p>
+        <footer className="blockquote-footer">
+          <a href="https://www.twitter.com/t3dotgg">TheoBr</a>
+        </footer>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
@@ -151,7 +158,7 @@ function Projects() {
                 {" "}
                 Uncraftables [NEW]
               </a>
-              : Over 30,000 downloads <br />
+              : Over 35,000 downloads <br />
               <a href="https://www.curseforge.com/minecraft/mc-mods/uncraftables-new">
                 <img
                   src={uncraftables}
@@ -207,7 +214,7 @@ function Projects() {
                 {" "}
                 Myt
               </a>
-              : Over 400 downloads <br />
+              : Over 500 downloads <br />
               <a href="https://www.curseforge.com/minecraft/mc-mods/myt">
                 <img src={myt} alt="Myt" className="image-card-view" />
               </a>{" "}
@@ -234,7 +241,7 @@ function Projects() {
                 {" "}
                 Foods Enhanced
               </a>
-              : Over 1,000 downloads <br />
+              : Over 2,000 downloads <br />
               <a href="https://www.curseforge.com/minecraft/mc-mods/vanilla-foods-enhanced-new">
                 <img
                   src={foods}

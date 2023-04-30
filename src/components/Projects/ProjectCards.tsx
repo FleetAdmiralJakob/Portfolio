@@ -4,6 +4,7 @@ import Button from "react-bootstrap/Button";
 import { CgWebsite } from "react-icons/cg";
 import { BsFillCloudDownloadFill, BsGithub } from "react-icons/bs";
 import ProjectStars from "./ProjectStars";
+import linkData from "../data";
 
 function ProjectCards(props) {
   return (
@@ -41,7 +42,7 @@ function ProjectCards(props) {
         {props.ghLink && (
           <Button
             variant="primary"
-            href={`https://github.com/FleetAdmiralJakob/${props.ghLink}`}
+            href={linkData.github + props.ghLink}
             target="_blank"
           >
             <BsGithub /> &nbsp;

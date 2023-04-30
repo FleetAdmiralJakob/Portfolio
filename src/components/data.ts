@@ -1,3 +1,8 @@
+import { Octokit } from "@octokit/core";
+
+export const githubApiKey = process.env.GITHUB_API_KEY;
+const octokit = new Octokit({ auth: githubApiKey });
+
 export interface GithubData {
   followers: string;
   stargazers_count: string;
@@ -5,17 +10,18 @@ export interface GithubData {
 
 const linkData = {
   linkedIn: "https://www.linkedin.com/in/jakobroessner/",
-  github: "https://github.com/FleetAdmiralJakob",
+  github: "https://github.com/FleetAdmiralJakob/",
   mail: "mailto:jakob.roessner@outlook.de",
   leetcode: "https://leetcode.com/FleetAdmiralJakob/",
 };
 
 export async function githubData(repoName?: string): Promise<GithubData> {
-  const requestUrl = `https://api.github.com/${
-    repoName ? `repos` : "users"
-  }/FleetAdmiralJakob${repoName ? `/${repoName}` : ""}`;
-  const response = await fetch(requestUrl);
-  return await response.json();
+  const response = await octokit.request(
+    `GET /${repoName ? `repos` : "users"}/FleetAdmiralJakob${
+      repoName ? `/${repoName}` : ""
+    }`
+  );
+  return response.data;
 }
 
 export default linkData;

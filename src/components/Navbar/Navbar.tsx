@@ -14,6 +14,7 @@ import {
 } from "react-icons/ai";
 import { Picture } from "react-optimized-images";
 import Logos from "./Logos";
+import linkData from "../data";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -153,7 +154,7 @@ function NavBar() {
 
             <Nav.Item className="fork-btn">
               <Button
-                href="https://github.com/FleetAdmiralJakob/Portfolio"
+                href={`${linkData.github}Portfolio`}
                 target="_blank"
                 className="fork-btn-inner"
               >
