@@ -13,16 +13,16 @@ import 'react-pdf/dist/esm/Page/TextLayer.css';
 pdfjs.GlobalWorkerOptions.workerSrc = `//unpkg.com/pdfjs-dist@${pdfjs.version}/build/pdf.worker.min.js`;
 
 const resumeLink_de =
-    'https://raw.githubusercontent.com/FleetAdmiralJakob/Portfolio/e0299f2368df3da62cdc8707c7fb63713083cc34/src/Assets/R%C3%A9sum%C3%A9_de_Jakob_R%C3%B6ssner.pdf'
+    'https://raw.githubusercontent.com/FleetAdmiralJakob/Portfolio/cc591f15f8490815de32189e2ae25f9e8d69f43d/src/Assets/R%C3%A9sum%C3%A9_de_Jakob_R%C3%B6ssner.pdf';
 const resumeLink_en =
-    'https://raw.githubusercontent.com/FleetAdmiralJakob/Portfolio/e0299f2368df3da62cdc8707c7fb63713083cc34/src/Assets/R%C3%A9sum%C3%A9_en_Jakob_R%C3%B6ssner.pdf'
+    'https://raw.githubusercontent.com/FleetAdmiralJakob/Portfolio/cc591f15f8490815de32189e2ae25f9e8d69f43d/src/Assets/R%C3%A9sum%C3%A9_en_Jakob_R%C3%B6ssner.pdf';
 
 function ResumeNew () {
-  const [width, setWidth] = useState(1200)
+  const [width, setWidth] = useState(1200);
 
   useEffect(() => {
     setWidth(window.innerWidth)
-  }, [])
+  }, []);
 
   return (
     <div>
