@@ -19,7 +19,7 @@ const ProjectStars = (props) => {
   } else {
     return (
       <div className="project-stars">
-        {stars} <AiFillStar style={{ color: "yellow" }} className="star"/>
+        {stars} <AiFillStar style={{ color: "yellow" }} className="star" />
       </div>
     );
   }
