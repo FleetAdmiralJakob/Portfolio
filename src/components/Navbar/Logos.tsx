@@ -43,7 +43,7 @@ class Logos extends React.Component {
     // Create an array of React logos to render
     const logos = [
       <StandardLogo />,
-      <AiFillStar style={{ color: "yellow" }} />,
+      <AiFillStar style={{ color: "yellow" }} className="star"/>,
     ];
 
     // Get the current logo to render from the state

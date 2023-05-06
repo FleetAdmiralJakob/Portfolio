@@ -1575,3 +1575,19 @@ button:focus {
   border-radius: 10px;
   height: 300px;
 }
+
+@keyframes star {
+  from {
+    transform: rotate(0deg);
+  }
+    to {
+    transform: rotate(360deg);
+  }
+}
+
+.star {
+  animation-name: star;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}

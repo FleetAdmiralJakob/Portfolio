@@ -6,7 +6,7 @@ import React from "react";
 function StandardLogo() {
   return (
     <div>
-      <CgGitFork /> <AiFillStar /> &nbsp; <SiGithub />
+      <CgGitFork /> <AiFillStar /> <SiGithub style={{paddingLeft: 4, width: 20}} />
     </div>
   );
 }
