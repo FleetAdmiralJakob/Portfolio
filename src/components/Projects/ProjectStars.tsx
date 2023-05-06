@@ -3,7 +3,7 @@ import { AiFillStar } from "react-icons/ai";
 import { githubData } from "../data";
 
 interface Props {
-  url: string
+  url: string;
 }
 
 const ProjectStars = (props: Props) => {
@@ -23,7 +23,7 @@ const ProjectStars = (props: Props) => {
   } else {
     return (
       <div className="project-stars">
-        {stars} <AiFillStar style={{ color: "yellow" }} className="star"/>
+        {stars} <AiFillStar style={{ color: "yellow" }} className="star" />
       </div>
     );
   }

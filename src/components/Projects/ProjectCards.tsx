@@ -7,16 +7,16 @@ import ProjectStars from "./ProjectStars";
 import linkData from "../data";
 
 interface Props {
-  imgPath: string
-  title: string
-  summary?: string
-  description: string
-  labelsfirstclass?: string[]
-  labelssecondclass?: string[]
-  ghLink?: string
-  isBlog?: boolean
-  demoLink?: string
-  downloadLink?: string
+  imgPath: string;
+  title: string;
+  summary?: string;
+  description: string;
+  labelsfirstclass?: string[];
+  labelssecondclass?: string[];
+  ghLink?: string;
+  isBlog?: boolean;
+  demoLink?: string;
+  downloadLink?: string;
 }
 
 const myRegex = /^\.+\/Assets\/Projects\//;
@@ -38,7 +38,11 @@ function ProjectCards(props: Props) {
         </Card.Title>
         <br />
         <Card.Text style={{ textAlign: "justify" }}>
-          {props.summary && (<><strong>{props.summary}</strong> <br /> <br /></>)}
+          {props.summary && (
+            <>
+              <strong>{props.summary}</strong> <br /> <br />
+            </>
+          )}
           {props.description}
         </Card.Text>
 
