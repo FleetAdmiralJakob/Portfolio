@@ -2,7 +2,11 @@ import React, { useState } from "react";
 import { AiFillStar } from "react-icons/ai";
 import { githubData } from "../data";
 
-const ProjectStars = (props) => {
+interface Props {
+  url: string
+}
+
+const ProjectStars = (props: Props) => {
   const [stars, setStars] = useState("");
 
   githubData(props.url).then((data) => {

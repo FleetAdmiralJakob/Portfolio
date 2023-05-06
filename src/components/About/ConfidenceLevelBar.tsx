@@ -1,6 +1,10 @@
 import React from "react";
 
-const ConfidenceLevelBar = (props) => {
+interface Props {
+  confidenceLevel: number
+}
+
+const ConfidenceLevelBar = (props: Props) => {
   return (
     <>
       <span className="confidence-level-text">Confidence Level</span>
