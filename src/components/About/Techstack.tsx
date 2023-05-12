@@ -1,7 +1,7 @@
-import React, {lazy} from "react";
-import {Col, Container, Row} from "react-bootstrap";
+import React, { lazy } from "react";
+import { Col, Container, Row } from "react-bootstrap";
 import ConfidenceLevelBar from "./ConfidenceLevelBar";
-import {SiIonic} from "react-icons/si";
+import { SiIonic } from "react-icons/si";
 
 const SiPlanetscale = lazy(() =>
   import("react-icons/si").then((module) => ({ default: module.SiPlanetscale }))
