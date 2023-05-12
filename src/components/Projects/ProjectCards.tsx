@@ -1,8 +1,8 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
-import { CgWebsite } from "react-icons/cg";
-import { BsFillCloudDownloadFill, BsGithub } from "react-icons/bs";
+import {CgWebsite} from "react-icons/cg";
+import {BsFillCloudDownloadFill, BsGithub} from "react-icons/bs";
 import ProjectStars from "./ProjectStars";
 import linkData from "../data";
 
@@ -19,16 +19,7 @@ interface Props {
   downloadLink?: string
 }
 
-const myRegex = /^\.+\/Assets\/Projects\//;
-
-function isImgPathValid(props: Props): boolean {
-  return myRegex.test(props.imgPath);
-}
-
 function ProjectCards(props: Props) {
-  if (!isImgPathValid(props)) {
-    console.warn("Invalid imgPath prop value");
-  }
   return (
     <Card className="project-card-view">
       <Card.Img variant="top" src={props.imgPath} alt="card-img" />
