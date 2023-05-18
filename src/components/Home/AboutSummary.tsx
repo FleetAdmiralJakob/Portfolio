@@ -1,12 +1,12 @@
 import React from "react";
-import {Col, Container, Row} from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
 // @ts-ignore
 import previewAbout from "../../Assets/previewAbout2.webp";
 import Tilt from "react-parallax-tilt";
 import Nav from "react-bootstrap/Nav";
-import {Link} from "react-router-dom";
-import {AiOutlineUser} from "react-icons/ai";
-import {Picture} from "react-optimized-images";
+import { Link } from "react-router-dom";
+import { AiOutlineUser } from "react-icons/ai";
+import { Picture } from "react-optimized-images";
 
 function aboutSummary() {
   return (
@@ -30,7 +30,10 @@ function aboutSummary() {
               <span className="purple"> tools</span> I'm familiar with.
             </p>
             <Nav.Link as={Link} to="/about" className="link">
-              <AiOutlineUser style={{ marginBottom: "2px", marginRight: "7px" }} />Learn more about me
+              <AiOutlineUser
+                style={{ marginBottom: "2px", marginRight: "7px" }}
+              />
+              Learn more about me
             </Nav.Link>
           </Col>
           <Col md={4} className="previewAbout">
