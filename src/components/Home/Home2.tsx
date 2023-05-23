@@ -105,7 +105,7 @@ function Home2() {
                     }}
                   >
                     <FaDiscord />
-                  </a>
+                  </div>
                 </li>
                 <li className="social-icons">
                   <a
