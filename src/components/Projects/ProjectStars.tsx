@@ -3,8 +3,8 @@ import { AiFillStar } from "react-icons/ai";
 import { githubData, costumGithubRepoData } from "../data";
 
 interface Props {
-  url: string
-  costumUrl?: boolean
+  url: string;
+  costumUrl?: boolean;
 }
 
 const ProjectStars = (props: Props) => {
@@ -14,12 +14,12 @@ const ProjectStars = (props: Props) => {
     githubData(props.url).then((data) => {
       const stars = data.stargazers_count;
       setStars(stars);
-    })
+    });
   } else {
     costumGithubRepoData(props.url).then((data) => {
       const stars = data.stargazers_count;
       setStars(stars);
-    })
+    });
   }
 
   if (stars === null || stars === "" || stars === undefined || !stars) {
@@ -31,7 +31,7 @@ const ProjectStars = (props: Props) => {
   } else {
     return (
       <div className="project-stars">
-        {stars} <AiFillStar style={{ color: "yellow" }} className="star"/>
+        {stars} <AiFillStar style={{ color: "yellow" }} className="star" />
       </div>
     );
   }
