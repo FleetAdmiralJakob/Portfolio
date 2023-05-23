@@ -17,12 +17,33 @@ interface Props {
   isBlog?: boolean
   demoLink?: string
   downloadLink?: string
+  customGhLink?: boolean
+  workInProgress?: boolean
 }
 
 function ProjectCards(props: Props) {
   return (
     <Card className="project-card-view">
-      <Card.Img variant="top" src={props.imgPath} alt="card-img" />
+<div style={{ position: 'relative' }}>
+  <Card.Img variant="top" src={props.imgPath} alt="card-img" />
+  {props.workInProgress && (
+    <div
+      style={{
+        position: 'absolute',
+        top: '50%',
+        left: '50%',
+        transform: 'translate(-50%, -50%)',
+        backgroundColor: 'rgba(0, 0, 0, 0.5)',
+        color: 'white',
+        padding: '10px',
+        borderRadius: '5px',
+      }}
+    >
+      <span style={{ marginLeft: '5px' }}>Work in Progress 🚧</span>
+    </div>
+  )}
+</div>
+
       <Card.Body>
         <Card.Title>
           <strong>{props.title}</strong>
@@ -52,10 +73,20 @@ function ProjectCards(props: Props) {
           </div>
         )}
 
-        {props.ghLink && (
+        {props.ghLink && !props.customGhLink && (
           <Button
             variant="primary"
             href={linkData.github + props.ghLink}
+            target="_blank"
+          >
+            <BsGithub /> &nbsp;
+            {props.isBlog ? "Blog" : "GitHub"}
+          </Button>
+        )}
+        {props.ghLink && props.customGhLink && (
+          <Button
+            variant="primary"
+            href={props.ghLink}
             target="_blank"
           >
             <BsGithub /> &nbsp;
@@ -93,11 +124,18 @@ function ProjectCards(props: Props) {
             <BsFillCloudDownloadFill /> &nbsp; Download
           </Button>
         )}
-        {props.ghLink && (
+        {props.ghLink && !props.customGhLink && (
           <>
             <hr className="rounded-hr" />
             <span className="left">GitHub Stats:</span>
             <ProjectStars url={props.ghLink}></ProjectStars>
+          </>
+        )}
+        {props.ghLink && props.customGhLink && (
+          <>
+            <hr className="rounded-hr" />
+            <span className="left">GitHub Stats:</span>
+            <ProjectStars url={props.ghLink} costumUrl={true}></ProjectStars>
           </>
         )}
       </Card.Body>
