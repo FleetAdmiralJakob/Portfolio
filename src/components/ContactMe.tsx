@@ -97,7 +97,7 @@ function ContactMe() {
                   <a
                     target="_blank"
                     rel="noreferrer"
-                    className="icon-colour  home-social-icons"
+                    className="icon-colour home-social-icons pointer"
                     aria-label="Discord"
                     onClick={(event) => {
                       event.preventDefault();

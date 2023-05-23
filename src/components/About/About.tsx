@@ -80,7 +80,7 @@ function About() {
             </ul>
             <br />
             {followersCount
-              ? followersCount + " Followers"
+              ? followersCount + " GitHub Followers"
               : "View followers on GitHub"}
           </Col>
         </Row>
