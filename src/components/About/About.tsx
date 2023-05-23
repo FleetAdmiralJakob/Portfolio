@@ -58,7 +58,7 @@ function About() {
                   href={linkData.github}
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour home-social-icons"
                   aria-label="GitHub"
                 >
                   <AiFillGithub />
@@ -71,7 +71,7 @@ function About() {
                   href={linkData.leetcode}
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour home-social-icons"
                   aria-label="LeetCode"
                 >
                   <SiLeetcode />

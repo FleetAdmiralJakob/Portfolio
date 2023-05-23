@@ -148,7 +148,7 @@ function Projects() {
               href="https://www.curseforge.com/members/fleetadmiraljakob/projects"
               target="_blank"
               rel="noreferrer"
-              className="icon-colour  home-social-icons"
+              className="icon-colour home-social-icons"
             >
               <SiCurseforge />
             </a>
