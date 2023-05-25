@@ -646,6 +646,7 @@ button:focus {
   background: rgba(255, 255, 255, 0.972) !important;
   border-radius: 50% !important;
   transition: 0.5s !important;
+  cursor: pointer !important;
 }
 
 @mixin social-icons-before {
@@ -1593,8 +1594,4 @@ button:focus {
   animation-duration: 7s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
-}
-
-pointer:hover {
-  cursor: pointer;
 }

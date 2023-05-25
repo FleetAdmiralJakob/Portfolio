@@ -18,6 +18,8 @@ import passwordgen from "../../Assets/Projects/passwordgen.png";
 // @ts-ignore
 import flowershop from "../../Assets/Projects/flowershop.png";
 // @ts-ignore
+import weatherio from "../../Assets/Projects/weatherio.png";
+// @ts-ignore
 import foods from "../../Assets/Projects/foods.png";
 import { SiCurseforge } from "react-icons/si";
 import { ImPointRight } from "react-icons/im";
@@ -84,7 +86,21 @@ function Projects() {
               description="You can choose the length of your password and if you want to include numbers and symbols."
               ghLink="Password-Generator"
               demoLink="https://passwort-generator.vercel.app/"
-              downloadLink="https://github.com/FleetAdmiralJakob/Tippy/releases"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={weatherio}
+              isBlog={false}
+              labelsfirstclass={["Web 🌐"]}
+              labelssecondclass={["Next.js", "Typescript", "Tailwind", "tRPC"]}
+              title="Weather.io"
+              summary="A PWA for the Weather! Created by me and the Creative Programmers team."
+              description="You can see the weather of your location and search for other locations. You can also see the weather of the next 10 days and many other nerdy stuff (e.g. air quality)."
+              ghLink="https://github.com/The-Creative-Programming-Group/Weather-App"
+              customGhLink={true}
+              demoLink="https://weather-app-swart-eight.vercel.app/"
+              workInProgress={true}
             />
           </Col>
           <Col md={4} className="project-card">
@@ -148,7 +164,7 @@ function Projects() {
               href="https://www.curseforge.com/members/fleetadmiraljakob/projects"
               target="_blank"
               rel="noreferrer"
-              className="icon-colour  home-social-icons"
+              className="icon-colour home-social-icons"
             >
               <SiCurseforge />
             </a>
