@@ -52,7 +52,9 @@ function AboutSummary() {
               programming after some small stuff I tried out with Scratch.
             </p>
             <Nav.Link as={Link} to="/project" className="link">
-              <AiOutlineFundProjectionScreen style={{ marginBottom: "2px", marginRight: "7px" }} />
+              <AiOutlineFundProjectionScreen
+                style={{ marginBottom: "2px", marginRight: "7px" }}
+              />
               See my projects
             </Nav.Link>
           </Col>
