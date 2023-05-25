@@ -76,7 +76,7 @@ function ContactMe() {
                     href={linkData.github}
                     target="_blank"
                     rel="noreferrer"
-                    className="icon-colour  home-social-icons"
+                    className="icon-colour home-social-icons"
                     aria-label="GitHub"
                   >
                     <AiFillGithub />
@@ -87,17 +87,15 @@ function ContactMe() {
                     href={linkData.linkedIn}
                     target="_blank"
                     rel="noreferrer"
-                    className="icon-colour  home-social-icons"
+                    className="icon-colour home-social-icons"
                     aria-label="LinkedIn"
                   >
                     <FaLinkedinIn />
                   </a>
                 </li>
                 <li className="social-icons">
-                  <a
-                    target="_blank"
-                    rel="noreferrer"
-                    className="icon-colour  home-social-icons"
+                  <div
+                    className="icon-colour home-social-icons"
                     aria-label="Discord"
                     onClick={(event) => {
                       event.preventDefault();
@@ -105,7 +103,7 @@ function ContactMe() {
                     }}
                   >
                     <FaDiscord />
-                  </a>
+                  </div>
                 </li>
               </ul>
             </p>

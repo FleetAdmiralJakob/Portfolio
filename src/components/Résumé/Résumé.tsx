@@ -12,11 +12,6 @@ import 'react-pdf/dist/esm/Page/TextLayer.css';
 
 pdfjs.GlobalWorkerOptions.workerSrc = `//unpkg.com/pdfjs-dist@${pdfjs.version}/build/pdf.worker.min.js`;
 
-const resumeLink_de =
-    'https://raw.githubusercontent.com/FleetAdmiralJakob/Portfolio/cc591f15f8490815de32189e2ae25f9e8d69f43d/src/Assets/R%C3%A9sum%C3%A9_de_Jakob_R%C3%B6ssner.pdf';
-const resumeLink_en =
-    'https://raw.githubusercontent.com/FleetAdmiralJakob/Portfolio/cc591f15f8490815de32189e2ae25f9e8d69f43d/src/Assets/R%C3%A9sum%C3%A9_en_Jakob_R%C3%B6ssner.pdf';
-
 function ResumeNew () {
   const [width, setWidth] = useState(1200);
 
@@ -31,7 +26,7 @@ function ResumeNew () {
           <h1 style={{ fontSize: '2.1em', paddingBottom: '20px' }}>
             German <strong className='purple'>Résumé</strong>
           </h1>
-          <Document file={resumeLink_de} className='d-flex justify-content-center'>
+          <Document file={pdf_de} className='d-flex justify-content-center'>
             <Page className="resume-document" pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
           </Document>
         </Row>
@@ -52,7 +47,7 @@ function ResumeNew () {
           <h1 style={{ fontSize: '2.1em', paddingBottom: '20px' }}>
             English <strong className='purple'>Résumé</strong>
           </h1>
-          <Document file={resumeLink_en} className='d-flex justify-content-center'>
+          <Document file={pdf_en} className='d-flex justify-content-center'>
             <Page className="resume-document" pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
           </Document>
         </Row>

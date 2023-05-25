@@ -24,4 +24,10 @@ export async function githubData(repoName?: string): Promise<GithubData> {
   return response.data;
 }
 
+export async function costumGithubRepoData(url): Promise<GithubData> {
+  url = url.substring(19);
+  const response = await octokit.request(`GET /repos/${url}`);
+  return response.data;
+}
+
 export default linkData;
