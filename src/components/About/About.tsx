@@ -58,7 +58,7 @@ function About() {
                   href={linkData.github}
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour home-social-icons"
                   aria-label="GitHub"
                 >
                   <AiFillGithub />
@@ -71,7 +71,7 @@ function About() {
                   href={linkData.leetcode}
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour home-social-icons"
                   aria-label="LeetCode"
                 >
                   <SiLeetcode />
@@ -80,7 +80,7 @@ function About() {
             </ul>
             <br />
             {followersCount
-              ? followersCount + " Followers"
+              ? followersCount + " GitHub Followers"
               : "View followers on GitHub"}
           </Col>
         </Row>
@@ -102,7 +102,7 @@ function About() {
         </h1>
         <br />
         <img
-          src="https://github-readme-stats-git-patch-rank-rstaa-rickstaa.vercel.app/api?username=fleetadmiraljakob&title_color=c770f0&icon_color=5d417a&text_color=ebebeb&bg_color=0a0e12&show_icons=true&count_private=true"
+          src="https://github-readme-stats.vercel.app/api?username=fleetadmiraljakob&title_color=c770f0&icon_color=5d417a&text_color=ebebeb&bg_color=0a0e12&show_icons=true&count_private=true"
           alt="about"
           className="img-fluid"
         />{" "}

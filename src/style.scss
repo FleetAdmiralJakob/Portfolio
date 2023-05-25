@@ -646,6 +646,7 @@ button:focus {
   background: rgba(255, 255, 255, 0.972) !important;
   border-radius: 50% !important;
   transition: 0.5s !important;
+  cursor: pointer !important;
 }
 
 @mixin social-icons-before {
@@ -1583,7 +1584,7 @@ button:focus {
   from {
     transform: rotate(0deg);
   }
-    to {
+  to {
     transform: rotate(360deg);
   }
 }
