@@ -78,7 +78,7 @@ function Home2() {
                     href={linkData.github}
                     target="_blank"
                     rel="noreferrer"
-                    className="icon-colour  home-social-icons"
+                    className="icon-colour home-social-icons"
                     aria-label="GitHub"
                   >
                     <AiFillGithub />
@@ -89,17 +89,15 @@ function Home2() {
                     href={linkData.linkedIn}
                     target="_blank"
                     rel="noreferrer"
-                    className="icon-colour  home-social-icons"
+                    className="icon-colour home-social-icons"
                     aria-label="LinkedIn"
                   >
                     <FaLinkedinIn />
                   </a>
                 </li>
                 <li className="social-icons">
-                  <a
-                    target="_blank"
-                    rel="noreferrer"
-                    className="icon-colour  home-social-icons"
+                  <div
+                    className="icon-colour home-social-icons"
                     aria-label="Discord"
                     onClick={(event) => {
                       event.preventDefault();
@@ -107,12 +105,12 @@ function Home2() {
                     }}
                   >
                     <FaDiscord />
-                  </a>
+                  </div>
                 </li>
                 <li className="social-icons">
                   <a
                     href={linkData.mail}
-                    className="icon-colour  home-social-icons"
+                    className="icon-colour home-social-icons"
                     aria-label="Mail me"
                   >
                     <FaMailBulk />

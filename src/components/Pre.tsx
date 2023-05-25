@@ -1,6 +1,10 @@
 import React from "react";
 
-function Pre(props) {
+interface Props {
+  load: boolean
+}
+
+function Pre(props: Props) {
   // This code loads a preloader when the page is loading
   // The preloader is defined in the .css file
   const { load } = props;

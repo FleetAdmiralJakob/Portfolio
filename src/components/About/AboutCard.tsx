@@ -6,7 +6,15 @@ const convert = require("number-to-words");
 
 function AboutCard() {
   const date = new Date();
+  const month = date.getMonth() + 1;
+  const day = date.getDate();
   const year = date.getFullYear();
+
+  let age = year - 2009;
+  if (month < 3 || (month === 3 && day < 3)) {
+    age--;
+  }
+
   return (
     <Card className="quote-card-view">
       <Card.Body>
@@ -18,21 +26,23 @@ function AboutCard() {
             from <span className="purple"> Berlin, Germany.</span>
             <br />I am a student at the{" "}
             <a href="https://fsg-kw.de/" className="purple a">
-              Friedrich-Schiller-Gymnasium.
+              Friedrich-Schiller-Gymnasium
+            </a>{" "}
+            and a Software Engineering Intern at the{" "}
+            <a href="https://lylu.de/" className="purple a">
+              Lylu GmbH.
             </a>
             <br />
-            <br />I am <span className="purple">
-              {year - 2009} years old.
-            </span>{" "}
-            I have a wide range of interests, what you can see from the other
-            activities that I love to do, apart from coding!
+            <br />I am <span className="purple">{age} years old.</span> I have a
+            wide range of interests, what you can see from the other activities
+            that I love to do, apart from coding!
           </p>
           <ul>
             <li className="about-activity">
               <ImPointRight /> Playing Hockey
             </li>
             <li className="about-activity">
-              <ImPointRight /> Playing Piano and Organ
+              <ImPointRight /> Playing Piano
             </li>
             <li className="about-activity">
               <ImPointRight /> Visiting museums and reading books on topics
