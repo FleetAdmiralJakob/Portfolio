@@ -548,16 +548,68 @@ button:focus {
   text-align: center;
 }
 
-.download-button-special {
-  margin-top: 10px;
+.demo-button {
+  margin-left: 10px;
 }
 
-@media (max-width: 800px) and (min-width: 400px) {
+.demo-button-special {
+  margin-left: 10px;
+}
+
+@media (max-width: 1024px) and (min-width: 400px) {
   .download-button {
     margin-top: 10px;
   }
-  .demo-button {
+  .download-button-special {
     margin-top: 10px;
+  }
+  .demo-button-special {
+    margin-top: 10px;
+  }
+}
+
+@media (min-width: 362px) and (max-width: 767px) {
+  .download-button-special {
+    margin-top: 0;
+  }
+  .demo-button-special {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 361px) {
+  .download-button-special {
+    margin-top: 10px;
+  }
+  .demo-button-special {
+    margin-top: 10px;
+    @media (min-width: 331px) {
+      margin-top: 0;
+    }
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1199px) {
+  .download-button-special {
+    margin-top: 10px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .demo-button-special {
+    margin-top: 0;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .demo-button-special {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 328px) {
+  .demo-button-special {
+    margin-left: 0;
   }
 }
 

@@ -102,8 +102,7 @@ function ProjectCards(props: Props) {
             variant="primary"
             href={props.demoLink}
             target="_blank"
-            style={{ marginLeft: "10px" }}
-            className="demo-button"
+            className={props.ghLink ? "demo-button-special" : "demo-button"}
           >
             <CgWebsite /> &nbsp; Demo
           </Button>
@@ -116,7 +115,7 @@ function ProjectCards(props: Props) {
             target="_blank"
             style={{ marginLeft: "10px" }}
             className={
-              props.ghLink && props.demoLink
+              props.ghLink || props.demoLink
                 ? "download-button-special"
                 : "download-button"
             }
