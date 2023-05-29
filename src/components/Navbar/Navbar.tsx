@@ -153,6 +153,17 @@ function NavBar() {
             </Nav.Item>
 
             <Nav.Item className="fork-btn">
+              <img
+                src={
+                  "https://hits.sh/www.roessner.tech.svg?style=for-the-badge&label=Views&extraCount=1254&color=555555&labelColor=711ea6"
+                }
+                className="img-fluid hits"
+                alt="brand"
+              />
+              {/* Visit https://github.com/silentsoft/hits for more info. */}
+            </Nav.Item>
+
+            <Nav.Item className="fork-btn">
               <Button
                 href={`${linkData.github}Portfolio`}
                 target="_blank"
