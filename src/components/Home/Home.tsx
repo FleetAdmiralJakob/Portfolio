@@ -40,9 +40,11 @@ function Home() {
                   <span className="main-name-letter12">E</span>
                   <span className="main-name-letter13">R</span>
                 </strong>
+                &nbsp;😉
               </h1>
 
               <div style={{ padding: 50, textAlign: "left" }}>
+                <span style={{ fontSize: 20 }}>Software Engineering Intern for</span>
                 <Type />
               </div>
             </Col>
