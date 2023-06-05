@@ -1,5 +1,7 @@
 {
   "name": "portfolio",
+  "_comment": "⬇️ <YOUR GITHUB PAGE URL>/#",
+  "homepage": "",
   "version": "1.0.0",
   "private": true,
   "description": "My self-coded personal website builds with React.js",
@@ -46,6 +48,8 @@
     "web-vitals": "^3.3.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
