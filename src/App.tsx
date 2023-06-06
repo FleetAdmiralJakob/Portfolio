@@ -4,7 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "aos/dist/aos.css";
 
 import {
-  BrowserRouter as Router,
+  HashRouter,
   Navigate,
   Route,
   Routes,
@@ -76,7 +76,7 @@ function App() {
 
   return (
     <Suspense fallback={<div id="preloader"></div>}>
-      <Router>
+      <HashRouter>
         <Preloader load={load} />
         <div className="App" id={load ? "no-scroll" : "scroll"}>
           <ScrollToTopButton />
@@ -93,7 +93,7 @@ function App() {
           </Routes>
           <Footer />
         </div>
-      </Router>
+      </HashRouter>
     </Suspense>
   );
 }
