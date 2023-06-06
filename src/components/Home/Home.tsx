@@ -1,5 +1,5 @@
 import React from "react";
-import {Col, Container, Row} from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
 // @ts-ignore
 import homeLogo from "../../Assets/home-main.svg";
 import Home2 from "./Home2";
@@ -44,7 +44,9 @@ function Home() {
               </h1>
 
               <div style={{ padding: 50, textAlign: "left" }}>
-                <span style={{ fontSize: 20 }}>Software Engineering Intern for</span>
+                <span style={{ fontSize: 20 }}>
+                  Software Engineering Intern for
+                </span>
                 <Type />
               </div>
             </Col>
