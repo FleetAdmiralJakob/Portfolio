@@ -69,7 +69,8 @@ The page will reload if you make edits.
 
 ## 🚀 To deploy using gh-pages module on GitHub page run the following command.
 
-1. ``npm run deploy``
+1. In package.json update ``"homepage": ""`` by adding your GitHub page url.
+2. ``npm run deploy``
 2. Go to settings -> pages -> build and deployment -> choose ``gh-pages`` as root branch
 
 ## Usage Instructions
