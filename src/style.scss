@@ -36,11 +36,12 @@ html {
 }
 
 .purple:hover {
-  background: -webkit-linear-gradient(
+  background: linear-gradient(
     var(--imp-text-color) 0%,
     var(--imp-text-color3) 100%
   );
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   transition-duration: 0.3s;
 }
