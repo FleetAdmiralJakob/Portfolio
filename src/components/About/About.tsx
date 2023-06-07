@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import Github from "./Github";
 import Techstack from "./Techstack";
@@ -13,6 +13,15 @@ import { SiLeetcode } from "react-icons/si";
 
 function About() {
   const [followersCount, setFollowersCount] = useState("");
+  const [hasLoaded, setHasLoaded] = useState(false);
+
+  useEffect(() => {
+    if (!hasLoaded) {
+      setTimeout(() => {
+        setHasLoaded(true);
+      }, 1000);
+    }
+  }, [hasLoaded]);
 
   githubData().then(
     (data) => {
@@ -44,7 +53,7 @@ function About() {
             md={5}
             style={{ paddingTop: "120px", paddingBottom: "50px" }}
             className="about-img"
-            data-aos="flip-right"
+            data-aos={hasLoaded ? "flip-right" : ""}
           >
             <img src={laptopImg} alt="about" className="img-fluid" />
             <br /> <br /> <br />
