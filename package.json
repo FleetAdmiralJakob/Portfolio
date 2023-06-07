@@ -1,7 +1,6 @@
 {
   "name": "portfolio",
-  "_comment": "⬇️ <YOUR GITHUB PAGE URL>/#",
-  "homepage": "",
+  "homepage": "<YOUR GITHUB PAGE URL>/#",
   "version": "1.0.0",
   "private": true,
   "description": "My self-coded personal website builds with React.js",
