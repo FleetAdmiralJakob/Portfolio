@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { Component } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import Github from "./Github";
 import Techstack from "./Techstack";
@@ -11,21 +11,23 @@ import linkData, { githubData } from "../data";
 import { AiFillGithub } from "react-icons/ai";
 import { SiLeetcode } from "react-icons/si";
 
-function About() {
-  const [followersCount, setFollowersCount] = useState("");
-  const [hasLoaded, setHasLoaded] = useState(false);
+class About extends Component {
+  state = {
+    followersCount: "",
+    hasLoaded: false,
+  };
 
-  useEffect(() => {
-    if (!hasLoaded) {
+  componentDidMount() {
+    if (!this.state.hasLoaded) {
       setTimeout(() => {
-        setHasLoaded(true);
+        this.setState({ hasLoaded: true });
       }, 1000);
     }
-  }, [hasLoaded]);
+  }
 
   githubData().then(
     (data) => {
-      setFollowersCount(data.followers);
+      this.setState({ followersCount: data.followers });
     },
     (error) => {
       console.log(error);
