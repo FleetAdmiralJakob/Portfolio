@@ -141,7 +141,7 @@ function About() {
         <br />
         <p>
           <strong className="purple">Note:</strong> Please note that these are
-          my stats from my free time, and by far not all of my activity is
+          stats from my free time, and by far not all of my activity is
           considered by Wakatime & GitHub.
         </p>
       </Container>
