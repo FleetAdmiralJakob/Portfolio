@@ -235,33 +235,6 @@ function Projects() {
               data-aos-duration="3000"
             >
               <ImPointRight />{" "}
-              <a href="https://www.curseforge.com/minecraft/mc-mods/myt">
-                {" "}
-                Myt
-              </a>
-              : Over 500 downloads <br />
-              <a href="https://www.curseforge.com/minecraft/mc-mods/myt">
-                <img src={myt} alt="Myt" className="image-card-view" />
-              </a>{" "}
-              <br />
-              <div className="mod-description">
-                A mod with nice additions that improve your Minecraft experience
-                with{" "}
-                <span className="purple">
-                  new ores, new flowers, new tools, new music, new world
-                  generation,
-                </span>{" "}
-                and other cool stuff.
-              </div>{" "}
-              <br /> <br />
-            </Col>
-            <Col
-              md={12}
-              data-aos="fade-up"
-              data-aos-offset="300"
-              data-aos-duration="3000"
-            >
-              <ImPointRight />{" "}
               <a href="https://www.curseforge.com/minecraft/mc-mods/vanilla-foods-enhanced-new">
                 {" "}
                 Foods Enhanced
@@ -291,6 +264,33 @@ function Projects() {
                 , focuses on enhancing the default{" "}
                 <span className="purple">foods</span> of minecraft by adding new
                 ones which should have been in the game!
+              </div>{" "}
+              <br /> <br />
+            </Col>
+            <Col
+              md={12}
+              data-aos="fade-up"
+              data-aos-offset="300"
+              data-aos-duration="3000"
+            >
+              <ImPointRight />{" "}
+              <a href="https://www.curseforge.com/minecraft/mc-mods/myt">
+                {" "}
+                Myt
+              </a>
+              : Over 500 downloads <br />
+              <a href="https://www.curseforge.com/minecraft/mc-mods/myt">
+                <img src={myt} alt="Myt" className="image-card-view" />
+              </a>{" "}
+              <br />
+              <div className="mod-description">
+                A mod with nice additions that improve your Minecraft experience
+                with{" "}
+                <span className="purple">
+                  new ores, new flowers, new tools, new music, new world
+                  generation,
+                </span>{" "}
+                and other cool stuff.
               </div>{" "}
               <br /> <br />
             </Col>
