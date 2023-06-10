@@ -557,6 +557,14 @@ button:focus {
   margin-left: 10px;
 }
 
+.download-button {
+  margin-left: 10px;
+}
+
+.download-button-special {
+  margin-left: 10px;
+}
+
 @media (max-width: 1024px) and (min-width: 400px) {
   .download-button {
     margin-top: 10px;
@@ -578,12 +586,11 @@ button:focus {
   }
 }
 
-@media (max-width: 361px) {
+@media (max-width: 351px) {
   .download-button-special {
     margin-top: 10px;
   }
   .demo-button-special {
-    margin-top: 10px;
     @media (min-width: 331px) {
       margin-top: 0;
     }
@@ -606,11 +613,35 @@ button:focus {
   .demo-button-special {
     margin-left: 0;
   }
+  .download-button-special {
+    margin-left: 0;
+  }
 }
 
 @media (max-width: 328px) {
   .demo-button-special {
     margin-left: 0;
+  }
+  .download-button-special {
+    margin-left: 0;
+  }
+}
+
+@media (min-width: 352px) and (max-width: 362px) {
+  .download-button-special {
+    margin-top: 10px;
+  }
+}
+
+@media (min-width: 321) and (max-width: 328) {
+  .demo-button-special {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 320px) {
+  .demo-button-special {
+    margin-top: 10px;
   }
 }
 
@@ -954,6 +985,12 @@ button:focus {
 .project-card-footer {
   padding: 20px !important;
   text-align: left !important;
+}
+
+@media (max-width: 270px) {
+  .project-card-footer {
+    padding: 0 0 10px 0 !important;
+  }
 }
 
 @mixin project-card-footer-label {
