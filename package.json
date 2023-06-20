@@ -36,7 +36,7 @@
     "react-bootstrap": "^2.7.4",
     "react-dom": "npm:@preact/compat",
     "react-github-calendar": "^4.0.0",
-    "react-icons": "^4.8.0",
+    "react-icons": "^4.9.0",
     "react-optimized-images": "^2.1.0",
     "react-parallax-tilt": "^1.7.134",
     "react-pdf": "^7.0.1",
