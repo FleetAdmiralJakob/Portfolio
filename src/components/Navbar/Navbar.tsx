@@ -28,13 +28,13 @@ function NavBar() {
   const lettersBig = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
   hackerObjects.forEach((hackerObject) => {
+    let iterations = 0;
+    let animationFrame: number | null = null;
+  
     hackerObject.addEventListener("mouseover", () => {
-      let iterations = 0;
-      let interval: any = null;
-
-      clearInterval(interval);
-
-      interval = setInterval(() => {
+      cancelAnimationFrame(animationFrame!);
+  
+      const animate = () => {
         hackerObject.innerHTML = hackerObject.innerHTML
           .split("")
           .map((letter, index) => {
@@ -45,13 +45,15 @@ function NavBar() {
             return lettersSmall[Math.floor(Math.random() * 26)];
           })
           .join("");
-
+  
         // @ts-ignore
-        if (iterations >= hackerObject.dataset.value.length)
-          clearInterval(interval);
-
+        if (iterations >= hackerObject.dataset.value.length) return;
+  
         iterations += 1 / 3;
-      }, 30);
+        animationFrame = requestAnimationFrame(animate);
+      };
+  
+      animate();
     });
   });
 

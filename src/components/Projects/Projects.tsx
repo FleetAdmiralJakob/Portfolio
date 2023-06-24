@@ -35,7 +35,7 @@ function Projects() {
   return (
     <Container fluid className="project-section">
       <Container>
-        <h1 className="project-heading">
+        <h1 className="project-heading negative-letter-spacing">
           My Recent <strong className="purple">Works </strong>
         </h1>
         <p style={{ color: "white" }}>
@@ -130,7 +130,7 @@ function Projects() {
             />
           </Col>
         </Row>
-        <h1 className="project-heading">
+        <h1 className="project-heading negative-letter-spacing">
           Other <strong className="purple">Projects </strong>
         </h1>
         <p style={{ color: "white" }}>Here you can find some other projects.</p>
@@ -149,7 +149,7 @@ function Projects() {
         <Row>
           <h5>
             <div className="projects-social">
-              <h4>MY CURSEFORGE ACCOUNT</h4>
+              <h4 className="negative-letter-spacing">MY CURSEFORGE ACCOUNT</h4>
               <p>
                 Here you can see my{" "}
                 <span className="purple">Minecraft projects </span>...

@@ -665,6 +665,7 @@ button:focus {
   padding-top: 100px !important;
   padding-bottom: 20px !important;
   text-align: center;
+  margin-top: 1em !important;
 }
 
 .home-about-body {
@@ -1689,4 +1690,8 @@ button:focus {
 .hits {
   height: 1.4em !important;
   width: 5.4em !important;
+}
+
+.negative-letter-spacing {
+  letter-spacing: -0.04em !important;
 }

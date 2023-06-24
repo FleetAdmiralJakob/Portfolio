@@ -23,7 +23,7 @@ function ResumeNew () {
     <div>
       <Container fluid className='resume-section'>
         <Row className='resume'>
-          <h1 style={{ fontSize: '2.1em', paddingBottom: '20px' }}>
+          <h1 style={{ fontSize: '2.1em', paddingBottom: '20px' }} className="negative-letter-spacing">
             German <strong className='purple'>Résumé</strong>
           </h1>
           <Document file={pdf_de} className='d-flex justify-content-center'>
@@ -44,7 +44,7 @@ function ResumeNew () {
         </Row>
 
         <Row className='resume'>
-          <h1 style={{ fontSize: '2.1em', paddingBottom: '20px' }}>
+          <h1 style={{ fontSize: '2.1em', paddingBottom: '20px' }} className="negative-letter-spacing">
             English <strong className='purple'>Résumé</strong>
           </h1>
           <Document file={pdf_en} className='d-flex justify-content-center'>
