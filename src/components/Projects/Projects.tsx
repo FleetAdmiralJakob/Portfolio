@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { Col, Container, Row } from "react-bootstrap";
+import React, {useState} from "react";
+import {Col, Container, Row} from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 // @ts-ignore
 import steampunk from "../../Assets/Projects/steampunk.png";
@@ -21,9 +21,9 @@ import flowershop from "../../Assets/Projects/flowershop.png";
 import weatherio from "../../Assets/Projects/weatherio.png";
 // @ts-ignore
 import foods from "../../Assets/Projects/foods.png";
-import { SiCurseforge } from "react-icons/si";
-import { ImPointRight } from "react-icons/im";
-import { AiOutlineArrowDown, AiOutlineArrowUp } from "react-icons/ai";
+import {SiCurseforge} from "react-icons/si";
+import {ImPointRight} from "react-icons/im";
+import {AiOutlineArrowDown, AiOutlineArrowUp} from "react-icons/ai";
 
 function Projects() {
   const [readmore, setReadMore] = useState(false);
@@ -139,7 +139,7 @@ function Projects() {
             <ProjectCard
               imgPath={curseforge}
               isBlog={false}
-              title="Minecraft mods by mine!"
+              title="Minecraft mods by me!"
               description="On the site curseforge.com you can find some of my first projects. 2 years ago I built some Minecraft Mods in Java! Sometimes I update them to maintain my skills."
               labelsfirstclass={["Modification(s)", "Game 🎮"]}
               labelssecondclass={["Java ☕"]}
