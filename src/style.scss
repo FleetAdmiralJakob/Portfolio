@@ -1695,3 +1695,7 @@ button:focus {
 .negative-letter-spacing {
   letter-spacing: -0.04em !important;
 }
+
+.no-after:after {
+  background: none !important;	
+}
