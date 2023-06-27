@@ -30,10 +30,10 @@ function NavBar() {
   hackerObjects.forEach((hackerObject) => {
     let iterations = 0;
     let animationFrame: number | null = null;
-  
+
     hackerObject.addEventListener("mouseover", () => {
       cancelAnimationFrame(animationFrame!);
-  
+
       const animate = () => {
         hackerObject.innerHTML = hackerObject.innerHTML
           .split("")
@@ -45,14 +45,14 @@ function NavBar() {
             return lettersSmall[Math.floor(Math.random() * 26)];
           })
           .join("");
-  
+
         // @ts-ignore
         if (iterations >= hackerObject.dataset.value.length) return;
-  
+
         iterations += 1 / 3;
         animationFrame = requestAnimationFrame(animate);
       };
-  
+
       animate();
     });
   });
