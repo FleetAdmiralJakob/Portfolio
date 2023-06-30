@@ -665,7 +665,8 @@ button:focus {
   padding-top: 100px !important;
   padding-bottom: 20px !important;
   text-align: center;
-  margin-top: 1em !important;
+  margin-top: 2em !important;
+  height: 82.7vh
 }
 
 .home-about-body {
@@ -732,6 +733,15 @@ button:focus {
   border-radius: 50% !important;
   transition: 0.5s !important;
   cursor: pointer !important;
+}
+
+.home-social-icons-picture,
+.home-social-icons-picture-leetcode {
+  margin-top: -1px !important;
+}
+
+.home-social-icons-picture-leetcode {
+  margin-left: 1px !important;
 }
 
 @mixin social-icons-before {
