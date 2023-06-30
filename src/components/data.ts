@@ -13,7 +13,7 @@ const linkData = {
   github: "https://github.com/FleetAdmiralJakob/",
   mail: "mailto:jakob.roessner@outlook.de",
   leetcode: "https://leetcode.com/FleetAdmiralJakob/",
-  codewars: "https://www.codewars.com/users/FleetAdmiralJakob"
+  codewars: "https://www.codewars.com/users/FleetAdmiralJakob",
 };
 
 export async function githubData(repoName?: string): Promise<GithubData> {
