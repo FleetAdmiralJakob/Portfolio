@@ -669,6 +669,12 @@ button:focus {
   height: 82.7vh
 }
 
+@media (max-height: 600px) {
+  .contact-section {
+    height: initial;
+  }
+}
+
 .home-about-body {
   padding-top: 50px;
   font-size: 1.2em !important;
