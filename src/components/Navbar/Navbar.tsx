@@ -21,7 +21,7 @@ function NavBar() {
   const [navColour, updateNavbar] = useState(false);
 
   const hackerObjects = document.querySelectorAll(
-    "[id^='hacker-object']"
+    "[id^='hacker-object']",
   ) as NodeListOf<HTMLElement>;
 
   const lettersSmall = "abcdefghijklmnopqrstuvwxyz";
