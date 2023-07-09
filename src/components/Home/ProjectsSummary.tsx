@@ -51,7 +51,7 @@ function AboutSummary() {
               <span className="purple"> first projects</span> in relationship to
               programming after some small stuff I tried out with Scratch.
             </p>
-            <Nav.Link as={Link} to="/project" className="link">
+            <Nav.Link as={Link} to="/projects" className="link">
               <AiOutlineFundProjectionScreen
                 style={{ marginBottom: "2px", marginRight: "7px" }}
               />
