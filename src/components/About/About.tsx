@@ -19,7 +19,7 @@ function About() {
     },
     (error) => {
       console.log(error);
-    }
+    },
   );
 
   return (
