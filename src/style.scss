@@ -1142,22 +1142,13 @@ button:focus {
   .tech-icons-tailwind {
     @include tech-icons-media;
   }
-  .tech-icons-material {
-    @include tech-icons-media;
-  }
   .tech-icons-javascript {
     @include tech-icons-media;
   }
   .tech-icons-typescript {
     @include tech-icons-media;
   }
-  .tech-icons-node {
-    @include tech-icons-media;
-  }
   .tech-icons-react {
-    @include tech-icons-media;
-  }
-  .tech-icons-wordpress {
     @include tech-icons-media;
   }
   .tech-icons-csharp {
@@ -1253,26 +1244,6 @@ button:focus {
   border: 3px solid #38b2ac !important;
 }
 
-.tech-icons-material {
-  @include tech-icons;
-}
-
-.tech-icons-material:hover {
-  @include tech-icons-hover;
-  color: #0081cb !important;
-  border: 2px solid #0081cb !important;
-}
-
-.tech-icons-node {
-  @include tech-icons;
-}
-
-.tech-icons-node:hover {
-  @include tech-icons-hover;
-  color: rgb(102, 159, 100);
-  border: 2px solid rgb(102, 159, 100) !important;
-}
-
 .tech-icons-javascript {
   @include tech-icons;
 }
@@ -1301,16 +1272,6 @@ button:focus {
   @include tech-icons-hover;
   color: rgb(90, 218, 253);
   border: 2px solid rgb(90, 218, 253) !important;
-}
-
-.tech-icons-wordpress {
-  @include tech-icons;
-}
-
-.tech-icons-wordpress:hover {
-  @include tech-icons-hover;
-  color: rgb(1, 117, 168);
-  border: 2px solid rgb(1, 117, 168) !important;
 }
 
 .tech-icons-csharp {

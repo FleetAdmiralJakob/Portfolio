@@ -19,9 +19,6 @@ const SiLinux = lazy(() =>
 const SiMacos = lazy(() =>
   import("react-icons/si").then((module) => ({ default: module.SiMacos }))
 );
-const SiUnity = lazy(() =>
-  import("react-icons/si").then((module) => ({ default: module.SiUnity }))
-);
 const SiVercel = lazy(() =>
   import("react-icons/si").then((module) => ({ default: module.SiVercel }))
 );
@@ -75,16 +72,6 @@ function Toolstack() {
           </a>
         </Col>
         <Col xs={4} md={2} className="tech-icons">
-          <a href="https://unity.com/" className="link-without-styling">
-            <SiUnity />
-            <div className="tech-description">
-              Unity
-              <br />
-              <ConfidenceLevelBar confidenceLevel={7} />
-            </div>
-          </a>
-        </Col>
-        <Col xs={4} md={2} className="tech-icons">
           <a href="https://www.figma.com/" className="link-without-styling">
             <SiFigma />
             <div className="tech-description">
@@ -126,7 +113,7 @@ function Toolstack() {
             <div className="tech-description">
               MacOS
               <br />
-              <ConfidenceLevelBar confidenceLevel={6} />
+              <ConfidenceLevelBar confidenceLevel={8} />
             </div>
           </a>
         </Col>
