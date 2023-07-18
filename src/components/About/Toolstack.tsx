@@ -5,30 +5,30 @@ import ConfidenceLevelBar from "./ConfidenceLevelBar";
 const SiAndroidstudio = lazy(() =>
   import("react-icons/si").then((module) => ({
     default: module.SiAndroidstudio,
-  }))
+  })),
 );
 const SiFigma = lazy(() =>
-  import("react-icons/si").then((module) => ({ default: module.SiFigma }))
+  import("react-icons/si").then((module) => ({ default: module.SiFigma })),
 );
 const SiJetbrains = lazy(() =>
-  import("react-icons/si").then((module) => ({ default: module.SiJetbrains }))
+  import("react-icons/si").then((module) => ({ default: module.SiJetbrains })),
 );
 const SiLinux = lazy(() =>
-  import("react-icons/si").then((module) => ({ default: module.SiLinux }))
+  import("react-icons/si").then((module) => ({ default: module.SiLinux })),
 );
 const SiMacos = lazy(() =>
-  import("react-icons/si").then((module) => ({ default: module.SiMacos }))
+  import("react-icons/si").then((module) => ({ default: module.SiMacos })),
 );
 const SiVercel = lazy(() =>
-  import("react-icons/si").then((module) => ({ default: module.SiVercel }))
+  import("react-icons/si").then((module) => ({ default: module.SiVercel })),
 );
 const SiVisualstudiocode = lazy(() =>
   import("react-icons/si").then((module) => ({
     default: module.SiVisualstudiocode,
-  }))
+  })),
 );
 const SiWindows11 = lazy(() =>
-  import("react-icons/si").then((module) => ({ default: module.SiWindows11 }))
+  import("react-icons/si").then((module) => ({ default: module.SiWindows11 })),
 );
 
 function Toolstack() {
