@@ -85,7 +85,7 @@ function Projects() {
               summary="A simple password generator with a nice UI for the Web!"
               description="You can choose the length of your password and if you want to include numbers and symbols."
               ghLink="Password-Generator"
-              demoLink="https://passwort-generator.vercel.app/"
+              demoLink="https://passwort.roessner.tech/"
             />
           </Col>
           <Col md={4} className="project-card">
