@@ -1152,6 +1152,9 @@ button:focus {
   .tech-icons-react {
     @include tech-icons-media;
   }
+  .tech-icons-supabase {
+    @include tech-icons-media;
+  }
   .tech-icons-csharp {
     @include tech-icons-media;
   }
@@ -1273,6 +1276,16 @@ button:focus {
   @include tech-icons-hover;
   color: rgb(90, 218, 253);
   border: 2px solid rgb(90, 218, 253) !important;
+}
+
+.tech-icons-supabase {
+  @include tech-icons;
+}
+
+.tech-icons-supabase:hover {
+  @include tech-icons-hover;
+  color: #3bd08f !important;
+  border: 2px solid #3bd08f !important;
 }
 
 .tech-icons-csharp {

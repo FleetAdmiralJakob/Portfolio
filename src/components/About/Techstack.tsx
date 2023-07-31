@@ -1,9 +1,9 @@
-import React, { lazy } from "react";
-import { Col, Container, Row } from "react-bootstrap";
+import React, {lazy} from "react";
+import {Col, Container, Row} from "react-bootstrap";
 import ConfidenceLevelBar from "./ConfidenceLevelBar";
 
-const SiRailway = lazy(() =>
-  import("react-icons/si").then((module) => ({ default: module.SiRailway }))
+const SiSupabase = lazy(() =>
+  import("react-icons/si").then((module) => ({ default: module.SiSupabase }))
 );
 
 const SiDeno = lazy(() =>
@@ -275,11 +275,11 @@ function Techstack() {
             </div>
           </a>
         </Col>
-        <Col xs={4} md={2} className="tech-icons">
-          <a href="https://railway.app/" className="link-without-styling">
-            <SiRailway />
+        <Col xs={4} md={2} className="tech-icons-supabase">
+          <a href="https://supabase.com/" className="link-without-styling">
+            <SiSupabase />
             <div className="tech-description">
-              Railway
+              Supabase
               <br />
               <ConfidenceLevelBar confidenceLevel={7} />
             </div>
