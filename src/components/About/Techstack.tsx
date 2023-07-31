@@ -1,71 +1,75 @@
-import React, {lazy} from "react";
-import {Col, Container, Row} from "react-bootstrap";
+import React, { lazy } from "react";
+import { Col, Container, Row } from "react-bootstrap";
 import ConfidenceLevelBar from "./ConfidenceLevelBar";
 
 const SiSupabase = lazy(() =>
-  import("react-icons/si").then((module) => ({ default: module.SiSupabase }))
+  import("react-icons/si").then((module) => ({ default: module.SiSupabase })),
 );
 
 const SiDeno = lazy(() =>
-  import("react-icons/si").then((module) => ({ default: module.SiDeno }))
+  import("react-icons/si").then((module) => ({ default: module.SiDeno })),
 );
 
 const SiIonic = lazy(() =>
-  import("react-icons/si").then((module) => ({ default: module.SiIonic }))
+  import("react-icons/si").then((module) => ({ default: module.SiIonic })),
 );
 const SiWebflow = lazy(() =>
-  import("react-icons/si").then((module) => ({ default: module.SiWebflow }))
+  import("react-icons/si").then((module) => ({ default: module.SiWebflow })),
 );
 const SiAngular = lazy(() =>
-  import("react-icons/si").then((module) => ({ default: module.SiAngular }))
+  import("react-icons/si").then((module) => ({ default: module.SiAngular })),
 );
 const SiTrpc = lazy(() =>
-  import("react-icons/si").then((module) => ({ default: module.SiTrpc }))
+  import("react-icons/si").then((module) => ({ default: module.SiTrpc })),
 );
 const DiGit = lazy(() =>
-  import("react-icons/di").then((module) => ({ default: module.DiGit }))
+  import("react-icons/di").then((module) => ({ default: module.DiGit })),
 );
 const DiGithubBadge = lazy(() =>
-  import("react-icons/di").then((module) => ({ default: module.DiGithubBadge }))
+  import("react-icons/di").then((module) => ({
+    default: module.DiGithubBadge,
+  })),
 );
 const DiJava = lazy(() =>
-  import("react-icons/di").then((module) => ({ default: module.DiJava }))
+  import("react-icons/di").then((module) => ({ default: module.DiJava })),
 );
 const DiReact = lazy(() =>
-  import("react-icons/di").then((module) => ({ default: module.DiReact }))
+  import("react-icons/di").then((module) => ({ default: module.DiReact })),
 );
 const DiSass = lazy(() =>
-  import("react-icons/di").then((module) => ({ default: module.DiSass }))
+  import("react-icons/di").then((module) => ({ default: module.DiSass })),
 );
 const SiCss3 = lazy(() =>
-  import("react-icons/si").then((module) => ({ default: module.SiCss3 }))
+  import("react-icons/si").then((module) => ({ default: module.SiCss3 })),
 );
 const SiHtml5 = lazy(() =>
-  import("react-icons/si").then((module) => ({ default: module.SiHtml5 }))
+  import("react-icons/si").then((module) => ({ default: module.SiHtml5 })),
 );
 const SiJavascript = lazy(() =>
-  import("react-icons/si").then((module) => ({ default: module.SiJavascript }))
+  import("react-icons/si").then((module) => ({ default: module.SiJavascript })),
 );
 const SiJson = lazy(() =>
-  import("react-icons/si").then((module) => ({ default: module.SiJson }))
+  import("react-icons/si").then((module) => ({ default: module.SiJson })),
 );
 const SiKotlin = lazy(() =>
-  import("react-icons/si").then((module) => ({ default: module.SiKotlin }))
+  import("react-icons/si").then((module) => ({ default: module.SiKotlin })),
 );
 const SiMarkdown = lazy(() =>
-  import("react-icons/si").then((module) => ({ default: module.SiMarkdown }))
+  import("react-icons/si").then((module) => ({ default: module.SiMarkdown })),
 );
 const SiNextdotjs = lazy(() =>
-  import("react-icons/si").then((module) => ({ default: module.SiNextdotjs }))
+  import("react-icons/si").then((module) => ({ default: module.SiNextdotjs })),
 );
 const SiPostcss = lazy(() =>
-  import("react-icons/si").then((module) => ({ default: module.SiPostcss }))
+  import("react-icons/si").then((module) => ({ default: module.SiPostcss })),
 );
 const SiTailwindcss = lazy(() =>
-  import("react-icons/si").then((module) => ({ default: module.SiTailwindcss }))
+  import("react-icons/si").then((module) => ({
+    default: module.SiTailwindcss,
+  })),
 );
 const SiTypescript = lazy(() =>
-  import("react-icons/si").then((module) => ({ default: module.SiTypescript }))
+  import("react-icons/si").then((module) => ({ default: module.SiTypescript })),
 );
 
 function Techstack() {
