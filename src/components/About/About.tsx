@@ -65,49 +65,25 @@ class About extends Component {
               <strong className="purple">Codewars!</strong>
             </h4>
             <ul className="home-about-social-links">
-              <li className="social-icons">
-                <a
-                  href={linkData.github}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour home-social-icons"
-                  aria-label="GitHub"
-                >
-                  <div className="home-social-icons-picture">
-                    <AiFillGithub />
-                  </div>
-                </a>
-              </li>
+              <SocialLink
+                link={linkData.github}
+                icon={<AiFillGithub />}
+                label="GitHub"
+              />
             </ul>
             <ul className="home-about-social-links">
-              <li className="social-icons">
-                <a
-                  href={linkData.codewars}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour home-social-icons"
-                  aria-label="Codewars"
-                >
-                  <div className="home-social-icons-picture">
-                    <SiCodewars />
-                  </div>
-                </a>
-              </li>
+              <SocialLink
+                link={linkData.codewars}
+                icon={<SiCodewars />}
+                label="Codewars"
+              />
             </ul>
             <ul className="home-about-social-links">
-              <li className="social-icons">
-                <a
-                  href={linkData.leetcode}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour home-social-icons"
-                  aria-label="LeetCode"
-                >
-                  <div className="home-social-icons-picture-leetcode">
-                    <SiLeetcode />
-                  </div>
-                </a>
-              </li>
+              <SocialLink
+                link={linkData.leetcode}
+                icon={<SiLeetcode />}
+                label="LeetCode"
+              />
             </ul>
             <br />
             {followersCount
