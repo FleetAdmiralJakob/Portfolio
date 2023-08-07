@@ -24,16 +24,16 @@ class About extends Component {
         this.setState({ hasLoaded: true });
       }, 1000);
     }
+  
+    githubData().then(
+      (data) => {
+        this.setState({ followersCount: data.followers });
+      },
+      (error) => {
+        console.log(error);
+      }
+    );
   }
-
-  githubData().then(
-    (data) => {
-      this.setState({ followersCount: data.followers });
-    },
-    (error) => {
-      console.log(error);
-    }
-  );
 
   return (
     <Container fluid className="about-section">
