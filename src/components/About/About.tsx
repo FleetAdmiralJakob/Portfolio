@@ -10,6 +10,7 @@ import Toolstack from "./Toolstack";
 import linkData, { githubData } from "../data";
 import { AiFillGithub } from "react-icons/ai";
 import { SiLeetcode } from "react-icons/si";
+import { SiCodewars } from "react-icons/si";
 
 function About() {
   const [followersCount, setFollowersCount] = useState("");
@@ -50,7 +51,7 @@ function About() {
             <br /> <br /> <br />
             <h4>
               See me <strong className="purple">on GitHub</strong> and{" "}
-              <strong className="purple">LeetCode!</strong>
+              <strong className="purple">Codewars!</strong>
             </h4>
             <ul className="home-about-social-links">
               <li className="social-icons">
@@ -61,7 +62,24 @@ function About() {
                   className="icon-colour home-social-icons"
                   aria-label="GitHub"
                 >
-                  <AiFillGithub />
+                  <div className="home-social-icons-picture">
+                    <AiFillGithub />
+                  </div>
+                </a>
+              </li>
+            </ul>
+            <ul className="home-about-social-links">
+              <li className="social-icons">
+                <a
+                  href={linkData.codewars}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour home-social-icons"
+                  aria-label="Codewars"
+                >
+                  <div className="home-social-icons-picture">
+                    <SiCodewars />
+                  </div>
                 </a>
               </li>
             </ul>
@@ -74,7 +92,9 @@ function About() {
                   className="icon-colour home-social-icons"
                   aria-label="LeetCode"
                 >
-                  <SiLeetcode />
+                  <div className="home-social-icons-picture-leetcode">
+                    <SiLeetcode />
+                  </div>
                 </a>
               </li>
             </ul>
@@ -140,9 +160,9 @@ function About() {
         <br />
         <br />
         <p>
-          <strong className="purple">Note:</strong> Please note that these are
-          my stats from my free time, and by far not all of my activity is
-          considered by Wakatime & GitHub.
+          <strong className="purple">Note:</strong> These are stats from my free
+          time, and by far not all of my activity is considered by Wakatime &
+          GitHub.
         </p>
       </Container>
     </Container>

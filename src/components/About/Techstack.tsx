@@ -1,19 +1,23 @@
 import React, {lazy} from "react";
 import {Col, Container, Row} from "react-bootstrap";
 import ConfidenceLevelBar from "./ConfidenceLevelBar";
-import {SiIonic} from "react-icons/si";
 
-const SiPlanetscale = lazy(() =>
-  import("react-icons/si").then((module) => ({ default: module.SiPlanetscale }))
+const SiSupabase = lazy(() =>
+  import("react-icons/si").then((module) => ({ default: module.SiSupabase }))
+);
+
+const SiDeno = lazy(() =>
+  import("react-icons/si").then((module) => ({ default: module.SiDeno }))
+);
+
+const SiIonic = lazy(() =>
+  import("react-icons/si").then((module) => ({ default: module.SiIonic }))
 );
 const SiWebflow = lazy(() =>
   import("react-icons/si").then((module) => ({ default: module.SiWebflow }))
 );
 const SiAngular = lazy(() =>
   import("react-icons/si").then((module) => ({ default: module.SiAngular }))
-);
-const SiPrisma = lazy(() =>
-  import("react-icons/si").then((module) => ({ default: module.SiPrisma }))
 );
 const SiTrpc = lazy(() =>
   import("react-icons/si").then((module) => ({ default: module.SiTrpc }))
@@ -27,20 +31,11 @@ const DiGithubBadge = lazy(() =>
 const DiJava = lazy(() =>
   import("react-icons/di").then((module) => ({ default: module.DiJava }))
 );
-const DiNodejsSmall = lazy(() =>
-  import("react-icons/di").then((module) => ({ default: module.DiNodejsSmall }))
-);
 const DiReact = lazy(() =>
   import("react-icons/di").then((module) => ({ default: module.DiReact }))
 );
 const DiSass = lazy(() =>
   import("react-icons/di").then((module) => ({ default: module.DiSass }))
-);
-const DiWordpress = lazy(() =>
-  import("react-icons/di").then((module) => ({ default: module.DiWordpress }))
-);
-const SiCsharp = lazy(() =>
-  import("react-icons/si").then((module) => ({ default: module.SiCsharp }))
 );
 const SiCss3 = lazy(() =>
   import("react-icons/si").then((module) => ({ default: module.SiCss3 }))
@@ -125,7 +120,7 @@ function Techstack() {
             <div className="tech-description">
               JavaScript
               <br />
-              <ConfidenceLevelBar confidenceLevel={7} />
+              <ConfidenceLevelBar confidenceLevel={8} />
             </div>
           </a>
         </Col>
@@ -138,7 +133,7 @@ function Techstack() {
             <div className="tech-description">
               TypeScript
               <br />
-              <ConfidenceLevelBar confidenceLevel={8} />
+              <ConfidenceLevelBar confidenceLevel={9} />
             </div>
           </a>
         </Col>
@@ -158,20 +153,7 @@ function Techstack() {
             <div className="tech-description">
               Kotlin
               <br />
-              <ConfidenceLevelBar confidenceLevel={8} />
-            </div>
-          </a>
-        </Col>
-        <Col xs={4} md={2} className="tech-icons-csharp">
-          <a
-            href="https://dotnet.microsoft.com/en-us/languages/csharp"
-            className="link-without-styling"
-          >
-            <SiCsharp />
-            <div className="tech-description">
-              C#
-              <br />
-              <ConfidenceLevelBar confidenceLevel={4} />
+              <ConfidenceLevelBar confidenceLevel={7} />
             </div>
           </a>
         </Col>
@@ -206,13 +188,13 @@ function Techstack() {
         Other <span className="purple">Skills</span> (Frameworks etc.)
       </h2>
       <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-        <Col xs={4} md={2} className="tech-icons-node">
-          <a href="https://nodejs.org/en/" className="link-without-styling">
-            <DiNodejsSmall />
+        <Col xs={4} md={2} className="tech-icons">
+          <a href="https://deno.land/" className="link-without-styling">
+            <SiDeno />
             <div className="tech-description">
-              Node.js
+              Deno
               <br />
-              <ConfidenceLevelBar confidenceLevel={3} />
+              <ConfidenceLevelBar confidenceLevel={9} />
             </div>
           </a>
         </Col>
@@ -257,20 +239,47 @@ function Techstack() {
           </a>
         </Col>
         <Col xs={4} md={2} className="tech-icons">
-          <a href="https://www.prisma.io/" className="link-without-styling">
-            <SiPrisma />
+          <a href="https://orm.drizzle.team/" className="link-without-styling">
+            <svg
+              stroke="currentColor"
+              fill="currentColor"
+              strokeWidth="0"
+              role="img"
+              viewBox="0 0 36 36"
+              height="1em"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect width="36" height="36" rx="5" fill="#ffffff"></rect>
+              <path
+                d="M8.10752 16.6577C8.44369 16.0953 9.19471 15.8957 9.78497 16.2118C10.3752 16.5279 10.5812 17.24 10.245 17.8024L6.29891 24.404C5.96274 24.9664 5.21172 25.1661 4.62146 24.85C4.0312 24.5339 3.82522 23.8217 4.16139 23.2593L8.10752 16.6577Z"
+                fill="#100c1a"
+              ></path>
+              <path
+                d="M16.6132 11.596C16.9494 11.0336 17.7004 10.8339 18.2907 11.15C18.8809 11.4661 19.0869 12.1783 18.7507 12.7407L14.8046 19.3423C14.4684 19.9047 13.7174 20.1043 13.1272 19.7882C12.5369 19.4721 12.3309 18.76 12.6671 18.1976L16.6132 11.596Z"
+                fill="#100c1a"
+              ></path>
+              <path
+                d="M29.7011 11.5962C30.0373 11.0339 30.7883 10.8342 31.3785 11.1503C31.9688 11.4664 32.1748 12.1786 31.8386 12.7409L27.8925 19.3425C27.5563 19.9049 26.8053 20.1046 26.215 19.7885C25.6248 19.4724 25.4188 18.7602 25.755 18.1978L29.7011 11.5962Z"
+                fill="#100c1a"
+              ></path>
+              <path
+                d="M21.1932 16.6577C21.5294 16.0953 22.2804 15.8957 22.8706 16.2118C23.4609 16.5279 23.6669 17.24 23.3307 17.8024L19.3846 24.404C19.0484 24.9664 18.2974 25.1661 17.7071 24.85C17.1169 24.5339 16.9109 23.8217 17.2471 23.2593L21.1932 16.6577Z"
+                fill="#100c1a"
+              ></path>
+            </svg>
             <div className="tech-description">
-              Prisma
+              Drizzle ORM
               <br />
               <ConfidenceLevelBar confidenceLevel={6} />
             </div>
           </a>
         </Col>
-        <Col xs={4} md={2} className="tech-icons">
-          <a href="https://planetscale.com/" className="link-without-styling">
-            <SiPlanetscale />
+        <Col xs={4} md={2} className="tech-icons-supabase">
+          <a href="https://supabase.com/" className="link-without-styling">
+            <SiSupabase />
             <div className="tech-description">
-              PlanetScale
+              Supabase
               <br />
               <ConfidenceLevelBar confidenceLevel={7} />
             </div>
@@ -281,16 +290,6 @@ function Techstack() {
             <SiWebflow />
             <div className="tech-description">
               Webflow
-              <br />
-              <ConfidenceLevelBar confidenceLevel={10} />
-            </div>
-          </a>
-        </Col>
-        <Col xs={4} md={2} className="tech-icons-wordpress">
-          <a href="https://wordpress.com/" className="link-without-styling">
-            <DiWordpress />
-            <div className="tech-description">
-              Wordpress
               <br />
               <ConfidenceLevelBar confidenceLevel={10} />
             </div>
@@ -346,28 +345,6 @@ function Techstack() {
               Ionic
               <br />
               <ConfidenceLevelBar confidenceLevel={9} />
-            </div>
-          </a>
-        </Col>
-        <Col xs={4} md={2} className="tech-icons-material">
-          <a href="https://material-ui.com/" className="link-without-styling">
-            <svg
-              stroke="currentColor"
-              fill="currentColor"
-              strokeWidth="0"
-              role="img"
-              viewBox="0 0 24 24"
-              height="1em"
-              width="1em"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <title></title>
-              <path d="M0 2.475v10.39l3 1.733V7.67l6 3.465 6-3.465v3.465l-6 3.463v3.464l6 3.463 9-5.195V9.402l-3 1.733v3.463l-6 3.464-3-1.732 6-3.465V2.475L9 7.67 0 2.475zm24 0l-3 1.73V7.67l3-1.732V2.474Z"></path>
-            </svg>
-            <div className="tech-description">
-              Material UI
-              <br />
-              <ConfidenceLevelBar confidenceLevel={6} />
             </div>
           </a>
         </Col>

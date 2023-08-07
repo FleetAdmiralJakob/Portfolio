@@ -55,7 +55,7 @@ function ContactMe() {
           <Container>
             <Row>
               <Col md={12} className="about">
-                <h1 style={{ fontSize: "2.6em" }}>
+                <h1 style={{ fontSize: "2.6em" }} className="negative-letter-spacing">
                   CONTACT <span className="purple"> ME </span>
                 </h1>
               </Col>

@@ -113,7 +113,6 @@ function ProjectCards(props: Props) {
             variant="primary"
             href={props.downloadLink}
             target="_blank"
-            style={{ marginLeft: "10px" }}
             className={
               props.ghLink || props.demoLink
                 ? "download-button-special"

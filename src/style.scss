@@ -559,6 +559,14 @@ button:focus {
   margin-left: 10px;
 }
 
+.download-button {
+  margin-left: 10px;
+}
+
+.download-button-special {
+  margin-left: 10px;
+}
+
 @media (max-width: 1024px) and (min-width: 400px) {
   .download-button {
     margin-top: 10px;
@@ -580,12 +588,11 @@ button:focus {
   }
 }
 
-@media (max-width: 361px) {
+@media (max-width: 351px) {
   .download-button-special {
     margin-top: 10px;
   }
   .demo-button-special {
-    margin-top: 10px;
     @media (min-width: 331px) {
       margin-top: 0;
     }
@@ -608,11 +615,35 @@ button:focus {
   .demo-button-special {
     margin-left: 0;
   }
+  .download-button-special {
+    margin-left: 0;
+  }
 }
 
 @media (max-width: 328px) {
   .demo-button-special {
     margin-left: 0;
+  }
+  .download-button-special {
+    margin-left: 0;
+  }
+}
+
+@media (min-width: 352px) and (max-width: 362px) {
+  .download-button-special {
+    margin-top: 10px;
+  }
+}
+
+@media (min-width: 321) and (max-width: 328) {
+  .demo-button-special {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 320px) {
+  .demo-button-special {
+    margin-top: 10px;
   }
 }
 
@@ -636,6 +667,14 @@ button:focus {
   padding-top: 100px !important;
   padding-bottom: 20px !important;
   text-align: center;
+  margin-top: 2em !important;
+  height: 82.7vh
+}
+
+@media (max-height: 600px) {
+  .contact-section {
+    height: initial;
+  }
 }
 
 .home-about-body {
@@ -702,6 +741,15 @@ button:focus {
   border-radius: 50% !important;
   transition: 0.5s !important;
   cursor: pointer !important;
+}
+
+.home-social-icons-picture,
+.home-social-icons-picture-leetcode {
+  margin-top: -1px !important;
+}
+
+.home-social-icons-picture-leetcode {
+  margin-left: 1px !important;
 }
 
 @mixin social-icons-before {
@@ -881,6 +929,7 @@ button:focus {
   transition: all 0.5s ease 0s !important;
   height: 20% !important;
   border-radius: 3px !important;
+  margin-top: 0.5rem !important;
 }
 
 .image-card-view:hover {
@@ -956,6 +1005,12 @@ button:focus {
 .project-card-footer {
   padding: 20px !important;
   text-align: left !important;
+}
+
+@media (max-width: 270px) {
+  .project-card-footer {
+    padding: 0 0 10px 0 !important;
+  }
 }
 
 @mixin project-card-footer-label {
@@ -1090,22 +1145,16 @@ button:focus {
   .tech-icons-tailwind {
     @include tech-icons-media;
   }
-  .tech-icons-material {
-    @include tech-icons-media;
-  }
   .tech-icons-javascript {
     @include tech-icons-media;
   }
   .tech-icons-typescript {
     @include tech-icons-media;
   }
-  .tech-icons-node {
-    @include tech-icons-media;
-  }
   .tech-icons-react {
     @include tech-icons-media;
   }
-  .tech-icons-wordpress {
+  .tech-icons-supabase {
     @include tech-icons-media;
   }
   .tech-icons-csharp {
@@ -1201,26 +1250,6 @@ button:focus {
   border: 3px solid #38b2ac !important;
 }
 
-.tech-icons-material {
-  @include tech-icons;
-}
-
-.tech-icons-material:hover {
-  @include tech-icons-hover;
-  color: #0081cb !important;
-  border: 2px solid #0081cb !important;
-}
-
-.tech-icons-node {
-  @include tech-icons;
-}
-
-.tech-icons-node:hover {
-  @include tech-icons-hover;
-  color: rgb(102, 159, 100);
-  border: 2px solid rgb(102, 159, 100) !important;
-}
-
 .tech-icons-javascript {
   @include tech-icons;
 }
@@ -1251,14 +1280,14 @@ button:focus {
   border: 2px solid rgb(90, 218, 253) !important;
 }
 
-.tech-icons-wordpress {
+.tech-icons-supabase {
   @include tech-icons;
 }
 
-.tech-icons-wordpress:hover {
+.tech-icons-supabase:hover {
   @include tech-icons-hover;
-  color: rgb(1, 117, 168);
-  border: 2px solid rgb(1, 117, 168) !important;
+  color: #3bd08f !important;
+  border: 2px solid #3bd08f !important;
 }
 
 .tech-icons-csharp {
@@ -1654,4 +1683,12 @@ button:focus {
 .hits {
   height: 1.4em !important;
   width: 5.4em !important;
+}
+
+.negative-letter-spacing {
+  letter-spacing: -0.04em !important;
+}
+
+.no-after:after {
+  background: none !important;	
 }
