@@ -1,14 +1,14 @@
 html {
   --section-background-color: linear-gradient(
     to bottom left,
-    rgba(17, 16, 16, 0.582),
-    rgba(12, 8, 24, 0.904)
+    rgba(17 16 16 / 58.2%),
+    rgba(12 8 24 / 90.4%)
   );
-
+  
   --image-gradient: linear-gradient(
     to bottom left,
-    rgba(17, 16, 16, 0.678),
-    rgba(12, 10, 22, 0.863)
+    rgba(17 16 16 / 67.8%),
+    rgba(12 10 22 / 86.3%)
   );
 
   --imp-text-color: #c770f0;
@@ -105,13 +105,13 @@ button:focus {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgba(178, 121, 216, 95.9%);
+  background: rgba(178 121 216 / 95.9%);
   border-radius: 12px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(222, 130, 235, 91.1%);
+  background: rgba(222 130 235 / 91.1%);
   border-radius: 12px;
 }
 
@@ -121,7 +121,7 @@ button:focus {
 .sticky {
   background-color: #1b1a2ea9 !important;
   transition: all 0.3s ease-out 0s !important;
-  box-shadow: 0 10px 10px 0 rgba(9, 5, 29, 17.1%) !important;
+  box-shadow: 0 10px 10px 0 rgba(9 5 29 / 17.1%) !important;
   backdrop-filter: blur(15px) !important;
 }
 
@@ -154,7 +154,6 @@ button:focus {
   width: 27px !important;
   margin-top: 5px !important;
   margin-bottom: 5px !important;
-  transform: rotate(0deg) !important;
   left: 0 !important;
   opacity: 1 !important;
 }
@@ -1663,20 +1662,19 @@ button:focus {
   filter: blur(5px);
   transition: all 0.5s;
 }
-
-.content {
-  transition: all 0.5s;
+.purple {
+  color: var(--imp-text-color) !important;
+  transition: color 0.3s ease-in-out;
 }
 
-.popup-discord-png {
-  border-radius: 10px;
-  height: 300px;
+.purple:hover {
+  background: linear-gradient(
+    var(--imp-text-color) 0%,
+    var(--imp-text-color3) 100%
+  );
+  background-clip: text;
+  transition-duration: 0.3s;
 }
-
-@keyframes star {
-  from {
-    transform: rotate(0deg);
-  }
   to {
     transform: rotate(360deg);
   }
