@@ -1,14 +1,14 @@
 html {
   --section-background-color: linear-gradient(
     to bottom left,
-    rgba(17, 16, 16, 0.582),
-    rgba(12, 8, 24, 0.904)
+    rgba(17, 16, 16, 58.2%),
+    rgba(12, 8, 24, 90.4%)
   );
 
   --image-gradient: linear-gradient(
     to bottom left,
-    rgba(17, 16, 16, 0.678),
-    rgba(12, 10, 22, 0.863)
+    rgba(17, 16, 16, 67.8%),
+    rgba(12, 10, 22, 86.3%)
   );
 
   --imp-text-color: #c770f0;
@@ -40,9 +40,8 @@ html {
     var(--imp-text-color) 0%,
     var(--imp-text-color3) 100%
   );
-  -webkit-background-clip: text;
   background-clip: text;
-  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
   transition-duration: 0.3s;
 }
 
@@ -192,7 +191,7 @@ button:focus {
   opacity: 0.9 !important;
 }
 
-@media (max-width: 767px) {
+@media (width <= 767px) {
   .navbar {
     padding: 1rem 2rem !important;
     font-size: 1.4rem !important;
