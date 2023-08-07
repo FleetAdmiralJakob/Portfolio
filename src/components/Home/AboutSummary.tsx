@@ -20,8 +20,8 @@ function aboutSummary() {
     >
       <Container>
         <Row>
-          <Col md={8} className="home-about-summary-description">
-            <h1 style={{ fontSize: "2.6em" }}>
+          <Col md={7} className="home-about-summary-description">
+            <h1 style={{ fontSize: "2.6em" }} className="negative-letter-spacing">
               MORE <span className="purple"> ABOUT </span> ME
             </h1>
             <p className="home-about-summary-body">
@@ -36,7 +36,7 @@ function aboutSummary() {
               Learn more about me
             </Nav.Link>
           </Col>
-          <Col md={4} className="previewAbout">
+          <Col md={5} className="previewAbout">
             <Tilt>
               <Picture
                 src={previewAbout}

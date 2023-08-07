@@ -63,7 +63,7 @@ function Home2() {
               </Tilt>
               <br />
               <br />
-              <h1>FIND ME ON</h1>
+              <h1 className="negative-letter-spacing">FIND ME ON</h1>
               <p>
                 Feel free to <span className="purple">connect </span>with me
               </p>

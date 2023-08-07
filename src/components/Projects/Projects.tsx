@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { Col, Container, Row } from "react-bootstrap";
+import React, {useState} from "react";
+import {Col, Container, Row} from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 // @ts-ignore
 import steampunk from "../../Assets/Projects/steampunk.png";
@@ -21,9 +21,9 @@ import flowershop from "../../Assets/Projects/flowershop.png";
 import weatherio from "../../Assets/Projects/weatherio.png";
 // @ts-ignore
 import foods from "../../Assets/Projects/foods.png";
-import { SiCurseforge } from "react-icons/si";
-import { ImPointRight } from "react-icons/im";
-import { AiOutlineArrowDown, AiOutlineArrowUp } from "react-icons/ai";
+import {SiCurseforge} from "react-icons/si";
+import {ImPointRight} from "react-icons/im";
+import {AiOutlineArrowDown, AiOutlineArrowUp} from "react-icons/ai";
 
 function Projects() {
   const [readmore, setReadMore] = useState(false);
@@ -35,7 +35,7 @@ function Projects() {
   return (
     <Container fluid className="project-section">
       <Container>
-        <h1 className="project-heading">
+        <h1 className="project-heading negative-letter-spacing">
           My Recent <strong className="purple">Works </strong>
         </h1>
         <p style={{ color: "white" }}>
@@ -85,7 +85,7 @@ function Projects() {
               summary="A simple password generator with a nice UI for the Web!"
               description="You can choose the length of your password and if you want to include numbers and symbols."
               ghLink="Password-Generator"
-              demoLink="https://passwort-generator.vercel.app/"
+              demoLink="https://passwort.roessner.tech/"
             />
           </Col>
           <Col md={4} className="project-card">
@@ -96,7 +96,7 @@ function Projects() {
               labelssecondclass={["Next.js", "Typescript", "Tailwind", "tRPC"]}
               title="Weather.io"
               summary="A PWA for the Weather! Created by me and the Creative Programmers team."
-              description="You can see the weather of your location and search for other locations. You can also see the weather of the next 10 days and many other nerdy stuff (e.g. air quality)."
+              description="You can see the weather of your location and search for other locations. You can also see the weather of the next 7 days and many other nerdy stuff (e.g. air quality)."
               ghLink="https://github.com/The-Creative-Programming-Group/Weather-App"
               customGhLink={true}
               demoLink="https://weather-app-swart-eight.vercel.app/"
@@ -130,7 +130,7 @@ function Projects() {
             />
           </Col>
         </Row>
-        <h1 className="project-heading">
+        <h1 className="project-heading negative-letter-spacing">
           Other <strong className="purple">Projects </strong>
         </h1>
         <p style={{ color: "white" }}>Here you can find some other projects.</p>
@@ -139,7 +139,7 @@ function Projects() {
             <ProjectCard
               imgPath={curseforge}
               isBlog={false}
-              title="Minecraft mods by mine!"
+              title="Minecraft mods by me!"
               description="On the site curseforge.com you can find some of my first projects. 2 years ago I built some Minecraft Mods in Java! Sometimes I update them to maintain my skills."
               labelsfirstclass={["Modification(s)", "Game 🎮"]}
               labelssecondclass={["Java ☕"]}
@@ -149,7 +149,7 @@ function Projects() {
         <Row>
           <h5>
             <div className="projects-social">
-              <h4>MY CURSEFORGE ACCOUNT</h4>
+              <h4 className="negative-letter-spacing">MY CURSEFORGE ACCOUNT</h4>
               <p>
                 Here you can see my{" "}
                 <span className="purple">Minecraft projects </span>...
@@ -235,33 +235,6 @@ function Projects() {
               data-aos-duration="3000"
             >
               <ImPointRight />{" "}
-              <a href="https://www.curseforge.com/minecraft/mc-mods/myt">
-                {" "}
-                Myt
-              </a>
-              : Over 500 downloads <br />
-              <a href="https://www.curseforge.com/minecraft/mc-mods/myt">
-                <img src={myt} alt="Myt" className="image-card-view" />
-              </a>{" "}
-              <br />
-              <div className="mod-description">
-                A mod with nice additions that improve your Minecraft experience
-                with{" "}
-                <span className="purple">
-                  new ores, new flowers, new tools, new music, new world
-                  generation,
-                </span>{" "}
-                and other cool stuff.
-              </div>{" "}
-              <br /> <br />
-            </Col>
-            <Col
-              md={12}
-              data-aos="fade-up"
-              data-aos-offset="300"
-              data-aos-duration="3000"
-            >
-              <ImPointRight />{" "}
               <a href="https://www.curseforge.com/minecraft/mc-mods/vanilla-foods-enhanced-new">
                 {" "}
                 Foods Enhanced
@@ -291,6 +264,33 @@ function Projects() {
                 , focuses on enhancing the default{" "}
                 <span className="purple">foods</span> of minecraft by adding new
                 ones which should have been in the game!
+              </div>{" "}
+              <br /> <br />
+            </Col>
+            <Col
+              md={12}
+              data-aos="fade-up"
+              data-aos-offset="300"
+              data-aos-duration="3000"
+            >
+              <ImPointRight />{" "}
+              <a href="https://www.curseforge.com/minecraft/mc-mods/myt">
+                {" "}
+                Myt
+              </a>
+              : Over 500 downloads <br />
+              <a href="https://www.curseforge.com/minecraft/mc-mods/myt">
+                <img src={myt} alt="Myt" className="image-card-view" />
+              </a>{" "}
+              <br />
+              <div className="mod-description">
+                A mod with nice additions that improve your Minecraft experience
+                with{" "}
+                <span className="purple">
+                  new ores, new flowers, new tools, new music, new world
+                  generation,
+                </span>{" "}
+                and other cool stuff.
               </div>{" "}
               <br /> <br />
             </Col>

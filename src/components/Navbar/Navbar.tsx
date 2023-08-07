@@ -28,13 +28,14 @@ function NavBar() {
   const lettersBig = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
   hackerObjects.forEach((hackerObject) => {
+    let iterations = 0;
+    let animationFrame: number | null = null;
+
     hackerObject.addEventListener("mouseover", () => {
-      let iterations = 0;
-      let interval: any = null;
+      iterations = 0;
+      cancelAnimationFrame(animationFrame!);
 
-      clearInterval(interval);
-
-      interval = setInterval(() => {
+      const animate = () => {
         hackerObject.innerHTML = hackerObject.innerHTML
           .split("")
           .map((letter, index) => {
@@ -47,11 +48,15 @@ function NavBar() {
           .join("");
 
         // @ts-ignore
-        if (iterations >= hackerObject.dataset.value.length)
-          clearInterval(interval);
+        if (iterations >= hackerObject.dataset.value.length) return;
 
-        iterations += 1 / 3;
-      }, 30);
+        iterations += 1 / 4;
+        setTimeout(() => {
+          animationFrame = requestAnimationFrame(animate);
+        }, 40);
+      };
+
+      animationFrame = requestAnimationFrame(animate);
     });
   });
 
@@ -153,14 +158,15 @@ function NavBar() {
             </Nav.Item>
 
             <Nav.Item className="fork-btn">
-              <img
-                src={
-                  "https://hits.sh/www.roessner.tech.svg?style=for-the-badge&label=Views&extraCount=1254&color=555555&labelColor=711ea6"
-                }
-                className="img-fluid hits"
-                alt="brand"
-              />
-              {/* Visit https://github.com/silentsoft/hits for more info. */}
+              <a href="https://hits.sh/www.roessner.tech/" className="no-after">
+                <img
+                  src={
+                    "https://hits.sh/www.roessner.tech.svg?style=for-the-badge&label=Views&color=555555&labelColor=711ea6"
+                  }
+                  className="img-fluid hits"
+                  alt="brand"
+                />
+              </a>
             </Nav.Item>
 
             <Nav.Item className="fork-btn">
