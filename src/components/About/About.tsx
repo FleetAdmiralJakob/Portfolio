@@ -56,7 +56,7 @@ class About extends Component {
             md={5}
             style={{ paddingTop: "120px", paddingBottom: "50px" }}
             className="about-img"
-            data-aos={hasLoaded ? "flip-right" : ""}
+            data-aos={this.state.hasLoaded ? "flip-right" : ""}
           >
             <img src={laptopImg} alt="about" className="img-fluid" />
             <br /> <br /> <br />
