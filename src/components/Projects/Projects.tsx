@@ -99,7 +99,7 @@ function Projects() {
               description="You can see the weather of your location and search for other locations. You can also see the weather of the next 7 days and many other nerdy stuff (e.g. air quality)."
               ghLink="https://github.com/The-Creative-Programming-Group/Weather-App"
               customGhLink={true}
-              demoLink="https://weather-app-swart-eight.vercel.app/"
+              demoLink="https://weatherio1.vercel.app"
               workInProgress={true}
             />
           </Col>
