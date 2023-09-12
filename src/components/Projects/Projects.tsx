@@ -96,7 +96,7 @@ function Projects() {
               labelssecondclass={["Next.js", "Typescript", "Tailwind", "tRPC"]}
               title="Weather.io"
               summary="A PWA for the Weather! Created by me and the Creative Programmers team."
-              description="You can see the weather of your location and search for other locations. You can also see the weather of the next 7 days and many other nerdy stuff (e.g. air quality)."
+              description="You can see the weather of your location and search for other locations. You can also see the weather of the next 9 days and many other nerdy stuff (e.g. air quality)."
               ghLink="https://github.com/The-Creative-Programming-Group/Weather-App"
               customGhLink={true}
               demoLink="https://weatherio1.vercel.app"
