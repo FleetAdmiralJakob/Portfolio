@@ -1,12 +1,12 @@
 import React from "react";
-import {Col, Container, Row} from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
 import previewProjects from "../../Assets/previewProjects.webp";
 import Tilt from "react-parallax-tilt";
 import Nav from "react-bootstrap/Nav";
-import {Link} from "react-router-dom";
-import {AiOutlineFundProjectionScreen} from "react-icons/ai";
-import {ImPointRight} from "react-icons/im";
-import {Picture} from "react-optimized-images";
+import { Link } from "react-router-dom";
+import { AiOutlineFundProjectionScreen } from "react-icons/ai";
+import { ImPointRight } from "react-icons/im";
+import { Picture } from "react-optimized-images";
 
 function AboutSummary() {
   return (
@@ -21,7 +21,10 @@ function AboutSummary() {
       <Container>
         <Row>
           <Col md={7} className="home-projects-summary-description">
-            <h1 style={{ fontSize: "2.6em" }} className="negative-letter-spacing">
+            <h1
+              style={{ fontSize: "2.6em" }}
+              className="negative-letter-spacing"
+            >
               MY <span className="purple"> PROJECTS </span>
             </h1>
             <p className="home-about-summary-body">
