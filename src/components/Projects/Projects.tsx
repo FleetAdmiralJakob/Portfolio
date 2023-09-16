@@ -1,5 +1,5 @@
-import React, {useState} from "react";
-import {Col, Container, Row} from "react-bootstrap";
+import React, { useState } from "react";
+import { Col, Container, Row } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import steampunk from "../../Assets/Projects/steampunk.png";
 import biggernumber from "../../Assets/Projects/biggernumber2.png";
@@ -11,9 +11,9 @@ import passwordgen from "../../Assets/Projects/passwordgen.png";
 import flowershop from "../../Assets/Projects/flowershop.png";
 import weatherio from "../../Assets/Projects/weatherio.png";
 import foods from "../../Assets/Projects/foods.png";
-import {SiCurseforge} from "react-icons/si";
-import {ImPointRight} from "react-icons/im";
-import {AiOutlineArrowDown, AiOutlineArrowUp} from "react-icons/ai";
+import { SiCurseforge } from "react-icons/si";
+import { ImPointRight } from "react-icons/im";
+import { AiOutlineArrowDown, AiOutlineArrowUp } from "react-icons/ai";
 
 function Projects() {
   const [readmore, setReadMore] = useState(false);
