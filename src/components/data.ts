@@ -20,7 +20,7 @@ const linkData = {
 
 export async function githubData(repoName?: string): Promise<GithubData> {
   const response = await octokit.request(
-    `GET /${repoName ? `repos` : "users"}/FleetAdmiralJakob${
+    `GET /${repoName ? `repos` : "users"}/${githubUsername}${
       repoName ? `/${repoName}` : ""
     }`
   );
