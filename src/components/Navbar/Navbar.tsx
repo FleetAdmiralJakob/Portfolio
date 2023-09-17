@@ -1,13 +1,17 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import logo from "../../Assets/logo.png";
 import Button from "react-bootstrap/Button";
-import {Link} from "react-router-dom";
-import {CgFileDocument, CgMail} from "react-icons/cg";
-import {AiOutlineFundProjectionScreen, AiOutlineHome, AiOutlineUser,} from "react-icons/ai";
-import {Picture} from "react-optimized-images";
+import { Link } from "react-router-dom";
+import { CgFileDocument, CgMail } from "react-icons/cg";
+import {
+  AiOutlineFundProjectionScreen,
+  AiOutlineHome,
+  AiOutlineUser,
+} from "react-icons/ai";
+import { Picture } from "react-optimized-images";
 import Logos from "./Logos";
 import linkData from "../data";
 
@@ -52,9 +56,7 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
                 <AiOutlineHome style={{ marginBottom: "2px" }} />
-                <div>
-                  Home
-                </div>
+                <div>Home</div>
               </Nav.Link>
             </Nav.Item>
 
@@ -65,9 +67,7 @@ function NavBar() {
                 onClick={() => updateExpanded(false)}
               >
                 <AiOutlineUser style={{ marginBottom: "2px" }} />
-                <div>
-                  About
-                </div>
+                <div>About</div>
               </Nav.Link>
             </Nav.Item>
 
@@ -80,9 +80,7 @@ function NavBar() {
                 <AiOutlineFundProjectionScreen
                   style={{ marginBottom: "2px" }}
                 />{" "}
-                <div>
-                  Projects
-                </div>
+                <div>Projects</div>
               </Nav.Link>
             </Nav.Item>
 
@@ -93,9 +91,7 @@ function NavBar() {
                 onClick={() => updateExpanded(false)}
               >
                 <CgFileDocument style={{ marginBottom: "2px" }} />
-                <div>
-                  Resume
-                </div>
+                <div>Resume</div>
               </Nav.Link>
             </Nav.Item>
 
@@ -106,9 +102,7 @@ function NavBar() {
                 onClick={() => updateExpanded(false)}
               >
                 <CgMail style={{ marginBottom: "2px" }} />
-                <div>
-                  Contact Me
-                </div>
+                <div>Contact Me</div>
               </Nav.Link>
             </Nav.Item>
 
