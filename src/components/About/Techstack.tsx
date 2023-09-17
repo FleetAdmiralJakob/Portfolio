@@ -1,13 +1,9 @@
-import React, { lazy } from "react";
-import { Col, Container, Row } from "react-bootstrap";
+import React, {lazy} from "react";
+import {Col, Container, Row} from "react-bootstrap";
 import ConfidenceLevelBar from "./ConfidenceLevelBar";
 
-const SiRailway = lazy(() =>
-  import("react-icons/si").then((module) => ({ default: module.SiRailway }))
-);
-
-const SiDeno = lazy(() =>
-  import("react-icons/si").then((module) => ({ default: module.SiDeno }))
+const SiSupabase = lazy(() =>
+  import("react-icons/si").then((module) => ({ default: module.SiSupabase }))
 );
 
 const SiIonic = lazy(() =>
@@ -188,16 +184,6 @@ function Techstack() {
         Other <span className="purple">Skills</span> (Frameworks etc.)
       </h2>
       <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-        <Col xs={4} md={2} className="tech-icons">
-          <a href="https://deno.land/" className="link-without-styling">
-            <SiDeno />
-            <div className="tech-description">
-              Deno
-              <br />
-              <ConfidenceLevelBar confidenceLevel={9} />
-            </div>
-          </a>
-        </Col>
         <Col xs={4} md={2} className="tech-icons-react">
           <a href="https://reactjs.org/" className="link-without-styling">
             <DiReact />
@@ -275,11 +261,11 @@ function Techstack() {
             </div>
           </a>
         </Col>
-        <Col xs={4} md={2} className="tech-icons">
-          <a href="https://railway.app/" className="link-without-styling">
-            <SiRailway />
+        <Col xs={4} md={2} className="tech-icons-supabase">
+          <a href="https://supabase.com/" className="link-without-styling">
+            <SiSupabase />
             <div className="tech-description">
-              Railway
+              Supabase
               <br />
               <ConfidenceLevelBar confidenceLevel={7} />
             </div>

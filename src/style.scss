@@ -633,13 +633,13 @@ button:focus {
   }
 }
 
-@media (min-width: 321) and (max-width: 328) {
+@media (min-width: 314px) and (max-width: 328px) {
   .demo-button-special {
     margin-top: 0;
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 313px) {
   .demo-button-special {
     margin-top: 10px;
   }
@@ -661,12 +661,13 @@ button:focus {
 }
 
 .contact-section {
+  background-image: var(--section-background-color) !important;
   color: white !important;
   padding-top: 100px !important;
   padding-bottom: 20px !important;
   text-align: center;
   margin-top: 2em !important;
-  height: 82.7vh
+  height: 83.4vh;
 }
 
 @media (max-height: 600px) {
@@ -927,6 +928,7 @@ button:focus {
   transition: all 0.5s ease 0s !important;
   height: 20% !important;
   border-radius: 3px !important;
+  margin-top: 0.5rem !important;
 }
 
 .image-card-view:hover {
@@ -1151,6 +1153,9 @@ button:focus {
   .tech-icons-react {
     @include tech-icons-media;
   }
+  .tech-icons-supabase {
+    @include tech-icons-media;
+  }
   .tech-icons-csharp {
     @include tech-icons-media;
   }
@@ -1272,6 +1277,16 @@ button:focus {
   @include tech-icons-hover;
   color: rgb(90, 218, 253);
   border: 2px solid rgb(90, 218, 253) !important;
+}
+
+.tech-icons-supabase {
+  @include tech-icons;
+}
+
+.tech-icons-supabase:hover {
+  @include tech-icons-hover;
+  color: #3bd08f !important;
+  border: 2px solid #3bd08f !important;
 }
 
 .tech-icons-csharp {
@@ -1438,7 +1453,7 @@ button:focus {
 
 .resume-document {
   padding: 2px !important;
-  border-radius: 5px !important;
+  border-radius: 7px !important;
   box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
 }
 
@@ -1674,5 +1689,5 @@ button:focus {
 }
 
 .no-after:after {
-  background: none !important;	
+  background: none !important;
 }

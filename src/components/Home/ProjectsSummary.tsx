@@ -1,6 +1,5 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-// @ts-ignore
 import previewProjects from "../../Assets/previewProjects.webp";
 import Tilt from "react-parallax-tilt";
 import Nav from "react-bootstrap/Nav";
@@ -22,7 +21,10 @@ function AboutSummary() {
       <Container>
         <Row>
           <Col md={7} className="home-projects-summary-description">
-            <h1 style={{ fontSize: "2.6em" }} className="negative-letter-spacing">
+            <h1
+              style={{ fontSize: "2.6em" }}
+              className="negative-letter-spacing"
+            >
               MY <span className="purple"> PROJECTS </span>
             </h1>
             <p className="home-about-summary-body">
