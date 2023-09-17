@@ -1,4 +1,4 @@
-import {Octokit} from "@octokit/core";
+import { Octokit } from "@octokit/core";
 
 export const githubApiKey = process.env.GITHUB_API_KEY;
 const octokit = new Octokit({ auth: githubApiKey });
@@ -15,14 +15,14 @@ const linkData = {
   github: `https://github.com/${githubUsername}/`,
   mail: "mailto:jakob.roessner@outlook.de",
   leetcode: "https://leetcode.com/FleetAdmiralJakob/",
-  codewars: "https://www.codewars.com/users/FleetAdmiralJakob"
+  codewars: "https://www.codewars.com/users/FleetAdmiralJakob",
 };
 
 export async function githubData(repoName?: string): Promise<GithubData> {
   const response = await octokit.request(
     `GET /${repoName ? `repos` : "users"}/${githubUsername}${
       repoName ? `/${repoName}` : ""
-    }`
+    }`,
   );
   return response.data;
 }
