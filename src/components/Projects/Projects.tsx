@@ -1,25 +1,15 @@
 import React, { useState } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
-// @ts-ignore
 import steampunk from "../../Assets/Projects/steampunk.png";
-// @ts-ignore
 import biggernumber from "../../Assets/Projects/biggernumber2.png";
-// @ts-ignore
 import tippy from "../../Assets/Projects/tippy2.png";
-// @ts-ignore
 import curseforge from "../../Assets/Projects/curseforge.png";
-// @ts-ignore
 import uncraftables from "../../Assets/Projects/uncraftables.png";
-// @ts-ignore
 import myt from "../../Assets/Projects/myt.png";
-// @ts-ignore
 import passwordgen from "../../Assets/Projects/passwordgen.png";
-// @ts-ignore
 import flowershop from "../../Assets/Projects/flowershop.png";
-// @ts-ignore
 import weatherio from "../../Assets/Projects/weatherio.png";
-// @ts-ignore
 import foods from "../../Assets/Projects/foods.png";
 import { SiCurseforge } from "react-icons/si";
 import { ImPointRight } from "react-icons/im";

@@ -8,19 +8,21 @@ export interface GithubData {
   stargazers_count: string;
 }
 
+export const githubUsername = "FleetAdmiralJakob";
+
 const linkData = {
   linkedIn: "https://www.linkedin.com/in/jakobroessner/",
-  github: "https://github.com/FleetAdmiralJakob/",
+  github: `https://github.com/${githubUsername}/`,
   mail: "mailto:jakob.roessner@outlook.de",
   leetcode: "https://leetcode.com/FleetAdmiralJakob/",
-  codewars: "https://www.codewars.com/users/FleetAdmiralJakob"
+  codewars: "https://www.codewars.com/users/FleetAdmiralJakob",
 };
 
 export async function githubData(repoName?: string): Promise<GithubData> {
   const response = await octokit.request(
-    `GET /${repoName ? `repos` : "users"}/FleetAdmiralJakob${
+    `GET /${repoName ? `repos` : "users"}/${githubUsername}${
       repoName ? `/${repoName}` : ""
-    }`
+    }`,
   );
   return response.data;
 }
