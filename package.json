@@ -23,7 +23,7 @@
     "url": "https://github.com/FleetAdmiralJakob/Portfolio/issues"
   },
   "dependencies": {
-    "@octokit/core": "^4.2.0",
+    "@octokit/core": "^5.0.0",
     "@react-pdf/renderer": "^3.1.9",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^12.1.4",
