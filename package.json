@@ -42,7 +42,7 @@
     "react-pdf": "^7.0.1",
     "react-router-dom": "^6.16.0",
     "react-scripts": "^5.0.1",
-    "react-tsparticles": "^1.42.2",
+    "react-tsparticles": "^2.0.0",
     "sass": "^1.67.0",
     "typescript": "^4",
     "typewriter-effect": "^2.19.0",

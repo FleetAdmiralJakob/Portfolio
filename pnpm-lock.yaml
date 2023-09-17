@@ -63,8 +63,8 @@ dependencies:
     specifier: ^5.0.1
     version: 5.0.1(@babel/plugin-syntax-flow@7.22.5)(@babel/plugin-transform-react-jsx@7.22.15)(@preact/compat@17.1.2)(eslint@8.49.0)(sass@1.67.0)(typescript@4.9.5)
   react-tsparticles:
-    specifier: ^1.42.2
-    version: 1.43.1(@preact/compat@17.1.2)
+    specifier: ^2.0.0
+    version: 2.12.2(@preact/compat@17.1.2)
   sass:
     specifier: ^1.67.0
     version: 1.67.0
@@ -9776,16 +9776,14 @@ packages:
       react-dom: /@preact/compat@17.1.2(preact@10.17.1)
     dev: false
 
-  /react-tsparticles@1.43.1(@preact/compat@17.1.2):
-    resolution: {integrity: sha512-IWa33DP6CjcO+/upUqPhYpxduCFQvWXqCHV6rgvIPvmaqPqs8BkNbeBgBqcEPJRPzTluaD/+r9d7tDp2Uhd0uA==}
-    deprecated: React tsParticles 2.6.0 is out, please update
+  /react-tsparticles@2.12.2(@preact/compat@17.1.2):
+    resolution: {integrity: sha512-/nrEbyL8UROXKIMXe+f+LZN2ckvkwV2Qa+GGe/H26oEIc+wq/ybSG9REDwQiSt2OaDQGu0MwmA4BKmkL6wAWcA==}
     requiresBuild: true
     peerDependencies:
       react: '>=16'
     dependencies:
-      fast-deep-equal: 3.1.3
       react: /@preact/compat@17.1.2(preact@10.17.1)
-      tsparticles: 1.43.1
+      tsparticles-engine: 2.12.0
     dev: false
 
   /read-cache@1.0.0:
@@ -10992,9 +10990,8 @@ packages:
     resolution: {integrity: sha512-AEYxH93jGFPn/a2iVAwW87VuUIkR1FVUKB77NwMF7nBTDkDrrT/Hpt/IrCJ0QXhW27jTBDcf5ZY7w6RiqTMw2Q==}
     dev: false
 
-  /tsparticles@1.43.1:
-    resolution: {integrity: sha512-6EuHncwqzoyTlUxc11YH8LVlwVUgpYaZD0yMOeA2OvRqFZ9VQV8EjjQ6ZfXt6pfGA1ObPwU929jveFatxwTQkg==}
-    deprecated: tsParticles 2.6.0 is out, please update
+  /tsparticles-engine@2.12.0:
+    resolution: {integrity: sha512-ZjDIYex6jBJ4iMc9+z0uPe7SgBnmb6l+EJm83MPIsOny9lPpetMsnw/8YJ3xdxn8hV+S3myTpTN1CkOVmFv0QQ==}
     requiresBuild: true
     dev: false
 
