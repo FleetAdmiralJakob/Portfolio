@@ -1,25 +1,15 @@
 import React, { useState } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
-// @ts-ignore
 import steampunk from "../../Assets/Projects/steampunk.png";
-// @ts-ignore
 import biggernumber from "../../Assets/Projects/biggernumber2.png";
-// @ts-ignore
 import tippy from "../../Assets/Projects/tippy2.png";
-// @ts-ignore
 import curseforge from "../../Assets/Projects/curseforge.png";
-// @ts-ignore
 import uncraftables from "../../Assets/Projects/uncraftables.png";
-// @ts-ignore
 import myt from "../../Assets/Projects/myt.png";
-// @ts-ignore
 import passwordgen from "../../Assets/Projects/passwordgen.png";
-// @ts-ignore
 import flowershop from "../../Assets/Projects/flowershop.png";
-// @ts-ignore
 import weatherio from "../../Assets/Projects/weatherio.png";
-// @ts-ignore
 import foods from "../../Assets/Projects/foods.png";
 import { SiCurseforge } from "react-icons/si";
 import { ImPointRight } from "react-icons/im";
@@ -96,10 +86,10 @@ function Projects() {
               labelssecondclass={["Next.js", "Typescript", "Tailwind", "tRPC"]}
               title="Weather.io"
               summary="A PWA for the Weather! Created by me and the Creative Programmers team."
-              description="You can see the weather of your location and search for other locations. You can also see the weather of the next 7 days and many other nerdy stuff (e.g. air quality)."
+              description="You can see the weather of your location and search for other locations. You can also see the weather of the next 9 days and many other nerdy stuff (e.g. air quality)."
               ghLink="https://github.com/The-Creative-Programming-Group/Weather-App"
               customGhLink={true}
-              demoLink="https://weather-app-swart-eight.vercel.app/"
+              demoLink="https://weatherio1.vercel.app"
               workInProgress={true}
             />
           </Col>

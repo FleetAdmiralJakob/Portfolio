@@ -6,10 +6,6 @@ const SiSupabase = lazy(() =>
   import("react-icons/si").then((module) => ({ default: module.SiSupabase }))
 );
 
-const SiDeno = lazy(() =>
-  import("react-icons/si").then((module) => ({ default: module.SiDeno }))
-);
-
 const SiIonic = lazy(() =>
   import("react-icons/si").then((module) => ({ default: module.SiIonic }))
 );
@@ -188,16 +184,6 @@ function Techstack() {
         Other <span className="purple">Skills</span> (Frameworks etc.)
       </h2>
       <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-        <Col xs={4} md={2} className="tech-icons">
-          <a href="https://deno.land/" className="link-without-styling">
-            <SiDeno />
-            <div className="tech-description">
-              Deno
-              <br />
-              <ConfidenceLevelBar confidenceLevel={9} />
-            </div>
-          </a>
-        </Col>
         <Col xs={4} md={2} className="tech-icons-react">
           <a href="https://reactjs.org/" className="link-without-styling">
             <DiReact />

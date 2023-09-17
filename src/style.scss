@@ -633,13 +633,13 @@ button:focus {
   }
 }
 
-@media (min-width: 321) and (max-width: 328) {
+@media (min-width: 314px) and (max-width: 328px) {
   .demo-button-special {
     margin-top: 0;
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 313px) {
   .demo-button-special {
     margin-top: 10px;
   }
@@ -661,12 +661,13 @@ button:focus {
 }
 
 .contact-section {
+  background-image: var(--section-background-color) !important;
   color: white !important;
   padding-top: 100px !important;
   padding-bottom: 20px !important;
   text-align: center;
   margin-top: 2em !important;
-  height: 82.7vh
+  height: 83.4vh;
 }
 
 @media (max-height: 600px) {
@@ -1452,7 +1453,7 @@ button:focus {
 
 .resume-document {
   padding: 2px !important;
-  border-radius: 5px !important;
+  border-radius: 7px !important;
   box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
 }
 
@@ -1688,5 +1689,5 @@ button:focus {
 }
 
 .no-after:after {
-  background: none !important;	
+  background: none !important;
 }
