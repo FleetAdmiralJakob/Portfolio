@@ -63,8 +63,8 @@ dependencies:
     specifier: ^4
     version: 4.9.5
   typewriter-effect:
-    specifier: ^2.20.1
-    version: 2.20.1(@preact/compat@17.1.2)(@preact/compat@17.1.2)
+    specifier: ^2.21.0
+    version: 2.21.0(@preact/compat@17.1.2)(@preact/compat@17.1.2)
   web-vitals:
     specifier: ^3.4.0
     version: 3.4.0
@@ -10771,8 +10771,8 @@ packages:
     hasBin: true
     dev: false
 
-  /typewriter-effect@2.20.1(@preact/compat@17.1.2)(@preact/compat@17.1.2):
-    resolution: {integrity: sha512-3yQW4fUzCuIEgGHA5k+2Y2RzdsHUC9pPJpRahDREfloDpoPiMLj4GjMcuobdKD4CQ0pRBW4DD3pdNz7ZhfR96g==}
+  /typewriter-effect@2.21.0(@preact/compat@17.1.2)(@preact/compat@17.1.2):
+    resolution: {integrity: sha512-Y3VL1fuJpUBj0gS4OTXBLzy1gnYTYaBuVuuO99tGNyTkkub5CXi+b/hsV7Og9fp6HlhogOwWJwgq7iXI5sQlEg==}
     peerDependencies:
       react: ^17.x || ^18.x
       react-dom: ^17.x || ^18.x
