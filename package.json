@@ -40,7 +40,7 @@
     "react-router-dom": "^6.16.0",
     "react-scripts": "^5.0.1",
     "react-tsparticles": "^1.42.2",
-    "sass": "^1.67.0",
+    "sass": "^1.68.0",
     "typescript": "^4",
     "typewriter-effect": "^2.20.1",
     "web-vitals": "^3.4.0"
