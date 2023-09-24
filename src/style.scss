@@ -1080,7 +1080,7 @@ button:focus {
   transform: scale(1.05) !important;
   overflow: hidden !important;
   border: 2px solid rgba(197, 115, 230, 0.883) !important;
-  box-shadow: 6px 7px 6px 5px rgba(89, 4, 168, 0.183) !important;
+  box-shadow: 6px 7px 8px 6px rgba(89, 4, 168, 0.183) !important;
 }
 
 @mixin tech-icons-highlight {
@@ -1093,7 +1093,7 @@ button:focus {
   text-align: center !important;
   border-radius: 5px !important;
   display: table !important;
-  box-shadow: 4px 5px 4px 3px rgba(101, 23, 169, 0.87) !important;
+  box-shadow: 5px 6px 10px 7px rgba(101, 23, 169, 0.87) !important;
   overflow: hidden !important;
   transition: all 0.4s ease 0s !important;
 }
