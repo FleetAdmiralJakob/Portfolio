@@ -1,5 +1,5 @@
-import React, {useState} from "react";
-import {Col, Container, Row} from "react-bootstrap";
+import React, { useState } from "react";
+import { Col, Container, Row } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import steampunk from "../../Assets/Projects/steampunk.png";
 import curseforge from "../../Assets/Projects/curseforge.png";
@@ -9,9 +9,9 @@ import flowershop from "../../Assets/Projects/flowershop.png";
 import weatherio from "../../Assets/Projects/weatherio.png";
 import foods from "../../Assets/Projects/foods.png";
 import lylu from "../../Assets/Projects/lylu.png";
-import {SiCurseforge} from "react-icons/si";
-import {ImPointRight} from "react-icons/im";
-import {AiOutlineArrowDown, AiOutlineArrowUp} from "react-icons/ai";
+import { SiCurseforge } from "react-icons/si";
+import { ImPointRight } from "react-icons/im";
+import { AiOutlineArrowDown, AiOutlineArrowUp } from "react-icons/ai";
 
 function Projects() {
   const [readmore, setReadMore] = useState(false);
@@ -78,13 +78,20 @@ function Projects() {
               demoLink="https://the-flower-shop-3f91ab.webflow.io/"
             />
           </Col>
-            <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={lylu}
-                isBlog={false}
+              isBlog={false}
               labelsfirstclass={["Web 🌐", "Mobile 📱", "Android 🤖"]}
-                labelssecondclass={["Ionic", "Typescript", "Cordova", "Angular", "AWS", "Kotlin"]}
-                title="The Lylu Tablet"
+              labelssecondclass={[
+                "Ionic",
+                "Typescript",
+                "Cordova",
+                "Angular",
+                "AWS",
+                "Kotlin",
+              ]}
+              title="The Lylu Tablet"
               summary="Worked as an intern at Lylu GmbH."
               description={`Worked on the Frontend mainly with Ionic, Cordova, and Angular and on the Backend mainly with Typescript and Lambda Functions on AWS.
                             - I built the Notes app
@@ -94,9 +101,9 @@ function Projects() {
                             - I built some data-scraping tools and analyzed the data from my tools, which helped a lot in understanding the users of Lylu
                             - I reviewed the code of an external contributor and added documentation to it
                             `}
-                demoLink="https://lylu.de/"
+              demoLink="https://lylu.de/"
             />
-            </Col>
+          </Col>
         </Row>
         <h1 className="project-heading negative-letter-spacing">
           Other <strong className="purple">Projects </strong>
