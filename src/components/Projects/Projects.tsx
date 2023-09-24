@@ -1,19 +1,17 @@
-import React, { useState } from "react";
-import { Col, Container, Row } from "react-bootstrap";
+import React, {useState} from "react";
+import {Col, Container, Row} from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import steampunk from "../../Assets/Projects/steampunk.png";
-import biggernumber from "../../Assets/Projects/biggernumber2.png";
-import tippy from "../../Assets/Projects/tippy2.png";
 import curseforge from "../../Assets/Projects/curseforge.png";
 import uncraftables from "../../Assets/Projects/uncraftables.png";
 import myt from "../../Assets/Projects/myt.png";
-import passwordgen from "../../Assets/Projects/passwordgen.png";
 import flowershop from "../../Assets/Projects/flowershop.png";
 import weatherio from "../../Assets/Projects/weatherio.png";
 import foods from "../../Assets/Projects/foods.png";
-import { SiCurseforge } from "react-icons/si";
-import { ImPointRight } from "react-icons/im";
-import { AiOutlineArrowDown, AiOutlineArrowUp } from "react-icons/ai";
+import lylu from "../../Assets/Projects/lylu.png";
+import {SiCurseforge} from "react-icons/si";
+import {ImPointRight} from "react-icons/im";
+import {AiOutlineArrowDown, AiOutlineArrowUp} from "react-icons/ai";
 
 function Projects() {
   const [readmore, setReadMore] = useState(false);
@@ -54,32 +52,6 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={tippy}
-              isBlog={false}
-              labelsfirstclass={["Mobile 📱", "Android"]}
-              labelssecondclass={["Java ☕", "Kotlin"]}
-              title="Tippy"
-              summary="A tip calculator (for Android)!"
-              description="Know back the days where you had to calculate the tip yourself? No more! With Tippy you can calculate your tips in a few seconds!"
-              ghLink="Tippy"
-              downloadLink="https://github.com/FleetAdmiralJakob/Tippy/releases"
-            />
-          </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={passwordgen}
-              isBlog={false}
-              labelsfirstclass={["Web 🌐"]}
-              labelssecondclass={["Angular", "Typescript", "CSS", "Tailwind"]}
-              title="Password Generator"
-              summary="A simple password generator with a nice UI for the Web!"
-              description="You can choose the length of your password and if you want to include numbers and symbols."
-              ghLink="Password-Generator"
-              demoLink="https://passwort.roessner.tech/"
-            />
-          </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
               imgPath={weatherio}
               isBlog={false}
               labelsfirstclass={["Web 🌐"]}
@@ -106,19 +78,25 @@ function Projects() {
               demoLink="https://the-flower-shop-3f91ab.webflow.io/"
             />
           </Col>
-          <Col md={4} className="project-card">
+            <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={biggernumber}
-              isBlog={false}
-              labelsfirstclass={["Mobile 📱", "Android", "Game 🎮"]}
-              labelssecondclass={["Java ☕", "Kotlin"]}
-              title="Bigger Number Game"
-              summary="A simple Android app to demonstrate the use of Kotlin in Android app development."
-              description="The user are presented 2 numbers on buttons- depending on if the larger number was clicked, the background color will change."
-              ghLink="Bigger-Number-Game"
-              downloadLink="https://github.com/FleetAdmiralJakob/Bigger-Number-Game/releases"
+              imgPath={lylu}
+                isBlog={false}
+              labelsfirstclass={["Web 🌐", "Mobile 📱", "Android 🤖"]}
+                labelssecondclass={["Ionic", "Typescript", "Cordova", "Angular", "AWS", "Kotlin"]}
+                title="The Lylu Tablet"
+              summary="Worked as an intern at Lylu GmbH."
+              description={`Worked on the Frontend mainly with Ionic, Cordova, and Angular and on the Backend mainly with Typescript and Lambda Functions on AWS.
+                            - I built the Notes app
+                            - I updated the descriptions of the Lylu Games
+                            - I built the Todo app
+                            - I helped with some content creation stuff (blog articles)
+                            - I built some data-scraping tools and analyzed the data from my tools, which helped a lot in understanding the users of Lylu
+                            - I reviewed the code of an external contributor and added documentation to it
+                            `}
+                demoLink="https://lylu.de/"
             />
-          </Col>
+            </Col>
         </Row>
         <h1 className="project-heading negative-letter-spacing">
           Other <strong className="purple">Projects </strong>
@@ -130,7 +108,7 @@ function Projects() {
               imgPath={curseforge}
               isBlog={false}
               title="Minecraft mods by me!"
-              description="On the site curseforge.com you can find some of my first projects. 2 years ago I built some Minecraft Mods in Java! Sometimes I update them to maintain my skills."
+              description="On the site curseforge.com you can find some of my first projects. 3 years ago I built some Minecraft Mods in Java! Sometimes I update them to maintain my skills."
               labelsfirstclass={["Modification(s)", "Game 🎮"]}
               labelssecondclass={["Java ☕"]}
             />

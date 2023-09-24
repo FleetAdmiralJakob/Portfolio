@@ -1,5 +1,5 @@
-import React, { lazy } from "react";
-import { Col, Container, Row } from "react-bootstrap";
+import React, {lazy} from "react";
+import {Col, Container, Row} from "react-bootstrap";
 import ConfidenceLevelBar from "./ConfidenceLevelBar";
 
 const SiSupabase = lazy(() =>
@@ -46,9 +46,6 @@ const SiJavascript = lazy(() =>
 );
 const SiJson = lazy(() =>
   import("react-icons/si").then((module) => ({ default: module.SiJson })),
-);
-const SiKotlin = lazy(() =>
-  import("react-icons/si").then((module) => ({ default: module.SiKotlin })),
 );
 const SiMarkdown = lazy(() =>
   import("react-icons/si").then((module) => ({ default: module.SiMarkdown })),
@@ -144,16 +141,6 @@ function Techstack() {
               Java
               <br />
               <ConfidenceLevelBar confidenceLevel={3} />
-            </div>
-          </a>
-        </Col>
-        <Col xs={4} md={2} className="tech-icons">
-          <a href="https://kotlinlang.org/" className="link-without-styling">
-            <SiKotlin />
-            <div className="tech-description">
-              Kotlin
-              <br />
-              <ConfidenceLevelBar confidenceLevel={7} />
             </div>
           </a>
         </Col>

@@ -1,8 +1,8 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
-import { CgWebsite } from "react-icons/cg";
-import { BsFillCloudDownloadFill, BsGithub } from "react-icons/bs";
+import {CgWebsite} from "react-icons/cg";
+import {BsFillCloudDownloadFill, BsGithub} from "react-icons/bs";
 import ProjectStars from "./ProjectStars";
 import linkData from "../data";
 
@@ -22,6 +22,7 @@ interface Props {
 }
 
 function ProjectCards(props: Props) {
+  const parsedDescription = `${props.description}`.split('\n').map((line, index) => (<span key={index}>{line}<br/></span>));
   return (
     <Card className="project-card-view">
       <div style={{ position: "relative" }}>
@@ -55,7 +56,7 @@ function ProjectCards(props: Props) {
               <strong>{props.summary}</strong> <br /> <br />
             </>
           )}
-          {props.description}
+          {parsedDescription}
         </Card.Text>
 
         {props.labelsfirstclass && props.labelssecondclass && (
