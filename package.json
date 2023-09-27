@@ -30,7 +30,7 @@
     "bootstrap": "^5.3.2",
     "number-to-words": "^1.2.4",
     "react": "npm:@preact/compat",
-    "react-bootstrap": "^2.8.0",
+    "react-bootstrap": "^2.9.0",
     "react-dom": "npm:@preact/compat",
     "react-github-calendar": "^4.0.1",
     "react-icons": "^4.11.0",
