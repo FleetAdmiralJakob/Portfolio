@@ -1,6 +1,5 @@
-import React, { lazy } from "react";
-import { Col, Container, Row } from "react-bootstrap";
-import ConfidenceLevelBar from "./ConfidenceLevelBar";
+import React, {lazy} from "react";
+import {Col, Container, Row} from "react-bootstrap";
 
 const SiSupabase = lazy(() =>
   import("react-icons/si").then((module) => ({ default: module.SiSupabase })),
@@ -80,8 +79,6 @@ function Techstack() {
             <SiHtml5 />
             <div className="tech-description">
               HTML
-              <br />
-              <ConfidenceLevelBar confidenceLevel={10} />
             </div>
           </a>
         </Col>
@@ -93,8 +90,6 @@ function Techstack() {
             <SiCss3 />
             <div className="tech-description">
               CSS
-              <br />
-              <ConfidenceLevelBar confidenceLevel={7} />
             </div>
           </a>
         </Col>
@@ -103,8 +98,6 @@ function Techstack() {
             <DiSass />
             <div className="tech-description">
               Sass
-              <br />
-              <ConfidenceLevelBar confidenceLevel={10} />
             </div>
           </a>
         </Col>
@@ -116,8 +109,6 @@ function Techstack() {
             <SiJavascript />
             <div className="tech-description">
               JavaScript
-              <br />
-              <ConfidenceLevelBar confidenceLevel={8} />
             </div>
           </a>
         </Col>
@@ -129,8 +120,6 @@ function Techstack() {
             <SiTypescript />
             <div className="tech-description">
               TypeScript
-              <br />
-              <ConfidenceLevelBar confidenceLevel={9} />
             </div>
           </a>
         </Col>
@@ -139,8 +128,6 @@ function Techstack() {
             <DiJava />
             <div className="tech-description">
               Java
-              <br />
-              <ConfidenceLevelBar confidenceLevel={3} />
             </div>
           </a>
         </Col>
@@ -152,8 +139,6 @@ function Techstack() {
             <SiJson />
             <div className="tech-description">
               JSON
-              <br />
-              <ConfidenceLevelBar confidenceLevel={10} />
             </div>
           </a>
         </Col>
@@ -165,8 +150,6 @@ function Techstack() {
             <SiMarkdown />
             <div className="tech-description">
               Markdown
-              <br />
-              <ConfidenceLevelBar confidenceLevel={10} />
             </div>
           </a>
         </Col>
@@ -180,8 +163,6 @@ function Techstack() {
             <DiReact />
             <div className="tech-description">
               ReactJS
-              <br />
-              <ConfidenceLevelBar confidenceLevel={10} />
             </div>
           </a>
         </Col>
@@ -190,8 +171,6 @@ function Techstack() {
             <SiNextdotjs />
             <div className="tech-description">
               Next.js
-              <br />
-              <ConfidenceLevelBar confidenceLevel={10} />
             </div>
           </a>
         </Col>
@@ -200,8 +179,6 @@ function Techstack() {
             <SiAngular />
             <div className="tech-description">
               Angular
-              <br />
-              <ConfidenceLevelBar confidenceLevel={10} />
             </div>
           </a>
         </Col>
@@ -210,8 +187,6 @@ function Techstack() {
             <SiTrpc />
             <div className="tech-description">
               tRPC
-              <br />
-              <ConfidenceLevelBar confidenceLevel={6} />
             </div>
           </a>
         </Col>
@@ -247,8 +222,6 @@ function Techstack() {
             </svg>
             <div className="tech-description">
               Drizzle ORM
-              <br />
-              <ConfidenceLevelBar confidenceLevel={6} />
             </div>
           </a>
         </Col>
@@ -257,8 +230,6 @@ function Techstack() {
             <SiSupabase />
             <div className="tech-description">
               Supabase
-              <br />
-              <ConfidenceLevelBar confidenceLevel={7} />
             </div>
           </a>
         </Col>
@@ -267,8 +238,6 @@ function Techstack() {
             <SiWebflow />
             <div className="tech-description">
               Webflow
-              <br />
-              <ConfidenceLevelBar confidenceLevel={10} />
             </div>
           </a>
         </Col>
@@ -277,8 +246,6 @@ function Techstack() {
             <DiGit />
             <div className="tech-description">
               Git
-              <br />
-              <ConfidenceLevelBar confidenceLevel={10} />
             </div>
           </a>
         </Col>
@@ -287,8 +254,6 @@ function Techstack() {
             <DiGithubBadge />
             <div className="tech-description">
               GitHub
-              <br />
-              <ConfidenceLevelBar confidenceLevel={10} />
             </div>
           </a>
         </Col>
@@ -297,8 +262,6 @@ function Techstack() {
             <SiPostcss />
             <div className="tech-description">
               PostCSS
-              <br />
-              <ConfidenceLevelBar confidenceLevel={10} />
             </div>
           </a>
         </Col>
@@ -307,8 +270,6 @@ function Techstack() {
             <SiTailwindcss />
             <div className="tech-description">
               Tailwind
-              <br />
-              <ConfidenceLevelBar confidenceLevel={10} />
             </div>
           </a>
         </Col>
@@ -320,8 +281,6 @@ function Techstack() {
             <SiIonic />
             <div className="tech-description">
               Ionic
-              <br />
-              <ConfidenceLevelBar confidenceLevel={9} />
             </div>
           </a>
         </Col>
