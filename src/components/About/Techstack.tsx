@@ -1,5 +1,5 @@
-import React, {lazy} from "react";
-import {Col, Container, Row} from "react-bootstrap";
+import React, { lazy } from "react";
+import { Col, Container, Row } from "react-bootstrap";
 
 const SiSupabase = lazy(() =>
   import("react-icons/si").then((module) => ({ default: module.SiSupabase })),
@@ -77,9 +77,7 @@ function Techstack() {
             className="link-without-styling"
           >
             <SiHtml5 />
-            <div className="tech-description">
-              HTML
-            </div>
+            <div className="tech-description">HTML</div>
           </a>
         </Col>
         <Col xs={4} md={2} className="tech-icons-css">
@@ -88,17 +86,13 @@ function Techstack() {
             className="link-without-styling"
           >
             <SiCss3 />
-            <div className="tech-description">
-              CSS
-            </div>
+            <div className="tech-description">CSS</div>
           </a>
         </Col>
         <Col xs={4} md={2} className="tech-icons-sass">
           <a href="https://sass-lang.com/" className="link-without-styling">
             <DiSass />
-            <div className="tech-description">
-              Sass
-            </div>
+            <div className="tech-description">Sass</div>
           </a>
         </Col>
         <Col xs={4} md={2} className="tech-icons-javascript">
@@ -107,9 +101,7 @@ function Techstack() {
             className="link-without-styling"
           >
             <SiJavascript />
-            <div className="tech-description">
-              JavaScript
-            </div>
+            <div className="tech-description">JavaScript</div>
           </a>
         </Col>
         <Col xs={4} md={2} className="tech-icons-typescript">
@@ -118,17 +110,13 @@ function Techstack() {
             className="link-without-styling"
           >
             <SiTypescript />
-            <div className="tech-description">
-              TypeScript
-            </div>
+            <div className="tech-description">TypeScript</div>
           </a>
         </Col>
         <Col xs={4} md={2} className="tech-icons">
           <a href="https://www.java.com/en/" className="link-without-styling">
             <DiJava />
-            <div className="tech-description">
-              Java
-            </div>
+            <div className="tech-description">Java</div>
           </a>
         </Col>
         <Col xs={4} md={2} className="tech-icons">
@@ -137,9 +125,7 @@ function Techstack() {
             className="link-without-styling"
           >
             <SiJson />
-            <div className="tech-description">
-              JSON
-            </div>
+            <div className="tech-description">JSON</div>
           </a>
         </Col>
         <Col xs={4} md={2} className="tech-icons">
@@ -148,9 +134,7 @@ function Techstack() {
             className="link-without-styling"
           >
             <SiMarkdown />
-            <div className="tech-description">
-              Markdown
-            </div>
+            <div className="tech-description">Markdown</div>
           </a>
         </Col>
       </Row>
@@ -161,33 +145,25 @@ function Techstack() {
         <Col xs={4} md={2} className="tech-icons-react">
           <a href="https://reactjs.org/" className="link-without-styling">
             <DiReact />
-            <div className="tech-description">
-              ReactJS
-            </div>
+            <div className="tech-description">ReactJS</div>
           </a>
         </Col>
         <Col xs={4} md={2} className="tech-icons-highlight">
           <a href="https://nextjs.org/" className="link-without-styling">
             <SiNextdotjs />
-            <div className="tech-description">
-              Next.js
-            </div>
+            <div className="tech-description">Next.js</div>
           </a>
         </Col>
         <Col xs={4} md={2} className="tech-icons-angular">
           <a href="https://angular.io/" className="link-without-styling">
             <SiAngular />
-            <div className="tech-description">
-              Angular
-            </div>
+            <div className="tech-description">Angular</div>
           </a>
         </Col>
         <Col xs={4} md={2} className="tech-icons">
           <a href="https://trpc.io/" className="link-without-styling">
             <SiTrpc />
-            <div className="tech-description">
-              tRPC
-            </div>
+            <div className="tech-description">tRPC</div>
           </a>
         </Col>
         <Col xs={4} md={2} className="tech-icons">
@@ -220,57 +196,43 @@ function Techstack() {
                 fill="#100c1a"
               ></path>
             </svg>
-            <div className="tech-description">
-              Drizzle ORM
-            </div>
+            <div className="tech-description">Drizzle ORM</div>
           </a>
         </Col>
         <Col xs={4} md={2} className="tech-icons-supabase">
           <a href="https://supabase.com/" className="link-without-styling">
             <SiSupabase />
-            <div className="tech-description">
-              Supabase
-            </div>
+            <div className="tech-description">Supabase</div>
           </a>
         </Col>
         <Col xs={4} md={2} className="tech-icons">
           <a href="https://webflow.com/" className="link-without-styling">
             <SiWebflow />
-            <div className="tech-description">
-              Webflow
-            </div>
+            <div className="tech-description">Webflow</div>
           </a>
         </Col>
         <Col xs={4} md={2} className="tech-icons-git">
           <a href="https://git-scm.com/" className="link-without-styling">
             <DiGit />
-            <div className="tech-description">
-              Git
-            </div>
+            <div className="tech-description">Git</div>
           </a>
         </Col>
         <Col xs={4} md={2} className="tech-icons">
           <a href="https://github.com/" className="link-without-styling">
             <DiGithubBadge />
-            <div className="tech-description">
-              GitHub
-            </div>
+            <div className="tech-description">GitHub</div>
           </a>
         </Col>
         <Col xs={4} md={2} className="tech-icons-postcss">
           <a href="https://postcss.org/" className="link-without-styling">
             <SiPostcss />
-            <div className="tech-description">
-              PostCSS
-            </div>
+            <div className="tech-description">PostCSS</div>
           </a>
         </Col>
         <Col xs={4} md={2} className="tech-icons-tailwind">
           <a href="https://tailwindcss.com/" className="link-without-styling">
             <SiTailwindcss />
-            <div className="tech-description">
-              Tailwind
-            </div>
+            <div className="tech-description">Tailwind</div>
           </a>
         </Col>
         <Col xs={4} md={2} className="tech-icons-ionic">
@@ -279,9 +241,7 @@ function Techstack() {
             className="link-without-styling"
           >
             <SiIonic />
-            <div className="tech-description">
-              Ionic
-            </div>
+            <div className="tech-description">Ionic</div>
           </a>
         </Col>
       </Row>
