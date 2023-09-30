@@ -1,6 +1,5 @@
-import React, { lazy } from "react";
-import { Col, Container, Row } from "react-bootstrap";
-import ConfidenceLevelBar from "./ConfidenceLevelBar";
+import React, {lazy} from "react";
+import {Col, Container, Row} from "react-bootstrap";
 
 const SiAndroidstudio = lazy(() =>
   import("react-icons/si").then((module) => ({
@@ -43,8 +42,6 @@ function Toolstack() {
             <SiVisualstudiocode />
             <div className="tech-description">
               VSCode
-              <br />
-              <ConfidenceLevelBar confidenceLevel={10} />
             </div>
           </a>
         </Col>
@@ -53,8 +50,6 @@ function Toolstack() {
             <SiJetbrains />
             <div className="tech-description">
               Jetbrains's IDEs and Tools
-              <br />
-              <ConfidenceLevelBar confidenceLevel={10} />
             </div>
           </a>
         </Col>
@@ -66,8 +61,6 @@ function Toolstack() {
             <SiAndroidstudio />
             <div className="tech-description">
               Android Studio
-              <br />
-              <ConfidenceLevelBar confidenceLevel={10} />
             </div>
           </a>
         </Col>
@@ -76,8 +69,6 @@ function Toolstack() {
             <SiFigma />
             <div className="tech-description">
               Figma
-              <br />
-              <ConfidenceLevelBar confidenceLevel={8} />
             </div>
           </a>
         </Col>
@@ -89,8 +80,6 @@ function Toolstack() {
             <SiWindows11 />
             <div className="tech-description">
               Windows
-              <br />
-              <ConfidenceLevelBar confidenceLevel={10} />
             </div>
           </a>
         </Col>
@@ -99,8 +88,6 @@ function Toolstack() {
             <SiLinux />
             <div className="tech-description">
               Linux
-              <br />
-              <ConfidenceLevelBar confidenceLevel={5} />
             </div>
           </a>
         </Col>
@@ -112,8 +99,6 @@ function Toolstack() {
             <SiMacos />
             <div className="tech-description">
               MacOS
-              <br />
-              <ConfidenceLevelBar confidenceLevel={8} />
             </div>
           </a>
         </Col>
@@ -122,8 +107,6 @@ function Toolstack() {
             <SiVercel viewBox="0 1.5 24 24" />
             <div className="tech-description">
               Vercel
-              <br />
-              <ConfidenceLevelBar confidenceLevel={10} />
             </div>
           </a>
         </Col>
@@ -143,8 +126,6 @@ function Toolstack() {
             </svg>
             <div className="tech-description">
               Axiom
-              <br />
-              <ConfidenceLevelBar confidenceLevel={10} />
             </div>
           </a>
         </Col>

@@ -1171,9 +1171,6 @@ button:focus {
   .tech-icons-office {
     @include tech-icons-media;
   }
-  .tech-icons-adobe {
-    @include tech-icons-media;
-  }
   .tech-icons-ionic {
     @include tech-icons-media;
   }
@@ -1339,16 +1336,6 @@ button:focus {
   border: 2px solid rgb(233, 60, 1) !important;
 }
 
-.tech-icons-adobe {
-  @include tech-icons;
-}
-
-.tech-icons-adobe:hover {
-  @include tech-icons-hover;
-  color: rgb(255, 13, 27);
-  border: 2px solid rgb(255, 13, 27) !important;
-}
-
 .tech-description {
   font-size: 0.4rem !important;
   font-weight: 500 !important;
@@ -1368,46 +1355,6 @@ button:focus {
   padding-top: 3px !important;
   color: rgba(255, 255, 255, 1) !important;
   opacity: 1;
-}
-
-.confidence-level-bar {
-  display: flex;
-  justify-content: space-between;
-}
-
-.confidence-level-box {
-  width: 16px;
-  height: 16px;
-  border-radius: 5px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  background-color: white;
-}
-
-.confidence-level-box-full {
-  width: 16px;
-  height: 16px;
-  border-radius: 5px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  background-color: var(--imp-text-color2);
-}
-
-@media (max-width: 767px) {
-  .confidence-level-box {
-    width: 8px;
-    height: 8px;
-    border-radius: 3px;
-  }
-  .confidence-level-box-full {
-    width: 8px;
-    height: 8px;
-    border-radius: 3px;
-  }
-}
-
-.confidence-level-text {
-  font-size: 1rem !important;
 }
 
 .tech-icon-images {
