@@ -12,6 +12,7 @@ import lylu from "../../Assets/Projects/lylu.png";
 import { SiCurseforge } from "react-icons/si";
 import { ImPointRight } from "react-icons/im";
 import { AiOutlineArrowDown, AiOutlineArrowUp } from "react-icons/ai";
+import './Projects.css';
 
 function Projects() {
   const [readmore, setReadMore] = useState(false);
@@ -24,7 +25,7 @@ function Projects() {
     <Container fluid className="project-section">
       <Container>
         <h1 className="project-heading negative-letter-spacing">
-          My Recent <strong className="purple">Works </strong>
+          My Recent <strong className="purple transition">Works </strong>
         </h1>
         <p style={{ color: "white" }}>
           Here are a few projects I've worked on recently. <br />I am always on
@@ -106,7 +107,7 @@ function Projects() {
           </Col>
         </Row>
         <h1 className="project-heading negative-letter-spacing">
-          Other <strong className="purple">Projects </strong>
+          Other <strong className="purple transition">Projects </strong>
         </h1>
         <p style={{ color: "white" }}>Here you can find some other projects.</p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
@@ -127,7 +128,7 @@ function Projects() {
               <h4 className="negative-letter-spacing">MY CURSEFORGE ACCOUNT</h4>
               <p>
                 Here you can see my{" "}
-                <span className="purple">Minecraft projects </span>...
+                <span className="purple transition">Minecraft projects </span>...
               </p>
             </div>
             <span className="point" role="img" aria-labelledby="wave">
@@ -170,9 +171,9 @@ function Projects() {
               <div className="mod-description">
                 <div>
                   A lot of Vanilla Minecraft items are{" "}
-                  <span className="purple">uncraftable</span> and some of them
+                  <span className="purple transition">uncraftable</span> and some of them
                   can only be obtained via grinding or{" "}
-                  <span className="purple">luck or once</span>. I want to change
+                  <span className="purple transition">luck or once</span>. I want to change
                   this, but I'm a big fan of balancing, so these items are still
                   relatively hard to obtain in my opinion, even with this mod.
                   If not make it hard, we may just play in Creative mode, right?
@@ -224,20 +225,20 @@ function Projects() {
               </a>{" "}
               <br />
               <div className="mod-description">
-                This simple <span className="purple">Minecraft mod</span>, which
+                This simple <span className="purple transition">Minecraft mod</span>, which
                 requires the{" "}
-                <a href="https://fabricmc.net/" className="purple a">
+                <a href="https://fabricmc.net/" className="purple transition a">
                   Fabric modloader
                 </a>{" "}
                 relying on the{" "}
                 <a
                   href="https://www.curseforge.com/minecraft/mc-mods/fabric-api"
-                  className="purple a"
+                  className="purple transition a"
                 >
                   Fabric API
                 </a>
                 , focuses on enhancing the default{" "}
-                <span className="purple">foods</span> of minecraft by adding new
+                <span className="purple transition">foods</span> of minecraft by adding new
                 ones which should have been in the game!
               </div>{" "}
               <br /> <br />
@@ -261,7 +262,7 @@ function Projects() {
               <div className="mod-description">
                 A mod with nice additions that improve your Minecraft experience
                 with{" "}
-                <span className="purple">
+                <span className="purple transition">
                   new ores, new flowers, new tools, new music, new world
                   generation,
                 </span>{" "}
