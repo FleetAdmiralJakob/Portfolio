@@ -1,12 +1,10 @@
 import React, { useEffect } from "react";
 import { Col, Container, Row } from "react-bootstrap";
-// @ts-ignore
 import myImg from "../../Assets/avatar4.webp";
 import Tilt from "react-parallax-tilt";
 import { AiFillGithub } from "react-icons/ai";
 import { FaDiscord, FaLinkedinIn, FaMailBulk } from "react-icons/fa";
 import linkData from "../data";
-// @ts-ignore
 import popup_discord_png from "../../Assets/discord-popup.png";
 import Button from "react-bootstrap/Button";
 
