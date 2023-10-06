@@ -22,9 +22,9 @@ function AboutCard() {
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
             Dear visitors of my{" "}
-            <span className="purple"> personal website.</span> I am{" "}
-            <span className="purple">Jakob Felix Eugen Rössner </span>
-            from <span className="purple"> Berlin, Germany.</span>
+            <span className="purple transition"> personal website.</span> I am{" "}
+            <span className="purple transition">Jakob Felix Eugen Rössner </span>
+            from <span className="purple transition"> Berlin, Germany.</span>
             <br />I am a student at the{" "}
             <a href="https://fsg-kw.de/" className="purple a">
               Friedrich-Schiller-Gymnasium
@@ -34,7 +34,7 @@ function AboutCard() {
               Lylu GmbH.
             </a>
             <br />
-            <br />I am <span className="purple">{age} years old.</span> I have a
+            <br />I am <span className="purple transition">{age} years old.</span> I have a
             wide range of interests, what you can see from the other activities
             that I love to do, apart from coding!
           </p>
@@ -66,37 +66,37 @@ function AboutCard() {
             <br />
             My preferences are by classics like
             <i>
-              <b className="purple"> Typescript, Kotlin and C#. </b>
+              <b className="purple transition"> Typescript, Kotlin and C#. </b>
             </i>
             <br /> But I'm always open to make new experiences.
             <br />
             <br />
             My field of interests are building new
             <i>
-              <b className="purple"> Web Technologies and Products </b> and also
-              in areas related to <b className="purple"> Game Development. </b>
+              <b className="purple transition"> Web Technologies and Products </b> and also
+              in areas related to <b className="purple transition"> Game Development. </b>
               But I am also interested in{" "}
-              <b className="purple"> Mobile Development </b> with languages like{" "}
-              <b className="purple"> Kotlin and Java.</b>
-            </i>
-            <br />
-            <br />
-            Whenever possible, I also apply my passion for developing products
-            with <b className="purple">Node.js</b> and
-            <i>
-              <b className="purple">
+              <b className="purple transition"> Mobile Development </b> with languages like{" "}
+              <b className="purple transition"> Kotlin and Java.</b>
+              </i>
+              <br />
+              <br />
+              Whenever possible, I also apply my passion for developing products
+              with <b className="purple transition">Node.js</b> and
+              <i>
+              <b className="purple transition">
                 {" "}
                 Modern Javascript Library and Frameworks
               </b>
             </i>
             &nbsp; like
             <i>
-              <b className="purple"> React.js.</b>
-            </i>
-            <br />
-            <br />
-            Also I'm learning things in Game Development with{" "}
-            <b className="purple"> C#. </b>
+              <b className="purple transition"> React.js.</b>
+              </i>
+              <br />
+              <br />
+              Also I'm learning things in Game Development with{" "}
+              <b className="purple transition"> C#. </b>
           </p>
 
           <p style={{ color: "rgb(155 126 172)" }}>
