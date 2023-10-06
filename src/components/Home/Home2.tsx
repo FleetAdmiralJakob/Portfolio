@@ -7,7 +7,7 @@ import { FaDiscord, FaLinkedinIn, FaMailBulk } from "react-icons/fa";
 import linkData from "../data";
 import popup_discord_png from "../../Assets/discord-popup.png";
 import Button from "react-bootstrap/Button";
-import './Home2.css';
+import "./Home2.css";
 
 function Home2() {
   /* State show discord popup */
@@ -64,7 +64,8 @@ function Home2() {
               <br />
               <h1 className="negative-letter-spacing">FIND ME ON</h1>
               <p>
-                Feel free to <span className="purple transition">connect </span>with me
+                Feel free to <span className="purple transition">connect </span>
+                with me
               </p>
               <h2>
                 <span className="point" role="img" aria-labelledby="wave">

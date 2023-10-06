@@ -10,7 +10,7 @@ import { FaDiscord, FaLinkedinIn } from "react-icons/fa";
 import linkData from "./data";
 import popup_discord_png from "../Assets/discord-popup.png";
 import Button from "react-bootstrap/Button";
-import './ContactMe.css';
+import "./ContactMe.css";
 
 function ContactMe() {
   /* State show discord popup */
@@ -55,7 +55,10 @@ function ContactMe() {
           <Container>
             <Row>
               <Col md={12} className="about">
-                <h1 style={{ fontSize: "2.6em" }} className="negative-letter-spacing">
+                <h1
+                  style={{ fontSize: "2.6em" }}
+                  className="negative-letter-spacing"
+                >
                   CONTACT <span className="purple transition"> ME </span>
                 </h1>
               </Col>

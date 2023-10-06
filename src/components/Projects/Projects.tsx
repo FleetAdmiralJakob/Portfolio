@@ -12,7 +12,7 @@ import lylu from "../../Assets/Projects/lylu.png";
 import { SiCurseforge } from "react-icons/si";
 import { ImPointRight } from "react-icons/im";
 import { AiOutlineArrowDown, AiOutlineArrowUp } from "react-icons/ai";
-import './Projects.css';
+import "./Projects.css";
 
 function Projects() {
   const [readmore, setReadMore] = useState(false);
@@ -128,7 +128,8 @@ function Projects() {
               <h4 className="negative-letter-spacing">MY CURSEFORGE ACCOUNT</h4>
               <p>
                 Here you can see my{" "}
-                <span className="purple transition">Minecraft projects </span>...
+                <span className="purple transition">Minecraft projects </span>
+                ...
               </p>
             </div>
             <span className="point" role="img" aria-labelledby="wave">
@@ -171,12 +172,13 @@ function Projects() {
               <div className="mod-description">
                 <div>
                   A lot of Vanilla Minecraft items are{" "}
-                  <span className="purple transition">uncraftable</span> and some of them
-                  can only be obtained via grinding or{" "}
-                  <span className="purple transition">luck or once</span>. I want to change
-                  this, but I'm a big fan of balancing, so these items are still
-                  relatively hard to obtain in my opinion, even with this mod.
-                  If not make it hard, we may just play in Creative mode, right?
+                  <span className="purple transition">uncraftable</span> and
+                  some of them can only be obtained via grinding or{" "}
+                  <span className="purple transition">luck or once</span>. I
+                  want to change this, but I'm a big fan of balancing, so these
+                  items are still relatively hard to obtain in my opinion, even
+                  with this mod. If not make it hard, we may just play in
+                  Creative mode, right?
                 </div>
                 <span className="read-more" onClick={changeReadMore}>
                   Read more{" "}
@@ -225,7 +227,8 @@ function Projects() {
               </a>{" "}
               <br />
               <div className="mod-description">
-                This simple <span className="purple transition">Minecraft mod</span>, which
+                This simple{" "}
+                <span className="purple transition">Minecraft mod</span>, which
                 requires the{" "}
                 <a href="https://fabricmc.net/" className="purple transition a">
                   Fabric modloader
@@ -238,8 +241,8 @@ function Projects() {
                   Fabric API
                 </a>
                 , focuses on enhancing the default{" "}
-                <span className="purple transition">foods</span> of minecraft by adding new
-                ones which should have been in the game!
+                <span className="purple transition">foods</span> of minecraft by
+                adding new ones which should have been in the game!
               </div>{" "}
               <br /> <br />
             </Col>
