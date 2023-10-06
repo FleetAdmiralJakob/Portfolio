@@ -1,6 +1,7 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import { ImPointRight } from "react-icons/im";
+import './AboutCard.css';
 
 const convert = require("number-to-words");
 
