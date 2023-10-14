@@ -633,13 +633,13 @@ button:focus {
   }
 }
 
-@media (min-width: 321) and (max-width: 328) {
+@media (min-width: 314px) and (max-width: 328px) {
   .demo-button-special {
     margin-top: 0;
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 313px) {
   .demo-button-special {
     margin-top: 10px;
   }
@@ -661,12 +661,13 @@ button:focus {
 }
 
 .contact-section {
+  background-image: var(--section-background-color) !important;
   color: white !important;
   padding-top: 100px !important;
   padding-bottom: 20px !important;
   text-align: center;
   margin-top: 2em !important;
-  height: 82.7vh
+  height: 83.4vh;
 }
 
 @media (max-height: 600px) {
@@ -1079,7 +1080,7 @@ button:focus {
   transform: scale(1.05) !important;
   overflow: hidden !important;
   border: 2px solid rgba(197, 115, 230, 0.883) !important;
-  box-shadow: 6px 7px 6px 5px rgba(89, 4, 168, 0.183) !important;
+  box-shadow: 6px 7px 8px 6px rgba(89, 4, 168, 0.183) !important;
 }
 
 @mixin tech-icons-highlight {
@@ -1092,7 +1093,7 @@ button:focus {
   text-align: center !important;
   border-radius: 5px !important;
   display: table !important;
-  box-shadow: 4px 5px 4px 3px rgba(101, 23, 169, 0.87) !important;
+  box-shadow: 5px 6px 10px 7px rgba(101, 23, 169, 0.87) !important;
   overflow: hidden !important;
   transition: all 0.4s ease 0s !important;
 }
@@ -1168,9 +1169,6 @@ button:focus {
     @include tech-icons-media;
   }
   .tech-icons-office {
-    @include tech-icons-media;
-  }
-  .tech-icons-adobe {
     @include tech-icons-media;
   }
   .tech-icons-ionic {
@@ -1338,16 +1336,6 @@ button:focus {
   border: 2px solid rgb(233, 60, 1) !important;
 }
 
-.tech-icons-adobe {
-  @include tech-icons;
-}
-
-.tech-icons-adobe:hover {
-  @include tech-icons-hover;
-  color: rgb(255, 13, 27);
-  border: 2px solid rgb(255, 13, 27) !important;
-}
-
 .tech-description {
   font-size: 0.4rem !important;
   font-weight: 500 !important;
@@ -1367,46 +1355,6 @@ button:focus {
   padding-top: 3px !important;
   color: rgba(255, 255, 255, 1) !important;
   opacity: 1;
-}
-
-.confidence-level-bar {
-  display: flex;
-  justify-content: space-between;
-}
-
-.confidence-level-box {
-  width: 16px;
-  height: 16px;
-  border-radius: 5px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  background-color: white;
-}
-
-.confidence-level-box-full {
-  width: 16px;
-  height: 16px;
-  border-radius: 5px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  background-color: var(--imp-text-color2);
-}
-
-@media (max-width: 767px) {
-  .confidence-level-box {
-    width: 8px;
-    height: 8px;
-    border-radius: 3px;
-  }
-  .confidence-level-box-full {
-    width: 8px;
-    height: 8px;
-    border-radius: 3px;
-  }
-}
-
-.confidence-level-text {
-  font-size: 1rem !important;
 }
 
 .tech-icon-images {
@@ -1452,7 +1400,7 @@ button:focus {
 
 .resume-document {
   padding: 2px !important;
-  border-radius: 5px !important;
+  border-radius: 7px !important;
   box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
 }
 
@@ -1688,5 +1636,5 @@ button:focus {
 }
 
 .no-after:after {
-  background: none !important;	
+  background: none !important;
 }

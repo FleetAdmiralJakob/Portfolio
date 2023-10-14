@@ -1,67 +1,67 @@
-import React, {lazy} from "react";
-import {Col, Container, Row} from "react-bootstrap";
-import ConfidenceLevelBar from "./ConfidenceLevelBar";
+import React, { lazy } from "react";
+import { Col, Container, Row } from "react-bootstrap";
 
 const SiSupabase = lazy(() =>
-  import("react-icons/si").then((module) => ({ default: module.SiSupabase }))
+  import("react-icons/si").then((module) => ({ default: module.SiSupabase })),
 );
 
 const SiIonic = lazy(() =>
-  import("react-icons/si").then((module) => ({ default: module.SiIonic }))
+  import("react-icons/si").then((module) => ({ default: module.SiIonic })),
 );
 const SiWebflow = lazy(() =>
-  import("react-icons/si").then((module) => ({ default: module.SiWebflow }))
+  import("react-icons/si").then((module) => ({ default: module.SiWebflow })),
 );
 const SiAngular = lazy(() =>
-  import("react-icons/si").then((module) => ({ default: module.SiAngular }))
+  import("react-icons/si").then((module) => ({ default: module.SiAngular })),
 );
 const SiTrpc = lazy(() =>
-  import("react-icons/si").then((module) => ({ default: module.SiTrpc }))
+  import("react-icons/si").then((module) => ({ default: module.SiTrpc })),
 );
 const DiGit = lazy(() =>
-  import("react-icons/di").then((module) => ({ default: module.DiGit }))
+  import("react-icons/di").then((module) => ({ default: module.DiGit })),
 );
 const DiGithubBadge = lazy(() =>
-  import("react-icons/di").then((module) => ({ default: module.DiGithubBadge }))
+  import("react-icons/di").then((module) => ({
+    default: module.DiGithubBadge,
+  })),
 );
 const DiJava = lazy(() =>
-  import("react-icons/di").then((module) => ({ default: module.DiJava }))
+  import("react-icons/di").then((module) => ({ default: module.DiJava })),
 );
 const DiReact = lazy(() =>
-  import("react-icons/di").then((module) => ({ default: module.DiReact }))
+  import("react-icons/di").then((module) => ({ default: module.DiReact })),
 );
 const DiSass = lazy(() =>
-  import("react-icons/di").then((module) => ({ default: module.DiSass }))
+  import("react-icons/di").then((module) => ({ default: module.DiSass })),
 );
 const SiCss3 = lazy(() =>
-  import("react-icons/si").then((module) => ({ default: module.SiCss3 }))
+  import("react-icons/si").then((module) => ({ default: module.SiCss3 })),
 );
 const SiHtml5 = lazy(() =>
-  import("react-icons/si").then((module) => ({ default: module.SiHtml5 }))
+  import("react-icons/si").then((module) => ({ default: module.SiHtml5 })),
 );
 const SiJavascript = lazy(() =>
-  import("react-icons/si").then((module) => ({ default: module.SiJavascript }))
+  import("react-icons/si").then((module) => ({ default: module.SiJavascript })),
 );
 const SiJson = lazy(() =>
-  import("react-icons/si").then((module) => ({ default: module.SiJson }))
-);
-const SiKotlin = lazy(() =>
-  import("react-icons/si").then((module) => ({ default: module.SiKotlin }))
+  import("react-icons/si").then((module) => ({ default: module.SiJson })),
 );
 const SiMarkdown = lazy(() =>
-  import("react-icons/si").then((module) => ({ default: module.SiMarkdown }))
+  import("react-icons/si").then((module) => ({ default: module.SiMarkdown })),
 );
 const SiNextdotjs = lazy(() =>
-  import("react-icons/si").then((module) => ({ default: module.SiNextdotjs }))
+  import("react-icons/si").then((module) => ({ default: module.SiNextdotjs })),
 );
 const SiPostcss = lazy(() =>
-  import("react-icons/si").then((module) => ({ default: module.SiPostcss }))
+  import("react-icons/si").then((module) => ({ default: module.SiPostcss })),
 );
 const SiTailwindcss = lazy(() =>
-  import("react-icons/si").then((module) => ({ default: module.SiTailwindcss }))
+  import("react-icons/si").then((module) => ({
+    default: module.SiTailwindcss,
+  })),
 );
 const SiTypescript = lazy(() =>
-  import("react-icons/si").then((module) => ({ default: module.SiTypescript }))
+  import("react-icons/si").then((module) => ({ default: module.SiTypescript })),
 );
 
 function Techstack() {
@@ -77,11 +77,7 @@ function Techstack() {
             className="link-without-styling"
           >
             <SiHtml5 />
-            <div className="tech-description">
-              HTML
-              <br />
-              <ConfidenceLevelBar confidenceLevel={10} />
-            </div>
+            <div className="tech-description">HTML</div>
           </a>
         </Col>
         <Col xs={4} md={2} className="tech-icons-css">
@@ -90,21 +86,13 @@ function Techstack() {
             className="link-without-styling"
           >
             <SiCss3 />
-            <div className="tech-description">
-              CSS
-              <br />
-              <ConfidenceLevelBar confidenceLevel={7} />
-            </div>
+            <div className="tech-description">CSS</div>
           </a>
         </Col>
         <Col xs={4} md={2} className="tech-icons-sass">
           <a href="https://sass-lang.com/" className="link-without-styling">
             <DiSass />
-            <div className="tech-description">
-              Sass
-              <br />
-              <ConfidenceLevelBar confidenceLevel={10} />
-            </div>
+            <div className="tech-description">Sass</div>
           </a>
         </Col>
         <Col xs={4} md={2} className="tech-icons-javascript">
@@ -113,11 +101,7 @@ function Techstack() {
             className="link-without-styling"
           >
             <SiJavascript />
-            <div className="tech-description">
-              JavaScript
-              <br />
-              <ConfidenceLevelBar confidenceLevel={8} />
-            </div>
+            <div className="tech-description">JavaScript</div>
           </a>
         </Col>
         <Col xs={4} md={2} className="tech-icons-typescript">
@@ -126,31 +110,13 @@ function Techstack() {
             className="link-without-styling"
           >
             <SiTypescript />
-            <div className="tech-description">
-              TypeScript
-              <br />
-              <ConfidenceLevelBar confidenceLevel={9} />
-            </div>
+            <div className="tech-description">TypeScript</div>
           </a>
         </Col>
         <Col xs={4} md={2} className="tech-icons">
           <a href="https://www.java.com/en/" className="link-without-styling">
             <DiJava />
-            <div className="tech-description">
-              Java
-              <br />
-              <ConfidenceLevelBar confidenceLevel={3} />
-            </div>
-          </a>
-        </Col>
-        <Col xs={4} md={2} className="tech-icons">
-          <a href="https://kotlinlang.org/" className="link-without-styling">
-            <SiKotlin />
-            <div className="tech-description">
-              Kotlin
-              <br />
-              <ConfidenceLevelBar confidenceLevel={7} />
-            </div>
+            <div className="tech-description">Java</div>
           </a>
         </Col>
         <Col xs={4} md={2} className="tech-icons">
@@ -159,11 +125,7 @@ function Techstack() {
             className="link-without-styling"
           >
             <SiJson />
-            <div className="tech-description">
-              JSON
-              <br />
-              <ConfidenceLevelBar confidenceLevel={10} />
-            </div>
+            <div className="tech-description">JSON</div>
           </a>
         </Col>
         <Col xs={4} md={2} className="tech-icons">
@@ -172,11 +134,7 @@ function Techstack() {
             className="link-without-styling"
           >
             <SiMarkdown />
-            <div className="tech-description">
-              Markdown
-              <br />
-              <ConfidenceLevelBar confidenceLevel={10} />
-            </div>
+            <div className="tech-description">Markdown</div>
           </a>
         </Col>
       </Row>
@@ -187,41 +145,25 @@ function Techstack() {
         <Col xs={4} md={2} className="tech-icons-react">
           <a href="https://reactjs.org/" className="link-without-styling">
             <DiReact />
-            <div className="tech-description">
-              ReactJS
-              <br />
-              <ConfidenceLevelBar confidenceLevel={10} />
-            </div>
+            <div className="tech-description">ReactJS</div>
           </a>
         </Col>
         <Col xs={4} md={2} className="tech-icons-highlight">
           <a href="https://nextjs.org/" className="link-without-styling">
             <SiNextdotjs />
-            <div className="tech-description">
-              Next.js
-              <br />
-              <ConfidenceLevelBar confidenceLevel={10} />
-            </div>
+            <div className="tech-description">Next.js</div>
           </a>
         </Col>
         <Col xs={4} md={2} className="tech-icons-angular">
           <a href="https://angular.io/" className="link-without-styling">
             <SiAngular />
-            <div className="tech-description">
-              Angular
-              <br />
-              <ConfidenceLevelBar confidenceLevel={10} />
-            </div>
+            <div className="tech-description">Angular</div>
           </a>
         </Col>
         <Col xs={4} md={2} className="tech-icons">
           <a href="https://trpc.io/" className="link-without-styling">
             <SiTrpc />
-            <div className="tech-description">
-              tRPC
-              <br />
-              <ConfidenceLevelBar confidenceLevel={6} />
-            </div>
+            <div className="tech-description">tRPC</div>
           </a>
         </Col>
         <Col xs={4} md={2} className="tech-icons">
@@ -254,71 +196,43 @@ function Techstack() {
                 fill="#100c1a"
               ></path>
             </svg>
-            <div className="tech-description">
-              Drizzle ORM
-              <br />
-              <ConfidenceLevelBar confidenceLevel={6} />
-            </div>
+            <div className="tech-description">Drizzle ORM</div>
           </a>
         </Col>
         <Col xs={4} md={2} className="tech-icons-supabase">
           <a href="https://supabase.com/" className="link-without-styling">
             <SiSupabase />
-            <div className="tech-description">
-              Supabase
-              <br />
-              <ConfidenceLevelBar confidenceLevel={7} />
-            </div>
+            <div className="tech-description">Supabase</div>
           </a>
         </Col>
         <Col xs={4} md={2} className="tech-icons">
           <a href="https://webflow.com/" className="link-without-styling">
             <SiWebflow />
-            <div className="tech-description">
-              Webflow
-              <br />
-              <ConfidenceLevelBar confidenceLevel={10} />
-            </div>
+            <div className="tech-description">Webflow</div>
           </a>
         </Col>
         <Col xs={4} md={2} className="tech-icons-git">
           <a href="https://git-scm.com/" className="link-without-styling">
             <DiGit />
-            <div className="tech-description">
-              Git
-              <br />
-              <ConfidenceLevelBar confidenceLevel={10} />
-            </div>
+            <div className="tech-description">Git</div>
           </a>
         </Col>
         <Col xs={4} md={2} className="tech-icons">
           <a href="https://github.com/" className="link-without-styling">
             <DiGithubBadge />
-            <div className="tech-description">
-              GitHub
-              <br />
-              <ConfidenceLevelBar confidenceLevel={10} />
-            </div>
+            <div className="tech-description">GitHub</div>
           </a>
         </Col>
         <Col xs={4} md={2} className="tech-icons-postcss">
           <a href="https://postcss.org/" className="link-without-styling">
             <SiPostcss />
-            <div className="tech-description">
-              PostCSS
-              <br />
-              <ConfidenceLevelBar confidenceLevel={10} />
-            </div>
+            <div className="tech-description">PostCSS</div>
           </a>
         </Col>
         <Col xs={4} md={2} className="tech-icons-tailwind">
           <a href="https://tailwindcss.com/" className="link-without-styling">
             <SiTailwindcss />
-            <div className="tech-description">
-              Tailwind
-              <br />
-              <ConfidenceLevelBar confidenceLevel={10} />
-            </div>
+            <div className="tech-description">Tailwind</div>
           </a>
         </Col>
         <Col xs={4} md={2} className="tech-icons-ionic">
@@ -327,11 +241,7 @@ function Techstack() {
             className="link-without-styling"
           >
             <SiIonic />
-            <div className="tech-description">
-              Ionic
-              <br />
-              <ConfidenceLevelBar confidenceLevel={9} />
-            </div>
+            <div className="tech-description">Ionic</div>
           </a>
         </Col>
       </Row>
