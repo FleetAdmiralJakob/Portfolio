@@ -47,7 +47,7 @@ function Projects() {
               summary="A small game created by me with Javascript, CSS and HTML."
               description="It's a small game where you must shoot as a seahorse as many enemies as you can."
               ghLink="Steampunk-Game"
-              demoLink="http://steampunk-game.me/Steampunk-Game/"
+              demoLink="https://steampunk-game.vercel.app/"
             />
           </Col>
           <Col md={4} className="project-card">
