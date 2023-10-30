@@ -62,7 +62,6 @@ function Projects() {
               ghLink="https://github.com/The-Creative-Programming-Group/Weather-App"
               customGhLink={true}
               demoLink="https://weatherio1.vercel.app"
-              workInProgress={true}
             />
           </Col>
           <Col md={4} className="project-card">
