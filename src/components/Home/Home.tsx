@@ -46,7 +46,7 @@ function Home() {
 
               <div style={{ padding: 50, textAlign: "left" }}>
                 <span style={{ fontSize: 20 }}>
-                  Software Engineering Intern for
+                  Software Engineer for
                 </span>
                 <Type />
               </div>
