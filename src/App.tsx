@@ -3,12 +3,7 @@ import "./App.scss";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "aos/dist/aos.css";
 
-import {
-  HashRouter,
-  Navigate,
-  Route,
-  Routes,
-} from "react-router-dom";
+import { HashRouter, Navigate, Route, Routes } from "react-router-dom";
 import React, { lazy, Suspense, useEffect, useState } from "react";
 
 import About from "./components/About/About";

@@ -21,7 +21,10 @@ function aboutSummary() {
       <Container>
         <Row>
           <Col md={7} className="home-about-summary-description">
-            <h1 style={{ fontSize: "2.6em" }} className="negative-letter-spacing">
+            <h1
+              style={{ fontSize: "2.6em" }}
+              className="negative-letter-spacing"
+            >
               MORE <span className="purple"> ABOUT </span> ME
             </h1>
             <p className="home-about-summary-body">
