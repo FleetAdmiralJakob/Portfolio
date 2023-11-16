@@ -28,7 +28,7 @@ function AboutCard() {
             <a href="https://fsg-kw.de/" className="purple a">
               Friedrich-Schiller-Gymnasium
             </a>{" "}
-            and a Software Engineering Intern at the{" "}
+            and a Software Engineer at the{" "}
             <a href="https://lylu.de/" className="purple a">
               Lylu GmbH.
             </a>
@@ -92,10 +92,6 @@ function AboutCard() {
             <i>
               <b className="purple"> React.js.</b>
             </i>
-            <br />
-            <br />
-            Also I'm learning things in Game Development with{" "}
-            <b className="purple"> C#. </b>
           </p>
 
           <p style={{ color: "rgb(155 126 172)" }}>
