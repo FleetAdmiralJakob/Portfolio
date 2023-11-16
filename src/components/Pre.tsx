@@ -1,7 +1,7 @@
 import React from "react";
 
 interface Props {
-  load: boolean
+  load: boolean;
 }
 
 function Pre(props: Props) {
