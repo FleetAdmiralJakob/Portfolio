@@ -37,11 +37,11 @@ function AboutSummary() {
               Some of them are: <br /> <br />
               <ul>
                 <li className="basic-list">
-                  <ImPointRight /> A Steampunk Game
+                  <ImPointRight /> A tablet for elderly people
                 </li>{" "}
                 <br />
                 <li className="basic-list">
-                  <ImPointRight /> A Tip Calculator
+                  <ImPointRight /> A weather app
                 </li>{" "}
                 <br />
                 <li className="basic-list">
