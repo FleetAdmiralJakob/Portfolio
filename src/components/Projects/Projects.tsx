@@ -90,8 +90,8 @@ function Projects() {
                 "AWS",
                 "Kotlin",
               ]}
-              title="The Lylu Tablet"
-              summary="Worked as an intern at Lylu GmbH."
+              title="The Lylu Tablet - Software Engineer"
+              summary="Worked as an intern at Lylu GmbH. And now I am working as a Software Engineer at there!"
               description={`Worked on the Frontend mainly with Ionic, Cordova, and Angular and on the Backend mainly with Typescript and Lambda Functions on AWS.
                             - I built the Notes app
                             - I updated the descriptions of the Lylu Games
