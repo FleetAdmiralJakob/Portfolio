@@ -32,7 +32,7 @@
     "react": "npm:@preact/compat",
     "react-bootstrap": "^2.9.0",
     "react-dom": "npm:@preact/compat",
-    "react-github-calendar": "^4.0.1",
+    "react-github-calendar": "^4.0.6",
     "react-icons": "^4.11.0",
     "react-optimized-images": "^2.1.0",
     "react-parallax-tilt": "^1.7.167",
