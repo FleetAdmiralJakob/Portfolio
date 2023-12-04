@@ -7,7 +7,7 @@ settings:
 dependencies:
   "@octokit/core":
     specifier: ^5
-    version: 5.0.0
+    version: 5.0.2
   "@react-pdf/renderer":
     specifier: ^3.1.12
     version: 3.1.12(@preact/compat@17.1.2)
@@ -2698,10 +2698,10 @@ packages:
     engines: { node: ">= 18" }
     dev: false
 
-  /@octokit/core@5.0.0:
+  /@octokit/core@5.0.2:
     resolution:
       {
-        integrity: sha512-YbAtMWIrbZ9FCXbLwT9wWB8TyLjq9mxpKdgB3dUNxQcIVTf9hJ70gRPwAcqGZdY6WdJPZ0I7jLaaNDCiloGN2A==,
+        integrity: sha512-cZUy1gUvd4vttMic7C0lwPed8IYXWYp8kHIMatyhY8t8n3Cpw2ILczkV5pGMPqef7v0bLo0pOHrEHarsau2Ydg==,
       }
     engines: { node: ">= 18" }
     dependencies:
@@ -2709,7 +2709,7 @@ packages:
       "@octokit/graphql": 7.0.1
       "@octokit/request": 8.1.1
       "@octokit/request-error": 5.0.0
-      "@octokit/types": 11.1.0
+      "@octokit/types": 12.3.0
       before-after-hook: 2.2.3
       universal-user-agent: 6.0.0
     dev: false
@@ -2742,6 +2742,13 @@ packages:
     resolution:
       {
         integrity: sha512-V8GImKs3TeQRxRtXFpG2wl19V7444NIOTDF24AWuIbmNaNYOQMWRbjcGDXV5B+0n887fgDcuMNOmlul+k+oJtw==,
+      }
+    dev: false
+
+  /@octokit/openapi-types@19.1.0:
+    resolution:
+      {
+        integrity: sha512-6G+ywGClliGQwRsjvqVYpklIfa7oRPA0vyhPQG/1Feh+B+wU0vGH1JiJ5T25d3g1JZYBHzR2qefLi9x8Gt+cpw==,
       }
     dev: false
 
@@ -2778,6 +2785,15 @@ packages:
       }
     dependencies:
       "@octokit/openapi-types": 18.0.0
+    dev: false
+
+  /@octokit/types@12.3.0:
+    resolution:
+      {
+        integrity: sha512-nJ8X2HRr234q3w/FcovDlA+ttUU4m1eJAourvfUUtwAWeqL8AsyRqfnLvVnYn3NFbUnsmzQCzLNdFerPwdmcDQ==,
+      }
+    dependencies:
+      "@octokit/openapi-types": 19.1.0
     dev: false
 
   /@pmmmwh/react-refresh-webpack-plugin@0.5.11(react-refresh@0.11.0)(webpack-dev-server@4.15.1)(webpack@5.88.2):
