@@ -27,8 +27,8 @@ dependencies:
     specifier: npm:@preact/compat
     version: /@preact/compat@17.1.2(preact@10.17.1)
   react-bootstrap:
-    specifier: ^2.9.0
-    version: 2.9.0(@preact/compat@17.1.2)(@preact/compat@17.1.2)
+    specifier: ^2.9.1
+    version: 2.9.1(@preact/compat@17.1.2)(@preact/compat@17.1.2)
   react-dom:
     specifier: npm:@preact/compat
     version: /@preact/compat@17.1.2(preact@10.17.1)
@@ -12486,10 +12486,10 @@ packages:
       whatwg-fetch: 3.6.19
     dev: false
 
-  /react-bootstrap@2.9.0(@preact/compat@17.1.2)(@preact/compat@17.1.2):
+  /react-bootstrap@2.9.1(@preact/compat@17.1.2)(@preact/compat@17.1.2):
     resolution:
       {
-        integrity: sha512-dGh6fGjqR9MBzPOp2KbXJznt1Zy6SWepXYUdxMT18Zu/wJ73HCU8JNZe9dfzjmVssZYsJH9N3HHE4wAtQvNz7g==,
+        integrity: sha512-ezgmh/ARCYp18LbZEqPp0ppvy+ytCmycDORqc8vXSKYV3cer4VH7OReV8uMOoKXmYzivJTxgzGHalGrHamryHA==,
       }
     peerDependencies:
       "@types/react": ">=16.14.8"
