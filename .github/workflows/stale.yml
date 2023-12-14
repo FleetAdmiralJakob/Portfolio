@@ -18,7 +18,7 @@ jobs:
       pull-requests: write
 
     steps:
-      - uses: actions/stale@v8
+      - uses: actions/stale@v9
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           stale-issue-message: 'Long time nobody showed activity here. We will add the "Stale Label" to your issue.'
