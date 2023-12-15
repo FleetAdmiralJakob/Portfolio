@@ -1082,6 +1082,16 @@ button:focus {
   overflow: hidden !important;
   border: 2px solid rgba(197, 115, 230, 0.883) !important;
   box-shadow: 6px 7px 8px 6px rgba(89, 4, 168, 0.183) !important;
+  a {
+    .tech-description {
+      height: 100% !important;
+      font-size: 0.4em !important;
+      opacity: 1;
+      font-weight: 500 !important;
+      padding-top: 3px !important;
+      color: rgba(255, 255, 255, 1) !important;
+    }
+  }
 }
 
 @mixin tech-icons-highlight {
@@ -1104,6 +1114,16 @@ button:focus {
   overflow: hidden !important;
   border: 3px solid rgba(197, 115, 230, 0.883) !important;
   box-shadow: 6px 7px 6px 5px rgba(117, 14, 211, 0.86) !important;
+  a {
+    .tech-description {
+      height: 100% !important;
+      font-size: 0.4em !important;
+      opacity: 1;
+      font-weight: 500 !important;
+      padding-top: 3px !important;
+      color: rgba(255, 255, 255, 1) !important;
+    }
+  }
 }
 
 @mixin tech-icons-media {
@@ -1346,16 +1366,6 @@ button:focus {
   width: 100% !important;
   height: 0.1rem;
   opacity: 0;
-}
-
-.tech-description:hover {
-  width: 100% !important;
-  height: 100% !important;
-  font-size: 0.4em !important;
-  font-weight: 500 !important;
-  padding-top: 3px !important;
-  color: rgba(255, 255, 255, 1) !important;
-  opacity: 1;
 }
 
 .tech-icon-images {
