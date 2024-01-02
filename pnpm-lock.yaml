@@ -69,6 +69,11 @@ dependencies:
     specifier: ^3.5.1
     version: 3.5.1
 
+devDependencies:
+  prettier:
+    specifier: 3.1.1
+    version: 3.1.1
+
 packages:
   /@aashutoshrathi/word-wrap@1.2.6:
     resolution:
@@ -12231,6 +12236,12 @@ packages:
       }
     engines: { node: ">= 0.8.0" }
     dev: false
+
+  /prettier@3.1.1:
+    resolution: {integrity: sha512-22UbSzg8luF4UuZtzgiUOfcGM8s4tjBv6dJRT7j275NXsy2jb4aJa4NNveul5x4eqlF1wuhuR2RElK71RvmVaw==}
+    engines: {node: '>=14'}
+    hasBin: true
+    dev: true
 
   /pretty-bytes@5.6.0:
     resolution:
