@@ -12238,8 +12238,11 @@ packages:
     dev: false
 
   /prettier@3.1.1:
-    resolution: {integrity: sha512-22UbSzg8luF4UuZtzgiUOfcGM8s4tjBv6dJRT7j275NXsy2jb4aJa4NNveul5x4eqlF1wuhuR2RElK71RvmVaw==}
-    engines: {node: '>=14'}
+    resolution:
+      {
+        integrity: sha512-22UbSzg8luF4UuZtzgiUOfcGM8s4tjBv6dJRT7j275NXsy2jb4aJa4NNveul5x4eqlF1wuhuR2RElK71RvmVaw==,
+      }
+    engines: { node: ">=14" }
     hasBin: true
     dev: true
 
