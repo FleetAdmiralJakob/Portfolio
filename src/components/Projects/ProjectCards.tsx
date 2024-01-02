@@ -6,7 +6,7 @@ import { BsFillCloudDownloadFill, BsGithub } from "react-icons/bs";
 import ProjectStars from "./ProjectStars";
 import linkData from "../data";
 
-interface Props {
+export interface ProjectCardProps {
   imgPath: string;
   title: string;
   summary?: string;
@@ -21,7 +21,7 @@ interface Props {
   workInProgress?: boolean;
 }
 
-function ProjectCards(props: Props) {
+function ProjectCards(props: ProjectCardProps) {
   const parsedDescription = `${props.description}`
     .split("\n")
     .map((line, index) => (
