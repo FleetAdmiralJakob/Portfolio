@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import ProjectCard from "./ProjectCards";
+import ProjectCard, { ProjectCardProps } from "./ProjectCards";
 import steampunk from "../../Assets/Projects/steampunk.png";
 import curseforge from "../../Assets/Projects/curseforge.png";
 import uncraftables from "../../Assets/Projects/uncraftables.png";
@@ -12,6 +12,71 @@ import lylu from "../../Assets/Projects/lylu.png";
 import { SiCurseforge } from "react-icons/si";
 import { ImPointRight } from "react-icons/im";
 import { AiOutlineArrowDown, AiOutlineArrowUp } from "react-icons/ai";
+
+const mayorProjects: ProjectCardProps[] = [
+  {
+    imgPath: steampunk,
+    isBlog: false,
+    labelsfirstclass: ["Web 🌐", "Game 🎮"],
+    labelssecondclass: ["Javascript", "CSS", "HTML"],
+    title: "A Steampunk Game",
+    summary: "A small game created by me with Javascript, CSS and HTML.",
+    description:
+      "It's a small game where you must shoot as a seahorse as many enemies as you can.",
+    ghLink: "Steampunk-Game",
+    demoLink: "https://steampunk-game.vercel.app/",
+  },
+  {
+    imgPath: weatherio,
+    isBlog: false,
+    labelsfirstclass: ["Web 🌐"],
+    labelssecondclass: ["Next.js", "Typescript", "Tailwind", "tRPC"],
+    title: "Weather.io",
+    summary:
+      "A PWA for the Weather! Created by me and the Creative Programmers team.",
+    description:
+      "You can see the weather of your location and search for other locations. You can also see the weather of the next 9 days and many other nerdy stuff (e.g. air quality).",
+    ghLink: "https://github.com/The-Creative-Programming-Group/Weather-App",
+    customGhLink: true,
+    demoLink: "https://weatherio1.vercel.app",
+  },
+  {
+    imgPath: flowershop,
+    isBlog: false,
+    labelsfirstclass: ["Web 🌐"],
+    labelssecondclass: ["Webflow"],
+    title: "The Flower Shop",
+    summary: "A basic flower shop made with Webflow!",
+    description:
+      "Nice UI and the basic sides. All you need for a basic shop. The perfect site for small businesses!",
+    demoLink: "https://the-flower-shop-3f91ab.webflow.io/",
+  },
+  {
+    imgPath: lylu,
+    isBlog: false,
+    labelsfirstclass: ["Web 🌐", "Mobile 📱", "Android 🤖"],
+    labelssecondclass: [
+      "Ionic",
+      "Typescript",
+      "Cordova",
+      "Angular",
+      "AWS",
+      "Kotlin",
+    ],
+    title: "The Lylu Tablet - Software Engineer",
+    summary:
+      "Worked as an intern at Lylu GmbH. And now I am working as a Software Engineer at there!",
+    description: `Worked on the Frontend mainly with Ionic, Cordova, and Angular and on the Backend mainly with Typescript and Lambda Functions on AWS.
+                   - I built the Notes app
+                   - I updated the descriptions of the Lylu Games
+                   - I built the Todo app
+                   - I helped with some content creation stuff (blog articles)
+                   - I built some data-scraping tools and analyzed the data from my tools, which helped a lot in understanding the users of Lylu
+                   - I reviewed the code of an external contributor and added documentation to it
+                   `,
+    demoLink: "https://lylu.de/",
+  },
+];
 
 function Projects() {
   const [readmore, setReadMore] = useState(false);
@@ -37,72 +102,26 @@ function Projects() {
           <a href="https://www.twitter.com/t3dotgg">TheoBr</a>
         </footer>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={steampunk}
-              isBlog={false}
-              labelsfirstclass={["Web 🌐", "Game 🎮"]}
-              labelssecondclass={["Javascript", "CSS", "HTML"]}
-              title="A Steampunk Game"
-              summary="A small game created by me with Javascript, CSS and HTML."
-              description="It's a small game where you must shoot as a seahorse as many enemies as you can."
-              ghLink="Steampunk-Game"
-              demoLink="https://steampunk-game.vercel.app/"
-            />
-          </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={weatherio}
-              isBlog={false}
-              labelsfirstclass={["Web 🌐"]}
-              labelssecondclass={["Next.js", "Typescript", "Tailwind", "tRPC"]}
-              title="Weather.io"
-              summary="A PWA for the Weather! Created by me and the Creative Programmers team."
-              description="You can see the weather of your location and search for other locations. You can also see the weather of the next 9 days and many other nerdy stuff (e.g. air quality)."
-              ghLink="https://github.com/The-Creative-Programming-Group/Weather-App"
-              customGhLink={true}
-              demoLink="https://weatherio1.vercel.app"
-            />
-          </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={flowershop}
-              isBlog={false}
-              labelsfirstclass={["Web 🌐"]}
-              labelssecondclass={["Webflow"]}
-              title="The Flower Shop"
-              summary="A basic flower shop made with Webflow!"
-              description="Nice UI and the basic sides.
-                All you need for a basic shop. The perfect site for small businesses!"
-              demoLink="https://the-flower-shop-3f91ab.webflow.io/"
-            />
-          </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={lylu}
-              isBlog={false}
-              labelsfirstclass={["Web 🌐", "Mobile 📱", "Android 🤖"]}
-              labelssecondclass={[
-                "Ionic",
-                "Typescript",
-                "Cordova",
-                "Angular",
-                "AWS",
-                "Kotlin",
-              ]}
-              title="The Lylu Tablet - Software Engineer"
-              summary="Worked as an intern at Lylu GmbH. And now I am working as a Software Engineer at there!"
-              description={`Worked on the Frontend mainly with Ionic, Cordova, and Angular and on the Backend mainly with Typescript and Lambda Functions on AWS.
-                            - I built the Notes app
-                            - I updated the descriptions of the Lylu Games
-                            - I built the Todo app
-                            - I helped with some content creation stuff (blog articles)
-                            - I built some data-scraping tools and analyzed the data from my tools, which helped a lot in understanding the users of Lylu
-                            - I reviewed the code of an external contributor and added documentation to it
-                            `}
-              demoLink="https://lylu.de/"
-            />
-          </Col>
+          {mayorProjects.map((item) => {
+            return (
+              <Col md={4} className="project-card">
+                <ProjectCard
+                  imgPath={item.imgPath}
+                  isBlog={item.isBlog}
+                  labelsfirstclass={item.labelsfirstclass}
+                  labelssecondclass={item.labelssecondclass}
+                  title={item.title}
+                  summary={item.summary}
+                  description={item.description}
+                  ghLink={item.ghLink}
+                  customGhLink={item.customGhLink}
+                  demoLink={item.demoLink}
+                  workInProgress={item.workInProgress}
+                  downloadLink={item.downloadLink}
+                />
+              </Col>
+            );
+          })}
         </Row>
         <h1 className="project-heading negative-letter-spacing">
           Other <strong className="purple">Projects </strong>
