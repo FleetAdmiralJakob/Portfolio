@@ -52,13 +52,13 @@ dependencies:
     version: 6.21.1(@preact/compat@17.1.2)(@preact/compat@17.1.2)
   react-scripts:
     specifier: ^5.0.1
-    version: 5.0.1(@babel/plugin-syntax-flow@7.22.5)(@babel/plugin-transform-react-jsx@7.22.15)(@preact/compat@17.1.2)(eslint@8.49.0)(sass@1.69.6)(typescript@4.9.5)
+    version: 5.0.1(@babel/plugin-syntax-flow@7.22.5)(@babel/plugin-transform-react-jsx@7.22.15)(@preact/compat@17.1.2)(eslint@8.49.0)(sass@1.69.7)(typescript@4.9.5)
   react-tsparticles:
     specifier: ^1.43.1
     version: 1.43.1(@preact/compat@17.1.2)
   sass:
-    specifier: ^1.69.6
-    version: 1.69.6
+    specifier: ^1.69.7
+    version: 1.69.7
   typescript:
     specifier: ^4
     version: 4.9.5
@@ -12238,8 +12238,11 @@ packages:
     dev: false
 
   /prettier@3.1.1:
-    resolution: {integrity: sha512-22UbSzg8luF4UuZtzgiUOfcGM8s4tjBv6dJRT7j275NXsy2jb4aJa4NNveul5x4eqlF1wuhuR2RElK71RvmVaw==}
-    engines: {node: '>=14'}
+    resolution:
+      {
+        integrity: sha512-22UbSzg8luF4UuZtzgiUOfcGM8s4tjBv6dJRT7j275NXsy2jb4aJa4NNveul5x4eqlF1wuhuR2RElK71RvmVaw==,
+      }
+    engines: { node: ">=14" }
     hasBin: true
     dev: true
 
@@ -12723,7 +12726,7 @@ packages:
       react: /@preact/compat@17.1.2(preact@10.17.1)
     dev: false
 
-  /react-scripts@5.0.1(@babel/plugin-syntax-flow@7.22.5)(@babel/plugin-transform-react-jsx@7.22.15)(@preact/compat@17.1.2)(eslint@8.49.0)(sass@1.69.6)(typescript@4.9.5):
+  /react-scripts@5.0.1(@babel/plugin-syntax-flow@7.22.5)(@babel/plugin-transform-react-jsx@7.22.15)(@preact/compat@17.1.2)(eslint@8.49.0)(sass@1.69.7)(typescript@4.9.5):
     resolution:
       {
         integrity: sha512-8VAmEm/ZAwQzJ+GOMLbBsTdDKOpuZh7RPs0UymvBR2vRk4iZWCskjbFnxqjrzoIvlNNRZ3QJFx6/qDSi6zSnaQ==,
@@ -12776,7 +12779,7 @@ packages:
       react-refresh: 0.11.0
       resolve: 1.22.6
       resolve-url-loader: 4.0.0
-      sass-loader: 12.6.0(sass@1.69.6)(webpack@5.88.2)
+      sass-loader: 12.6.0(sass@1.69.7)(webpack@5.88.2)
       semver: 7.5.4
       source-map-loader: 3.0.2(webpack@5.88.2)
       style-loader: 3.3.3(webpack@5.88.2)
@@ -13255,7 +13258,7 @@ packages:
       }
     dev: false
 
-  /sass-loader@12.6.0(sass@1.69.6)(webpack@5.88.2):
+  /sass-loader@12.6.0(sass@1.69.7)(webpack@5.88.2):
     resolution:
       {
         integrity: sha512-oLTaH0YCtX4cfnJZxKSLAyglED0naiYfNG1iXfU5w1LNZ+ukoA5DtyDIN5zmKVZwYNJP4KRc5Y3hkWga+7tYfA==,
@@ -13279,14 +13282,14 @@ packages:
     dependencies:
       klona: 2.0.6
       neo-async: 2.6.2
-      sass: 1.69.6
+      sass: 1.69.7
       webpack: 5.88.2
     dev: false
 
-  /sass@1.69.6:
+  /sass@1.69.7:
     resolution:
       {
-        integrity: sha512-qbRr3k9JGHWXCvZU77SD2OTwUlC+gNT+61JOLcmLm+XqH4h/5D+p4IIsxvpkB89S9AwJOyb5+rWNpIucaFxSFQ==,
+        integrity: sha512-rzj2soDeZ8wtE2egyLXgOOHQvaC2iosZrkF6v3EUG+tBwEvhqUCzm0VP3k9gHF9LXbSrRhT5SksoI56Iw8NPnQ==,
       }
     engines: { node: ">=14.0.0" }
     hasBin: true
