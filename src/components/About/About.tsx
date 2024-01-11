@@ -9,8 +9,7 @@ import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
 import linkData, { githubData } from "../data";
 import { AiFillGithub } from "react-icons/ai";
-import { SiLeetcode } from "react-icons/si";
-import { SiCodewars } from "react-icons/si";
+import { SiCodewars, SiLeetcode } from "react-icons/si";
 
 function About() {
   const [followersCount, setFollowersCount] = useState("");
@@ -136,7 +135,7 @@ function About() {
         <br />
         <br />
         <img
-          src="https://github-readme-streak-stats.herokuapp.com/?user=fleetadmiraljakob&theme=modern-lilac2"
+          src="https://github-streak-stats-delta.vercel.app/?user=fleetadmiraljakob&theme=modern-lilac2"
           alt="about"
           className="img-fluid"
         />{" "}
