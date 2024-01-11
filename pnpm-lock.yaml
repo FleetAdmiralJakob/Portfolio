@@ -36,29 +36,29 @@ dependencies:
     specifier: ^4.0.8
     version: 4.0.8(@preact/compat@17.1.2)(@preact/compat@17.1.2)
   react-icons:
-    specifier: ^4.12.0
-    version: 4.12.0(@preact/compat@17.1.2)
+    specifier: ^5.0.0
+    version: 5.0.0(@preact/compat@17.1.2)
   react-optimized-images:
     specifier: ^2.1.0
     version: 2.1.0(@preact/compat@17.1.2)(@preact/compat@17.1.2)
   react-parallax-tilt:
-    specifier: ^1.7.177
-    version: 1.7.177(@preact/compat@17.1.2)(@preact/compat@17.1.2)
+    specifier: ^1.7.182
+    version: 1.7.182(@preact/compat@17.1.2)(@preact/compat@17.1.2)
   react-pdf:
-    specifier: ^7.6.0
-    version: 7.6.0(@preact/compat@17.1.2)(@preact/compat@17.1.2)
+    specifier: ^7.7.0
+    version: 7.7.0(@preact/compat@17.1.2)(@preact/compat@17.1.2)
   react-router-dom:
     specifier: ^6.21.1
     version: 6.21.1(@preact/compat@17.1.2)(@preact/compat@17.1.2)
   react-scripts:
     specifier: ^5.0.1
-    version: 5.0.1(@babel/plugin-syntax-flow@7.22.5)(@babel/plugin-transform-react-jsx@7.22.15)(@preact/compat@17.1.2)(eslint@8.49.0)(sass@1.69.6)(typescript@4.9.5)
+    version: 5.0.1(@babel/plugin-syntax-flow@7.22.5)(@babel/plugin-transform-react-jsx@7.22.15)(@preact/compat@17.1.2)(eslint@8.49.0)(sass@1.69.7)(typescript@4.9.5)
   react-tsparticles:
     specifier: ^1.43.1
     version: 1.43.1(@preact/compat@17.1.2)
   sass:
-    specifier: ^1.69.6
-    version: 1.69.6
+    specifier: ^1.69.7
+    version: 1.69.7
   typescript:
     specifier: ^4
     version: 4.9.5
@@ -10135,6 +10135,7 @@ packages:
         integrity: sha512-Jo6dJ04CmSjuznwJSS3pUeWmd/H0ffTlkXXgwZi+eq1UCmqQwCh+eLsYOYCwY991i2Fah4h1BEMCx4qThGbsiA==,
       }
     engines: { node: ">=10" }
+    requiresBuild: true
     dependencies:
       yallist: 4.0.0
     dev: false
@@ -12238,8 +12239,11 @@ packages:
     dev: false
 
   /prettier@3.1.1:
-    resolution: {integrity: sha512-22UbSzg8luF4UuZtzgiUOfcGM8s4tjBv6dJRT7j275NXsy2jb4aJa4NNveul5x4eqlF1wuhuR2RElK71RvmVaw==}
-    engines: {node: '>=14'}
+    resolution:
+      {
+        integrity: sha512-22UbSzg8luF4UuZtzgiUOfcGM8s4tjBv6dJRT7j275NXsy2jb4aJa4NNveul5x4eqlF1wuhuR2RElK71RvmVaw==,
+      }
+    engines: { node: ">=14" }
     hasBin: true
     dev: true
 
@@ -12592,10 +12596,10 @@ packages:
       react-dom: /@preact/compat@17.1.2(preact@10.17.1)
     dev: false
 
-  /react-icons@4.12.0(@preact/compat@17.1.2):
+  /react-icons@5.0.0(@preact/compat@17.1.2):
     resolution:
       {
-        integrity: sha512-IBaDuHiShdZqmfc/TwHu6+d6k2ltNCf3AszxNmjJc1KUfXdEeRJOKyNvLmAHaarhzGmTSVygNdyu8/opXv2gaw==,
+        integrity: sha512-8gBBjYRrO14BU9RuMEVptG5aB1gwNPAAgsKOuPggx2hg332pTky/r8FidEJW95cL6IG2mYCEHaYuAxw74wLefw==,
       }
     peerDependencies:
       react: "*"
@@ -12645,10 +12649,10 @@ packages:
       sharp: 0.30.7
     dev: false
 
-  /react-parallax-tilt@1.7.177(@preact/compat@17.1.2)(@preact/compat@17.1.2):
+  /react-parallax-tilt@1.7.182(@preact/compat@17.1.2)(@preact/compat@17.1.2):
     resolution:
       {
-        integrity: sha512-BtHZFc5JESRG976/656V5ufL3lihg26vQ18L+7sNBZC1lfhR8KjIFyotAqIkZtarr3qtPseTN210prxi45g7WA==,
+        integrity: sha512-BjGYrh3+koa7wOxmINOmsfPXLtVZQJXteC9lK9j3e310JdTFLb9y5/8Eudd4IeEcTn7TfLb9O44z/puU1k+1Bw==,
       }
     peerDependencies:
       react: ^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0
@@ -12658,10 +12662,10 @@ packages:
       react-dom: /@preact/compat@17.1.2(preact@10.17.1)
     dev: false
 
-  /react-pdf@7.6.0(@preact/compat@17.1.2)(@preact/compat@17.1.2):
+  /react-pdf@7.7.0(@preact/compat@17.1.2)(@preact/compat@17.1.2):
     resolution:
       {
-        integrity: sha512-b2/8V6xhe5pn4Y01ELKTQZ+RhdZl1KpSAMGbN+HCZ/kwhYTIc4Pn5ctz1wRQUu1gOJbIEG4CcjMD9vTCzNdwjw==,
+        integrity: sha512-704ObLnRDm5lixL4e6NXNLaincBHGNLo+NGdbO3rEXE963NlNzwLxFpmKcbdXHAMQL4rYJQWb1L0w5IL6y8Osw==,
       }
     peerDependencies:
       "@types/react": ^16.8.0 || ^17.0.0 || ^18.0.0
@@ -12672,6 +12676,7 @@ packages:
         optional: true
     dependencies:
       clsx: 2.0.0
+      dequal: 2.0.3
       make-cancellable-promise: 1.3.1
       make-event-props: 1.6.1
       merge-refs: 1.2.1
@@ -12680,7 +12685,7 @@ packages:
       react: /@preact/compat@17.1.2(preact@10.17.1)
       react-dom: /@preact/compat@17.1.2(preact@10.17.1)
       tiny-invariant: 1.3.1
-      tiny-warning: 1.0.3
+      warning: 4.0.3
     transitivePeerDependencies:
       - encoding
       - supports-color
@@ -12723,7 +12728,7 @@ packages:
       react: /@preact/compat@17.1.2(preact@10.17.1)
     dev: false
 
-  /react-scripts@5.0.1(@babel/plugin-syntax-flow@7.22.5)(@babel/plugin-transform-react-jsx@7.22.15)(@preact/compat@17.1.2)(eslint@8.49.0)(sass@1.69.6)(typescript@4.9.5):
+  /react-scripts@5.0.1(@babel/plugin-syntax-flow@7.22.5)(@babel/plugin-transform-react-jsx@7.22.15)(@preact/compat@17.1.2)(eslint@8.49.0)(sass@1.69.7)(typescript@4.9.5):
     resolution:
       {
         integrity: sha512-8VAmEm/ZAwQzJ+GOMLbBsTdDKOpuZh7RPs0UymvBR2vRk4iZWCskjbFnxqjrzoIvlNNRZ3QJFx6/qDSi6zSnaQ==,
@@ -12776,7 +12781,7 @@ packages:
       react-refresh: 0.11.0
       resolve: 1.22.6
       resolve-url-loader: 4.0.0
-      sass-loader: 12.6.0(sass@1.69.6)(webpack@5.88.2)
+      sass-loader: 12.6.0(sass@1.69.7)(webpack@5.88.2)
       semver: 7.5.4
       source-map-loader: 3.0.2(webpack@5.88.2)
       style-loader: 3.3.3(webpack@5.88.2)
@@ -13255,7 +13260,7 @@ packages:
       }
     dev: false
 
-  /sass-loader@12.6.0(sass@1.69.6)(webpack@5.88.2):
+  /sass-loader@12.6.0(sass@1.69.7)(webpack@5.88.2):
     resolution:
       {
         integrity: sha512-oLTaH0YCtX4cfnJZxKSLAyglED0naiYfNG1iXfU5w1LNZ+ukoA5DtyDIN5zmKVZwYNJP4KRc5Y3hkWga+7tYfA==,
@@ -13279,14 +13284,14 @@ packages:
     dependencies:
       klona: 2.0.6
       neo-async: 2.6.2
-      sass: 1.69.6
+      sass: 1.69.7
       webpack: 5.88.2
     dev: false
 
-  /sass@1.69.6:
+  /sass@1.69.7:
     resolution:
       {
-        integrity: sha512-qbRr3k9JGHWXCvZU77SD2OTwUlC+gNT+61JOLcmLm+XqH4h/5D+p4IIsxvpkB89S9AwJOyb5+rWNpIucaFxSFQ==,
+        integrity: sha512-rzj2soDeZ8wtE2egyLXgOOHQvaC2iosZrkF6v3EUG+tBwEvhqUCzm0VP3k9gHF9LXbSrRhT5SksoI56Iw8NPnQ==,
       }
     engines: { node: ">=14.0.0" }
     hasBin: true
@@ -14396,13 +14401,6 @@ packages:
     resolution:
       {
         integrity: sha512-AD5ih2NlSssTCwsMznbvwMZpJ1cbhkGd2uueNxzv2jDlEeZdU04JQfRnggJQ8DrcVBGjAsCKwFBbDlVNtEMlzw==,
-      }
-    dev: false
-
-  /tiny-warning@1.0.3:
-    resolution:
-      {
-        integrity: sha512-lBN9zLN/oAf68o3zNXYrdCt1kP8WsiGW8Oo2ka41b2IM5JL/S1CTyX1rW0mb/zSuJun0ZUrDxx4sqvYS2FWzPA==,
       }
     dev: false
 
@@ -15621,6 +15619,7 @@ packages:
       {
         integrity: sha512-l4Sp/DRseor9wL6EvV2+TuQn63dMkPjZ/sp9XkghTEbV9KlPS1xUsZ3u7/IQO4wxtcFB4bgpQPRcR3QCvezPcQ==,
       }
+    requiresBuild: true
     dev: false
 
   /write-file-atomic@3.0.3:
@@ -15701,6 +15700,7 @@ packages:
       {
         integrity: sha512-3wdGidZyq5PB084XLES5TpOSRA3wjXAlIWMhum2kRcv/41Sn2emQ0dycQW4uZXLejwKvg6EsvbdlVL+FYEct7A==,
       }
+    requiresBuild: true
     dev: false
 
   /yaml@1.10.2:
