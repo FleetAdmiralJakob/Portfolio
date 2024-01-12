@@ -36,8 +36,8 @@ dependencies:
     specifier: ^4.0.8
     version: 4.0.8(@preact/compat@17.1.2)(@preact/compat@17.1.2)
   react-icons:
-    specifier: ^5.0.0
-    version: 5.0.0(@preact/compat@17.1.2)
+    specifier: ^5.0.1
+    version: 5.0.1(@preact/compat@17.1.2)
   react-optimized-images:
     specifier: ^2.1.0
     version: 2.1.0(@preact/compat@17.1.2)(@preact/compat@17.1.2)
@@ -12596,10 +12596,10 @@ packages:
       react-dom: /@preact/compat@17.1.2(preact@10.17.1)
     dev: false
 
-  /react-icons@5.0.0(@preact/compat@17.1.2):
+  /react-icons@5.0.1(@preact/compat@17.1.2):
     resolution:
       {
-        integrity: sha512-8gBBjYRrO14BU9RuMEVptG5aB1gwNPAAgsKOuPggx2hg332pTky/r8FidEJW95cL6IG2mYCEHaYuAxw74wLefw==,
+        integrity: sha512-WqLZJ4bLzlhmsvme6iFdgO8gfZP17rfjYEJ2m9RsZjZ+cc4k1hTzknEz63YS1MeT50kVzoa1Nz36f4BEx+Wigw==,
       }
     peerDependencies:
       react: "*"
