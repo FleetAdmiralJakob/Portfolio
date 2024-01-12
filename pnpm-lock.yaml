@@ -9,8 +9,8 @@ dependencies:
     specifier: ^5
     version: 5.0.2
   "@react-pdf/renderer":
-    specifier: ^3.1.14
-    version: 3.1.14(@preact/compat@17.1.2)
+    specifier: ^3.1.15
+    version: 3.1.15(@preact/compat@17.1.2)
   "@vercel/analytics":
     specifier: ^1.1.1
     version: 1.1.1
@@ -2912,16 +2912,16 @@ packages:
       - encoding
     dev: false
 
-  /@react-pdf/layout@3.6.3:
+  /@react-pdf/layout@3.6.4:
     resolution:
       {
-        integrity: sha512-w6ACZ9o18Q5wbzsY9a4KW2Gqn6Drt3AN/kb/I6SBz/L7PAJ9rPQBIDq/s5qZJ+/WwWy33rcC8WC1givtDhjCHQ==,
+        integrity: sha512-lyJcMUJoF3/fPavxOvVWyOK5EYH6Rf1S9xRlOSnFGyD9zLbfOreeG8cEyVC3JEZA9/ZfWXa/fye+mVsHoaD6wA==,
       }
     dependencies:
       "@babel/runtime": 7.22.15
       "@react-pdf/fns": 2.0.1
       "@react-pdf/image": 2.2.2
-      "@react-pdf/pdfkit": 3.0.2
+      "@react-pdf/pdfkit": 3.0.3
       "@react-pdf/primitives": 3.0.1
       "@react-pdf/stylesheet": 4.1.8
       "@react-pdf/textkit": 4.2.0
@@ -2934,10 +2934,10 @@ packages:
       - encoding
     dev: false
 
-  /@react-pdf/pdfkit@3.0.2:
+  /@react-pdf/pdfkit@3.0.3:
     resolution:
       {
-        integrity: sha512-+m5rwNCwyEH6lmnZWpsQJvdqb6YaCCR0nMWrc/KKDwznuPMrGmGWyNxqCja+bQPORcHZyl6Cd/iFL0glyB3QGw==,
+        integrity: sha512-il4VCkLduCSYv51y3r7/Sp3TUCATi34BsI8qo+/Btb51UN1Wat3A4xuEJkNlKFY2XZvgwS9jYyq2pBHiBLaEcA==,
       }
     dependencies:
       "@babel/runtime": 7.22.15
@@ -2982,18 +2982,18 @@ packages:
       svg-arc-to-cubic-bezier: 3.2.0
     dev: false
 
-  /@react-pdf/renderer@3.1.14(@preact/compat@17.1.2):
+  /@react-pdf/renderer@3.1.15(@preact/compat@17.1.2):
     resolution:
       {
-        integrity: sha512-Qk29uTamH6q+drK/YmiFbuQQ+yutesfIe+wyrsXFoUJUutIiDIaibO6zByMkhWb3M6CMt6NvG3NLHio1OF8U6Q==,
+        integrity: sha512-j/MXTxhgBqvHoTo2MmJEYg9Jv3vlqerTNvVicSvNj6wagZnKjgByBl/FrTgNfbOyJs4QV6anKSOg9je1EJTOLw==,
       }
     peerDependencies:
       react: ^16.8.6 || ^17.0.0 || ^18.0.0
     dependencies:
       "@babel/runtime": 7.22.15
       "@react-pdf/font": 2.3.7
-      "@react-pdf/layout": 3.6.3
-      "@react-pdf/pdfkit": 3.0.2
+      "@react-pdf/layout": 3.6.4
+      "@react-pdf/pdfkit": 3.0.3
       "@react-pdf/primitives": 3.0.1
       "@react-pdf/render": 3.2.7
       "@react-pdf/types": 2.3.4
