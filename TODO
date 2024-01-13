@@ -32,8 +32,7 @@ TODOs
 
 - Make the logo complete ❗
 
-- An extra page for each project
-
+- Fix failing GitHub Actions run
 - Go through the DeepSource Issues
 
 - Update react-tsparticles
