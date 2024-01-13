@@ -24,7 +24,7 @@
   },
   "dependencies": {
     "@octokit/core": "^5",
-    "@react-pdf/renderer": "^3.1.14",
+    "@react-pdf/renderer": "^3.1.15",
     "@vercel/analytics": "^1.1.1",
     "aos": "^2.3.4",
     "bootstrap": "^5.3.2",
@@ -33,11 +33,11 @@
     "react-bootstrap": "^2.9.2",
     "react-dom": "npm:@preact/compat",
     "react-github-calendar": "^4.0.8",
-    "react-icons": "^4.12.0",
+    "react-icons": "^5.0.1",
     "react-optimized-images": "^2.1.0",
-    "react-parallax-tilt": "^1.7.182",
-    "react-pdf": "^7.6.0",
-    "react-router-dom": "^6.21.1",
+    "react-parallax-tilt": "^1.7.184",
+    "react-pdf": "^7.7.0",
+    "react-router-dom": "^6.21.2",
     "react-scripts": "^5.0.1",
     "react-tsparticles": "^1.43.1",
     "sass": "^1.69.7",
@@ -73,6 +73,6 @@
     ]
   },
   "devDependencies": {
-    "prettier": "3.1.1"
+    "prettier": "3.2.1"
   }
 }
