@@ -38,12 +38,6 @@ This project was built using these technologies.
 
 - ReactJS
 - Node.js
-- Express.js
-- CSS3
-- Sass
-- Webstorm
-- VSCode
-- Typescript
 
 ## Features
 
@@ -94,5 +88,11 @@ You will find all the components used, and you can edit your information accordi
     Unless required by applicable law or agreed to in writing, software
     distributed under the License is distributed on an "AS IS" BASIS,
     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+- Express.js
+- CSS3
+- Sass
+- Webstorm
+- VSCode
+- Typescript
     See the License for the specific language governing permissions and
     limitations under the License.
