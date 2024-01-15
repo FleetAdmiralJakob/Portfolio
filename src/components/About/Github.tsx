@@ -5,7 +5,9 @@ import { githubUsername } from "../data";
 import { githubUsername } from "../data";
 
 function Github() {
-  const [newGitHubUsername, setNewGitHubUsername] = useState("validGitHubUsername");
+  const [newGitHubUsername, setNewGitHubUsername] = useState(
+    "validGitHubUsername",
+  );
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
       <h1 className="project-heading" style={{ paddingBottom: "20px" }}>
