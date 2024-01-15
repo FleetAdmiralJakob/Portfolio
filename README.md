@@ -1,5 +1,6 @@
 <h2 align="center">
-  Portfolio Website - v2.0<br/>
+  Portfolio Website - v2.0<br/><br/>## Fixing Failing GitHub Actions
+To fix the failing GitHub Actions run, follow these steps:
   <a href="http://www.roessner.tech/" target="_blank">roessner.tech</a>
 </h2>
 <div>
