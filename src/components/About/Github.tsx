@@ -1,5 +1,5 @@
 import React from "react";
-import GitHubCalendar from "react-github-calendar";
+import GitHubCalendar from "github-calendar/dist/esm/index";
 import { Row } from "react-bootstrap";
 import { githubUsername } from "../data";
 
