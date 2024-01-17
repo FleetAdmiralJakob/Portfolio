@@ -14,8 +14,8 @@ function Home2() {
   /* State show discord popup */
   const [showDiscordPopup, setShowDiscordPopup] = React.useState(false);
   useEffect(() => {
-  const contentElements = document.querySelectorAll(".content");
-  setIsMounted(true);
+    const contentElements = document.querySelectorAll(".content");
+    setIsMounted(true);
     const contentElements = document.querySelectorAll(".content");
 
     // Add or remove the 'blur' class to each content element based on the 'showDiscordPopup' state
