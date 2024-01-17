@@ -32,10 +32,10 @@
     "react": "npm:@preact/compat",
     "react-bootstrap": "^2.9.2",
     "react-dom": "npm:@preact/compat",
-    "react-github-calendar": "^4.0.10",
+    "react-github-calendar": "^4.1.0",
     "react-icons": "^5.0.1",
     "react-optimized-images": "^2.1.0",
-    "react-parallax-tilt": "^1.7.186",
+    "react-parallax-tilt": "^1.7.191",
     "react-pdf": "^7.7.0",
     "react-router-dom": "^6.21.2",
     "react-scripts": "^5.0.1",
@@ -73,6 +73,6 @@
     ]
   },
   "devDependencies": {
-    "prettier": "3.2.2"
+    "prettier": "3.2.3"
   }
 }
