@@ -1,32 +1,32 @@
 // scripts/build.js
 
 // Import necessary modules and dependencies
-const fs = require('fs')
-const path = require('path')
-const { exec } = require('child_process')
+const fs = require("fs");
+const path = require("path");
+const { exec } = require("child_process");
 
 // Define the build script function
-function build () {
+function build() {
   // Check if the necessary files and assets exist
-  if (!fs.existsSync('src')) {
-    console.error('Error: Missing source files')
-    return
+  if (!fs.existsSync("src")) {
+    console.error("Error: Missing source files");
+    return;
   }
 
   // Run the build command
-  exec('npm run build', (error, stdout, stderr) => {
+  exec("npm run build", (error, stdout, stderr) => {
     if (error) {
-      console.error('Error: Build failed')
-      console.error(stderr)
+      console.error("Error: Build failed");
+      console.error(stderr);
     } else {
-      console.log('Build successful')
-      console.log(stdout)
+      console.log("Build successful");
+      console.log(stdout);
     }
-  })
+  });
 }
 
 // Call the build function
-build()
+build();
 
 // Export the build function if needed
-module.exports = build
+module.exports = build;
