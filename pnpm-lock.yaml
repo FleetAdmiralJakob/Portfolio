@@ -33,8 +33,8 @@ dependencies:
     specifier: npm:@preact/compat
     version: /@preact/compat@17.1.2(preact@10.17.1)
   react-github-calendar:
-    specifier: ^4.0.10
-    version: 4.0.10(@preact/compat@17.1.2)(@preact/compat@17.1.2)
+    specifier: ^4.1.0
+    version: 4.1.0(@preact/compat@17.1.2)(@preact/compat@17.1.2)
   react-icons:
     specifier: ^5.0.1
     version: 5.0.1(@preact/compat@17.1.2)
@@ -42,8 +42,8 @@ dependencies:
     specifier: ^2.1.0
     version: 2.1.0(@preact/compat@17.1.2)(@preact/compat@17.1.2)
   react-parallax-tilt:
-    specifier: ^1.7.186
-    version: 1.7.186(@preact/compat@17.1.2)(@preact/compat@17.1.2)
+    specifier: ^1.7.191
+    version: 1.7.191(@preact/compat@17.1.2)(@preact/compat@17.1.2)
   react-pdf:
     specifier: ^7.7.0
     version: 7.7.0(@preact/compat@17.1.2)(@preact/compat@17.1.2)
@@ -12563,6 +12563,18 @@ packages:
       - vue-template-compiler
     dev: false
 
+  /react-error-boundary@4.0.12(@preact/compat@17.1.2):
+    resolution:
+      {
+        integrity: sha512-kJdxdEYlb7CPC1A0SeUY38cHpjuu6UkvzKiAmqmOFL21VRfMhOcWxTCBgLVCO0VEMh9JhFNcVaXlV4/BTpiwOA==,
+      }
+    peerDependencies:
+      react: ">=16.13.1"
+    dependencies:
+      "@babel/runtime": 7.22.15
+      react: /@preact/compat@17.1.2(preact@10.17.1)
+    dev: false
+
   /react-error-overlay@6.0.11:
     resolution:
       {
@@ -12570,10 +12582,10 @@ packages:
       }
     dev: false
 
-  /react-github-calendar@4.0.10(@preact/compat@17.1.2)(@preact/compat@17.1.2):
+  /react-github-calendar@4.1.0(@preact/compat@17.1.2)(@preact/compat@17.1.2):
     resolution:
       {
-        integrity: sha512-WcVAaVTaY13vbszGQY+WCJ1wK69W+kWZ1yKcewRDbeXf2OMz8oVeMYXv1xV33VP+kcKKRTMXtrW4Uoo0QZYsUw==,
+        integrity: sha512-Hr9MM/lrJlomLqC7qzKPc0dvqnsNiST82QBPbvnwtQodTh25579eg/+gVCutB8Yd3yO1ncZKmZUpRqYRMeMmBw==,
       }
     peerDependencies:
       react: ^17.0.0 || ^18.0.0
@@ -12582,6 +12594,7 @@ packages:
       react: /@preact/compat@17.1.2(preact@10.17.1)
       react-activity-calendar: 2.2.6(@preact/compat@17.1.2)(@preact/compat@17.1.2)
       react-dom: /@preact/compat@17.1.2(preact@10.17.1)
+      react-error-boundary: 4.0.12(@preact/compat@17.1.2)
     dev: false
 
   /react-icons@5.0.1(@preact/compat@17.1.2):
@@ -12637,10 +12650,10 @@ packages:
       sharp: 0.30.7
     dev: false
 
-  /react-parallax-tilt@1.7.186(@preact/compat@17.1.2)(@preact/compat@17.1.2):
+  /react-parallax-tilt@1.7.191(@preact/compat@17.1.2)(@preact/compat@17.1.2):
     resolution:
       {
-        integrity: sha512-EDMKheODGdcLJM9Cg3Sq1u62T351m6c1MQX/OeggseN9Rwyh+RTBzXeb0u9JEup2rEG+wNVafC1xffIpGENDTQ==,
+        integrity: sha512-JUhlnt19+3JTkEBhZKyj5xdaVGIR+gXeH4bhb1KYuXy1TQNgHtWt0GwXUwbBHjrD/FjjdSN0cadA2A5NfwF6bw==,
       }
     peerDependencies:
       react: ^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0
