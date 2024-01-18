@@ -1,4 +1,4 @@
-import React from "react";
+import GitHubCalendar from "react-github-calendar@{version}";
 import GitHubCalendar from "react-github-calendar";
 import { Row } from "react-bootstrap";
 import { githubUsername } from "../data";
