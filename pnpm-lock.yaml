@@ -33,8 +33,8 @@ dependencies:
     specifier: npm:@preact/compat
     version: /@preact/compat@17.1.2(preact@10.17.1)
   react-github-calendar:
-    specifier: ^4.1.0
-    version: 4.1.0(@preact/compat@17.1.2)(@preact/compat@17.1.2)
+    specifier: ^4.1.1
+    version: 4.1.1(@preact/compat@17.1.2)(@preact/compat@17.1.2)
   react-icons:
     specifier: ^5.0.1
     version: 5.0.1(@preact/compat@17.1.2)
@@ -12582,10 +12582,10 @@ packages:
       }
     dev: false
 
-  /react-github-calendar@4.1.0(@preact/compat@17.1.2)(@preact/compat@17.1.2):
+  /react-github-calendar@4.1.1(@preact/compat@17.1.2)(@preact/compat@17.1.2):
     resolution:
       {
-        integrity: sha512-Hr9MM/lrJlomLqC7qzKPc0dvqnsNiST82QBPbvnwtQodTh25579eg/+gVCutB8Yd3yO1ncZKmZUpRqYRMeMmBw==,
+        integrity: sha512-ddGl/a/+NGWNogKWFrmib0kLNTT5/POj+MK586sOFBtwL+xz5LSE8LKi2l6n+vAlezMGXkZmgBg3L5RkINmeeQ==,
       }
     peerDependencies:
       react: ^17.0.0 || ^18.0.0
