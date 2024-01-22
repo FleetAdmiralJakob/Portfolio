@@ -1,6 +1,7 @@
 import React from "react";
 import GitHubCalendar from "react-github-calendar";
 import { Row } from "react-bootstrap";
+// TODO: Check the value of githubUsername
 import { githubUsername } from "../../data";
 
 function Github() {
