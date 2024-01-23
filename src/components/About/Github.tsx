@@ -11,13 +11,18 @@ function Github() {
       </h1>
       <GitHubCalendar
         username={githubUsername}
-        blockSize={15}
-        blockMargin={5}
-        colorScheme="dark"
+        blockSize={10}
+        blockMargin={4}
+        colorScheme="default"
         theme={{
-          dark: ["#ebebeb", "#b37be4", "#9667c1", "#7a549d", "#5e417a"],
+          background: '#ebebeb',
+          text: '#b37be4',
+          grade4: '#9667c1',
+          grade3: '#7a549d',
+          grade2: '#5e417a',
+          grade1: '#000000',
         }}
-        fontSize={16}
+        fontSize={14}
       />
     </Row>
   );
