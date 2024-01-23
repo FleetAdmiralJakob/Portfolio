@@ -15,12 +15,12 @@ function Github() {
         blockMargin={4}
         colorScheme="default"
         theme={{
-          background: '#ebebeb',
-          text: '#b37be4',
-          grade4: '#9667c1',
-          grade3: '#7a549d',
-          grade2: '#5e417a',
-          grade1: '#000000',
+          background: "#ebebeb",
+          text: "#b37be4",
+          grade4: "#9667c1",
+          grade3: "#7a549d",
+          grade2: "#5e417a",
+          grade1: "#000000",
         }}
         fontSize={14}
       />
