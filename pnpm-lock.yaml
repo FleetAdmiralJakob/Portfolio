@@ -66,8 +66,8 @@ dependencies:
     specifier: ^2.21.0
     version: 2.21.0(@preact/compat@17.1.2)(@preact/compat@17.1.2)
   web-vitals:
-    specifier: ^3.5.1
-    version: 3.5.1
+    specifier: ^3.5.2
+    version: 3.5.2
 
 devDependencies:
   prettier:
@@ -15025,10 +15025,10 @@ packages:
       minimalistic-assert: 1.0.1
     dev: false
 
-  /web-vitals@3.5.1:
+  /web-vitals@3.5.2:
     resolution:
       {
-        integrity: sha512-xQ9lvIpfLxUj0eSmT79ZjRoU5wIRfIr7pNukL7ZE4EcWZSmfZQqOlhuAGfkVa3EFmzPHZhWhXfm2i5ys+THVPg==,
+        integrity: sha512-c0rhqNcHXRkY/ogGDJQxZ9Im9D19hDihbzSQJrsioex+KnFgmMzBiy57Z1EjkhX/+OjyBpclDCzz2ITtjokFmg==,
       }
     dev: false
 
