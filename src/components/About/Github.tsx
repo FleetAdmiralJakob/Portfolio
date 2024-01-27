@@ -1,9 +1,10 @@
-import React from "react";
+import React, { useEffect } from "react";
 import GitHubCalendar from "react-github-calendar";
+import { Octokit } from "@octokit/core";
 import { Row } from "react-bootstrap";
 import { githubUsername } from "../data";
 
-function Github() {
+function Github(props) {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
       <h1 className="project-heading" style={{ paddingBottom: "20px" }}>
