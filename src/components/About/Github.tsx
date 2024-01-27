@@ -11,7 +11,7 @@ function Github() {
         Code
       </h1>
       <GitHubCalendar
-                username={githubUsername}
+                // username={githubUsername}
         blockSize={15}
         blockMargin={5}
         colorScheme="dark"
