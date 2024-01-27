@@ -73,6 +73,7 @@
     ]
   },
   "devDependencies": {
+    "@types/aos": "^3.0.7",
     "prettier": "3.2.4"
   }
 }
