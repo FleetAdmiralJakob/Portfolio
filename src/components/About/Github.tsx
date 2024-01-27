@@ -17,7 +17,7 @@ function Github() {
         theme_remove_placeholder={{
           dark: ["#ebebeb", "#b37be4", "#9667c1", "#7a549d", "#5e417a"],
         }}
-        fontSize={16}
+        
       />
     </Row>
   );
