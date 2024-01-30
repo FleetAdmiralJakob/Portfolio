@@ -58,7 +58,7 @@ TODOs
 
 - Add a transition for the purple text ❗
 
-- Change Branch Protection Rules, so that the Github Action can upload a diagram
+- Update Branch Protection Rules to allow the Github Action to upload a diagram
 
 - Animate "read more" button in projects
 
