@@ -135,7 +135,7 @@ function About() {
         <br />
         <br />
         <img
-          src="https://github-readme-streak-stats-v2.vercel.app/?user=fleetadmiraljakob&theme=modern-lilac2"
+          src="https://streak-stats.demolab.com/?user=fleetadmiraljakob&theme=modern-lilac2"
           alt="about"
           className="img-fluid"
         />{" "}
