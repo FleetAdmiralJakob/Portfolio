@@ -74,8 +74,8 @@ devDependencies:
     specifier: ^3.0.7
     version: 3.0.7
   prettier:
-    specifier: 3.2.4
-    version: 3.2.4
+    specifier: 3.2.5
+    version: 3.2.5
 
 packages:
   /@aashutoshrathi/word-wrap@1.2.6:
@@ -12245,10 +12245,10 @@ packages:
     engines: { node: ">= 0.8.0" }
     dev: false
 
-  /prettier@3.2.4:
+  /prettier@3.2.5:
     resolution:
       {
-        integrity: sha512-FWu1oLHKCrtpO1ypU6J0SbK2d9Ckwysq6bHj/uaCP26DxrPpppCLQRGVuqAxSTvhF00AcvDRyYrLNW7ocBhFFQ==,
+        integrity: sha512-3/GWa9aOC0YeD7LUfvOG2NiDyhOWRvt1k+rcKhOuYnMY24iiCphgneUfJDyFXd6rZCAnuLBv6UeAULtrhT/F4A==,
       }
     engines: { node: ">=14" }
     hasBin: true
