@@ -32,7 +32,9 @@ html {
 
 .purple {
   color: var(--imp-text-color) !important;
-  transition: background 0.5s ease, color 0.5s ease;
+  transition:
+    background 0.5s ease,
+    color 0.5s ease;
 }
 
 .purple:hover {
