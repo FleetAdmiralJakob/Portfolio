@@ -170,7 +170,9 @@ function About() {
     <Container fluid className="about-section">
       <h2>Loading...</h2>
     </Container>
-  ) : content;
+  ) : (
+    content
+  );
 }
 
 export default About;
