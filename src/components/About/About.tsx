@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import Github from "./Github";
 import Techstack from "./Techstack";
@@ -166,6 +166,11 @@ function About() {
       </Container>
     </Container>
   );
+  return isLoading ? (
+    <Container fluid className="about-section">
+      <h2>Loading...</h2>
+    </Container>
+  ) : content;
 }
 
 export default About;
