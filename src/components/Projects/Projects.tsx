@@ -232,7 +232,7 @@ function Projects() {
                 {" "}
                 Foods Enhanced
               </a>
-              : Over 2,000 downloads <br />
+              : Over 5,000 downloads <br />
               <a href="https://www.curseforge.com/minecraft/mc-mods/vanilla-foods-enhanced-new">
                 <img
                   src={foods}
