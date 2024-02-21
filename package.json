@@ -27,7 +27,7 @@
     "@react-pdf/renderer": "^3.3.8",
     "@vercel/analytics": "^1.1.4",
     "aos": "^2.3.4",
-    "bootstrap": "^5.3.2",
+    "bootstrap": "^5.3.3",
     "number-to-words": "^1.2.4",
     "react": "npm:@preact/compat",
     "react-bootstrap": "^2.10.1",
