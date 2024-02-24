@@ -18,8 +18,8 @@ dependencies:
     specifier: ^2.3.4
     version: 2.3.4
   bootstrap:
-    specifier: ^5.3.2
-    version: 5.3.2(@popperjs/core@2.11.8)
+    specifier: ^5.3.3
+    version: 5.3.3(@popperjs/core@2.11.8)
   number-to-words:
     specifier: ^1.2.4
     version: 1.2.4
@@ -5049,10 +5049,10 @@ packages:
       }
     dev: false
 
-  /bootstrap@5.3.2(@popperjs/core@2.11.8):
+  /bootstrap@5.3.3(@popperjs/core@2.11.8):
     resolution:
       {
-        integrity: sha512-D32nmNWiQHo94BKHLmOrdjlL05q1c8oxbtBphQFb9Z5to6eGRDCm0QgeaZ4zFBHzfg2++rqa2JkqCcxDy0sH0g==,
+        integrity: sha512-8HLCdWgyoMguSO9o+aH+iuZ+aht+mzW0u3HIMzVu7Srrpv7EBBxTnrFlSCskwdY1+EOFQSm7uMJhNQHkdPcmjg==,
       }
     peerDependencies:
       "@popperjs/core": ^2.11.8
