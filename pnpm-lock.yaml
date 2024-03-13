@@ -33,8 +33,8 @@ dependencies:
     specifier: npm:@preact/compat
     version: /@preact/compat@17.1.2(preact@10.19.6)
   react-github-calendar:
-    specifier: ^4.1.2
-    version: 4.1.2(@preact/compat@17.1.2)(@preact/compat@17.1.2)
+    specifier: ^4.1.3
+    version: 4.1.3(@preact/compat@17.1.2)(@preact/compat@17.1.2)
   react-icons:
     specifier: ^5.0.1
     version: 5.0.1(@preact/compat@17.1.2)
@@ -12567,10 +12567,10 @@ packages:
       strip-json-comments: 2.0.1
     dev: false
 
-  /react-activity-calendar@2.2.6(@preact/compat@17.1.2)(@preact/compat@17.1.2):
+  /react-activity-calendar@2.2.8(@preact/compat@17.1.2)(@preact/compat@17.1.2):
     resolution:
       {
-        integrity: sha512-1UqEoi546dSoup+94xXTrQggkiX7AGVJvkad6N0+W/Sn4zMc2QtEKYCaaj1GTWwptt5MaAOBqDffjpK8DRa/KQ==,
+        integrity: sha512-+Zr6UlPC4zLMSkXyg/+bQ0Fd10E8V+nT+AU0FHfCIQi6/dLJe73cR+CkFFf8zPE59XhGO24U7FfUyFgbWqV0Bg==,
       }
     peerDependencies:
       react: ^17.0.0 || ^18.0.0
@@ -12691,17 +12691,17 @@ packages:
       }
     dev: false
 
-  /react-github-calendar@4.1.2(@preact/compat@17.1.2)(@preact/compat@17.1.2):
+  /react-github-calendar@4.1.3(@preact/compat@17.1.2)(@preact/compat@17.1.2):
     resolution:
       {
-        integrity: sha512-tSqugswiJk4YtTGkmnF50mSEjFIBew6hGanuqWvAmulS7hFF3VJ+UQlu5p6UybAVeRUFz2C1Eaq/nhcIIZhA0A==,
+        integrity: sha512-Rs23t8dryIwKLIHk0Gm1ufCN5tZ17OxHrKu2on/Tm6IIytxtLB359KtLE02e6/f8bnjA1ZQjP2qWlxQlBsHLKw==,
       }
     peerDependencies:
       react: ^17.0.0 || ^18.0.0
       react-dom: ^17.0.0 || ^18.0.0
     dependencies:
       react: /@preact/compat@17.1.2(preact@10.19.6)
-      react-activity-calendar: 2.2.6(@preact/compat@17.1.2)(@preact/compat@17.1.2)
+      react-activity-calendar: 2.2.8(@preact/compat@17.1.2)(@preact/compat@17.1.2)
       react-dom: /@preact/compat@17.1.2(preact@10.19.6)
       react-error-boundary: 4.0.12(@preact/compat@17.1.2)
     dev: false
