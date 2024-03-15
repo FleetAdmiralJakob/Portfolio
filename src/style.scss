@@ -1522,7 +1522,9 @@ button:focus {
 
 .fork-btn {
   font-size: 1.1em !important;
-  width: 7rem !important;
+  @media (min-width: 768px) {
+    width: 7rem !important;
+  }
   padding-top: 10px !important;
 }
 
@@ -1531,6 +1533,9 @@ button:focus {
   background-color: #934cce5e !important;
   padding: 0.25rem 1.1rem !important;
   vertical-align: middle !important;
+  @media (max-width: 767px) {
+    width: 7rem !important;
+  }
   text-align: center !important;
 }
 
