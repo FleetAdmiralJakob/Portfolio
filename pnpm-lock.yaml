@@ -25,13 +25,13 @@ dependencies:
     version: 1.2.4
   react:
     specifier: npm:@preact/compat
-    version: /@preact/compat@17.1.2(preact@10.19.6)
+    version: /@preact/compat@17.1.2(preact@10.19.7)
   react-bootstrap:
     specifier: ^2.10.2
     version: 2.10.2(@preact/compat@17.1.2)(@preact/compat@17.1.2)
   react-dom:
     specifier: npm:@preact/compat
-    version: /@preact/compat@17.1.2(preact@10.19.6)
+    version: /@preact/compat@17.1.2(preact@10.19.7)
   react-github-calendar:
     specifier: ^4.1.3
     version: 4.1.3(@preact/compat@17.1.2)(@preact/compat@17.1.2)
@@ -43,7 +43,7 @@ dependencies:
     version: 2.1.0(@preact/compat@17.1.2)(@preact/compat@17.1.2)
   react-parallax-tilt:
     specifier: ^1.7.214
-    version: 1.7.215(@preact/compat@17.1.2)(@preact/compat@17.1.2)
+    version: 1.7.216(@preact/compat@17.1.2)(@preact/compat@17.1.2)
   react-pdf:
     specifier: ^7.7.1
     version: 7.7.1(@preact/compat@17.1.2)(@preact/compat@17.1.2)
@@ -52,7 +52,7 @@ dependencies:
     version: 6.22.3(@preact/compat@17.1.2)(@preact/compat@17.1.2)
   react-scripts:
     specifier: ^5.0.1
-    version: 5.0.1(@babel/plugin-syntax-flow@7.23.3)(@babel/plugin-transform-react-jsx@7.23.4)(@preact/compat@17.1.2)(eslint@8.57.0)(sass@1.72.0)(typescript@4.9.5)
+    version: 5.0.1(@babel/plugin-syntax-flow@7.24.1)(@babel/plugin-transform-react-jsx@7.23.4)(@preact/compat@17.1.2)(eslint@8.57.0)(sass@1.72.0)(typescript@4.9.5)
   react-tsparticles:
     specifier: ^1.43.1
     version: 1.43.1(@preact/compat@17.1.2)
@@ -770,6 +770,19 @@ packages:
     resolution:
       {
         integrity: sha512-YZiAIpkJAwQXBJLIQbRFayR5c+gJ35Vcz3bg954k7cd73zqjvhacJuL9RbrzPz8qPmZdgqP6EUKwy0PCNhaaPA==,
+      }
+    engines: { node: ">=6.9.0" }
+    peerDependencies:
+      "@babel/core": ^7.0.0-0
+    dependencies:
+      "@babel/core": 7.24.0
+      "@babel/helper-plugin-utils": 7.24.0
+    dev: false
+
+  /@babel/plugin-syntax-flow@7.24.1(@babel/core@7.24.0):
+    resolution:
+      {
+        integrity: sha512-sxi2kLTI5DeW5vDtMUsk4mTPwvlUDbjOnoWayhynCwrw4QXRld4QEYwqzY8JmQXaJUtgUuCIurtSRH5sn4c7mA==,
       }
     engines: { node: ">=6.9.0" }
     peerDependencies:
@@ -2842,7 +2855,7 @@ packages:
       }
     dev: false
 
-  /@preact/compat@17.1.2(preact@10.19.6):
+  /@preact/compat@17.1.2(preact@10.19.7):
     resolution:
       {
         integrity: sha512-7pOZN9lMDDRQ+6aWvjwTp483KR8/zOpfS83wmOo3zfuLKdngS8/5RLbsFWzFZMGdYlotAhX980hJ75bjOHTwWg==,
@@ -2850,7 +2863,7 @@ packages:
     peerDependencies:
       preact: "*"
     dependencies:
-      preact: 10.19.6
+      preact: 10.19.7
     dev: false
 
   /@react-aria/ssr@3.9.2(@preact/compat@17.1.2):
@@ -2863,7 +2876,7 @@ packages:
       react: ^16.8.0 || ^17.0.0-rc.1 || ^18.0.0
     dependencies:
       "@swc/helpers": 0.5.6
-      react: /@preact/compat@17.1.2(preact@10.19.6)
+      react: /@preact/compat@17.1.2(preact@10.19.7)
     dev: false
 
   /@react-pdf/fns@2.2.1:
@@ -2994,7 +3007,7 @@ packages:
       object-assign: 4.1.1
       prop-types: 15.8.1
       queue: 6.0.2
-      react: /@preact/compat@17.1.2(preact@10.19.6)
+      react: /@preact/compat@17.1.2(preact@10.19.7)
       scheduler: 0.17.0
     transitivePeerDependencies:
       - encoding
@@ -3052,7 +3065,7 @@ packages:
       react: ">=16.8.0"
     dependencies:
       dequal: 2.0.3
-      react: /@preact/compat@17.1.2(preact@10.19.6)
+      react: /@preact/compat@17.1.2(preact@10.19.7)
     dev: false
 
   /@restart/ui@1.6.8(@preact/compat@17.1.2)(@preact/compat@17.1.2):
@@ -3071,8 +3084,8 @@ packages:
       "@types/warning": 3.0.3
       dequal: 2.0.3
       dom-helpers: 5.2.1
-      react: /@preact/compat@17.1.2(preact@10.19.6)
-      react-dom: /@preact/compat@17.1.2(preact@10.19.6)
+      react: /@preact/compat@17.1.2(preact@10.19.7)
+      react-dom: /@preact/compat@17.1.2(preact@10.19.7)
       uncontrollable: 8.0.4(@preact/compat@17.1.2)
       warning: 4.0.3
     dev: false
@@ -4013,7 +4026,7 @@ packages:
       react:
         optional: true
     dependencies:
-      react: /@preact/compat@17.1.2(preact@10.19.6)
+      react: /@preact/compat@17.1.2(preact@10.19.7)
       server-only: 0.0.1
     dev: false
 
@@ -6968,7 +6981,7 @@ packages:
       source-map: 0.6.1
     dev: false
 
-  /eslint-config-react-app@7.0.1(@babel/plugin-syntax-flow@7.23.3)(@babel/plugin-transform-react-jsx@7.23.4)(eslint@8.57.0)(jest@27.5.1)(typescript@4.9.5):
+  /eslint-config-react-app@7.0.1(@babel/plugin-syntax-flow@7.24.1)(@babel/plugin-transform-react-jsx@7.23.4)(eslint@8.57.0)(jest@27.5.1)(typescript@4.9.5):
     resolution:
       {
         integrity: sha512-K6rNzvkIeHaTd8m/QEh1Zko0KI7BACWkkneSs6s9cKZC/J27X3eZR6Upt1jkmZ/4FK+XUOPPxMEN7+lbUXfSlA==,
@@ -6989,7 +7002,7 @@ packages:
       babel-preset-react-app: 10.0.1
       confusing-browser-globals: 1.0.11
       eslint: 8.57.0
-      eslint-plugin-flowtype: 8.0.3(@babel/plugin-syntax-flow@7.23.3)(@babel/plugin-transform-react-jsx@7.23.4)(eslint@8.57.0)
+      eslint-plugin-flowtype: 8.0.3(@babel/plugin-syntax-flow@7.24.1)(@babel/plugin-transform-react-jsx@7.23.4)(eslint@8.57.0)
       eslint-plugin-import: 2.29.1(@typescript-eslint/parser@5.62.0)(eslint@8.57.0)
       eslint-plugin-jest: 25.7.0(@typescript-eslint/eslint-plugin@5.62.0)(eslint@8.57.0)(jest@27.5.1)(typescript@4.9.5)
       eslint-plugin-jsx-a11y: 6.8.0(eslint@8.57.0)
@@ -7051,7 +7064,7 @@ packages:
       - supports-color
     dev: false
 
-  /eslint-plugin-flowtype@8.0.3(@babel/plugin-syntax-flow@7.23.3)(@babel/plugin-transform-react-jsx@7.23.4)(eslint@8.57.0):
+  /eslint-plugin-flowtype@8.0.3(@babel/plugin-syntax-flow@7.24.1)(@babel/plugin-transform-react-jsx@7.23.4)(eslint@8.57.0):
     resolution:
       {
         integrity: sha512-dX8l6qUL6O+fYPtpNRideCFSpmWOUVx5QcaGLVqe/vlDiBSe4vYljDWDETwnyFzpl7By/WVIu6rcrniCgH9BqQ==,
@@ -7062,7 +7075,7 @@ packages:
       "@babel/plugin-transform-react-jsx": ^7.14.9
       eslint: ^8.1.0
     dependencies:
-      "@babel/plugin-syntax-flow": 7.23.3(@babel/core@7.24.0)
+      "@babel/plugin-syntax-flow": 7.24.1(@babel/core@7.24.0)
       "@babel/plugin-transform-react-jsx": 7.23.4(@babel/core@7.24.0)
       eslint: 8.57.0
       lodash: 4.17.21
@@ -11300,12 +11313,24 @@ packages:
     engines: { node: ">=8" }
     dev: false
 
-  /path2d-polyfill@2.0.1:
+  /path2d-polyfill@2.1.1:
     resolution:
       {
-        integrity: sha512-ad/3bsalbbWhmBo0D6FZ4RNMwsLsPpL6gnvhuSaU5Vm7b06Kr5ubSltQQ0T7YKsiJQO+g22zJ4dJKNTXIyOXtA==,
+        integrity: sha512-4Rka5lN+rY/p0CdD8+E+BFv51lFaFvJOrlOhyQ+zjzyQrzyh3ozmxd1vVGGDdIbUFSBtIZLSnspxTgPT0iJhvA==,
       }
-    engines: { node: ">=8" }
+    engines: { node: ">=18" }
+    requiresBuild: true
+    dependencies:
+      path2d: 0.1.1
+    dev: false
+    optional: true
+
+  /path2d@0.1.1:
+    resolution:
+      {
+        integrity: sha512-/+S03c8AGsDYKKBtRDqieTJv2GlkMb0bWjnqOgtF6MkjdUQ9a8ARAtxWf9NgKLGm2+WQr6+/tqJdU8HNGsIDoA==,
+      }
+    engines: { node: ">=6" }
     requiresBuild: true
     dev: false
     optional: true
@@ -11318,7 +11343,7 @@ packages:
     engines: { node: ">=18" }
     optionalDependencies:
       canvas: 2.11.2
-      path2d-polyfill: 2.0.1
+      path2d-polyfill: 2.1.1
     transitivePeerDependencies:
       - encoding
       - supports-color
@@ -12390,10 +12415,10 @@ packages:
       source-map-js: 1.0.2
     dev: false
 
-  /preact@10.19.6:
+  /preact@10.19.7:
     resolution:
       {
-        integrity: sha512-gympg+T2Z1fG1unB8NH29yHJwnEaCH37Z32diPDku316OTnRPeMbiRV9kTrfZpocXjdfnWuFUl/Mj4BHaf6gnw==,
+        integrity: sha512-IJOW6cQN1fwfC17HfNOqUtAGyB8wAYshuC+jG1JiL/1+sC4yVyuA3IcF0N9vdodMJjW/lbuEF5qFsJqGNcbHbw==,
       }
     dev: false
 
@@ -12522,7 +12547,7 @@ packages:
     peerDependencies:
       react: ">=0.14.0"
     dependencies:
-      react: /@preact/compat@17.1.2(preact@10.19.6)
+      react: /@preact/compat@17.1.2(preact@10.19.7)
       react-is: 16.13.1
       warning: 4.0.3
     dev: false
@@ -12679,8 +12704,8 @@ packages:
       "@types/chroma-js": 2.4.4
       chroma-js: 2.4.2
       date-fns: 3.5.0
-      react: /@preact/compat@17.1.2(preact@10.19.6)
-      react-dom: /@preact/compat@17.1.2(preact@10.19.6)
+      react: /@preact/compat@17.1.2(preact@10.19.7)
+      react-dom: /@preact/compat@17.1.2(preact@10.19.7)
     dev: false
 
   /react-app-polyfill@3.0.0:
@@ -12720,8 +12745,8 @@ packages:
       invariant: 2.2.4
       prop-types: 15.8.1
       prop-types-extra: 1.1.1(@preact/compat@17.1.2)
-      react: /@preact/compat@17.1.2(preact@10.19.6)
-      react-dom: /@preact/compat@17.1.2(preact@10.19.6)
+      react: /@preact/compat@17.1.2(preact@10.19.7)
+      react-dom: /@preact/compat@17.1.2(preact@10.19.7)
       react-transition-group: 4.4.5(@preact/compat@17.1.2)(@preact/compat@17.1.2)
       uncontrollable: 7.2.1(@preact/compat@17.1.2)
       warning: 4.0.3
@@ -12781,7 +12806,7 @@ packages:
       react: ">=16.13.1"
     dependencies:
       "@babel/runtime": 7.24.0
-      react: /@preact/compat@17.1.2(preact@10.19.6)
+      react: /@preact/compat@17.1.2(preact@10.19.7)
     dev: false
 
   /react-error-overlay@6.0.11:
@@ -12800,9 +12825,9 @@ packages:
       react: ^17.0.0 || ^18.0.0
       react-dom: ^17.0.0 || ^18.0.0
     dependencies:
-      react: /@preact/compat@17.1.2(preact@10.19.6)
+      react: /@preact/compat@17.1.2(preact@10.19.7)
       react-activity-calendar: 2.2.8(@preact/compat@17.1.2)(@preact/compat@17.1.2)
-      react-dom: /@preact/compat@17.1.2(preact@10.19.6)
+      react-dom: /@preact/compat@17.1.2(preact@10.19.7)
       react-error-boundary: 4.0.13(@preact/compat@17.1.2)
     dev: false
 
@@ -12814,7 +12839,7 @@ packages:
     peerDependencies:
       react: "*"
     dependencies:
-      react: /@preact/compat@17.1.2(preact@10.19.6)
+      react: /@preact/compat@17.1.2(preact@10.19.7)
     dev: false
 
   /react-is@16.13.1:
@@ -12854,22 +12879,22 @@ packages:
       react: ^16.3.0 || ^17.0.0-0
       react-dom: ^16.3.0 || ^17.0.0-0
     dependencies:
-      react: /@preact/compat@17.1.2(preact@10.19.6)
-      react-dom: /@preact/compat@17.1.2(preact@10.19.6)
+      react: /@preact/compat@17.1.2(preact@10.19.7)
+      react-dom: /@preact/compat@17.1.2(preact@10.19.7)
       sharp: 0.30.7
     dev: false
 
-  /react-parallax-tilt@1.7.215(@preact/compat@17.1.2)(@preact/compat@17.1.2):
+  /react-parallax-tilt@1.7.216(@preact/compat@17.1.2)(@preact/compat@17.1.2):
     resolution:
       {
-        integrity: sha512-uIIYccEHyaWjedqaYOETjhHHNej+O85cATUOXtMPgdk4rCYjfpFP9FSPfVc4ezD/qUkBD8bzbFH5BKsrbfLZYA==,
+        integrity: sha512-4hnN4sCyDPDJnDHCJEStnTkvJeaaHmkLflZcZpIZJNtiqMXqqVK4oFNeR8pmH9n7h6Qiz7A9K1iotbWrNDmvWw==,
       }
     peerDependencies:
       react: ^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0
       react-dom: ^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0
     dependencies:
-      react: /@preact/compat@17.1.2(preact@10.19.6)
-      react-dom: /@preact/compat@17.1.2(preact@10.19.6)
+      react: /@preact/compat@17.1.2(preact@10.19.7)
+      react-dom: /@preact/compat@17.1.2(preact@10.19.7)
     dev: false
 
   /react-pdf@7.7.1(@preact/compat@17.1.2)(@preact/compat@17.1.2):
@@ -12892,8 +12917,8 @@ packages:
       merge-refs: 1.2.2
       pdfjs-dist: 3.11.174
       prop-types: 15.8.1
-      react: /@preact/compat@17.1.2(preact@10.19.6)
-      react-dom: /@preact/compat@17.1.2(preact@10.19.6)
+      react: /@preact/compat@17.1.2(preact@10.19.7)
+      react-dom: /@preact/compat@17.1.2(preact@10.19.7)
       tiny-invariant: 1.3.3
       warning: 4.0.3
     transitivePeerDependencies:
@@ -12920,8 +12945,8 @@ packages:
       react-dom: ">=16.8"
     dependencies:
       "@remix-run/router": 1.15.3
-      react: /@preact/compat@17.1.2(preact@10.19.6)
-      react-dom: /@preact/compat@17.1.2(preact@10.19.6)
+      react: /@preact/compat@17.1.2(preact@10.19.7)
+      react-dom: /@preact/compat@17.1.2(preact@10.19.7)
       react-router: 6.22.3(@preact/compat@17.1.2)
     dev: false
 
@@ -12935,10 +12960,10 @@ packages:
       react: ">=16.8"
     dependencies:
       "@remix-run/router": 1.15.3
-      react: /@preact/compat@17.1.2(preact@10.19.6)
+      react: /@preact/compat@17.1.2(preact@10.19.7)
     dev: false
 
-  /react-scripts@5.0.1(@babel/plugin-syntax-flow@7.23.3)(@babel/plugin-transform-react-jsx@7.23.4)(@preact/compat@17.1.2)(eslint@8.57.0)(sass@1.72.0)(typescript@4.9.5):
+  /react-scripts@5.0.1(@babel/plugin-syntax-flow@7.24.1)(@babel/plugin-transform-react-jsx@7.23.4)(@preact/compat@17.1.2)(eslint@8.57.0)(sass@1.72.0)(typescript@4.9.5):
     resolution:
       {
         integrity: sha512-8VAmEm/ZAwQzJ+GOMLbBsTdDKOpuZh7RPs0UymvBR2vRk4iZWCskjbFnxqjrzoIvlNNRZ3QJFx6/qDSi6zSnaQ==,
@@ -12969,7 +12994,7 @@ packages:
       dotenv: 10.0.0
       dotenv-expand: 5.1.0
       eslint: 8.57.0
-      eslint-config-react-app: 7.0.1(@babel/plugin-syntax-flow@7.23.3)(@babel/plugin-transform-react-jsx@7.23.4)(eslint@8.57.0)(jest@27.5.1)(typescript@4.9.5)
+      eslint-config-react-app: 7.0.1(@babel/plugin-syntax-flow@7.24.1)(@babel/plugin-transform-react-jsx@7.23.4)(eslint@8.57.0)(jest@27.5.1)(typescript@4.9.5)
       eslint-webpack-plugin: 3.2.0(eslint@8.57.0)(webpack@5.90.3)
       file-loader: 6.2.0(webpack@5.90.3)
       fs-extra: 10.1.0
@@ -12985,7 +13010,7 @@ packages:
       postcss-normalize: 10.0.1(browserslist@4.23.0)(postcss@8.4.35)
       postcss-preset-env: 7.8.3(postcss@8.4.35)
       prompts: 2.4.2
-      react: /@preact/compat@17.1.2(preact@10.19.6)
+      react: /@preact/compat@17.1.2(preact@10.19.7)
       react-app-polyfill: 3.0.0
       react-dev-utils: 12.0.1(eslint@8.57.0)(typescript@4.9.5)(webpack@5.90.3)
       react-refresh: 0.11.0
@@ -13052,8 +13077,8 @@ packages:
       dom-helpers: 5.2.1
       loose-envify: 1.4.0
       prop-types: 15.8.1
-      react: /@preact/compat@17.1.2(preact@10.19.6)
-      react-dom: /@preact/compat@17.1.2(preact@10.19.6)
+      react: /@preact/compat@17.1.2(preact@10.19.7)
+      react-dom: /@preact/compat@17.1.2(preact@10.19.7)
     dev: false
 
   /react-tsparticles@1.43.1(@preact/compat@17.1.2):
@@ -13067,7 +13092,7 @@ packages:
       react: ">=16"
     dependencies:
       fast-deep-equal: 3.1.3
-      react: /@preact/compat@17.1.2(preact@10.19.6)
+      react: /@preact/compat@17.1.2(preact@10.19.7)
       tsparticles: 1.43.1
     dev: false
 
@@ -14948,8 +14973,8 @@ packages:
     dependencies:
       prop-types: 15.8.1
       raf: 3.4.1
-      react: /@preact/compat@17.1.2(preact@10.19.6)
-      react-dom: /@preact/compat@17.1.2(preact@10.19.6)
+      react: /@preact/compat@17.1.2(preact@10.19.7)
+      react-dom: /@preact/compat@17.1.2(preact@10.19.7)
     dev: false
 
   /unbox-primitive@1.0.2:
@@ -14975,7 +15000,7 @@ packages:
       "@babel/runtime": 7.24.0
       "@types/react": 18.2.66
       invariant: 2.2.4
-      react: /@preact/compat@17.1.2(preact@10.19.6)
+      react: /@preact/compat@17.1.2(preact@10.19.7)
       react-lifecycles-compat: 3.0.4
     dev: false
 
@@ -14987,7 +15012,7 @@ packages:
     peerDependencies:
       react: ">=16.14.0"
     dependencies:
-      react: /@preact/compat@17.1.2(preact@10.19.6)
+      react: /@preact/compat@17.1.2(preact@10.19.7)
     dev: false
 
   /underscore@1.12.1:
