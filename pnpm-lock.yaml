@@ -42,8 +42,8 @@ dependencies:
     specifier: ^2.1.0
     version: 2.1.0(@preact/compat@17.1.2)(@preact/compat@17.1.2)
   react-parallax-tilt:
-    specifier: ^1.7.218
-    version: 1.7.218(@preact/compat@17.1.2)(@preact/compat@17.1.2)
+    specifier: ^1.7.219
+    version: 1.7.219(@preact/compat@17.1.2)(@preact/compat@17.1.2)
   react-pdf:
     specifier: ^7.7.1
     version: 7.7.1(@preact/compat@17.1.2)(@preact/compat@17.1.2)
@@ -12884,10 +12884,10 @@ packages:
       sharp: 0.30.7
     dev: false
 
-  /react-parallax-tilt@1.7.218(@preact/compat@17.1.2)(@preact/compat@17.1.2):
+  /react-parallax-tilt@1.7.219(@preact/compat@17.1.2)(@preact/compat@17.1.2):
     resolution:
       {
-        integrity: sha512-dl7vJ2AsHBACts/osX2UReE3zj48NmMiVhYim3HL8Jl3thUVzw05ByLW9J5R1Vku8OmrSX42ySPKMhjGG0STZg==,
+        integrity: sha512-UtiUZdRpxpySjb8kKDaAeCyBQ0QI4RU6MGaqyKgf64rt/qMwjLHERls0saREuaJrUumoHR5CedTQic+OVJta7g==,
       }
     peerDependencies:
       react: ^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0
