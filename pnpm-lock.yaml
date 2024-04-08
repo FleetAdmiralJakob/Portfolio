@@ -42,8 +42,8 @@ dependencies:
     specifier: ^2.1.0
     version: 2.1.0(@preact/compat@17.1.2)(@preact/compat@17.1.2)
   react-parallax-tilt:
-    specifier: ^1.7.219
-    version: 1.7.219(@preact/compat@17.1.2)(@preact/compat@17.1.2)
+    specifier: ^1.7.220
+    version: 1.7.220(@preact/compat@17.1.2)(@preact/compat@17.1.2)
   react-pdf:
     specifier: ^7.7.1
     version: 7.7.1(@preact/compat@17.1.2)(@preact/compat@17.1.2)
@@ -11319,6 +11319,7 @@ packages:
         integrity: sha512-4Rka5lN+rY/p0CdD8+E+BFv51lFaFvJOrlOhyQ+zjzyQrzyh3ozmxd1vVGGDdIbUFSBtIZLSnspxTgPT0iJhvA==,
       }
     engines: { node: ">=18" }
+    deprecated: this package has been deprecated
     requiresBuild: true
     dependencies:
       path2d: 0.1.1
@@ -12884,10 +12885,10 @@ packages:
       sharp: 0.30.7
     dev: false
 
-  /react-parallax-tilt@1.7.219(@preact/compat@17.1.2)(@preact/compat@17.1.2):
+  /react-parallax-tilt@1.7.220(@preact/compat@17.1.2)(@preact/compat@17.1.2):
     resolution:
       {
-        integrity: sha512-UtiUZdRpxpySjb8kKDaAeCyBQ0QI4RU6MGaqyKgf64rt/qMwjLHERls0saREuaJrUumoHR5CedTQic+OVJta7g==,
+        integrity: sha512-9hqQAQ38+5h03Dwq01rp/ylfsVWaNUSSo+fPsQvJCrv765/ER0KU4zfC5yylovnUb8SGHw6WLp88Ap0ZqyHaxQ==,
       }
     peerDependencies:
       react: ^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0
