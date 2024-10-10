@@ -75,8 +75,8 @@ importers:
         specifier: ^3.0.7
         version: 3.0.7
       prettier:
-        specifier: 3.2.5
-        version: 3.2.5
+        specifier: 3.3.3
+        version: 3.3.3
 
 packages:
   "@alloc/quick-lru@5.2.0":
@@ -8127,10 +8127,10 @@ packages:
       }
     engines: { node: ">= 0.8.0" }
 
-  prettier@3.2.5:
+  prettier@3.3.3:
     resolution:
       {
-        integrity: sha512-3/GWa9aOC0YeD7LUfvOG2NiDyhOWRvt1k+rcKhOuYnMY24iiCphgneUfJDyFXd6rZCAnuLBv6UeAULtrhT/F4A==,
+        integrity: sha512-i2tDNA0O5IrMO757lfrdQZCc2jPNDVntV0m/+4whiDfWaTKfMNgR7Qz0NAeGz/nRqF4m5/6CLzbP4/liHt12Ew==,
       }
     engines: { node: ">=14" }
     hasBin: true
@@ -16049,7 +16049,7 @@ snapshots:
 
   prelude-ls@1.2.1: {}
 
-  prettier@3.2.5: {}
+  prettier@3.3.3: {}
 
   pretty-bytes@5.6.0: {}
 
