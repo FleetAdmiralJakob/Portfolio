@@ -48,7 +48,7 @@ importers:
         version: 1.7.219(@preact/compat@17.1.2(preact@10.22.0))(@preact/compat@17.1.2(preact@10.22.0))
       react-pdf:
         specifier: ^9.0.0
-        version: 9.0.0(@preact/compat@17.1.2(preact@10.22.0))(@preact/compat@17.1.2(preact@10.22.0))(@types/react@18.2.66)
+        version: 9.1.1(@preact/compat@17.1.2(preact@10.22.0))(@preact/compat@17.1.2(preact@10.22.0))(@types/react@18.2.66)
       react-router-dom:
         specifier: ^6.22.2
         version: 6.22.3(@preact/compat@17.1.2(preact@10.22.0))(@preact/compat@17.1.2(preact@10.22.0))
@@ -6921,10 +6921,10 @@ packages:
         integrity: sha512-z81GNO7nnYMEhrGh9LeymoE4+Yr0Wn5McHIZMK5cfQCl+NDX08sCZgUc9/6MHni9IWuFLm1Z3HTCXu2z9fN62Q==,
       }
 
-  nan@2.19.0:
+  nan@2.20.0:
     resolution:
       {
-        integrity: sha512-nO1xXxfh/RWNxfd/XPfbIfFk5vgLsAxUR9y5O0cHMJu/AW9U95JLXqthYHjEp+8gQ5p96K9jUp8nbVOxCdRbtw==,
+        integrity: sha512-bk3gXBZDGILuuo/6sKtr0DQmSThYHLtNCdSdXk9YkxD/jK6X2vmCyyXBBxyqZ4XcnzTyYEAThfX3DCEnLf6igw==,
       }
 
   nanoid@3.3.7:
@@ -7377,17 +7377,17 @@ packages:
       }
     engines: { node: ">=8" }
 
-  path2d@0.2.0:
+  path2d@0.2.1:
     resolution:
       {
-        integrity: sha512-KdPAykQX6kmLSOO6Jpu2KNcCED7CKjmaBNGGNuctOsG0hgYO1OdYQaan6cYXJiG0WmXOwZZPILPBimu5QAIw3A==,
+        integrity: sha512-Fl2z/BHvkTNvkuBzYTpTuirHZg6wW9z8+4SND/3mDTEcYbbNKWAy21dz9D3ePNNwrrK8pqZO5vLPZ1hLF6T7XA==,
       }
     engines: { node: ">=6" }
 
-  pdfjs-dist@4.3.136:
+  pdfjs-dist@4.4.168:
     resolution:
       {
-        integrity: sha512-gzfnt1qc4yA+U46golPGYtU4WM2ssqP2MvFjKga8GEKOrEnzRPrA/9jogLLPYHiA3sGBPJ+p7BdAq+ytmw3jEg==,
+        integrity: sha512-MbkAjpwka/dMHaCfQ75RY1FXX3IewBVu6NGZOcxerRFlaBiIkZmUoR0jotX5VUzYZEXAGzSFtknWs5xRKliXPA==,
       }
     engines: { node: ">=18" }
 
@@ -8405,10 +8405,10 @@ packages:
       react: ^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0
       react-dom: ^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0
 
-  react-pdf@9.0.0:
+  react-pdf@9.1.1:
     resolution:
       {
-        integrity: sha512-J+pza8R2p9oNEOJOHIQJI4o5rFK7ji7bBl2IvsHvz1OOyphvuzVDo5tOJwWAFAbxYauCH3Kt8jOvcMJUOpxYZQ==,
+        integrity: sha512-Cn3RTJZMqVOOCgLMRXDamLk4LPGfyB2Np3OwQAUjmHIh47EpuGW1OpAA1Z1GVDLoHx4d5duEDo/YbUkDbr4QFQ==,
       }
     peerDependencies:
       "@types/react": ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
@@ -8859,10 +8859,10 @@ packages:
     engines: { node: ">=10" }
     hasBin: true
 
-  semver@7.6.2:
+  semver@7.6.3:
     resolution:
       {
-        integrity: sha512-FNAIBWCx9qcRhoHcgcJ0gvU7SN1lYU2ZXuSfl04bSC5OpvDHFyJCjdNHomPXxjQlCBU67YW64PzY7/VIEH7F2w==,
+        integrity: sha512-oVekP1cKtI+CTDvHWYFUcMtsK/00wmAEfyqKfNdARm8u1wNVhSgaX7A8d4UuIlUI5e84iEwOhs7ZPYRmzU9U6A==,
       }
     engines: { node: ">=10" }
     hasBin: true
@@ -11720,7 +11720,7 @@ snapshots:
       nopt: 5.0.0
       npmlog: 5.0.1
       rimraf: 3.0.2
-      semver: 7.6.2
+      semver: 7.6.3
       tar: 6.2.1
     transitivePeerDependencies:
       - encoding
@@ -12477,7 +12477,7 @@ snapshots:
 
   agent-base@6.0.2:
     dependencies:
-      debug: 4.3.4
+      debug: 4.3.7
     transitivePeerDependencies:
       - supports-color
 
@@ -12947,7 +12947,7 @@ snapshots:
   canvas@2.11.2:
     dependencies:
       "@mapbox/node-pre-gyp": 1.0.11
-      nan: 2.19.0
+      nan: 2.20.0
       simple-get: 3.1.1
     transitivePeerDependencies:
       - encoding
@@ -14307,7 +14307,7 @@ snapshots:
     dependencies:
       "@tootallnate/once": 1.1.2
       agent-base: 6.0.2
-      debug: 4.3.4
+      debug: 4.3.7
     transitivePeerDependencies:
       - supports-color
 
@@ -14334,7 +14334,7 @@ snapshots:
   https-proxy-agent@5.0.1:
     dependencies:
       agent-base: 6.0.2
-      debug: 4.3.4
+      debug: 4.3.7
     transitivePeerDependencies:
       - supports-color
 
@@ -15323,7 +15323,7 @@ snapshots:
       object-assign: 4.1.1
       thenify-all: 1.6.0
 
-  nan@2.19.0:
+  nan@2.20.0:
     optional: true
 
   nanoid@3.3.7: {}
@@ -15569,13 +15569,13 @@ snapshots:
 
   path-type@4.0.0: {}
 
-  path2d@0.2.0:
+  path2d@0.2.1:
     optional: true
 
-  pdfjs-dist@4.3.136:
+  pdfjs-dist@4.4.168:
     optionalDependencies:
       canvas: 2.11.2
-      path2d: 0.2.0
+      path2d: 0.2.1
     transitivePeerDependencies:
       - encoding
       - supports-color
@@ -16251,14 +16251,14 @@ snapshots:
       react: "@preact/compat@17.1.2(preact@10.22.0)"
       react-dom: "@preact/compat@17.1.2(preact@10.22.0)"
 
-  react-pdf@9.0.0(@preact/compat@17.1.2(preact@10.22.0))(@preact/compat@17.1.2(preact@10.22.0))(@types/react@18.2.66):
+  react-pdf@9.1.1(@preact/compat@17.1.2(preact@10.22.0))(@preact/compat@17.1.2(preact@10.22.0))(@types/react@18.2.66):
     dependencies:
       clsx: 2.1.1
       dequal: 2.0.3
       make-cancellable-promise: 1.3.2
       make-event-props: 1.6.2
       merge-refs: 1.3.0(@types/react@18.2.66)
-      pdfjs-dist: 4.3.136
+      pdfjs-dist: 4.4.168
       react: "@preact/compat@17.1.2(preact@10.22.0)"
       react-dom: "@preact/compat@17.1.2(preact@10.22.0)"
       tiny-invariant: 1.3.3
@@ -16615,7 +16615,7 @@ snapshots:
     dependencies:
       lru-cache: 6.0.0
 
-  semver@7.6.2:
+  semver@7.6.3:
     optional: true
 
   send@0.18.0:
