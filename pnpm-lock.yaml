@@ -45,7 +45,7 @@ importers:
         version: 2.1.0(@preact/compat@17.1.2(preact@10.22.0))(@preact/compat@17.1.2(preact@10.22.0))
       react-parallax-tilt:
         specifier: ^1.7.219
-        version: 1.7.280(@preact/compat@17.1.2(preact@10.22.0))(@preact/compat@17.1.2(preact@10.22.0))
+        version: 1.7.281(@preact/compat@17.1.2(preact@10.22.0))(@preact/compat@17.1.2(preact@10.22.0))
       react-pdf:
         specifier: ^9.0.0
         version: 9.2.1(@preact/compat@17.1.2(preact@10.22.0))(@preact/compat@17.1.2(preact@10.22.0))(@types/react@19.0.8)
@@ -147,10 +147,10 @@ packages:
       }
     engines: { node: ">=6.9.0" }
 
-  "@babel/generator@7.26.5":
+  "@babel/generator@7.26.8":
     resolution:
       {
-        integrity: sha512-2caSP6fN9I7HOe6nqhtft7V4g7/V/gfDsC3Ag4W7kEzzvRGKqiv0pu0HogPiZ3KaVSoNDhUws6IJjDjpfmYIXw==,
+        integrity: sha512-ef383X5++iZHWAXX0SXQR6ZyQhw/0KtTkrTz61WXRhFM6dhpHulO/RJz79L8S6ugZHJkOOkUrUdxgdF2YiPFnA==,
       }
     engines: { node: ">=6.9.0" }
 
@@ -391,10 +391,10 @@ packages:
     engines: { node: ">=6.0.0" }
     hasBin: true
 
-  "@babel/parser@7.26.7":
+  "@babel/parser@7.26.8":
     resolution:
       {
-        integrity: sha512-kEvgGGgEjRUutvdVvZhbn/BxVt+5VSpwXz1j3WYXQbXDo8KzFOPNG2GQbdAiNq8g6wn1yKk7C/qrke03a84V+w==,
+        integrity: sha512-TZIQ25pkSoaKEYYaHbbxkfL36GNsQ6iFiBbeuzAkLnXayKR1yP1zFe+NxuZWWsUyvt8icPU9CCq0sgWGXR1GEw==,
       }
     engines: { node: ">=6.0.0" }
     hasBin: true
@@ -1291,10 +1291,10 @@ packages:
       }
     engines: { node: ">=6.9.0" }
 
-  "@babel/template@7.25.9":
+  "@babel/template@7.26.8":
     resolution:
       {
-        integrity: sha512-9DGttpmPvIxBb/2uwpVo3dqJ+O6RooAFOS+lB+xDqoE2PVCE8nfoHMdZLpfCQRLwvohzXISPZcgxt80xLfsuwg==,
+        integrity: sha512-iNKaX3ZebKIsCvJ+0jd6embf+Aulaa3vNBqZ41kM7iTWjx5qzWKXGHiJUW3+nTpQ18SG11hdF8OAzKrpXkb96Q==,
       }
     engines: { node: ">=6.9.0" }
 
@@ -1305,10 +1305,10 @@ packages:
       }
     engines: { node: ">=6.9.0" }
 
-  "@babel/traverse@7.26.7":
+  "@babel/traverse@7.26.8":
     resolution:
       {
-        integrity: sha512-1x1sgeyRLC3r5fQOM0/xtQKsYjyxmFjaOrLJNtZ81inNjyJHGIolTULPiSc/2qe1/qfpFLisLQYFnnZl7QoedA==,
+        integrity: sha512-nic9tRkjYH0oB2dzr/JoGIm+4Q6SuYeLEiIiZDwBscRMYFJ+tMAz98fuel9ZnbXViA2I0HVSSRRK8DW5fjXStA==,
       }
     engines: { node: ">=6.9.0" }
 
@@ -1319,10 +1319,10 @@ packages:
       }
     engines: { node: ">=6.9.0" }
 
-  "@babel/types@7.26.7":
+  "@babel/types@7.26.8":
     resolution:
       {
-        integrity: sha512-t8kDRGrKXyp6+tjUh7hw2RLyclsW4TRoRvRHtSyAX9Bb5ldlFh+90YAYY6awRXrlB4G5G2izNeGySpATlFzmOg==,
+        integrity: sha512-eUuWapzEGWFEpHFxgEaBG8e3n6S8L3MSu0oda755rOfabWPnh0Our1AozNFVUxGFIhbKgd1ksprsoDGMinTOTA==,
       }
     engines: { node: ">=6.9.0" }
 
@@ -8592,10 +8592,10 @@ packages:
       react: ^16.3.0 || ^17.0.0-0
       react-dom: ^16.3.0 || ^17.0.0-0
 
-  react-parallax-tilt@1.7.280:
+  react-parallax-tilt@1.7.281:
     resolution:
       {
-        integrity: sha512-OhlW/yPckXP0G665BzpN1OgeTCpZkz0QQja4Bh7Sd5gFQLZoqYbL7WLzI7XYVnNbvSDHOAbErQ+4YaYNl1Jo9Q==,
+        integrity: sha512-gjnVH7/C1ZdFFUxwB6cOyxYIzrNO8FVhtmEhy/1//TDdfu4UlAhlq1Ve6qHFNMeM4d2zrmxZ4kV/j6Ms9szUcA==,
       }
     peerDependencies:
       react: ^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
@@ -10673,10 +10673,10 @@ snapshots:
       "@jridgewell/trace-mapping": 0.3.25
       jsesc: 2.5.2
 
-  "@babel/generator@7.26.5":
+  "@babel/generator@7.26.8":
     dependencies:
-      "@babel/parser": 7.26.7
-      "@babel/types": 7.26.7
+      "@babel/parser": 7.26.8
+      "@babel/types": 7.26.8
       "@jridgewell/gen-mapping": 0.3.8
       "@jridgewell/trace-mapping": 0.3.25
       jsesc: 3.1.0
@@ -10687,7 +10687,7 @@ snapshots:
 
   "@babel/helper-annotate-as-pure@7.25.9":
     dependencies:
-      "@babel/types": 7.26.7
+      "@babel/types": 7.26.8
 
   "@babel/helper-builder-binary-assignment-operator-visitor@7.22.15":
     dependencies:
@@ -10764,8 +10764,8 @@ snapshots:
 
   "@babel/helper-module-imports@7.25.9":
     dependencies:
-      "@babel/traverse": 7.26.7
-      "@babel/types": 7.26.7
+      "@babel/traverse": 7.26.8
+      "@babel/types": 7.26.8
     transitivePeerDependencies:
       - supports-color
 
@@ -10846,9 +10846,9 @@ snapshots:
     dependencies:
       "@babel/types": 7.24.0
 
-  "@babel/parser@7.26.7":
+  "@babel/parser@7.26.8":
     dependencies:
-      "@babel/types": 7.26.7
+      "@babel/types": 7.26.8
 
   "@babel/plugin-bugfix-safari-id-destructuring-collision-in-function-expression@7.23.3(@babel/core@7.24.0)":
     dependencies:
@@ -11313,7 +11313,7 @@ snapshots:
       "@babel/helper-module-imports": 7.25.9
       "@babel/helper-plugin-utils": 7.26.5
       "@babel/plugin-syntax-jsx": 7.25.9(@babel/core@7.24.0)
-      "@babel/types": 7.26.7
+      "@babel/types": 7.26.8
     transitivePeerDependencies:
       - supports-color
 
@@ -11531,11 +11531,11 @@ snapshots:
       "@babel/parser": 7.24.0
       "@babel/types": 7.24.0
 
-  "@babel/template@7.25.9":
+  "@babel/template@7.26.8":
     dependencies:
       "@babel/code-frame": 7.26.2
-      "@babel/parser": 7.26.7
-      "@babel/types": 7.26.7
+      "@babel/parser": 7.26.8
+      "@babel/types": 7.26.8
 
   "@babel/traverse@7.24.0":
     dependencies:
@@ -11552,13 +11552,13 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  "@babel/traverse@7.26.7":
+  "@babel/traverse@7.26.8":
     dependencies:
       "@babel/code-frame": 7.26.2
-      "@babel/generator": 7.26.5
-      "@babel/parser": 7.26.7
-      "@babel/template": 7.25.9
-      "@babel/types": 7.26.7
+      "@babel/generator": 7.26.8
+      "@babel/parser": 7.26.8
+      "@babel/template": 7.26.8
+      "@babel/types": 7.26.8
       debug: 4.4.0
       globals: 11.12.0
     transitivePeerDependencies:
@@ -11570,7 +11570,7 @@ snapshots:
       "@babel/helper-validator-identifier": 7.22.20
       to-fast-properties: 2.0.0
 
-  "@babel/types@7.26.7":
+  "@babel/types@7.26.8":
     dependencies:
       "@babel/helper-string-parser": 7.25.9
       "@babel/helper-validator-identifier": 7.25.9
@@ -16552,7 +16552,7 @@ snapshots:
       react-dom: "@preact/compat@17.1.2(preact@10.22.0)"
       sharp: 0.30.7
 
-  react-parallax-tilt@1.7.280(@preact/compat@17.1.2(preact@10.22.0))(@preact/compat@17.1.2(preact@10.22.0)):
+  react-parallax-tilt@1.7.281(@preact/compat@17.1.2(preact@10.22.0))(@preact/compat@17.1.2(preact@10.22.0)):
     dependencies:
       react: "@preact/compat@17.1.2(preact@10.22.0)"
       react-dom: "@preact/compat@17.1.2(preact@10.22.0)"
