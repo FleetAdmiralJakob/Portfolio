@@ -45,7 +45,7 @@ importers:
         version: 2.1.0(@preact/compat@17.1.2(preact@10.22.0))(@preact/compat@17.1.2(preact@10.22.0))
       react-parallax-tilt:
         specifier: ^1.7.219
-        version: 1.7.281(@preact/compat@17.1.2(preact@10.22.0))(@preact/compat@17.1.2(preact@10.22.0))
+        version: 1.7.282(@preact/compat@17.1.2(preact@10.22.0))(@preact/compat@17.1.2(preact@10.22.0))
       react-pdf:
         specifier: ^9.0.0
         version: 9.2.1(@preact/compat@17.1.2(preact@10.22.0))(@preact/compat@17.1.2(preact@10.22.0))(@types/react@19.0.8)
@@ -8592,10 +8592,10 @@ packages:
       react: ^16.3.0 || ^17.0.0-0
       react-dom: ^16.3.0 || ^17.0.0-0
 
-  react-parallax-tilt@1.7.281:
+  react-parallax-tilt@1.7.282:
     resolution:
       {
-        integrity: sha512-gjnVH7/C1ZdFFUxwB6cOyxYIzrNO8FVhtmEhy/1//TDdfu4UlAhlq1Ve6qHFNMeM4d2zrmxZ4kV/j6Ms9szUcA==,
+        integrity: sha512-mCNRwjnocs+0CDx9ZNKtqx67oyLiHfsF0nPuxDtRlOu/1ESdxwrZxp/AKDpbKtcYQh54yOlSZDN46In+Xoqs8g==,
       }
     peerDependencies:
       react: ^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
@@ -12344,7 +12344,7 @@ snapshots:
 
   "@swc/helpers@0.4.14":
     dependencies:
-      tslib: 2.8.1
+      tslib: 2.8.0
 
   "@swc/helpers@0.4.36":
     dependencies:
@@ -16552,7 +16552,7 @@ snapshots:
       react-dom: "@preact/compat@17.1.2(preact@10.22.0)"
       sharp: 0.30.7
 
-  react-parallax-tilt@1.7.281(@preact/compat@17.1.2(preact@10.22.0))(@preact/compat@17.1.2(preact@10.22.0)):
+  react-parallax-tilt@1.7.282(@preact/compat@17.1.2(preact@10.22.0))(@preact/compat@17.1.2(preact@10.22.0)):
     dependencies:
       react: "@preact/compat@17.1.2(preact@10.22.0)"
       react-dom: "@preact/compat@17.1.2(preact@10.22.0)"
