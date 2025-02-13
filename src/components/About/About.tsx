@@ -37,7 +37,10 @@ function About() {
   return (
     <>
       <Pre load={isLoading} />
-      <Container fluid className={`about-section ${isLoading ? 'loading' : ''}`}>
+      <Container
+        fluid
+        className={`about-section ${isLoading ? "loading" : ""}`}
+      >
         <Container>
           <Row style={{ justifyContent: "center", padding: "10px" }}>
             <Col
@@ -172,9 +175,9 @@ function About() {
           <br />
           <br />
           <p>
-            <strong className="purple">Note:</strong> These are stats from my free
-            time, and by far not all of my activity is considered by Wakatime &
-            GitHub.
+            <strong className="purple">Note:</strong> These are stats from my
+            free time, and by far not all of my activity is considered by
+            Wakatime & GitHub.
           </p>
         </Container>
       </Container>

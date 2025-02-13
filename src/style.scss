@@ -528,7 +528,7 @@ button:focus {
   color: white !important;
   opacity: 0;
   transition: opacity 0.5s ease-in-out;
-  
+
   &:not(.loading) {
     opacity: 1;
   }
@@ -1666,7 +1666,7 @@ button:focus {
 
 [data-aos] {
   transition-delay: 100ms;
-  
+
   .loading & {
     opacity: 0;
     transform: translateY(20px);
@@ -1675,7 +1675,7 @@ button:focus {
 
 #preloader {
   // ... existing styles ...
-  
+
   .about-section.loading & {
     display: block;
   }
@@ -1683,7 +1683,7 @@ button:focus {
 
 #preloader-none {
   // ... existing styles ...
-  
+
   .about-section:not(.loading) & {
     display: none;
   }
