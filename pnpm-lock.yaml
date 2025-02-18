@@ -45,7 +45,7 @@ importers:
         version: 2.1.0(@preact/compat@17.1.2(preact@10.22.0))(@preact/compat@17.1.2(preact@10.22.0))
       react-parallax-tilt:
         specifier: ^1.7.219
-        version: 1.7.283(@preact/compat@17.1.2(preact@10.22.0))(@preact/compat@17.1.2(preact@10.22.0))
+        version: 1.7.284(@preact/compat@17.1.2(preact@10.22.0))(@preact/compat@17.1.2(preact@10.22.0))
       react-pdf:
         specifier: ^9.0.0
         version: 9.2.1(@preact/compat@17.1.2(preact@10.22.0))(@preact/compat@17.1.2(preact@10.22.0))(@types/react@19.0.8)
@@ -5180,10 +5180,10 @@ packages:
       }
     engines: { node: ^10.12.0 || >=12.0.0 }
 
-  flatted@3.3.2:
+  flatted@3.3.3:
     resolution:
       {
-        integrity: sha512-AiwGJM8YcNOaobumgtng+6NHuOqC3A7MixFeDafM3X9cIUM+xUXoS5Vfgf+OihAYe20fxqNM9yPBXJzRtZ/4eA==,
+        integrity: sha512-GX+ysw4PBCz0PzosHDepZGANEuFCMLrnRTiEy9McGjmkCQYwRq4A/X786G/fjM/+OjsWSU1ZrY5qyARZmO/uwg==,
       }
 
   follow-redirects@1.15.6:
@@ -8598,10 +8598,10 @@ packages:
       react: ^16.3.0 || ^17.0.0-0
       react-dom: ^16.3.0 || ^17.0.0-0
 
-  react-parallax-tilt@1.7.283:
+  react-parallax-tilt@1.7.284:
     resolution:
       {
-        integrity: sha512-RaloBL0pJReXCk47zBQZipiE/6IhIPI0OrNuxRKVSnp5cFqiWH21FyjvD2epg8OUiilzwsPw9HpLb28X+bvv8g==,
+        integrity: sha512-9Fp5PO/CUeWmHX+VnzfVaMq79XgpDwYD0C+0p9vZTQMG89j8nH0k7wNPgU5+AU/dGZZKufaWIZSUkw972uSF3Q==,
       }
     peerDependencies:
       react: ^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
@@ -14308,11 +14308,11 @@ snapshots:
 
   flat-cache@3.2.0:
     dependencies:
-      flatted: 3.3.2
+      flatted: 3.3.3
       keyv: 4.5.4
       rimraf: 3.0.2
 
-  flatted@3.3.2: {}
+  flatted@3.3.3: {}
 
   follow-redirects@1.15.6: {}
 
@@ -16561,7 +16561,7 @@ snapshots:
       react-dom: "@preact/compat@17.1.2(preact@10.22.0)"
       sharp: 0.30.7
 
-  react-parallax-tilt@1.7.283(@preact/compat@17.1.2(preact@10.22.0))(@preact/compat@17.1.2(preact@10.22.0)):
+  react-parallax-tilt@1.7.284(@preact/compat@17.1.2(preact@10.22.0))(@preact/compat@17.1.2(preact@10.22.0)):
     dependencies:
       react: "@preact/compat@17.1.2(preact@10.22.0)"
       react-dom: "@preact/compat@17.1.2(preact@10.22.0)"
