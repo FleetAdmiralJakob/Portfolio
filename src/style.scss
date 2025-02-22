@@ -526,6 +526,12 @@ button:focus {
   padding-bottom: 70px !important;
   padding-top: 70px !important;
   color: white !important;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+
+  &:not(.loading) {
+    opacity: 1;
+  }
 }
 
 .home-about-description {
@@ -1059,6 +1065,9 @@ button:focus {
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
   color: white !important;
+  &.loading {
+    opacity: 0;
+  }
 }
 
 @mixin tech-icons {
@@ -1653,4 +1662,29 @@ button:focus {
 
 .no-after:after {
   background: none !important;
+}
+
+[data-aos] {
+  transition-delay: 100ms;
+
+  .loading & {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+}
+
+#preloader {
+  // ... existing styles ...
+
+  .about-section.loading & {
+    display: block;
+  }
+}
+
+#preloader-none {
+  // ... existing styles ...
+
+  .about-section:not(.loading) & {
+    display: none;
+  }
 }

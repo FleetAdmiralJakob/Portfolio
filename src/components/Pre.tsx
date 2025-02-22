@@ -5,11 +5,11 @@ interface Props {
 }
 
 function Pre(props: Props) {
-  // This code loads a preloader when the page is loading
-  // The preloader is defined in the .css file
   const { load } = props;
   const id = load ? "preloader" : "preloader-none";
-  return <div id={id} />;
+
+  // Add aria-label for accessibility
+  return <div id={id} role="progressbar" aria-label="Loading page content" />;
 }
 
 export default Pre;
