@@ -24,7 +24,7 @@
   },
   "dependencies": {
     "@octokit/core": "^6",
-    "@react-pdf/renderer": "^4.0.0",
+    "@react-pdf/renderer": "^4.2.2",
     "@vercel/analytics": "^1.5.0",
     "aos": "^2.3.4",
     "bootstrap": "^5.3.3",

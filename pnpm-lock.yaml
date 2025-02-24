@@ -11,8 +11,8 @@ importers:
         specifier: ^6
         version: 6.1.4
       "@react-pdf/renderer":
-        specifier: ^4.0.0
-        version: 4.0.0(@preact/compat@17.1.2(preact@10.22.0))
+        specifier: ^4.2.2
+        version: 4.2.2(@preact/compat@17.1.2(preact@10.22.0))
       "@vercel/analytics":
         specifier: ^1.5.0
         version: 1.5.0(@preact/compat@17.1.2(preact@10.22.0))
@@ -1270,17 +1270,17 @@ packages:
         integrity: sha512-x/rqGMdzj+fWZvCOYForTghzbtqPDZ5gPwaoNGHdgDfF2QA/XZbCBp4Moo5scrkAMPhB7z26XM/AaHuIJdgauA==,
       }
 
-  "@babel/runtime@7.26.0":
-    resolution:
-      {
-        integrity: sha512-FDSOghenHTiToteC/QRlv2q3DhPZ/oOXTBoirfWNx1Cx3TMVcGWQtMMmQcSvb/JjpNeGzx8Pq/b4fKEJuWm1sw==,
-      }
-    engines: { node: ">=6.9.0" }
-
   "@babel/runtime@7.26.7":
     resolution:
       {
         integrity: sha512-AOPI3D+a8dXnja+iwsUqGRjr1BbZIe771sXdapOtYI531gSqpi92vXivKcq2asu/DFpdl1ceFAKZyRzK2PCVcQ==,
+      }
+    engines: { node: ">=6.9.0" }
+
+  "@babel/runtime@7.26.9":
+    resolution:
+      {
+        integrity: sha512-aA63XwOkcl4xxQa3HjPMqOP6LiK0ZDv3mUPYEFXkpHbaFjtGggE1A61FjFzJnB+p7/oy2gA8E+rcBNl/zC1tMg==,
       }
     engines: { node: ">=6.9.0" }
 
@@ -2006,34 +2006,34 @@ packages:
     peerDependencies:
       react: ^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1
 
-  "@react-pdf/fns@3.0.0":
+  "@react-pdf/fns@3.1.1":
     resolution:
       {
-        integrity: sha512-ICbIWR93PE6+xf2Xd/fXYO1dAuiOAJaszEuGGv3wp5lLSeeelDXlEYLh6R05okxh28YqMzc0Qd85x6n6MtaLUQ==,
+        integrity: sha512-fYvgOWWRxTdkCciLSla2iek8W/oDLhExPTLPw3aArGPJHgVUc86V2c3YLULNHIBuy/64QVpPLB7gwNkTEW5m/A==,
       }
 
-  "@react-pdf/font@3.0.0":
+  "@react-pdf/font@3.1.0":
     resolution:
       {
-        integrity: sha512-/SYEud06maGQiAD0H6J5xnqigKm/FpLKqFYH6+2OjQ2tb32nnKqwqL3pS7glDTFYBJ11B6fVgSNex6tc1V8UDA==,
+        integrity: sha512-5q+r3DhZK41gVZp2Uw5M69FEVWeoasnM/HscW3kdpYnwjcB2bhCRWmBGCjm8fmuwQstwNPM1ZxyCWZRTRchwnA==,
       }
 
-  "@react-pdf/image@3.0.0":
+  "@react-pdf/image@3.0.2":
     resolution:
       {
-        integrity: sha512-l4HV5NutPw52Wbuvxol0BiFc6TkKXK/kJNwVIElphw47nwfueLEjIfBxRTuOeHmpdibvEh3a5STwYmMTQjXSxg==,
+        integrity: sha512-GrlApNDxLdFKN1ia+nt1svrnpBJIwf2ncK4Km/hQzAkbALn0HQ5YVrOEtMpnp/c0L0o9zO4hSoPL9iEQne5vzw==,
       }
 
-  "@react-pdf/layout@4.0.0":
+  "@react-pdf/layout@4.2.3":
     resolution:
       {
-        integrity: sha512-BNipDwULk9ehvf0V5HLrP2QIujkfj2LzHs8yfCQ/Z8TkAX6dEt1AgwDttBpBLfzcu8w8HFjgpLR1TNOTXiOsAQ==,
+        integrity: sha512-sSL14ki0nC8YwSrjkOzKI1ZV4xZC68v/wA5EFWW6IhmJ3qjX4+KbNdprWBCtih/Xbq2Kt9K1erZpKFiWoVf5/Q==,
       }
 
-  "@react-pdf/pdfkit@4.0.0":
+  "@react-pdf/pdfkit@4.0.2":
     resolution:
       {
-        integrity: sha512-HaaAoBpoRGJ6c1ZOANNQZ3q6Ehmagqa8n40x+OZ5s9HcmUviZ34SCm+QBa42s1o4299M+Lgw3UoqpW7sHv3/Hg==,
+        integrity: sha512-pyYFAI7YL5Oud60W+wcu9zsN73tg8XgHGtEM8FQ6PY4RgEKp+AXkj+YE2hKuX3eOVB65MPzbJbVWtTjO3MPa5g==,
       }
 
   "@react-pdf/png-js@3.0.0":
@@ -2042,42 +2042,50 @@ packages:
         integrity: sha512-eSJnEItZ37WPt6Qv5pncQDxLJRK15eaRwPT+gZoujP548CodenOVp49GST8XJvKMFt9YqIBzGBV/j9AgrOQzVA==,
       }
 
-  "@react-pdf/primitives@4.0.0":
+  "@react-pdf/primitives@4.1.1":
     resolution:
       {
-        integrity: sha512-yp4E0rDL03NaUp/CnDBz3HQNfH2Mzdlgku57yhTMGNzetwB0NJusXcjYg5XsTGIXnR7Tv80JKI4O4ajj+oaLeQ==,
+        integrity: sha512-IuhxYls1luJb7NUWy6q5avb1XrNaVj9bTNI40U9qGRuS6n7Hje/8H8Qi99Z9UKFV74bBP3DOf3L1wV2qZVgVrQ==,
       }
 
-  "@react-pdf/render@4.0.0":
+  "@react-pdf/reconciler@1.1.3":
     resolution:
       {
-        integrity: sha512-gvrw4HM9RocuDLd+19cvP2xaSs3h4OgYn2N6VDXzj6LYQnoHBAazRV9qMpGi8FuNlQ3Va+s82R1ynXYMr0FXIg==,
-      }
-
-  "@react-pdf/renderer@4.0.0":
-    resolution:
-      {
-        integrity: sha512-yDObqmnF08Mwc24W8axmT/y+JPxJkweVQ/EM3GOXh0qyZN5VP5JvKDiCqmftI6QEKfvTFNsquuEQm13GBjkbMg==,
+        integrity: sha512-4vqY0klmUH32kTFvuqdAszkOpwfZYKMLO4VpJ5xZWTsoUOLQSyhC2QM2QCj9eaxpB2Nd5Kl9uW+KfyutvZnMzQ==,
       }
     peerDependencies:
-      react: ^16.8.0 || ^17.0.0 || ^18.0.0
+      react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
 
-  "@react-pdf/stylesheet@5.0.0":
+  "@react-pdf/render@4.1.2":
     resolution:
       {
-        integrity: sha512-FrJXUMsvSGee13gpL82HOhhk16y3IKxLmYvmJU1ZUo9Jm9pLydnHDPlSUDK+rKmxdSD2X+twUR7sv6FlrA5i+A==,
+        integrity: sha512-x9R7yaU/EisU2loWLAeVZqUEhkPR1EDa4CXM6PPiPhB2hTZAXgqeZCTVOODX0iGkUBM3scOjzrf5gPPnoMf0jg==,
       }
 
-  "@react-pdf/textkit@5.0.0":
+  "@react-pdf/renderer@4.2.2":
     resolution:
       {
-        integrity: sha512-+K6zkF6lDXHIZZ9nNzplJ48IrjXNGQqVfO5v73AsutHbvx44E62t46EeoGLHsmjGeMG70TooSI1Mwq/7f/5tLw==,
+        integrity: sha512-ldWT9Mi+Ie50oqH0NxYZ1UsnZF7BmhoUiI9GMyXBxMvaiG4lIGR5ki8KWLmA6Ti6+Yp7jXNWg0sYDrvZRLiLjg==,
+      }
+    peerDependencies:
+      react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+
+  "@react-pdf/stylesheet@6.0.0":
+    resolution:
+      {
+        integrity: sha512-uAwuMjbcEaxhRl7tGlqxAbLzo/KoYr6v9JksUJwgzd+rkvAp8jDq8NcG3sUp88tzgIyyRjBGl4FewgdxbAa2uw==,
       }
 
-  "@react-pdf/types@2.7.0":
+  "@react-pdf/textkit@5.0.3":
     resolution:
       {
-        integrity: sha512-7KrPPCpgRPKR+g+T127PE4bpw9Q84ZiY07EYRwXKVtTEVW9wJ5BZiF9smT9IvH19s+MQaDLmYRgjESsnqlyH0Q==,
+        integrity: sha512-gRQBw2lOlGl/gZR2O9Joxu3TqlP0u3wy8KVMw3R6glqDSrgLH43cNfdOWIchNvL6adRIjxd8l/FCv2u7zcHqOQ==,
+      }
+
+  "@react-pdf/types@2.8.0":
+    resolution:
+      {
+        integrity: sha512-lBnLonM2GupyTzUGlWTEoUUGvsRcgbWLn0Py3i3lK/tgn2rPCYwJ9gQ5A3warT5g4jQWyc7HmaNoPU/Zy5iBbQ==,
       }
 
   "@remix-run/router@1.15.3":
@@ -2279,18 +2287,6 @@ packages:
         integrity: sha512-DOBOK255wfQxguUta2INKkzPj6AIS6iafZYiYmHn6W3pHlycSRRlvWKCfLDG10fXfLWqE3DJHgRUOyJYmARa7g==,
       }
     engines: { node: ">=10" }
-
-  "@swc/helpers@0.4.14":
-    resolution:
-      {
-        integrity: sha512-4C7nX/dvpzB7za4Ql9K81xK3HPxCpHMgwTZVyf+9JQ6VUbn9jjZVN7/Nkdz/Ugzs2CSjqnL/UPXroiVBVHUWUw==,
-      }
-
-  "@swc/helpers@0.4.36":
-    resolution:
-      {
-        integrity: sha512-5lxnyLEYFskErRPenYItLRSge5DjrJngYKdVjRSrWfza9G6KkgHEXi0vUZiyUeMU5JfXH1YnvXZzSp8ul88o2Q==,
-      }
 
   "@swc/helpers@0.5.15":
     resolution:
@@ -3358,6 +3354,13 @@ packages:
         integrity: sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw==,
       }
 
+  base64-js@0.0.8:
+    resolution:
+      {
+        integrity: sha512-3XSA2cR/h/73EzlXXdU6YNycmYI7+kicTxks4eJg2g39biHR84slg2+des+p7iHYhbRg/udIS4TD53WabcOUkw==,
+      }
+    engines: { node: ">= 0.4" }
+
   base64-js@1.5.1:
     resolution:
       {
@@ -3964,12 +3967,6 @@ packages:
         integrity: sha512-AdmX6xUzdNASswsFtmwSt7Vj8po9IuqXm0UXz7QKPuEUmPB4XyjGfaAr2PSuELMwkRMVH1EpIkX5bTZGRB3eCA==,
       }
     engines: { node: ">=10" }
-
-  cross-fetch@3.1.8:
-    resolution:
-      {
-        integrity: sha512-cvA+JwZoU0Xq+h6WkMvAUqPEYy92Obet6UdKLfW60qn99ftItKjB5T+BkyWOFWe2pUyfQ+IJHmpOTznqk1M6Kg==,
-      }
 
   cross-spawn@7.0.3:
     resolution:
@@ -4609,10 +4606,10 @@ packages:
       }
     engines: { node: ">=10" }
 
-  emoji-regex@10.3.0:
+  emoji-regex@10.4.0:
     resolution:
       {
-        integrity: sha512-QpLs9D9v9kArv4lfDEgg1X/gN5XLnf/A6l9cs8SPZLRZR3ZkY9+kwIQTxm+fsSej5UMYGE8fdoaZVIBlqG0XTw==,
+        integrity: sha512-EC+0oUMY1Rqm4O6LLrgjtYDvcVYTy7chDnM4Q7030tP4Kwj3u/pR6gP9ygnp2CJMK5Gq+9Q2oqmrFJAz01DXjw==,
       }
 
   emoji-regex@8.0.0:
@@ -5213,10 +5210,10 @@ packages:
       debug:
         optional: true
 
-  fontkit@2.0.2:
+  fontkit@2.0.4:
     resolution:
       {
-        integrity: sha512-jc4k5Yr8iov8QfS6u8w2CnHWVmbOGtdBtOXMze5Y+QD966Rx6PEVWXSEGwXlsDlKtu1G12cJjcsybnqhSk/+LA==,
+        integrity: sha512-syetQadaUEDNdxdugga9CpEYVaQIxOwk7GlwZWWZ19//qW4zE5bknOKeMBDYAASwnpaSHKJITRLMF9m1fp3s6g==,
       }
 
   for-each@0.3.3:
@@ -5724,10 +5721,10 @@ packages:
       }
     engines: { node: ">=10.17.0" }
 
-  hyphen@1.10.4:
+  hyphen@1.10.6:
     resolution:
       {
-        integrity: sha512-SejXzIpv9gOVdDWXd4suM1fdF1k2dxZGvuTdkOVLoazYfK7O4DykIQbdrvuyG+EaTNlXAGhMndtKrhykgbt0gg==,
+        integrity: sha512-fXHXcGFTXOvZTSkPJuGOQf5Lv5T/R2itiiCVPg9LxAje5D00O0pP83yJShFq5V89Ly//Gt6acj7z8pbBr34stw==,
       }
 
   iconv-lite@0.4.24:
@@ -6231,10 +6228,10 @@ packages:
     engines: { node: ">=10" }
     hasBin: true
 
-  jay-peg@1.1.0:
+  jay-peg@1.1.1:
     resolution:
       {
-        integrity: sha512-WhyKySfx5CEFoKDnpmHyJUrpX5fUrr/X3kqVHISmiO9jrJC73RQBOAZJB8bDrWT4PHEkl0QgNZLlWJfAWAIFew==,
+        integrity: sha512-D62KEuBxz/ip2gQKOEhk/mx14o7eiFRaU+VNNSP4MOiIkwb/D6B3G1Mfas7C/Fit8EsSV2/IWjZElx/Gs6A4ww==,
       }
 
   jest-changed-files@27.5.1:
@@ -6733,6 +6730,12 @@ packages:
       }
     engines: { node: ">=14" }
 
+  linebreak@1.1.0:
+    resolution:
+      {
+        integrity: sha512-MHp03UImeVhB7XZtjd0E4n6+3xr5Dq/9xI/5FptGk5FrbDR3zagPa2DS6U8ks/3HjbKWG9Q1M2ufOzxV2qLYSQ==,
+      }
+
   lines-and-columns@1.2.4:
     resolution:
       {
@@ -7134,10 +7137,10 @@ packages:
         integrity: sha512-z81GNO7nnYMEhrGh9LeymoE4+Yr0Wn5McHIZMK5cfQCl+NDX08sCZgUc9/6MHni9IWuFLm1Z3HTCXu2z9fN62Q==,
       }
 
-  nan@2.22.0:
+  nan@2.22.1:
     resolution:
       {
-        integrity: sha512-nbajikzWTMwsW+eSsNm3QwlOs7het9gGJU5dDZzRTQGk03vyBOauxgI4VakDzE0PtsGTmXPsXTbbjVhRwR5mpw==,
+        integrity: sha512-pfRR4ZcNTSm2ZFHaztuvbICf+hyiG6ecA06SfAxoPmuHjvMu0KUIae7Y8GyVkbBqeEIidsmXeYooWIX9+qjfRQ==,
       }
 
   nanoid@3.3.7:
@@ -8889,10 +8892,10 @@ packages:
       }
     hasBin: true
 
-  restructure@3.0.1:
+  restructure@3.0.2:
     resolution:
       {
-        integrity: sha512-6neDpI/yE9eogQo22qmWwKIA9wFPRyYjQleDEh6zaNAf2ZPqLJYUvNBJBWEWNoBlCeQMQkvIOe2YI/K2GOag+g==,
+        integrity: sha512-gSfoiOEA0VPE6Tukkrr7I0RBdE0s7H1eFCDBk05l1KIQT1UIKNc5JZy6jdyW6eYH3aR3g5b3PuL77rq0hvwtAw==,
       }
 
   retry@0.13.1:
@@ -9021,10 +9024,10 @@ packages:
       }
     engines: { node: ">=10" }
 
-  scheduler@0.17.0:
+  scheduler@0.25.0-rc-603e6108-20241029:
     resolution:
       {
-        integrity: sha512-7rro8Io3tnCPuY4la/NuI5F2yfESpnfZyT6TtkXnSWVkcu0BCDJ+8gk5ozUaFaxpIyNuWAPXrH0yFcSi28fnDA==,
+        integrity: sha512-pFwF6H1XrSdYYNLfOcGlM28/j8CGLu8IvdrxqhjWULe2bPcKiKW4CV+OWqR/9fT52mywx65l7ysNkjLKBda7eA==,
       }
 
   schema-utils@2.7.0:
@@ -9813,12 +9816,6 @@ packages:
     resolution:
       {
         integrity: sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==,
-      }
-
-  tslib@2.8.0:
-    resolution:
-      {
-        integrity: sha512-jWVzBLplnCmoaTr13V9dYbiQ99wvZRd0vNWaDRg+aVYRcjDF3nDksxFDE/+fkXnKhpnUUkmx5pK/v8mCtLVqZA==,
       }
 
   tslib@2.8.1:
@@ -10619,10 +10616,10 @@ packages:
       }
     engines: { node: ">=10" }
 
-  yoga-layout@3.1.0:
+  yoga-layout@3.2.1:
     resolution:
       {
-        integrity: sha512-auzJ8lEovThZIpR8wLGWNo/JEj4VTO79q9/gOJ0dWb3shAYPFdX3t9VN0fC0v+jeQF77STUdCzebLwRMqzn5gQ==,
+        integrity: sha512-0LPOt3AxKqMdFBZA3HBAt/t/8vIKq7VaQYbuA8WxCgung+p9TVyKRYdpvCb80HcdTN2NkbIKbhNwKUfm3tQywQ==,
       }
 
 snapshots:
@@ -11532,11 +11529,11 @@ snapshots:
 
   "@babel/regjsgen@0.8.0": {}
 
-  "@babel/runtime@7.26.0":
+  "@babel/runtime@7.26.7":
     dependencies:
       regenerator-runtime: 0.14.1
 
-  "@babel/runtime@7.26.7":
+  "@babel/runtime@7.26.9":
     dependencies:
       regenerator-runtime: 0.14.1
 
@@ -12107,112 +12104,107 @@ snapshots:
       "@swc/helpers": 0.5.15
       react: "@preact/compat@17.1.2(preact@10.22.0)"
 
-  "@react-pdf/fns@3.0.0":
-    dependencies:
-      "@babel/runtime": 7.26.0
+  "@react-pdf/fns@3.1.1": {}
 
-  "@react-pdf/font@3.0.0":
+  "@react-pdf/font@3.1.0":
     dependencies:
-      "@babel/runtime": 7.26.0
-      "@react-pdf/types": 2.7.0
-      cross-fetch: 3.1.8
-      fontkit: 2.0.2
+      "@react-pdf/types": 2.8.0
+      fontkit: 2.0.4
       is-url: 1.2.4
-    transitivePeerDependencies:
-      - encoding
 
-  "@react-pdf/image@3.0.0":
+  "@react-pdf/image@3.0.2":
     dependencies:
-      "@babel/runtime": 7.26.0
       "@react-pdf/png-js": 3.0.0
-      cross-fetch: 3.1.8
-      jay-peg: 1.1.0
-    transitivePeerDependencies:
-      - encoding
+      jay-peg: 1.1.1
 
-  "@react-pdf/layout@4.0.0":
+  "@react-pdf/layout@4.2.3":
     dependencies:
-      "@babel/runtime": 7.26.0
-      "@react-pdf/fns": 3.0.0
-      "@react-pdf/image": 3.0.0
-      "@react-pdf/pdfkit": 4.0.0
-      "@react-pdf/primitives": 4.0.0
-      "@react-pdf/stylesheet": 5.0.0
-      "@react-pdf/textkit": 5.0.0
-      "@react-pdf/types": 2.7.0
-      cross-fetch: 3.1.8
-      emoji-regex: 10.3.0
+      "@babel/runtime": 7.26.9
+      "@react-pdf/fns": 3.1.1
+      "@react-pdf/image": 3.0.2
+      "@react-pdf/pdfkit": 4.0.2
+      "@react-pdf/primitives": 4.1.1
+      "@react-pdf/stylesheet": 6.0.0
+      "@react-pdf/textkit": 5.0.3
+      "@react-pdf/types": 2.8.0
+      emoji-regex: 10.4.0
       queue: 6.0.2
-      yoga-layout: 3.1.0
-    transitivePeerDependencies:
-      - encoding
+      yoga-layout: 3.2.1
 
-  "@react-pdf/pdfkit@4.0.0":
+  "@react-pdf/pdfkit@4.0.2":
     dependencies:
-      "@babel/runtime": 7.26.0
+      "@babel/runtime": 7.26.9
       "@react-pdf/png-js": 3.0.0
       browserify-zlib: 0.2.0
       crypto-js: 4.2.0
-      fontkit: 2.0.2
-      jay-peg: 1.1.0
+      fontkit: 2.0.4
+      jay-peg: 1.1.1
+      linebreak: 1.1.0
       vite-compatible-readable-stream: 3.6.1
 
   "@react-pdf/png-js@3.0.0":
     dependencies:
       browserify-zlib: 0.2.0
 
-  "@react-pdf/primitives@4.0.0": {}
+  "@react-pdf/primitives@4.1.1": {}
 
-  "@react-pdf/render@4.0.0":
+  "@react-pdf/reconciler@1.1.3(@preact/compat@17.1.2(preact@10.22.0))":
     dependencies:
-      "@babel/runtime": 7.26.0
-      "@react-pdf/fns": 3.0.0
-      "@react-pdf/primitives": 4.0.0
-      "@react-pdf/textkit": 5.0.0
-      "@react-pdf/types": 2.7.0
+      object-assign: 4.1.1
+      react: "@preact/compat@17.1.2(preact@10.22.0)"
+      scheduler: 0.25.0-rc-603e6108-20241029
+
+  "@react-pdf/render@4.1.2":
+    dependencies:
+      "@babel/runtime": 7.26.9
+      "@react-pdf/fns": 3.1.1
+      "@react-pdf/primitives": 4.1.1
+      "@react-pdf/textkit": 5.0.3
+      "@react-pdf/types": 2.8.0
       abs-svg-path: 0.1.1
       color-string: 1.9.1
       normalize-svg-path: 1.1.0
       parse-svg-path: 0.1.2
       svg-arc-to-cubic-bezier: 3.2.0
 
-  "@react-pdf/renderer@4.0.0(@preact/compat@17.1.2(preact@10.22.0))":
+  "@react-pdf/renderer@4.2.2(@preact/compat@17.1.2(preact@10.22.0))":
     dependencies:
-      "@babel/runtime": 7.26.0
-      "@react-pdf/font": 3.0.0
-      "@react-pdf/layout": 4.0.0
-      "@react-pdf/pdfkit": 4.0.0
-      "@react-pdf/primitives": 4.0.0
-      "@react-pdf/render": 4.0.0
-      "@react-pdf/types": 2.7.0
+      "@babel/runtime": 7.26.9
+      "@react-pdf/fns": 3.1.1
+      "@react-pdf/font": 3.1.0
+      "@react-pdf/layout": 4.2.3
+      "@react-pdf/pdfkit": 4.0.2
+      "@react-pdf/primitives": 4.1.1
+      "@react-pdf/reconciler": 1.1.3(@preact/compat@17.1.2(preact@10.22.0))
+      "@react-pdf/render": 4.1.2
+      "@react-pdf/types": 2.8.0
       events: 3.3.0
       object-assign: 4.1.1
       prop-types: 15.8.1
       queue: 6.0.2
       react: "@preact/compat@17.1.2(preact@10.22.0)"
-      scheduler: 0.17.0
-    transitivePeerDependencies:
-      - encoding
 
-  "@react-pdf/stylesheet@5.0.0":
+  "@react-pdf/stylesheet@6.0.0":
     dependencies:
-      "@babel/runtime": 7.26.0
-      "@react-pdf/fns": 3.0.0
-      "@react-pdf/types": 2.7.0
+      "@react-pdf/fns": 3.1.1
+      "@react-pdf/types": 2.8.0
       color-string: 1.9.1
       hsl-to-hex: 1.0.0
       media-engine: 1.0.3
       postcss-value-parser: 4.2.0
 
-  "@react-pdf/textkit@5.0.0":
+  "@react-pdf/textkit@5.0.3":
     dependencies:
-      "@babel/runtime": 7.26.0
-      "@react-pdf/fns": 3.0.0
+      "@react-pdf/fns": 3.1.1
       bidi-js: 1.0.3
-      hyphen: 1.10.4
+      hyphen: 1.10.6
       unicode-properties: 1.4.1
 
-  "@react-pdf/types@2.7.0": {}
+  "@react-pdf/types@2.8.0":
+    dependencies:
+      "@react-pdf/font": 3.1.0
+      "@react-pdf/primitives": 4.1.1
+      "@react-pdf/stylesheet": 6.0.0
 
   "@remix-run/router@1.15.3": {}
 
@@ -12228,7 +12220,7 @@ snapshots:
 
   "@restart/ui@1.9.4(@preact/compat@17.1.2(preact@10.22.0))(@preact/compat@17.1.2(preact@10.22.0))":
     dependencies:
-      "@babel/runtime": 7.26.7
+      "@babel/runtime": 7.26.9
       "@popperjs/core": 2.11.8
       "@react-aria/ssr": 3.9.7(@preact/compat@17.1.2(preact@10.22.0))
       "@restart/hooks": 0.5.1(@preact/compat@17.1.2(preact@10.22.0))
@@ -12357,15 +12349,6 @@ snapshots:
       loader-utils: 2.0.4
     transitivePeerDependencies:
       - supports-color
-
-  "@swc/helpers@0.4.14":
-    dependencies:
-      tslib: 2.8.1
-
-  "@swc/helpers@0.4.36":
-    dependencies:
-      legacy-swc-helpers: "@swc/helpers@0.4.14"
-      tslib: 2.8.0
 
   "@swc/helpers@0.5.15":
     dependencies:
@@ -13021,7 +13004,7 @@ snapshots:
 
   babel-plugin-macros@3.1.0:
     dependencies:
-      "@babel/runtime": 7.26.7
+      "@babel/runtime": 7.26.9
       cosmiconfig: 7.1.0
       resolve: 1.22.8
 
@@ -13093,13 +13076,15 @@ snapshots:
       "@babel/preset-env": 7.24.0(@babel/core@7.24.0)
       "@babel/preset-react": 7.23.3(@babel/core@7.24.0)
       "@babel/preset-typescript": 7.23.3(@babel/core@7.24.0)
-      "@babel/runtime": 7.26.7
+      "@babel/runtime": 7.26.9
       babel-plugin-macros: 3.1.0
       babel-plugin-transform-react-remove-prop-types: 0.4.24
     transitivePeerDependencies:
       - supports-color
 
   balanced-match@1.0.2: {}
+
+  base64-js@0.0.8: {}
 
   base64-js@1.5.1: {}
 
@@ -13239,7 +13224,7 @@ snapshots:
   canvas@2.11.2:
     dependencies:
       "@mapbox/node-pre-gyp": 1.0.11
-      nan: 2.22.0
+      nan: 2.22.1
       simple-get: 3.1.1
     transitivePeerDependencies:
       - encoding
@@ -13438,12 +13423,6 @@ snapshots:
       parse-json: 5.2.0
       path-type: 4.0.0
       yaml: 1.10.2
-
-  cross-fetch@3.1.8:
-    dependencies:
-      node-fetch: 2.7.0
-    transitivePeerDependencies:
-      - encoding
 
   cross-spawn@7.0.3:
     dependencies:
@@ -13724,7 +13703,7 @@ snapshots:
 
   dom-helpers@5.2.1:
     dependencies:
-      "@babel/runtime": 7.26.7
+      "@babel/runtime": 7.26.9
       csstype: 3.1.3
 
   dom-serializer@0.2.2:
@@ -13786,7 +13765,7 @@ snapshots:
 
   emittery@0.8.1: {}
 
-  emoji-regex@10.3.0: {}
+  emoji-regex@10.4.0: {}
 
   emoji-regex@8.0.0: {}
 
@@ -14023,7 +14002,7 @@ snapshots:
 
   eslint-plugin-jsx-a11y@6.8.0(eslint@8.57.0):
     dependencies:
-      "@babel/runtime": 7.26.7
+      "@babel/runtime": 7.26.9
       aria-query: 5.3.0
       array-includes: 3.1.7
       array.prototype.flatmap: 1.3.2
@@ -14323,14 +14302,14 @@ snapshots:
 
   follow-redirects@1.15.6: {}
 
-  fontkit@2.0.2:
+  fontkit@2.0.4:
     dependencies:
-      "@swc/helpers": 0.4.36
+      "@swc/helpers": 0.5.15
       brotli: 1.3.3
       clone: 2.1.2
       dfa: 1.2.0
       fast-deep-equal: 3.1.3
-      restructure: 3.0.1
+      restructure: 3.0.2
       tiny-inflate: 1.0.3
       unicode-properties: 1.4.1
       unicode-trie: 2.0.0
@@ -14658,7 +14637,7 @@ snapshots:
 
   human-signals@2.1.0: {}
 
-  hyphen@1.10.4: {}
+  hyphen@1.10.6: {}
 
   iconv-lite@0.4.24:
     dependencies:
@@ -14912,9 +14891,9 @@ snapshots:
       filelist: 1.0.4
       minimatch: 3.1.2
 
-  jay-peg@1.1.0:
+  jay-peg@1.1.1:
     dependencies:
-      restructure: 3.0.1
+      restructure: 3.0.2
 
   jest-changed-files@27.5.1:
     dependencies:
@@ -15461,6 +15440,11 @@ snapshots:
 
   lilconfig@3.1.1: {}
 
+  linebreak@1.1.0:
+    dependencies:
+      base64-js: 0.0.8
+      unicode-trie: 2.0.0
+
   lines-and-columns@1.2.4: {}
 
   loader-runner@4.3.0: {}
@@ -15646,7 +15630,7 @@ snapshots:
       object-assign: 4.1.1
       thenify-all: 1.6.0
 
-  nan@2.22.0:
+  nan@2.22.1:
     optional: true
 
   nanoid@3.3.7: {}
@@ -15678,6 +15662,7 @@ snapshots:
   node-fetch@2.7.0:
     dependencies:
       whatwg-url: 5.0.0
+    optional: true
 
   node-forge@1.3.1: {}
 
@@ -16539,7 +16524,7 @@ snapshots:
 
   react-error-boundary@5.0.0(@preact/compat@17.1.2(preact@10.22.0)):
     dependencies:
-      "@babel/runtime": 7.26.7
+      "@babel/runtime": 7.26.9
       react: "@preact/compat@17.1.2(preact@10.22.0)"
 
   react-error-overlay@6.0.11: {}
@@ -16691,7 +16676,7 @@ snapshots:
 
   react-transition-group@4.4.5(@preact/compat@17.1.2(preact@10.22.0))(@preact/compat@17.1.2(preact@10.22.0)):
     dependencies:
-      "@babel/runtime": 7.26.7
+      "@babel/runtime": 7.26.9
       dom-helpers: 5.2.1
       loose-envify: 1.4.0
       prop-types: 15.8.1
@@ -16756,7 +16741,7 @@ snapshots:
 
   regenerator-transform@0.15.2:
     dependencies:
-      "@babel/runtime": 7.26.7
+      "@babel/runtime": 7.26.9
 
   regex-parser@2.3.0: {}
 
@@ -16826,7 +16811,7 @@ snapshots:
       path-parse: 1.0.7
       supports-preserve-symlinks-flag: 1.0.0
 
-  restructure@3.0.1: {}
+  restructure@3.0.2: {}
 
   retry@0.13.1: {}
 
@@ -16895,10 +16880,7 @@ snapshots:
     dependencies:
       xmlchars: 2.2.0
 
-  scheduler@0.17.0:
-    dependencies:
-      loose-envify: 1.4.0
-      object-assign: 4.1.1
+  scheduler@0.25.0-rc-603e6108-20241029: {}
 
   schema-utils@2.7.0:
     dependencies:
@@ -17423,7 +17405,8 @@ snapshots:
       universalify: 0.2.0
       url-parse: 1.5.10
 
-  tr46@0.0.3: {}
+  tr46@0.0.3:
+    optional: true
 
   tr46@1.0.1:
     dependencies:
@@ -17445,8 +17428,6 @@ snapshots:
       strip-bom: 3.0.0
 
   tslib@1.14.1: {}
-
-  tslib@2.8.0: {}
 
   tslib@2.8.1: {}
 
@@ -17536,7 +17517,7 @@ snapshots:
 
   uncontrollable@7.2.1(@preact/compat@17.1.2(preact@10.22.0)):
     dependencies:
-      "@babel/runtime": 7.26.7
+      "@babel/runtime": 7.26.9
       "@types/react": 19.0.8
       invariant: 2.2.4
       react: "@preact/compat@17.1.2(preact@10.22.0)"
@@ -17658,7 +17639,8 @@ snapshots:
 
   web-vitals@3.5.2: {}
 
-  webidl-conversions@3.0.1: {}
+  webidl-conversions@3.0.1:
+    optional: true
 
   webidl-conversions@4.0.2: {}
 
@@ -17784,6 +17766,7 @@ snapshots:
     dependencies:
       tr46: 0.0.3
       webidl-conversions: 3.0.1
+    optional: true
 
   whatwg-url@7.1.0:
     dependencies:
@@ -17864,7 +17847,7 @@ snapshots:
       "@apideck/better-ajv-errors": 0.3.6(ajv@8.12.0)
       "@babel/core": 7.24.0
       "@babel/preset-env": 7.24.0(@babel/core@7.24.0)
-      "@babel/runtime": 7.26.7
+      "@babel/runtime": 7.26.9
       "@rollup/plugin-babel": 5.3.1(@babel/core@7.24.0)(@types/babel__core@7.20.5)(rollup@2.79.2)
       "@rollup/plugin-node-resolve": 11.2.1(rollup@2.79.2)
       "@rollup/plugin-replace": 2.4.2(rollup@2.79.2)
@@ -18028,4 +18011,4 @@ snapshots:
 
   yocto-queue@0.1.0: {}
 
-  yoga-layout@3.1.0: {}
+  yoga-layout@3.2.1: {}
