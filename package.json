@@ -23,7 +23,7 @@
     "url": "https://github.com/FleetAdmiralJakob/Portfolio/issues"
   },
   "dependencies": {
-    "@octokit/core": "^6",
+    "@octokit/core": "^7.0.0",
     "@react-pdf/renderer": "^4.2.2",
     "@vercel/analytics": "^1.5.0",
     "aos": "^2.3.4",
